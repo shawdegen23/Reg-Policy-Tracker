@@ -74,7 +74,9 @@ export async function aiEnrich(items) {
   const MAX = 64; // cap items enriched per run to bound cost/time
   const enriched = items.map((d) => ({ ...d }));
   for (let start = 0; start < Math.min(items.length, MAX); start += CHUNK) {
-    const batch = items.slice(start, start + CHUNK).map((d, j) => ({ i: start + j, headline: d.headline, source: d.source, type: d.type }));
+    // Chunk-LOCAL indices (0-based within each batch), remapped with `start`.
+    // Robust whether the model preserves our numbering or renumbers from 0.
+    const batch = items.slice(start, start + CHUNK).map((d, j) => ({ i: j, headline: d.headline, source: d.source, type: d.type }));
     const user = `For each item, write a plain-English impact summary (max 25 words) explaining why it
 matters to TEC's clients, and assign relevance as "High", "Medium", or "Low".
 Return ONLY a JSON array like [{"i":0,"impact":"...","relevance":"High"}]. Items:
@@ -82,7 +84,10 @@ ${JSON.stringify(batch)}`;
     try {
       const arr = parseJson(await ask(SYSTEM, user, 1500));
       for (const r of arr) {
-        if (enriched[r.i]) enriched[r.i] = { ...enriched[r.i], impact: r.impact || enriched[r.i].impact, relevance: r.relevance || enriched[r.i].relevance, aiEnriched: true };
+        const idx = start + (Number(r.i) || 0);
+        if (idx >= start && idx < start + batch.length && enriched[idx]) {
+          enriched[idx] = { ...enriched[idx], impact: r.impact || enriched[idx].impact, relevance: r.relevance || enriched[idx].relevance, aiEnriched: true };
+        }
       }
     } catch (e) {
       console.error(`aiEnrich chunk ${start}-${start + CHUNK} failed: ${e.message}`);
@@ -99,7 +104,7 @@ export async function aiClassifyBills(titles) {
   const keep = new Set();
   const CHUNK = 12;
   for (let start = 0; start < titles.length; start += CHUNK) {
-    const batch = titles.slice(start, start + CHUNK).map((t, j) => ({ i: start + j, title: t }));
+    const batch = titles.slice(start, start + CHUNK).map((t, j) => ({ i: j, title: t })); // chunk-local i
     const user = `You are curating a California ENERGY & CLIMATE policy tracker. Relevant topics:
 energy efficiency, building decarbonization/electrification, demand flexibility, grid modernization,
 distributed energy resources, utility rates/ratepayers, appliance & building energy standards,
@@ -110,7 +115,11 @@ Return ONLY a JSON array like [{"i":0,"relevant":true}]. Bills:
 ${JSON.stringify(batch)}`;
     try {
       const arr = parseJson(await ask(SYSTEM, user, 1200));
-      for (const r of arr) if (r && r.relevant) keep.add(r.i);
+      for (const r of arr) {
+        if (!r || !r.relevant) continue;
+        const idx = start + (Number(r.i) || 0);
+        if (idx >= start && idx < start + batch.length) keep.add(idx);
+      }
     } catch (e) {
       // On failure, keep this chunk's items (don't silently drop real bills)
       console.error(`aiClassifyBills chunk ${start} failed: ${e.message}`);

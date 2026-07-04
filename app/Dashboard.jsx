@@ -2,10 +2,20 @@
 import { useState, useEffect } from "react";
 
 const STAGES = ["Introduced", "Committee", "Floor", "Enrolled", "Signed"];
+// LegiScan status codes: 1 Introduced, 2 Engrossed, 3 Enrolled, 4 Passed,
+// 5 Vetoed, 6 Failed/Dead. Terminal (vetoed/failed) states are NOT progress.
+function billOutcome(b) {
+  const s = parseInt(b.status || "0", 10);
+  const a = (b.lastAction || "").toLowerCase();
+  if (s === 5 || a.includes("vetoed")) return { label: "Vetoed", cls: "High" };
+  if (s === 6 || a.includes("died") || a.includes("failed") || a.includes("dead")) return { label: "Failed / Dead", cls: "High" };
+  if (s === 4 || a.includes("chaptered") || a.includes("approved by the governor") || a.includes("enacted")) return { label: "Signed / Chaptered", cls: "Low" };
+  return null;
+}
 function stageOf(b) {
   const s = parseInt(b.status || "0", 10);
   const a = (b.lastAction || "").toLowerCase();
-  if (a.includes("chaptered") || a.includes("approved by the governor") || a.includes("signed") || s >= 4) return 4;
+  if (s === 4 || a.includes("chaptered") || a.includes("approved by the governor")) return 4;
   if (s === 3 || a.includes("enrolled")) return 3;
   if (a.includes("third reading") || a.includes("do pass") || a.includes("passed") || s === 2) return 2;
   if (a.includes("committee") || a.includes("referred")) return 1;
@@ -105,12 +115,15 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
       Relevance: p.relevance, "Director Impact": p.directorImpact, "Qual Notes": p.qualNotes,
       "Quant Notes": p.quantNotes, "Last Reviewed": p.lastReviewed, Docket_URL: p.url || "",
     }))), "Proceedings");
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(devs.map((d) => ({
-      Date: d.date, Source: d.source, Docket: d.docket, Type: d.type, Topic: d.topic,
+    // Export the FULL datasets, not the currently filtered on-screen view.
+    const allDevs = [...developments].sort((a, z) => (z.date || z.firstSeen || "").localeCompare(a.date || a.firstSeen || ""));
+    const allBills = [...bills].sort((a, z) => (z.lastActionDate || "").localeCompare(a.lastActionDate || ""));
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(allDevs.map((d) => ({
+      Date: d.date, Source: d.source, "Filed By": d.filedBy || "", Docket: d.docket, Type: d.type, Topic: d.topic,
       DataType: d.dataType, Relevance: d.relevance, Headline: d.headline, "Impact Summary": d.impact, Link: d.url || "",
     }))), "Developments");
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(blls.map((b) => ({
-      Bill: b.number, Title: b.title, "Last Action": b.lastAction, Date: b.lastActionDate, Link: b.url || "",
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(allBills.map((b) => ({
+      Bill: b.number, Title: b.title, Status: b.status, "Last Action": b.lastAction, Date: b.lastActionDate, Link: b.url || "",
     }))), "Bills");
     XLSX.writeFile(wb, `TEC_Regulatory_Tracker_${new Date().toISOString().slice(0, 10)}.xlsx`);
   }
@@ -305,6 +318,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                 <div className="grid" style={{ gridTemplateColumns: "1fr" }}>
                   {trackedBills.map((b, i) => {
                     const moved = isMoved(b);
+                    const outcome = b.missing ? null : billOutcome(b);
                     const stage = b.missing ? -1 : stageOf(b);
                     return (
                       <div className="card" key={i} style={moved ? { borderLeft: "4px solid var(--amber)" } : {}}>
@@ -312,6 +326,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                           <div>
                             <button className="star" onClick={() => toggleTrack(b.number)} title="Untrack">★</button>{" "}
                             <b>{b.number}</b> {moved && <span className="pill High" style={{ marginLeft: 6 }}>MOVED</span>}
+                            {outcome && <span className={"pill " + outcome.cls} style={{ marginLeft: 6 }}>{outcome.label}</span>}
                             {b.missing && <span className="pill Low" style={{ marginLeft: 6 }}>not in current feed</span>}
                           </div>
                           {b.url && <a href={b.url} target="_blank" rel="noreferrer">open on LegiScan →</a>}
