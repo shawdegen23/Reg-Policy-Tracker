@@ -1,8 +1,33 @@
 {
-  "generatedAt": null,
-  "totals": { "developments": 0, "high": 0, "quantitative": 0, "topics": 0 },
-  "topicCounts": {},
+  "generatedAt": "2026-07-04T04:43:42.759Z",
+  "totals": {
+    "developments": 2,
+    "high": 1,
+    "quantitative": 0,
+    "topics": 2
+  },
+  "topicCounts": {
+    "Building Decarbonization": 1,
+    "DER / Rates": 1
+  },
   "proceedingCounts": {},
-  "highRelevance": [],
-  "quantitative": []
+  "highRelevance": [
+    {
+      "source": "CEC",
+      "agency": "CEC",
+      "docket": "",
+      "type": "Notice",
+      "headline": "Southern California Celebrates First Equitable Building Decarbonization Project",
+      "url": "https://www.energy.ca.gov/news/2026-05/southern-california-celebrates-first-equitable-building-decarbonization-project",
+      "date": "2026-07-04",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "This first equitable building decarbonization project in SoCal sets a precedent, potentially guiding future program design and funding for TEC clients.",
+      "aiEnriched": true,
+      "firstSeen": "2026-07-04"
+    }
+  ],
+  "quantitative": [],
+  "narrative": "Director,\n\nRegarding the Energy Efficiency proceeding (R.25-04-010), there are no new developments to report in this"
 }

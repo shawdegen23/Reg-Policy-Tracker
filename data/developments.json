@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "source": "CEC",
+    "agency": "CEC",
+    "docket": "",
+    "type": "Notice",
+    "headline": "Southern California Celebrates First Equitable Building Decarbonization Project",
+    "url": "https://www.energy.ca.gov/news/2026-05/southern-california-celebrates-first-equitable-building-decarbonization-project",
+    "date": "2026-07-04",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "This first equitable building decarbonization project in SoCal sets a precedent, potentially guiding future program design and funding for TEC clients.",
+    "aiEnriched": true,
+    "firstSeen": "2026-07-04"
+  },
+  {
+    "source": "CEC",
+    "agency": "CEC",
+    "docket": "",
+    "type": "Notice",
+    "headline": "CEC Approves Third Major Clean Energy Project Under  Opt-In Certification Program",
+    "url": "https://www.energy.ca.gov/news/2026-05/cec-approves-third-major-clean-energy-project-under-opt-certification-program",
+    "date": "2026-07-04",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "CEC approval of a major clean energy project advances grid decarbonization, but has limited direct impact on TEC clients' demand-side programs.",
+    "aiEnriched": true,
+    "firstSeen": "2026-07-04"
+  }
+]
