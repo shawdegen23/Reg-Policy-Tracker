@@ -1,0 +1,50 @@
+name: Ingest regulatory data
+
+on:
+  schedule:
+    # 14:00 & 22:00 UTC = ~7am & 3pm Pacific, weekdays
+    - cron: "0 14,22 * * 1-5"
+  workflow_dispatch: {}   # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install scraper dependencies
+        working-directory: scripts
+        run: npm install
+
+      - name: Install Playwright Chromium
+        working-directory: scripts
+        run: npx playwright install --with-deps chromium
+
+      - name: Run ingestion
+        working-directory: scripts
+        env:
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+        run: node ingest/run.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "reg-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/*.json
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: ingest regulatory data $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

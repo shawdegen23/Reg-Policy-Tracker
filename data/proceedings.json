@@ -1,0 +1,101 @@
+[
+  {
+    "docket": "R.25-04-010",
+    "title": "Energy Efficiency: Rolling Portfolios, Programs & Evaluation (successor to R.13-11-005)",
+    "category": "Energy Efficiency",
+    "depth": "FULL READ",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010",
+    "impact": "Primary EE proceeding; read every filing in full.",
+    "relevance": "High"
+  },
+  {
+    "docket": "R.19-01-011",
+    "title": "Building Decarbonization (Phase 4: meter socket adapters, line upgrades, SB 1221 pilots)",
+    "category": "Building Decarb",
+    "depth": "SCAN - Priority",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011",
+    "impact": "Electrification pathways and equity-focused line upgrades.",
+    "relevance": "High"
+  },
+  {
+    "docket": "R.22-07-005",
+    "title": "Advance Demand Flexibility Through Electric Rates",
+    "category": "Demand Flexibility",
+    "depth": "SCAN - Priority",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005",
+    "impact": "Dynamic rates and demand flexibility policy.",
+    "relevance": "High"
+  },
+  {
+    "docket": "R.20-08-020",
+    "title": "Net Energy Metering / Net Billing Tariff successor & related issues",
+    "category": "DER / Rates",
+    "depth": "SCAN",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020",
+    "impact": "DER compensation structure.",
+    "relevance": "Medium"
+  },
+  {
+    "docket": "R.23-10-011",
+    "title": "Resource Adequacy (LCR, flexible capacity, Planning Reserve Margin)",
+    "category": "Resource Adequacy",
+    "depth": "SCAN",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011",
+    "impact": "Reliability requirements affecting resource planning.",
+    "relevance": "Medium"
+  },
+  {
+    "docket": "R.20-05-012",
+    "title": "Self-Generation Incentive Program (SGIP)",
+    "category": "DER / Storage",
+    "depth": "SCAN",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012",
+    "impact": "Storage and generation incentive design.",
+    "relevance": "Medium"
+  },
+  {
+    "docket": "R.25-06-019",
+    "title": "Integrated Resource Plan / Long-Term Procurement (2024-26 cycle)",
+    "category": "Grid Planning",
+    "depth": "SCAN",
+    "status": "Active",
+    "agency": "CPUC",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019",
+    "impact": "Long-term system planning and procurement.",
+    "relevance": "Medium"
+  },
+  {
+    "docket": "CONFIRM #",
+    "title": "Grid Modernization / High-DER distribution planning - identify current docket",
+    "category": "Grid Modernization",
+    "depth": "SCAN",
+    "status": "CONFIRM #",
+    "agency": "CPUC",
+    "url": null,
+    "impact": "Confirm docket number with Director.",
+    "relevance": "Monitor"
+  },
+  {
+    "docket": "CONFIRM #",
+    "title": "Equity / Environmental & Social Justice (tracked via ESJ Action Plan)",
+    "category": "Equity",
+    "depth": "SCAN",
+    "status": "CONFIRM #",
+    "agency": "CPUC",
+    "url": null,
+    "impact": "May span proceedings rather than a single docket.",
+    "relevance": "Monitor"
+  }
+]

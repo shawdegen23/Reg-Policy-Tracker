@@ -1,0 +1,9 @@
+{
+  "lastRun": null,
+  "sources": {
+    "cpuc": { "lastRun": null, "status": "pending", "count": 0 },
+    "cec": { "lastRun": null, "status": "pending", "count": 0 },
+    "carb": { "lastRun": null, "status": "pending", "count": 0 },
+    "legiscan": { "lastRun": null, "status": "pending", "count": 0 }
+  }
+}

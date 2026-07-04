@@ -1,30 +1,46 @@
 # Reg-Policy-Tracker
 
-Live command console for California regulatory monitoring (CPUC, CEC, CARB, AQMD, Legislature) for the TEC Regulatory Policy & Strategy role.
+A live California regulatory monitoring product for the TEC Regulatory Policy & Strategy role. Tracks CPUC proceedings plus CEC, CARB, AQMD, and the Legislature.
 
-The **spreadsheet is the source of truth.** `build_site.py` reads
-`../TEC_Regulatory_Tracker.xlsx` and bakes its data into a self-contained
-`index.html`, so the deployed site always matches the tracker. Static site,
-no build step on Vercel — it just serves `index.html`.
+**Not hardcoded.** Scheduled GitHub Actions run real scrapers that fetch fresh
+data and commit it into `data/*.json`. The Next.js app on Vercel renders that
+data live. No database, no external accounts beyond GitHub + Vercel, and fully
+independent of any other infrastructure.
 
-## Update the live site
-```bash
-# 1. Edit ../TEC_Regulatory_Tracker.xlsx (proceedings, digest log, etc.)
-# 2. Regenerate the page from the spreadsheet
-python3 build_site.py
-# 3. Publish
-git add index.html && git commit -m "Update tracker" && git push
+## Architecture
 ```
-Vercel auto-deploys on push.
+Next.js app (Vercel)  ──reads──►  data/*.json  ◄──writes──  GitHub Actions scrapers (cron)
+```
+- `app/` — Next.js App Router UI (Proceedings, Developments, Bills, Watchlist, Subscriptions).
+- `data/` — JSON the app renders; updated automatically by the ingestion job.
+- `scripts/ingest/` — the scrapers: `cpuc.mjs` (headless Playwright), `cec.mjs`, `carb.mjs`, `legiscan.mjs`.
+- `.github/workflows/ingest.yml` — runs the scrapers on a schedule and commits new data.
 
-## Tabs
-- **Proceedings** — the ~12 tracked CPUC dockets, each linking to its live docket card.
-- **Digest Log** — tracked developments (from the spreadsheet's Digest Log tab).
-- **Agency Watchlist** — CEC / CARB / AQMD / Legislature / PDAEnergyWeb.
-- **Subscriptions** — the official alert subscriptions to set up.
+## How updates happen
+1. The Action runs on cron (~7am & 3pm Pacific, weekdays) or when you click **Run workflow**.
+2. Scrapers pull each source; `run.mjs` merges + dedupes into `data/*.json`.
+3. The job commits the changed data, which triggers a Vercel redeploy — the site shows the new data.
 
-## Local preview
-Open `index.html` in any browser.
+## One-time setup
+- **LegiScan API key (free):** register at https://legiscan.com/legiscan, then in the
+  GitHub repo add a secret `LEGISCAN_API_KEY` (Settings → Secrets and variables → Actions).
+  Without it, the Bills tab stays empty; everything else still works.
+- **Vercel:** framework preset **Next.js** (auto-detected). No env vars needed for the app.
 
-## Requirements
-`pip install openpyxl` (only needed to run `build_site.py`).
+## Local development
+```bash
+npm install
+npm run dev        # http://localhost:3000
+
+# run the scrapers locally (optional)
+cd scripts && npm install && npx playwright install chromium
+LEGISCAN_API_KEY=xxxx node ingest/run.mjs
+```
+
+## Notes on data reliability
+- CPUC's docket system is JavaScript-rendered, so its scraper uses a headless
+  browser (Playwright) in the Action. Selectors are best-effort and may need
+  tuning after the first live run — failures there are non-fatal; other sources
+  still ingest.
+- Automated ingestion is the fast, prioritized layer. The official email
+  subscriptions (see the Subscriptions tab) remain the authoritative record.
