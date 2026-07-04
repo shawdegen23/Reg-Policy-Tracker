@@ -1,4 +1,23 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""
+Regenerate index.html from the TEC regulatory tracker spreadsheet.
+
+Workflow:
+  1. Edit ../TEC_Regulatory_Tracker.xlsx (the source of truth)
+  2. python3 build_site.py
+  3. git add index.html && git commit -m "Update tracker" && git push
+
+The spreadsheet is the single source of truth; this script bakes its data
+into a self-contained index.html so the Vercel site always matches the tracker.
+"""
+import json, os, datetime
+from openpyxl import load_workbook
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+XLSX = os.path.join(HERE, "..", "TEC_Regulatory_Tracker.xlsx")
+OUT = os.path.join(HERE, "index.html")
+
+TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -101,7 +120,7 @@
   <footer>Verify CONFIRM # dockets with the Director. Docket links open official state systems.</footer>
 </div>
 <script>
-const DATA = {"proceedings": [{"docket": "R.25-04-010", "title": "Energy Efficiency: Rolling Portfolios, Programs, Evaluation & Related Issues (successor to R.13-11-005)", "category": "Energy Efficiency", "depth": "FULL READ", "status": "Active (opened Apr 2025)", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010"}, {"docket": "R.19-01-011", "title": "Building Decarbonization (incl. Phase 4: meter socket adapters, line upgrades, SB 1221 neighborhood pilots)", "category": "Building Decarb", "depth": "SCAN – Priority", "status": "Active – Phase 4", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011"}, {"docket": "R.22-07-005", "title": "Advance Demand Flexibility Through Electric Rates", "category": "Demand Flexibility", "depth": "SCAN – Priority", "status": "Active – 2 tracks", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005"}, {"docket": "R.20-08-020", "title": "Net Energy Metering / Net Billing Tariff successor & related issues", "category": "DER / Rates", "depth": "SCAN", "status": "Active", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020"}, {"docket": "R.23-10-011", "title": "Resource Adequacy (LCR, flexible capacity, Planning Reserve Margin)", "category": "Resource Adequacy", "depth": "SCAN", "status": "Active", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011"}, {"docket": "R.20-05-012", "title": "Self-Generation Incentive Program (SGIP)", "category": "DER / Storage", "depth": "SCAN", "status": "Active", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012"}, {"docket": "R.25-06-019", "title": "Integrated Resource Plan / Long-Term Procurement (2024–26 cycle)", "category": "Grid Planning", "depth": "SCAN", "status": "Active", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019"}, {"docket": "CONFIRM #", "title": "Grid Modernization / High-DER distribution planning — identify current docket", "category": "Grid Modernization", "depth": "SCAN", "status": "CONFIRM #", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": null}, {"docket": "CONFIRM #", "title": "Equity / Environmental & Social Justice — tracked via ESJ Action Plan (may not be a single proceeding)", "category": "Equity", "depth": "SCAN", "status": "CONFIRM #", "dates": "", "checked": "", "qual": "", "quant": "", "relevance": "", "impact": "", "url": null}], "watch": [{"source": "CEC – California Energy Commission", "monitor": "Building Energy Efficiency Standards (Title 24), appliance standards (Title 20), load management standards, building decarbonization programs, Codes & Standards dockets", "page": "https://www.energy.ca.gov/proceedings", "sub": "https://www.energy.ca.gov/subscriptions (+ Building Standards listserv)", "checked": "", "latest": "", "note": ""}, {"source": "CARB – Air Resources Board", "monitor": "Rulemaking activity: building/appliance standards (zero-NOx), climate disclosure (SB 253/261), Cap-and-Trade, LCFS, Scoping Plan implementation", "page": "https://ww2.arb.ca.gov/rulemaking-activity", "sub": "https://public.govdelivery.com/accounts/CARB/subscriber/new", "checked": "", "latest": "", "note": ""}, {"source": "AQMD / SCAQMD", "monitor": "Local air-district rules touching buildings & appliances (e.g., zero-NOx furnace/water-heater rules), permitting affecting electrification", "page": "https://www.aqmd.gov/nav/rules", "sub": "AQMD email list sign-up (aqmd.gov) — confirm exact list", "checked": "", "latest": "", "note": ""}, {"source": "California Legislature", "monitor": "Energy & climate bills: building decarb, demand flexibility, grid, equity. Track by bill # and hearing dates", "page": "https://leginfo.legislature.ca.gov/faces/billSearchClient.xhtml", "sub": "leginfo 'Follow this bill' + LegiScan CA dashboard", "checked": "", "latest": "", "note": ""}, {"source": "PDAEnergyWeb", "monitor": "CONFIRM SOURCE with Director — named in JD but not a public state portal; likely an internal or paid energy-policy data service. Verify what it is and how it delivers alerts before relying on it.", "page": "Confirm URL with Director", "sub": "Confirm access with Director", "checked": "", "latest": "", "note": ""}, {"source": "Cross-ref: 3rd-party trackers", "monitor": "Sanity-check against curated trackers: Building Decarbonization Coalition policy updates, Stoel Rives weekly regulatory update, CAEECC/CEDMC filings", "page": "https://buildingdecarb.org/california-policy-updates", "sub": "Firm newsletters (free sign-up)", "checked": "", "latest": "", "note": ""}], "digest": [{"date": "2026-07-01", "source": "CPUC – R.25-04-010", "docket": "R.25-04-010", "type": "Ruling", "headline": "ALJ ruling setting comment schedule on EE portfolio evaluation", "impact": "Sets July–Aug comment window; affects how clients frame evaluation input", "relevance": "High – EE clients", "action": "Draft comment outline for Director", "owner": "PM", "reported": "Bi-weekly 7/15", "link": ""}], "subs": [{"source": "CPUC Subscription Service", "covers": "Per-proceeding rulings, decisions, filings for all your dockets", "url": "https://subscribecpuc.cpuc.ca.gov/", "status": "To do", "notes": "Subscribe to each docket # in the CPUC Proceedings tab. This is the ONE that guarantees no missed CPUC filing."}, {"source": "CEC Subscriptions + listservs", "covers": "Building/appliance standards, load management, decarb programs", "url": "https://www.energy.ca.gov/subscriptions", "status": "To do", "notes": "Add the Building Standards listserv specifically."}, {"source": "CARB GovDelivery", "covers": "Rulemaking notices, board items, climate disclosure", "url": "https://public.govdelivery.com/accounts/CARB/subscriber/new", "status": "To do", "notes": "Pick building, appliance, and climate-disclosure topics."}, {"source": "California Legislature", "covers": "Bill status changes on tracked energy/climate bills", "url": "https://leginfo.legislature.ca.gov/", "status": "To do", "notes": "Use 'Follow this bill'; supplement with LegiScan CA."}, {"source": "AQMD / SCAQMD", "covers": "Local air-district rule activity", "url": "https://www.aqmd.gov/", "status": "To do", "notes": "Confirm exact mailing list for rulemaking."}, {"source": "PDAEnergyWeb", "covers": "Per JD — confirm what this is", "url": "Confirm with Director", "status": "Blocked", "notes": "Not a known public portal; verify before relying."}], "updated": "2026-07-03"};
+const DATA = /*__DATA__*/ {};
 document.getElementById('upd').textContent = DATA.updated || '';
 function depthClass(d){d=(d||'').toUpperCase();if(d.includes('FULL'))return['full','FULL READ'];if(d.includes('PRIORITY'))return['prio','SCAN · PRIORITY'];if(d.includes('CONFIRM'))return['confirm','CONFIRM #'];return['scan','SCAN']}
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
@@ -156,4 +175,67 @@ document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
   t.classList.add('active');document.getElementById(t.dataset.t).classList.add('active');});
 </script>
 </body>
-</html>
+</html>"""
+
+def apex(num):
+    if not num or not num.strip().upper().startswith("R"):
+        return None
+    core = num.replace("R.", "R").replace(".", "").replace("-", "").strip()
+    return f"https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:{core}"
+
+def rows(ws, header_row, ncols):
+    out = []
+    r = header_row + 1
+    while r <= ws.max_row:
+        vals = [ws.cell(row=r, column=c).value for c in range(1, ncols + 1)]
+        if all(v is None or str(v).strip() == "" for v in vals):
+            r += 1
+            if r > header_row + 60:
+                break
+            continue
+        out.append([("" if v is None else str(v).strip()) for v in vals])
+        r += 1
+    return out
+
+wb = load_workbook(XLSX, data_only=True)
+
+# Proceedings
+p = wb["CPUC Proceedings"]
+proceedings = []
+for v in rows(p, 4, 12):
+    docket = v[0]
+    proceedings.append({
+        "docket": docket, "title": v[1], "category": v[2], "depth": v[3],
+        "status": v[4], "dates": v[5], "checked": v[6], "qual": v[7],
+        "quant": v[8], "relevance": v[9], "impact": v[10],
+        "url": apex(docket) if docket and docket != "CONFIRM #" else None,
+    })
+
+# Watchlist
+w = wb["Agency Watchlist"]
+watch = []
+for v in rows(w, 4, 7):
+    watch.append({"source": v[0], "monitor": v[1], "page": v[2], "sub": v[3],
+                  "checked": v[4], "latest": v[5], "note": v[6]})
+
+# Digest Log
+d = wb["Digest Log"]
+digest = []
+for v in rows(d, 4, 11):
+    digest.append({"date": v[0], "source": v[1], "docket": v[2], "type": v[3],
+                   "headline": v[4], "impact": v[5], "relevance": v[6],
+                   "action": v[7], "owner": v[8], "reported": v[9], "link": v[10]})
+
+# Subscriptions
+s = wb["Subscriptions"]
+subs = []
+for v in rows(s, 4, 5):
+    subs.append({"source": v[0], "covers": v[1], "url": v[2], "status": v[3], "notes": v[4]})
+
+data = {"proceedings": proceedings, "watch": watch, "digest": digest,
+        "subs": subs, "updated": datetime.date.today().isoformat()}
+
+html = TEMPLATE.replace("/*__DATA__*/ {}", json.dumps(data, ensure_ascii=False))
+with open(OUT, "w", encoding="utf-8") as f:
+    f.write(html)
+print("Wrote", OUT, "-", len(proceedings), "proceedings,", len(digest), "digest rows")
