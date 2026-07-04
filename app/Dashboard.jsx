@@ -238,7 +238,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                       return (
                         <tr key={i} className={prio ? "prio-row" : ""}>
                           <td>{d.date}</td>
-                          <td>{d.source}{d.docket && d.docket !== d.source ? <><br /><small>{d.docket}</small></> : null}</td>
+                          <td>{d.source}{d.docket && d.docket !== d.source ? <><br /><small>{d.docket}</small></> : null}{d.filedBy ? <><br /><small style={{ color: "var(--muted)" }}>filed by {d.filedBy}</small></> : null}</td>
                           <td>{d.topic}{d.dataType === "Quantitative" ? <><br /><small>#</small></> : null}</td>
                           <td>{d.type}</td>
                           <td>{d.relevance ? <span className={"pill " + d.relevance}>{d.relevance}</span> : ""}</td>

@@ -19,22 +19,33 @@ const urls = (c) => [
 ];
 
 async function extract(page) {
+  // CPUC document rows are [Filing Date, Document Type(link), Filed By, Description].
+  // The description/title is the LAST non-meta cell; the filer is the one before it.
   const grab = () => {
+    const MONTH = /\b([A-Z][a-z]+ \d{1,2}, \d{4})\b/;   // "July 01, 2026"
+    const SLASH = /\b(\d{1,2}\/\d{1,2}\/\d{4})\b/;       // "07/01/2026"
     const out = [];
     for (const a of Array.from(document.querySelectorAll("a"))) {
       const href = a.href || "";
       const type = (a.textContent || "").trim(); // e.g. "COMMENTS", "RULING"
       if (!/PublishedDocs|\.PDF|efile|Efile|SearchRes|docs\.cpuc\.ca\.gov/i.test(href)) continue;
       const tr = a.closest("tr");
-      let date = "", desc = "";
+      let date = "", desc = "", filer = "";
       if (tr) {
         const cells = Array.from(tr.querySelectorAll("td,th")).map((c) => c.textContent.trim());
-        for (const c of cells) { const m = c.match(/\b(\d{1,2}\/\d{1,2}\/\d{4})\b/); if (m) { date = m[1]; break; } }
-        // description = the longest cell that isn't the date or the type label
-        const cand = cells.filter((c) => c && c !== type && !/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(c));
-        desc = cand.sort((x, y) => y.length - x.length)[0] || "";
+        for (const c of cells) { const m = c.match(MONTH) || c.match(SLASH); if (m) { date = m[1]; break; } }
+        // Positional: columns are [Date, Type(link), Filed By, Description].
+        let ti = cells.indexOf(type);
+        if (ti === -1) ti = cells.findIndex((c) => MONTH.test(c) || SLASH.test(c)) + 1;
+        filer = cells[ti + 1] || "";
+        desc = cells[ti + 2] || "";
+        // Fallback if layout differs: longest remaining cell as description.
+        if (!desc) {
+          const rest = cells.filter((c) => c && c !== type && c !== filer && !MONTH.test(c) && !SLASH.test(c));
+          desc = rest.sort((x, y) => y.length - x.length)[0] || "";
+        }
       }
-      out.push({ type, desc, href, date });
+      out.push({ type, desc, filer, href, date });
     }
     return out;
   };
@@ -44,15 +55,20 @@ async function extract(page) {
   }
   const seen = new Set();
   rows = rows.filter((r) => (seen.has(r.href) ? false : (seen.add(r.href), true)));
-  // newest first when dates are available
-  rows.sort((a, b) => (parseDate(b.date) - parseDate(a.date)));
+  rows.forEach((r) => { r.iso = normDate(r.date); });
+  rows.sort((a, b) => (b.iso || "").localeCompare(a.iso || "")); // newest first
   return rows;
 }
 
-function parseDate(d) {
-  if (!d) return 0;
-  const [m, day, y] = d.split("/");
-  return y ? new Date(`${y}-${m}-${day}`).getTime() : 0;
+// Handle both "07/01/2026" and "July 01, 2026" filing-date formats.
+function normDate(d) {
+  if (!d) return "";
+  if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(d)) {
+    const [m, day, y] = d.split("/");
+    return `${y}-${m.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
+  const t = Date.parse(d);
+  return isNaN(t) ? "" : new Date(t).toISOString().slice(0, 10);
 }
 
 export async function scrapeCPUC(proceedings) {
@@ -96,7 +112,7 @@ export async function scrapeCPUC(proceedings) {
         const headline = (r.desc && r.desc.length > 4 ? r.desc : r.type) || "Document";
         items.push({
           source: `CPUC ${p.docket}`, agency: "CPUC", docket: p.docket,
-          type: guessType(r.type || r.desc), headline, url: r.href, date: normDate(r.date),
+          type: guessType(r.type || r.desc), headline, filedBy: r.filer || "", url: r.href, date: r.iso || "",
         });
       }
     }
@@ -112,10 +128,4 @@ function guessType(t) {
   if (s.includes("comment")) return "Filing/Comments";
   if (s.includes("proposed")) return "Proposed Decision";
   return "Filing";
-}
-function normDate(d) {
-  if (!d) return "";
-  const [m, day, y] = d.split("/");
-  if (!y) return "";
-  return `${y}-${m.padStart(2, "0")}-${day.padStart(2, "0")}`;
 }

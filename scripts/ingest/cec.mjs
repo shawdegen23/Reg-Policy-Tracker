@@ -23,6 +23,10 @@ export async function scrapeCEC() {
         if (!isRelevant(title)) return;
         if (href.startsWith("/")) href = "https://www.energy.ca.gov" + href;
         if (!href.startsWith("http")) return;
+        // CEC news URLs embed the publish month, e.g. /news/2026-05/... — use it
+        // as the date instead of defaulting to the ingest date.
+        const m = href.match(/\/(20\d\d)-(\d\d)\//);
+        const date = m ? `${m[1]}-${m[2]}-01` : "";
         items.push({
           source: "CEC",
           agency: "CEC",
@@ -30,7 +34,7 @@ export async function scrapeCEC() {
           type: "Notice",
           headline: title,
           url: href,
-          date: "",
+          date,
         });
       });
     } catch (e) {
