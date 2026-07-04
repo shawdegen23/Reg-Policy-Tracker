@@ -1,5 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
+
+const Analytics = dynamic(() => import("./Analytics"), { ssr: false, loading: () => <div className="empty">Loading charts…</div> });
 
 const STAGES = ["Introduced", "Committee", "Floor", "Enrolled", "Signed"];
 // LegiScan status codes: 1 Introduced, 2 Engrossed, 3 Enrolled, 4 Passed,
@@ -170,6 +173,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
           <button className={"tab" + (tab === "proc" ? " active" : "")} onClick={() => setTab("proc")}>Proceedings</button>
           <button className={"tab" + (tab === "dev" ? " active" : "")} onClick={() => setTab("dev")}>Developments {devs.length ? `(${developments.length})` : ""}</button>
           <button className={"tab" + (tab === "topics" ? " active" : "")} onClick={() => setTab("topics")}>Topics</button>
+          <button className={"tab" + (tab === "analytics" ? " active" : "")} onClick={() => setTab("analytics")}>Analytics</button>
           <button className={"tab" + (tab === "bills" ? " active" : "")} onClick={() => setTab("bills")}>Bills {blls.length ? `(${blls.length})` : ""}</button>
           <button className={"tab" + (tab === "tracked" ? " active" : "")} onClick={() => setTab("tracked")}>★ Tracked {tracked.length ? `(${tracked.length})` : ""}{movedCount ? <span className="pill High" style={{ marginLeft: 6 }}>{movedCount} moved</span> : null}</button>
           <button className={"tab" + (tab === "agency" ? " active" : "")} onClick={() => setTab("agency")}>Agency Watchlist</button>
@@ -288,6 +292,8 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
             </div>
           </section>
         )}
+
+        {tab === "analytics" && <Analytics developments={developments} />}
 
         {tab === "bills" && (
           <section>
