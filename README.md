@@ -11,10 +11,17 @@ independent of any other infrastructure.
 ```
 Next.js app (Vercel)  ──reads──►  data/*.json  ◄──writes──  GitHub Actions scrapers (cron)
 ```
-- `app/` — Next.js App Router UI (Proceedings, Developments, Bills, Watchlist, Subscriptions).
-- `data/` — JSON the app renders; updated automatically by the ingestion job.
-- `scripts/ingest/` — the scrapers: `cpuc.mjs` (headless Playwright), `cec.mjs`, `carb.mjs`, `legiscan.mjs`.
+- `app/` — Next.js App Router UI: Director Brief, Proceedings, Developments, Topics, Bills, Watchlist, Subscriptions, plus one-click Excel export.
+- `data/` — JSON the app renders (`proceedings`, `developments`, `bills`, `brief`, `meta`); updated automatically by the ingestion job.
+- `scripts/ingest/` — scrapers (`cpuc.mjs` headless Playwright, `cec.mjs`, `carb.mjs`, `legiscan.mjs`), `analyze.mjs` (topic / qual-quant / relevance / impact tagging + Director synthesis), `run.mjs` (orchestrator).
 - `.github/workflows/ingest.yml` — runs the scrapers on a schedule and commits new data.
+
+## Analysis layer
+Every ingested item is auto-tagged at ingest time (no external API): adjacent **topic**,
+**qualitative vs. quantitative** (dollar/%/MW/deadline signals), **client relevance**,
+and a **suggested impact summary**. CPUC items inherit their proceeding's topic. The
+**Director Brief** synthesizes these into a review-ready rollup on each run. Suggested
+impacts are analyst starting points, not final language.
 
 ## How updates happen
 1. The Action runs on cron (~7am & 3pm Pacific, weekdays) or when you click **Run workflow**.

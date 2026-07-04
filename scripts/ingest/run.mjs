@@ -5,6 +5,7 @@ import { scrapeCARB } from "./carb.mjs";
 import { scrapeCEC } from "./cec.mjs";
 import { scrapeLegiScan } from "./legiscan.mjs";
 import { scrapeCPUC } from "./cpuc.mjs";
+import { analyze, synthesize } from "./analyze.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "..", "data");
@@ -65,7 +66,16 @@ async function run() {
       console.error(`${name} failed: ${e.message}`);
     }
   }
+  // Map each tracked docket to its proceeding topic so CPUC items inherit it.
+  const topicByDocket = Object.fromEntries(
+    proceedings.filter((p) => p.docket && p.docket !== "CONFIRM #" && p.topic).map((p) => [p.docket, p.topic])
+  );
+  allNew = allNew
+    .map(analyze) // enrich: topic, qual/quant, relevance, impact
+    .map((d) => (topicByDocket[d.docket] ? { ...d, topic: topicByDocket[d.docket] } : d));
   developments = mergeDevelopments(developments, allNew);
+  // Backfill analysis on any older items that predate the analysis layer.
+  developments = developments.map((d) => (d.topic ? d : analyze(d)));
 
   // Bills (separate file)
   try {
@@ -81,7 +91,12 @@ async function run() {
   meta.lastRun = nowIso;
   await writeJson("developments.json", developments);
   await writeJson("meta.json", meta);
-  console.log(`Done. ${developments.length} developments total.`);
+
+  // Director Brief synthesis
+  const brief = synthesize(developments, proceedings);
+  await writeJson("brief.json", brief);
+
+  console.log(`Done. ${developments.length} developments total; ${brief.totals.high} high-relevance.`);
 }
 
 run().catch((e) => { console.error(e); process.exit(1); });
