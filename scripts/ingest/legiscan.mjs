@@ -52,28 +52,34 @@ export async function scrapeLegiScan() {
     candidates.push(b);
   }
 
-  // Reuse cached verdicts where hash is unchanged; classify the rest with AI.
+  // Reuse a cached verdict ONLY if the AI actually vetted it (not a fallback).
+  // Un-vetted candidates get re-classified, so a poisoned cache self-heals.
   const toClassify = [];
-  const verdict = new Map();               // bill_id -> boolean
+  const verdict = new Map();               // bill_id -> { relevant, vetted }
   for (const b of candidates) {
     const prev = cache[b.bill_id];
-    if (prev && prev.hash === b.change_hash && typeof prev.relevant === "boolean") {
-      verdict.set(b.bill_id, prev.relevant);
+    if (prev && prev.hash === b.change_hash && prev.aiVetted === true) {
+      verdict.set(b.bill_id, { relevant: prev.relevant, vetted: true });
     } else {
       toClassify.push(b);
     }
   }
   if (toClassify.length) {
-    const keep = await aiClassifyBills(toClassify.map((b) => b.title));
-    toClassify.forEach((b, idx) => verdict.set(b.bill_id, keep ? keep.has(idx) : true));
+    const result = await aiClassifyBills(toClassify.map((b) => b.title));
+    toClassify.forEach((b, idx) => {
+      const relevant = result ? result.keep.has(idx) : true;
+      const vetted = result ? result.vetted.has(idx) : false;
+      verdict.set(b.bill_id, { relevant, vetted });
+    });
   }
 
   const bills = [];
   for (const b of candidates) {
-    const relevant = verdict.get(b.bill_id) === true;
+    const v = verdict.get(b.bill_id) || { relevant: true, vetted: false };
+    const relevant = v.relevant === true;
     const stage = billStage(b.status, b.last_action);
     const prev = cache[b.bill_id];
-    nextCache[b.bill_id] = { hash: b.change_hash, relevant, stage };
+    nextCache[b.bill_id] = { hash: b.change_hash, relevant, stage, aiVetted: v.vetted };
     if (!relevant) continue;
     bills.push({
       number: b.number,
@@ -92,5 +98,5 @@ export async function scrapeLegiScan() {
 
   try { await writeFile(CACHE, JSON.stringify(nextCache) + "\n"); } catch {}
   bills.sort((a, z) => (z.lastActionDate || "").localeCompare(a.lastActionDate || ""));
-  return bills.slice(0, 100);
+  return bills.slice(0, 500); // safety ceiling only; the UI separates active vs archived (dead)
 }

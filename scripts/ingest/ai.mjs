@@ -127,12 +127,18 @@ ${JSON.stringify(batch)}`;
 // Bucket 2: AI relevance gate for legislation. Given candidate bill titles,
 // decide which are genuinely energy/climate policy relevant. Returns a Set of
 // the indices judged relevant. If no provider, returns null (caller keeps all).
+// Returns { keep, vetted } — `keep` = indices judged relevant (or defaulted-kept
+// on failure); `vetted` = indices the AI ACTUALLY classified. Callers must only
+// cache verdicts for vetted items, so a rate-limited fallback isn't remembered as
+// an AI approval (which would permanently disable the gate for those bills).
 export async function aiClassifyBills(titles) {
   if (!PROVIDER || titles.length === 0) return null;
   const keep = new Set();
+  const vetted = new Set();
   const CHUNK = 12;
   for (let start = 0; start < titles.length; start += CHUNK) {
-    const batch = titles.slice(start, start + CHUNK).map((t, j) => ({ i: j, title: t })); // chunk-local i
+    const end = Math.min(start + CHUNK, titles.length);
+    const batch = titles.slice(start, end).map((t, j) => ({ i: j, title: t })); // chunk-local i
     const user = `You are curating a California ENERGY & CLIMATE policy tracker. Relevant topics:
 energy efficiency, building decarbonization/electrification, demand flexibility, grid modernization,
 distributed energy resources, utility rates/ratepayers, appliance & building energy standards,
@@ -143,18 +149,19 @@ Return ONLY a JSON array like [{"i":0,"relevant":true}]. Bills:
 ${JSON.stringify(batch)}`;
     try {
       const arr = parseJson(await ask(SYSTEM, user, 1200));
+      for (let j = start; j < end; j++) vetted.add(j);            // AI processed this chunk
       for (const r of arr) {
         if (!r || !r.relevant) continue;
         const idx = start + (Number(r.i) || 0);
-        if (idx >= start && idx < start + batch.length) keep.add(idx);
+        if (idx >= start && idx < end) keep.add(idx);
       }
     } catch (e) {
-      // On failure, keep this chunk's items (don't silently drop real bills)
+      // On failure keep this chunk (don't drop real bills) but DON'T mark vetted.
       console.error(`aiClassifyBills chunk ${start} failed: ${e.message}`);
-      for (let j = start; j < Math.min(start + CHUNK, titles.length); j++) keep.add(j);
+      for (let j = start; j < end; j++) keep.add(j);
     }
   }
-  return keep;
+  return { keep, vetted };
 }
 
 // Extract actionable deadlines/key dates from a regulatory document's text.

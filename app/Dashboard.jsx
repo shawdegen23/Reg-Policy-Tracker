@@ -74,6 +74,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
   const [pq, setPq] = useState("");
   const [dq, setDq] = useState("");
   const [bq, setBq] = useState("");
+  const [billView, setBillView] = useState("active");
   const [topicFilter, setTopicFilter] = useState("");
   const [devType, setDevType] = useState("");
   const [devRel, setDevRel] = useState("");
@@ -123,8 +124,13 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
   const devTypes = [...new Set(developments.map((d) => d.type).filter(Boolean))].sort();
   const devAgencies = [...new Set(developments.map((d) => d.agency).filter(Boolean))].sort();
   const clearDevFilters = () => { setTopicFilter(""); setDevType(""); setDevRel(""); setDevAgency(""); setDq(""); };
+  // A bill is "archived" once it's dead/vetoed/failed; active bills stay front and center.
+  const isDead = (b) => { const o = billOutcome(b); return !!o && /Vetoed|Failed/.test(o.label); };
+  const activeCount = bills.filter((b) => !isDead(b)).length;
+  const archivedCount = bills.filter((b) => isDead(b)).length;
   const blls = [...bills]
     .filter((b) => !bq || JSON.stringify(b).toLowerCase().includes(bq.toLowerCase()))
+    .filter((b) => billView === "all" ? true : billView === "archived" ? isDead(b) : !isDead(b))
     .sort((a, z) => (z.lastActionDate || "").localeCompare(a.lastActionDate || ""));
 
   const src = meta?.sources || {};
@@ -195,7 +201,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
           <button className={"tab" + (tab === "dev" ? " active" : "")} onClick={() => setTab("dev")}>Developments {devs.length ? `(${developments.length})` : ""}</button>
           <button className={"tab" + (tab === "topics" ? " active" : "")} onClick={() => setTab("topics")}>Topics</button>
           <button className={"tab" + (tab === "analytics" ? " active" : "")} onClick={() => setTab("analytics")}>Analytics</button>
-          <button className={"tab" + (tab === "bills" ? " active" : "")} onClick={() => setTab("bills")}>Bills {blls.length ? `(${blls.length})` : ""}</button>
+          <button className={"tab" + (tab === "bills" ? " active" : "")} onClick={() => setTab("bills")}>Bills {activeCount ? `(${activeCount})` : ""}</button>
           <button className={"tab" + (tab === "tracked" ? " active" : "")} onClick={() => setTab("tracked")}>★ Tracked {tracked.length ? `(${tracked.length})` : ""}{movedCount ? <span className="pill High" style={{ marginLeft: 6 }}>{movedCount} moved</span> : null}</button>
           <button className={"tab" + (tab === "agency" ? " active" : "")} onClick={() => setTab("agency")}>Agency Watchlist</button>
           <button className={"tab" + (tab === "subs" ? " active" : "")} onClick={() => setTab("subs")}>Subscriptions</button>
@@ -347,24 +353,37 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         {tab === "bills" && (
           <section>
-            <div className="note"><b>Legislative bills</b> from the LegiScan API, filtered to energy/climate keywords. Requires a free LegiScan API key set as a GitHub secret (see README).</div>
-            <input className="search" placeholder="Filter bills…" value={bq} onChange={(e) => setBq(e.target.value)} />
+            <div className="note"><b>Legislative bills</b> — energy/climate bills. Active bills are tracked here; ones that die (vetoed/failed) move to the Archive so effort stays on what's still alive.</div>
+            <div className="filterbar">
+              <input className="search" style={{ marginBottom: 0 }} placeholder="Search bills…" value={bq} onChange={(e) => setBq(e.target.value)} />
+              <div style={{ display: "flex", gap: 0, border: "1px solid var(--line)", borderRadius: 8, overflow: "hidden" }}>
+                {[["active", `Active (${activeCount})`], ["archived", `Archive (${archivedCount})`], ["all", "All"]].map(([v, label]) => (
+                  <button key={v} onClick={() => setBillView(v)} style={{ padding: "8px 12px", fontSize: 12.5, border: "none", cursor: "pointer", fontFamily: "inherit", background: billView === v ? "var(--navy)" : "#fff", color: billView === v ? "#fff" : "var(--ink)" }}>{label}</button>
+                ))}
+              </div>
+              <span className="sub" style={{ marginLeft: "auto", marginTop: 0 }}>{blls.length} shown</span>
+            </div>
             {blls.length === 0
               ? <div className="empty">No bills ingested yet. Add a LEGISCAN_API_KEY GitHub secret and run the workflow, and tracked bills will appear here.</div>
               : (
                 <>
                   <div className="sub" style={{ marginBottom: 8 }}>Click ★ to track a bill — it appears in the Tracked tab with a status stepper and moves are highlighted.</div>
                   <table>
-                    <thead><tr><th>Track</th><th></th><th>Bill</th><th>Title</th><th>Last action</th><th>Date</th><th>Link</th></tr></thead>
+                    <thead><tr><th>Track</th><th></th><th>Bill</th><th>Stage</th><th>Title</th><th>Last action</th><th>Date</th><th>Link</th></tr></thead>
                     <tbody>
-                      {blls.map((b, i) => (
+                      {blls.map((b, i) => {
+                        const o = billOutcome(b);
+                        return (
                         <tr key={i}>
                           <td><button className="star" onClick={() => toggleTrack(b.number)} title="Track this bill">{tracked.includes(b.number) ? "★" : "☆"}</button></td>
                           <td>{b.isNew ? <span className="pill High">NEW</span> : b.isUpdated ? <span className="pill Medium">UPD</span> : ""}</td>
-                          <td>{b.number}</td><td>{b.title}</td><td>{b.lastAction}</td><td>{b.lastActionDate}</td>
+                          <td>{b.number}</td>
+                          <td>{o ? <span className={"pill " + o.cls}>{o.label.replace(" / Chaptered", "").replace(" / Dead", "")}</span> : <span className="pill Low">{STAGES[stageOf(b)]}</span>}</td>
+                          <td>{b.title}</td><td>{b.lastAction}</td><td>{b.lastActionDate}</td>
                           <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">open</a> : ""}</td>
                         </tr>
-                      ))}
+                        );
+                      })}
                     </tbody>
                   </table>
                   <div className="sub">Legislative data via <a href="https://legiscan.com/" target="_blank" rel="noreferrer">LegiScan</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>.</div>
