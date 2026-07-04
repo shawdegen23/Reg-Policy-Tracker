@@ -6,6 +6,7 @@ import { scrapeCEC } from "./cec.mjs";
 import { scrapeLegiScan } from "./legiscan.mjs";
 import { scrapeCPUC } from "./cpuc.mjs";
 import { analyze, synthesize } from "./analyze.mjs";
+import { aiEnrich, aiBrief, aiEnabled } from "./ai.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "..", "data");
@@ -71,8 +72,19 @@ async function run() {
     proceedings.filter((p) => p.docket && p.docket !== "CONFIRM #" && p.topic).map((p) => [p.docket, p.topic])
   );
   allNew = allNew
-    .map(analyze) // enrich: topic, qual/quant, relevance, impact
+    .map(analyze) // rule-based baseline: topic, qual/quant, relevance, impact
     .map((d) => (topicByDocket[d.docket] ? { ...d, topic: topicByDocket[d.docket] } : d));
+
+  // Optional AI overlay: real impact summaries + relevance (falls back silently).
+  if (aiEnabled()) {
+    try {
+      allNew = await aiEnrich(allNew);
+      console.log("AI enrichment applied to new items.");
+    } catch (e) {
+      console.error(`AI enrichment skipped: ${e.message}`);
+    }
+  }
+
   developments = mergeDevelopments(developments, allNew);
   // Backfill analysis on any older items that predate the analysis layer.
   developments = developments.map((d) => (d.topic ? d : analyze(d)));
@@ -92,8 +104,17 @@ async function run() {
   await writeJson("developments.json", developments);
   await writeJson("meta.json", meta);
 
-  // Director Brief synthesis
+  // Director Brief synthesis (rule-based rollup + optional AI narrative)
   const brief = synthesize(developments, proceedings);
+  if (aiEnabled()) {
+    try {
+      const narrative = await aiBrief(developments);
+      if (narrative) brief.narrative = narrative;
+      console.log("AI Director narrative generated.");
+    } catch (e) {
+      console.error(`AI narrative skipped: ${e.message}`);
+    }
+  }
   await writeJson("brief.json", brief);
 
   console.log(`Done. ${developments.length} developments total; ${brief.totals.high} high-relevance.`);

@@ -104,6 +104,12 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
         {tab === "brief" && (
           <section>
             <div className="note"><b>Director Brief.</b> Auto-synthesized from the latest developments — the same layer you'd hand up for review. Generated {brief?.generatedAt ? new Date(brief.generatedAt).toLocaleString() : "on first ingest run"}.</div>
+            {brief?.narrative && (
+              <div className="card" style={{ borderLeft: "4px solid var(--blue)", marginBottom: 18 }}>
+                <div className="cat" style={{ marginBottom: 6 }}>AI SYNTHESIS</div>
+                <div style={{ fontSize: 14, lineHeight: 1.6 }}>{brief.narrative}</div>
+              </div>
+            )}
             <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fill,minmax(160px,1fr))", marginBottom: 18 }}>
               <div className="card"><div className="cat">Total developments</div><div style={{ fontSize: 28, fontWeight: 700 }}>{t.developments ?? 0}</div></div>
               <div className="card"><div className="cat">High relevance</div><div style={{ fontSize: 28, fontWeight: 700, color: "var(--red)" }}>{t.high ?? 0}</div></div>
