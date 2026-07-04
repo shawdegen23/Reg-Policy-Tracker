@@ -3,6 +3,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { isBillCandidate } from "./keywords.mjs";
 import { aiClassifyBills } from "./ai.mjs";
+import { fetchRetry } from "./http.mjs";
 
 // LegiScan REST API — free public key (https://legiscan.com/legiscan).
 // Set LEGISCAN_API_KEY as a GitHub Actions secret. No key => returns [] gracefully.
@@ -22,7 +23,7 @@ async function readCache() {
 export async function scrapeLegiScan() {
   if (!KEY) { const e = new Error("LEGISCAN_API_KEY not set"); e.skipped = true; throw e; }
 
-  const res = await fetch(`https://api.legiscan.com/?key=${KEY}&op=getMasterList&state=CA`);
+  const res = await fetchRetry(`https://api.legiscan.com/?key=${KEY}&op=getMasterList&state=CA`);
   if (!res.ok) throw new Error(`LegiScan HTTP ${res.status}`);
   const data = await res.json();
   if (data.status !== "OK" || !data.masterlist) throw new Error("LegiScan bad response");

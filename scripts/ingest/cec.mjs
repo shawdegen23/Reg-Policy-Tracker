@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import { isRelevant } from "./keywords.mjs";
+import { fetchRetry } from "./http.mjs";
 
 // CEC news releases are server-rendered — fetch + parse, filter to relevant topics.
 const PAGES = [
@@ -11,7 +12,7 @@ export async function scrapeCEC() {
   const items = [];
   for (const page of PAGES) {
     try {
-      const res = await fetch(page, { headers: { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9" } });
+      const res = await fetchRetry(page, { headers: { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9" } });
       if (!res.ok) continue;
       const html = await res.text();
       const $ = cheerio.load(html);

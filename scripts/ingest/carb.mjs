@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { fetchRetry } from "./http.mjs";
 
 // CARB's rulemaking-activity page is an archive that defaults to old years, so
 // follow the current/previous-year facet links to get recent rulemakings.
@@ -10,7 +11,7 @@ const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 const HEADERS = { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9" };
 
 async function load(url) {
-  const res = await fetch(url, { headers: HEADERS });
+  const res = await fetchRetry(url, { headers: HEADERS });
   if (!res.ok) throw new Error(`CARB HTTP ${res.status}`);
   return cheerio.load(await res.text());
 }
