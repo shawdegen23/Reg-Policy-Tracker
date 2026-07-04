@@ -4,4 +4,5 @@ out/
 .env*.local
 .DS_Store
 scripts/node_modules/
+scripts/probe.mjs
 *.log

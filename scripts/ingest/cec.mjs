@@ -11,7 +11,7 @@ export async function scrapeCEC() {
   const items = [];
   for (const page of PAGES) {
     try {
-      const res = await fetch(page, { headers: { "User-Agent": "reg-policy-tracker" } });
+      const res = await fetch(page, { headers: { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9" } });
       if (!res.ok) continue;
       const html = await res.text();
       const $ = cheerio.load(html);
