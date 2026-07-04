@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEC Regulatory Monitoring Dashboard</title>
+<style>
+  :root{
+    --navy:#1f3b57; --blue:#2e5e8c; --lt:#dce6f1; --bg:#f4f7fa;
+    --card:#ffffff; --ink:#1c2b38; --muted:#5b6b78; --line:#e2e8ee;
+    --amber:#e0a800; --amberbg:#fff6da; --green:#2f8f4e; --greenbg:#e6f4ea;
+    --red:#c0392b; --redbg:#fbe9e7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+  header{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:26px 32px}
+  header h1{margin:0;font-size:22px;letter-spacing:.2px}
+  header p{margin:6px 0 0;opacity:.85;font-size:13px}
+  .wrap{max-width:1200px;margin:0 auto;padding:24px 32px 60px}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px}
+  .bar a{font-size:12.5px;text-decoration:none;color:var(--blue);background:#fff;border:1px solid var(--line);padding:7px 12px;border-radius:20px;transition:.15s}
+  .bar a:hover{background:var(--blue);color:#fff}
+  .tabs{display:flex;gap:4px;margin-top:22px;border-bottom:2px solid var(--line)}
+  .tab{padding:10px 18px;cursor:pointer;font-size:14px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px}
+  .tab.active{color:var(--navy);border-bottom-color:var(--blue)}
+  section{display:none;padding-top:20px}
+  section.active{display:block}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+  .card h3{margin:0 0 4px;font-size:15px}
+  .card .docket{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.3px}
+  .tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:12px;margin-top:8px}
+  .full{background:var(--amberbg);color:#8a6100;border:1px solid #f0d98a}
+  .scan{background:var(--lt);color:var(--navy)}
+  .prio{background:var(--greenbg);color:var(--green);border:1px solid #b7ddc2}
+  .confirm{background:var(--redbg);color:var(--red);border:1px solid #f0b7ae}
+  .cat{font-size:11.5px;color:var(--muted);margin-top:8px}
+  .desc{font-size:13px;color:var(--ink);margin-top:8px}
+  .card a.open{display:inline-block;margin-top:12px;font-size:12.5px;font-weight:600;text-decoration:none;color:#fff;background:var(--blue);padding:7px 12px;border-radius:8px}
+  .card a.open:hover{background:var(--navy)}
+  .sub{font-size:12px;color:var(--muted);margin-top:10px}
+  .sub a{color:var(--blue)}
+  .note{background:#fff;border-left:4px solid var(--amber);padding:14px 16px;border-radius:8px;margin:8px 0 22px;font-size:13px;color:var(--ink)}
+  .note b{color:var(--navy)}
+  table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;font-size:13px}
+  th{background:var(--navy);color:#fff;text-align:left;padding:11px 13px;font-size:12.5px}
+  td{padding:11px 13px;border-top:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#f8fafc}
+  .status{font-size:12px;font-weight:600}
+  .todo{color:var(--amber)}
+  footer{color:var(--muted);font-size:12px;text-align:center;padding:26px}
+</style>
+</head>
+<body>
+<header>
+  <h1>TEC Regulatory Monitoring Dashboard</h1>
+  <p>Program Manager, Regulatory Policy &amp; Strategy · Command console · Last structural update 2026-07-03</p>
+</header>
+<div class="wrap">
+
+  <div class="bar">
+    <a href="https://apps.cpuc.ca.gov/apex/f?p=401:1:0" target="_blank">CPUC Proceedings</a>
+    <a href="https://docs.cpuc.ca.gov/advancedsearchform.aspx" target="_blank">CPUC Doc Search</a>
+    <a href="https://www.cpuc.ca.gov/proceedings-and-rulemaking" target="_blank">CPUC New Filings</a>
+    <a href="https://www.energy.ca.gov/proceedings" target="_blank">CEC Proceedings</a>
+    <a href="https://ww2.arb.ca.gov/rulemaking-activity" target="_blank">CARB Rulemaking</a>
+    <a href="https://www.aqmd.gov/nav/rules" target="_blank">SCAQMD Rules</a>
+    <a href="https://leginfo.legislature.ca.gov/faces/billSearchClient.xhtml" target="_blank">Leginfo</a>
+  </div>
+
+  <div class="tabs">
+    <div class="tab active" data-t="proc">CPUC Proceedings</div>
+    <div class="tab" data-t="agency">Agency Watchlist</div>
+    <div class="tab" data-t="subs">Subscriptions</div>
+  </div>
+
+  <!-- PROCEEDINGS -->
+  <section id="proc" class="active">
+    <div class="note"><b>How to use:</b> Each card links to the live CPUC docket. R.25-04-010 is your full-read proceeding; the rest are scan-for-relevance. The spreadsheet (Digest Log) is the record; this board is the launchpad.</div>
+    <div class="grid" id="procGrid"></div>
+  </section>
+
+  <!-- AGENCY -->
+  <section id="agency">
+    <div class="note"><b>Non-CPUC sources.</b> Check the page, then log anything relevant to the Digest Log with an impact note. The subscription behind each source is the safety net.</div>
+    <div class="grid" id="agencyGrid"></div>
+  </section>
+
+  <!-- SUBS -->
+  <section id="subs">
+    <div class="note"><b>Reliability backbone.</b> The CPUC docket system is JavaScript-rendered and can't be reliably auto-scraped — the official subscriptions can, and they never miss a filing. Set these up once; the automated digest sits on top as convenience, not system of record.</div>
+    <table>
+      <thead><tr><th>Source</th><th>Covers</th><th>Subscribe</th><th>Status</th></tr></thead>
+      <tbody id="subsBody"></tbody>
+    </table>
+  </section>
+
+  <footer>Data verified 2026-07-03. Verify CONFIRM # dockets with the Director. Docket links open official state systems.</footer>
+</div>
+
+<script>
+const apex = n => "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:" + n.replace(/[.\-R]/g,'').replace(/^/,'R');
+const proceedings = [
+  {n:"R.25-04-010", t:"Energy Efficiency: Rolling Portfolios, Programs & Evaluation", c:"Energy Efficiency", d:"full", desc:"Successor to R.13-11-005 (closed Jan 2025). Read every filing in full.", url:apex("R.25-04-010")},
+  {n:"R.19-01-011", t:"Building Decarbonization", c:"Building Decarb", d:"prio", desc:"Phase 4: meter socket adapters, no-cost line upgrades for income-qualified customers, SB 1221 neighborhood decarb pilots.", url:apex("R.19-01-011")},
+  {n:"R.22-07-005", t:"Advance Demand Flexibility Through Electric Rates", c:"Demand Flexibility", d:"prio", desc:"Dynamic rates and demand flexibility policy; two tracks with differing timelines.", url:apex("R.22-07-005")},
+  {n:"R.20-08-020", t:"Net Energy Metering / Net Billing successor", c:"DER / Rates", d:"scan", desc:"NEM successor tariff and related DER compensation issues.", url:apex("R.20-08-020")},
+  {n:"R.23-10-011", t:"Resource Adequacy", c:"Resource Adequacy", d:"scan", desc:"Local & flexible capacity requirements, planning reserve margin.", url:apex("R.23-10-011")},
+  {n:"R.20-05-012", t:"Self-Generation Incentive Program (SGIP)", c:"DER / Storage", d:"scan", desc:"Storage & generation incentive program design and budgets.", url:apex("R.20-05-012")},
+  {n:"R.25-06-019", t:"Integrated Resource Plan / LTPP (2024–26)", c:"Grid Planning", d:"scan", desc:"Long-term system planning and procurement.", url:apex("R.25-06-019")},
+  {n:"CONFIRM #", t:"Grid Modernization / High-DER distribution planning", c:"Grid Modernization", d:"confirm", desc:"Identify current docket with the Director before relying on it.", url:null},
+  {n:"CONFIRM #", t:"Equity / Environmental & Social Justice", c:"Equity", d:"confirm", desc:"Tracked via the ESJ Action Plan; may span proceedings rather than a single docket.", url:null},
+];
+const depthTag = {full:['full','FULL READ'],prio:['prio','SCAN · PRIORITY'],scan:['scan','SCAN'],confirm:['confirm','CONFIRM #']};
+const pg = document.getElementById('procGrid');
+proceedings.forEach(p=>{
+  const [cls,lab]=depthTag[p.d];
+  pg.innerHTML += `<div class="card">
+    <div class="docket">${p.n}</div>
+    <h3>${p.t}</h3>
+    <div><span class="tag ${cls}">${lab}</span></div>
+    <div class="cat">${p.c}</div>
+    <div class="desc">${p.desc}</div>
+    ${p.url?`<a class="open" href="${p.url}" target="_blank">Open live docket &rarr;</a>`:`<div class="sub">Confirm docket number first.</div>`}
+  </div>`;
+});
+const agencies = [
+  {s:"CEC — California Energy Commission", m:"Title 24 building standards, Title 20 appliance standards, load management, decarb programs, Codes &amp; Standards dockets.", page:"https://www.energy.ca.gov/proceedings", sub:"https://www.energy.ca.gov/subscriptions", subtxt:"CEC subscriptions + Building Standards listserv"},
+  {s:"CARB — Air Resources Board", m:"Zero-NOx building/appliance rules, climate disclosure (SB 253/261), Cap-and-Trade, LCFS, Scoping Plan.", page:"https://ww2.arb.ca.gov/rulemaking-activity", sub:"https://public.govdelivery.com/accounts/CARB/subscriber/new", subtxt:"CARB GovDelivery"},
+  {s:"AQMD / SCAQMD", m:"Local air-district rules on furnaces/water heaters and permitting affecting electrification.", page:"https://www.aqmd.gov/nav/rules", sub:"https://www.aqmd.gov/", subtxt:"AQMD email list (confirm exact list)"},
+  {s:"California Legislature", m:"Energy &amp; climate bills: building decarb, demand flexibility, grid, equity. Track by bill # and hearing dates.", page:"https://leginfo.legislature.ca.gov/faces/billSearchClient.xhtml", sub:"https://leginfo.legislature.ca.gov/", subtxt:"leginfo 'Follow this bill' + LegiScan CA"},
+  {s:"PDAEnergyWeb", m:"Named in the JD but not a public state portal — likely internal or a paid service. Confirm what it is and how it delivers alerts before relying on it.", page:null, sub:null, subtxt:"Confirm with Director"},
+  {s:"Cross-ref trackers", m:"Sanity-check against Building Decarbonization Coalition policy updates, Stoel Rives weekly regulatory update, CAEECC/CEDMC filings.", page:"https://buildingdecarb.org/california-policy-updates", sub:null, subtxt:"Free newsletters"},
+];
+const ag = document.getElementById('agencyGrid');
+agencies.forEach(a=>{
+  ag.innerHTML += `<div class="card">
+    <h3>${a.s}</h3>
+    <div class="desc">${a.m}</div>
+    ${a.page?`<a class="open" href="${a.page}" target="_blank">Check page &rarr;</a>`:``}
+    <div class="sub">Subscribe: ${a.sub?`<a href="${a.sub}" target="_blank">${a.subtxt}</a>`:a.subtxt}</div>
+  </div>`;
+});
+const subs = [
+  ["CPUC Subscription Service","Per-proceeding rulings, decisions & filings for all dockets","https://subscribecpuc.cpuc.ca.gov/"],
+  ["CEC Subscriptions + listservs","Building/appliance standards, load management, decarb","https://www.energy.ca.gov/subscriptions"],
+  ["CARB GovDelivery","Rulemaking notices, board items, climate disclosure","https://public.govdelivery.com/accounts/CARB/subscriber/new"],
+  ["California Legislature","Bill status on tracked energy/climate bills","https://leginfo.legislature.ca.gov/"],
+  ["AQMD / SCAQMD","Local air-district rule activity","https://www.aqmd.gov/"],
+  ["PDAEnergyWeb","Confirm what this is before relying","#"],
+];
+const sb = document.getElementById('subsBody');
+subs.forEach(x=>{
+  sb.innerHTML += `<tr><td><b>${x[0]}</b></td><td>${x[1]}</td><td>${x[2]!=='#'?`<a href="${x[2]}" target="_blank">Subscribe</a>`:'Confirm with Director'}</td><td class="status todo">To do</td></tr>`;
+});
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('section').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById(t.dataset.t).classList.add('active');
+});
+</script>
+</body>
+</html>
