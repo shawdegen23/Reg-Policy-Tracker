@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:
@@ -46,7 +48,15 @@ jobs:
           git add data/*.json
           if git diff --staged --quiet; then
             echo "No data changes."
-          else
-            git commit -m "chore: ingest regulatory data $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            exit 0
           fi
+          git commit -m "chore: ingest regulatory data $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Rebase onto any commits that landed during the run, then push. Retry
+          # so a concurrent push (from you or another run) never fails the job.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              echo "pushed on attempt $i"; exit 0
+            fi
+            echo "push attempt $i failed; retrying in 5s..."; sleep 5
+          done
+          echo "push failed after 5 attempts" >&2; exit 1
