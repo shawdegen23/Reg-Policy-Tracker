@@ -1,5 +1,16 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+const STAGES = ["Introduced", "Committee", "Floor", "Enrolled", "Signed"];
+function stageOf(b) {
+  const s = parseInt(b.status || "0", 10);
+  const a = (b.lastAction || "").toLowerCase();
+  if (a.includes("chaptered") || a.includes("approved by the governor") || a.includes("signed") || s >= 4) return 4;
+  if (s === 3 || a.includes("enrolled")) return 3;
+  if (a.includes("third reading") || a.includes("do pass") || a.includes("passed") || s === 2) return 2;
+  if (a.includes("committee") || a.includes("referred")) return 1;
+  return 0;
+}
 
 const WATCH = [
   { source: "CEC — California Energy Commission", monitor: "Title 24 building standards, Title 20 appliance standards, load management, decarb programs, Codes & Standards dockets.", page: "https://www.energy.ca.gov/proceedings", sub: "https://www.energy.ca.gov/subscriptions" },
@@ -31,6 +42,33 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
   const [dq, setDq] = useState("");
   const [bq, setBq] = useState("");
   const [topicFilter, setTopicFilter] = useState("");
+  const [tracked, setTracked] = useState([]);
+  const [snaps, setSnaps] = useState({});
+
+  useEffect(() => {
+    try {
+      setTracked(JSON.parse(localStorage.getItem("trackedBills") || "[]"));
+      setSnaps(JSON.parse(localStorage.getItem("billSnaps") || "{}"));
+    } catch {}
+  }, []);
+
+  function toggleTrack(num) {
+    setTracked((prev) => {
+      const next = prev.includes(num) ? prev.filter((x) => x !== num) : [...prev, num];
+      try { localStorage.setItem("trackedBills", JSON.stringify(next)); } catch {}
+      return next;
+    });
+  }
+  const billByNum = Object.fromEntries(bills.map((b) => [b.number, b]));
+  const trackedBills = tracked.map((n) => billByNum[n] || { number: n, missing: true });
+  const isMoved = (b) => !b.missing && snaps[b.number] !== b.changeHash;
+  const movedCount = trackedBills.filter(isMoved).length;
+  function markAllSeen() {
+    const next = {};
+    trackedBills.forEach((b) => { if (!b.missing) next[b.number] = b.changeHash; });
+    setSnaps(next);
+    try { localStorage.setItem("billSnaps", JSON.stringify(next)); } catch {}
+  }
 
   const procs = proceedings.filter((p) => !pq || JSON.stringify(p).toLowerCase().includes(pq.toLowerCase()));
   const devs = [...developments]
@@ -97,6 +135,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
           <button className={"tab" + (tab === "dev" ? " active" : "")} onClick={() => setTab("dev")}>Developments {devs.length ? `(${developments.length})` : ""}</button>
           <button className={"tab" + (tab === "topics" ? " active" : "")} onClick={() => setTab("topics")}>Topics</button>
           <button className={"tab" + (tab === "bills" ? " active" : "")} onClick={() => setTab("bills")}>Bills {blls.length ? `(${blls.length})` : ""}</button>
+          <button className={"tab" + (tab === "tracked" ? " active" : "")} onClick={() => setTab("tracked")}>★ Tracked {tracked.length ? `(${tracked.length})` : ""}{movedCount ? <span className="pill High" style={{ marginLeft: 6 }}>{movedCount} moved</span> : null}</button>
           <button className={"tab" + (tab === "agency" ? " active" : "")} onClick={() => setTab("agency")}>Agency Watchlist</button>
           <button className={"tab" + (tab === "subs" ? " active" : "")} onClick={() => setTab("subs")}>Subscriptions</button>
         </div>
@@ -214,11 +253,13 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
               ? <div className="empty">No bills ingested yet. Add a LEGISCAN_API_KEY GitHub secret and run the workflow, and tracked bills will appear here.</div>
               : (
                 <>
+                  <div className="sub" style={{ marginBottom: 8 }}>Click ★ to track a bill — it appears in the Tracked tab with a status stepper and moves are highlighted.</div>
                   <table>
-                    <thead><tr><th></th><th>Bill</th><th>Title</th><th>Last action</th><th>Date</th><th>Link</th></tr></thead>
+                    <thead><tr><th>Track</th><th></th><th>Bill</th><th>Title</th><th>Last action</th><th>Date</th><th>Link</th></tr></thead>
                     <tbody>
                       {blls.map((b, i) => (
                         <tr key={i}>
+                          <td><button className="star" onClick={() => toggleTrack(b.number)} title="Track this bill">{tracked.includes(b.number) ? "★" : "☆"}</button></td>
                           <td>{b.isNew ? <span className="pill High">NEW</span> : b.isUpdated ? <span className="pill Medium">UPD</span> : ""}</td>
                           <td>{b.number}</td><td>{b.title}</td><td>{b.lastAction}</td><td>{b.lastActionDate}</td>
                           <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">open</a> : ""}</td>
@@ -229,6 +270,48 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                   <div className="sub">Legislative data via <a href="https://legiscan.com/" target="_blank" rel="noreferrer">LegiScan</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>.</div>
                 </>
               )}
+          </section>
+        )}
+
+        {tab === "tracked" && (
+          <section>
+            <div className="note"><b>Tracked bills.</b> Your watchlist, saved in this browser. Each bill shows where it is in the legislative process; anything that <b>moved since you last checked</b> is highlighted. {movedCount ? <button className="linklike" onClick={markAllSeen}>Mark all as seen</button> : null}</div>
+            {trackedBills.length === 0
+              ? <div className="empty">No bills tracked yet. Go to the Bills tab and click ★ on the bills you want to follow.</div>
+              : (
+                <div className="grid" style={{ gridTemplateColumns: "1fr" }}>
+                  {trackedBills.map((b, i) => {
+                    const moved = isMoved(b);
+                    const stage = b.missing ? -1 : stageOf(b);
+                    return (
+                      <div className="card" key={i} style={moved ? { borderLeft: "4px solid var(--amber)" } : {}}>
+                        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                          <div>
+                            <button className="star" onClick={() => toggleTrack(b.number)} title="Untrack">★</button>{" "}
+                            <b>{b.number}</b> {moved && <span className="pill High" style={{ marginLeft: 6 }}>MOVED</span>}
+                            {b.missing && <span className="pill Low" style={{ marginLeft: 6 }}>not in current feed</span>}
+                          </div>
+                          {b.url && <a href={b.url} target="_blank" rel="noreferrer">open on LegiScan →</a>}
+                        </div>
+                        {!b.missing && <div className="desc">{b.title}</div>}
+                        {!b.missing && (
+                          <div style={{ display: "flex", gap: 4, margin: "12px 0 6px", flexWrap: "wrap" }}>
+                            {STAGES.map((label, si) => (
+                              <div key={si} style={{ flex: 1, minWidth: 70, textAlign: "center" }}>
+                                <div style={{ height: 6, borderRadius: 3, background: si <= stage ? "var(--blue)" : "var(--line)" }} />
+                                <div style={{ fontSize: 10.5, marginTop: 4, color: si === stage ? "var(--navy)" : "var(--muted)", fontWeight: si === stage ? 700 : 400 }}>{label}</div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                        {!b.missing && <div className="kv"><b>Latest:</b> {b.lastAction} <span style={{ color: "var(--muted)" }}>({b.lastActionDate})</span></div>}
+                        {b.missing && <div className="sub">This bill isn't in the current feed (it may have fallen off the list or become inactive). It stays tracked and will refresh if it reappears.</div>}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            <div className="sub" style={{ marginTop: 12 }}>Tracked list is stored only in this browser. Legislative data via <a href="https://legiscan.com/" target="_blank" rel="noreferrer">LegiScan</a> (CC BY 4.0).</div>
           </section>
         )}
 

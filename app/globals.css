@@ -46,4 +46,7 @@ tr.prio-row td{background:#fff9e8}
 .pill.Low,.pill.Monitor{background:var(--lt);color:var(--navy)}
 .search{width:100%;max-width:360px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:13px;margin-bottom:14px;font-family:inherit}
 .empty{color:var(--muted);font-size:13px;padding:16px;background:#fff;border:1px dashed var(--line);border-radius:8px}
+.star{background:none;border:none;cursor:pointer;font-size:18px;color:var(--amber);padding:0;line-height:1;font-family:inherit}
+.star:hover{color:#c58f00}
+.linklike{background:none;border:none;color:var(--blue);cursor:pointer;font-size:13px;text-decoration:underline;padding:0;font-family:inherit}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:26px}
