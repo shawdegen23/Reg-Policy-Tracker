@@ -47,7 +47,19 @@ async function run() {
   let developments = await readJson("developments.json", []);
   const meta = await readJson("meta.json", { sources: {} });
   meta.sources = meta.sources || {};
+  const prevSources = JSON.parse(JSON.stringify(meta.sources)); // snapshot for last-good
   const nowIso = new Date().toISOString();
+
+  // On a transient failure, carry forward the last successful count/time so the
+  // UI can show "last synced N" instead of an alarming error while prior data
+  // (developments.json / bills.json) remains on screen unchanged.
+  const errStatus = (name, e) => {
+    const p = prevSources[name] || {};
+    const lastGoodCount = p.status === "ok" ? p.count : p.lastGoodCount;
+    const lastGoodRun = p.status === "ok" ? p.lastRun : p.lastGoodRun;
+    return { lastRun: nowIso, status: e.skipped ? "pending" : "error", count: 0, error: e.message,
+      ...(lastGoodCount != null ? { lastGoodCount, lastGoodRun } : {}) };
+  };
 
   const runners = [
     ["cpuc", () => scrapeCPUC(proceedings)],
@@ -63,7 +75,7 @@ async function run() {
       meta.sources[name] = { lastRun: nowIso, status: "ok", count: items.length };
       console.log(`${name}: ${items.length} items`);
     } catch (e) {
-      meta.sources[name] = { lastRun: nowIso, status: e.skipped ? "pending" : "error", count: 0, error: e.message };
+      meta.sources[name] = errStatus(name, e);
       console.error(`${name} failed: ${e.message}`);
     }
   }
@@ -113,7 +125,7 @@ async function run() {
     meta.sources.legiscan = { lastRun: nowIso, status: "ok", count: bills.length };
     console.log(`legiscan: ${bills.length} bills`);
   } catch (e) {
-    meta.sources.legiscan = { lastRun: nowIso, status: e.skipped ? "pending" : "error", count: 0, error: e.message };
+    meta.sources.legiscan = errStatus("legiscan", e);
     console.error(`legiscan: ${e.message}`);
   }
 

@@ -149,12 +149,20 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
         </div>
 
         <div className="status-strip">
-          {["cpuc", "cec", "carb", "legiscan"].map((k) => (
-            <span key={k}>
-              <span className={"dot " + (src[k]?.status === "ok" ? "ok" : src[k]?.status === "error" ? "err" : "pend")} />
-              {k.toUpperCase()}: {src[k]?.status || "pending"}{src[k]?.count ? ` (${src[k].count})` : ""}
-            </span>
-          ))}
+          {["cpuc", "cec", "carb", "legiscan"].map((k) => {
+            const s = src[k] || {};
+            const degraded = s.status === "error" && s.lastGoodCount != null;
+            const dot = s.status === "ok" ? "ok" : degraded ? "warn" : s.status === "error" ? "err" : "pend";
+            const label = s.status === "ok" ? `ok${s.count ? ` (${s.count})` : ""}`
+              : degraded ? `last synced ${s.lastGoodCount}`
+              : (s.status || "pending");
+            return (
+              <span key={k} title={s.error || ""}>
+                <span className={"dot " + dot} />
+                {k.toUpperCase()}: {label}
+              </span>
+            );
+          })}
         </div>
 
         <div className="tabs">
