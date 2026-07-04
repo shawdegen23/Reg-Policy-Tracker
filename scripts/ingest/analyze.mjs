@@ -57,8 +57,22 @@ export function synthesize(developments, proceedings) {
     (byTopic[t] = byTopic[t] || []).push(d);
     if (d.docket) (byProceeding[d.docket] = byProceeding[d.docket] || []).push(d);
   }
-  const high = recent.filter((d) => d.relevance === "High").slice(0, 15);
-  const quant = recent.filter((d) => d.dataType === "Quantitative").slice(0, 15);
+  // Collapse near-identical filings (e.g. the same ruling commented on by many
+  // parties) so the brief shows one representative with a "+N similar" count.
+  const dedupe = (arr) => {
+    const seen = new Map();
+    const out = [];
+    for (const d of arr) {
+      const key = (d.headline || "").trim().toLowerCase().replace(/\s+/g, " ");
+      if (seen.has(key)) { seen.get(key).similar += 1; continue; }
+      const copy = { ...d, similar: 0 };
+      seen.set(key, copy);
+      out.push(copy);
+    }
+    return out;
+  };
+  const high = dedupe(recent.filter((d) => d.relevance === "High")).slice(0, 15);
+  const quant = dedupe(recent.filter((d) => d.dataType === "Quantitative")).slice(0, 15);
 
   return {
     generatedAt: new Date().toISOString(),

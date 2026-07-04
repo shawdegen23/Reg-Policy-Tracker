@@ -57,8 +57,13 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
   function toggleTrack(num) {
     setTracked((prev) => {
-      const next = prev.includes(num) ? prev.filter((x) => x !== num) : [...prev, num];
+      const adding = !prev.includes(num);
+      const next = adding ? [...prev, num] : prev.filter((x) => x !== num);
       try { localStorage.setItem("trackedBills", JSON.stringify(next)); } catch {}
+      if (adding) {
+        const b = bills.find((x) => x.number === num);
+        if (b) setSnaps((s) => { const ns = { ...s, [num]: b.changeHash }; try { localStorage.setItem("billSnaps", JSON.stringify(ns)); } catch {} return ns; });
+      }
       return next;
     });
   }
@@ -175,7 +180,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                     {brief.highRelevance.map((d, i) => (
                       <tr key={i} className="prio-row">
                         <td>{d.date}</td><td>{d.source}</td><td>{d.topic}</td>
-                        <td>{d.url ? <a href={d.url} target="_blank" rel="noreferrer">{d.headline}</a> : d.headline}</td>
+                        <td>{d.url ? <a href={d.url} target="_blank" rel="noreferrer">{d.headline}</a> : d.headline}{d.similar ? <span className="pill Low" style={{ marginLeft: 6 }}>+{d.similar} similar</span> : null}</td>
                         <td>{d.impact}</td>
                       </tr>
                     ))}

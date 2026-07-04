@@ -94,8 +94,17 @@ async function run() {
   }
 
   developments = mergeDevelopments(developments, allNew);
-  // Backfill analysis on any older items that predate the analysis layer.
-  developments = developments.map((d) => (d.topic ? d : analyze(d)));
+  // Normalize ALL developments each run so analysis-format and relevance fixes
+  // propagate to older items that are no longer being re-scraped (stale-analysis
+  // fix). Rule-based only; AI-enriched impact/relevance is preserved.
+  developments = developments.map((d) => {
+    const base = analyze({ ...d });
+    const m = metaByDocket[d.docket];
+    const topic = m ? (m.topic || base.topic) : base.topic;
+    const relevance = m && m.relevance && m.relevance !== "Monitor" ? m.relevance : base.relevance;
+    if (d.aiEnriched) return { ...d, topic, dataType: base.dataType };
+    return { ...d, topic, dataType: base.dataType, relevance, impact: impactText(topic, d.type, d.agency, base.dataType, relevance) };
+  });
 
   // Bills (separate file)
   try {
