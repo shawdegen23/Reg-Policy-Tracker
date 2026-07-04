@@ -213,17 +213,21 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
             {blls.length === 0
               ? <div className="empty">No bills ingested yet. Add a LEGISCAN_API_KEY GitHub secret and run the workflow, and tracked bills will appear here.</div>
               : (
-                <table>
-                  <thead><tr><th>Bill</th><th>Title</th><th>Last action</th><th>Date</th><th>Link</th></tr></thead>
-                  <tbody>
-                    {blls.map((b, i) => (
-                      <tr key={i}>
-                        <td>{b.number}</td><td>{b.title}</td><td>{b.lastAction}</td><td>{b.lastActionDate}</td>
-                        <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">open</a> : ""}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                <>
+                  <table>
+                    <thead><tr><th></th><th>Bill</th><th>Title</th><th>Last action</th><th>Date</th><th>Link</th></tr></thead>
+                    <tbody>
+                      {blls.map((b, i) => (
+                        <tr key={i}>
+                          <td>{b.isNew ? <span className="pill High">NEW</span> : b.isUpdated ? <span className="pill Medium">UPD</span> : ""}</td>
+                          <td>{b.number}</td><td>{b.title}</td><td>{b.lastAction}</td><td>{b.lastActionDate}</td>
+                          <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">open</a> : ""}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                  <div className="sub">Legislative data via <a href="https://legiscan.com/" target="_blank" rel="noreferrer">LegiScan</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>.</div>
+                </>
               )}
           </section>
         )}

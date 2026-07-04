@@ -23,13 +23,18 @@ async function extract(page) {
     const out = [];
     for (const a of Array.from(document.querySelectorAll("a"))) {
       const href = a.href || "";
-      const text = (a.textContent || "").trim();
+      const type = (a.textContent || "").trim(); // e.g. "COMMENTS", "RULING"
       if (!/PublishedDocs|\.PDF|efile|Efile|SearchRes|docs\.cpuc\.ca\.gov/i.test(href)) continue;
-      if (!text || text.length < 5) continue;
-      let date = "";
       const tr = a.closest("tr");
-      if (tr) { const m = tr.textContent.match(/\b(\d{1,2}\/\d{1,2}\/\d{4})\b/); if (m) date = m[1]; }
-      out.push({ text, href, date });
+      let date = "", desc = "";
+      if (tr) {
+        const cells = Array.from(tr.querySelectorAll("td,th")).map((c) => c.textContent.trim());
+        for (const c of cells) { const m = c.match(/\b(\d{1,2}\/\d{1,2}\/\d{4})\b/); if (m) { date = m[1]; break; } }
+        // description = the longest cell that isn't the date or the type label
+        const cand = cells.filter((c) => c && c !== type && !/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(c));
+        desc = cand.sort((x, y) => y.length - x.length)[0] || "";
+      }
+      out.push({ type, desc, href, date });
     }
     return out;
   };
@@ -37,9 +42,17 @@ async function extract(page) {
   for (const frame of page.frames()) {         // documents can render inside an iframe
     try { const fr = await frame.evaluate(grab); rows = rows.concat(fr); } catch {}
   }
-  // de-dupe by href
   const seen = new Set();
-  return rows.filter((r) => (seen.has(r.href) ? false : (seen.add(r.href), true)));
+  rows = rows.filter((r) => (seen.has(r.href) ? false : (seen.add(r.href), true)));
+  // newest first when dates are available
+  rows.sort((a, b) => (parseDate(b.date) - parseDate(a.date)));
+  return rows;
+}
+
+function parseDate(d) {
+  if (!d) return 0;
+  const [m, day, y] = d.split("/");
+  return y ? new Date(`${y}-${m}-${day}`).getTime() : 0;
 }
 
 export async function scrapeCPUC(proceedings) {
@@ -76,9 +89,10 @@ export async function scrapeCPUC(proceedings) {
       }
       diag.dockets.push({ docket: p.docket, docLinks: rows.length, attempts });
       for (const r of rows.slice(0, 8)) {
+        const headline = (r.desc && r.desc.length > 4 ? r.desc : r.type) || "Document";
         items.push({
           source: `CPUC ${p.docket}`, agency: "CPUC", docket: p.docket,
-          type: guessType(r.text), headline: r.text, url: r.href, date: normDate(r.date),
+          type: guessType(r.type || r.desc), headline, url: r.href, date: normDate(r.date),
         });
       }
     }

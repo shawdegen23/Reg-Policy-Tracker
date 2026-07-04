@@ -65,22 +65,30 @@ You monitor CPUC, CEC, CARB, AQMD, and the Legislature. Client-relevant topics: 
 building decarbonization, demand flexibility, grid modernization, Codes & Standards, and equity.
 Be precise, neutral, and concrete. Never invent facts beyond the item text provided.`;
 
-// Overlay AI impact + relevance onto items (order preserved).
+// Overlay AI impact + relevance onto items. Processed in small chunks so the
+// model always returns complete, valid JSON (large batches overflow the token
+// limit and truncate). A failed chunk falls back to that item's rule-based text.
 export async function aiEnrich(items) {
   if (!PROVIDER || items.length === 0) return items;
-  const slim = items.slice(0, 40).map((d, i) => ({ i, headline: d.headline, source: d.source, type: d.type }));
-  const user = `For each item, write a plain-English impact summary (max 25 words) explaining why it
+  const CHUNK = 8;
+  const MAX = 64; // cap items enriched per run to bound cost/time
+  const enriched = items.map((d) => ({ ...d }));
+  for (let start = 0; start < Math.min(items.length, MAX); start += CHUNK) {
+    const batch = items.slice(start, start + CHUNK).map((d, j) => ({ i: start + j, headline: d.headline, source: d.source, type: d.type }));
+    const user = `For each item, write a plain-English impact summary (max 25 words) explaining why it
 matters to TEC's clients, and assign relevance as "High", "Medium", or "Low".
 Return ONLY a JSON array like [{"i":0,"impact":"...","relevance":"High"}]. Items:
-${JSON.stringify(slim)}`;
-  const out = await ask(SYSTEM, user, 2000);
-  const arr = parseJson(out);
-  const byIndex = new Map(arr.map((r) => [r.i, r]));
-  return items.map((d, idx) => {
-    const r = byIndex.get(idx);
-    if (!r) return d;
-    return { ...d, impact: r.impact || d.impact, relevance: r.relevance || d.relevance, aiEnriched: true };
-  });
+${JSON.stringify(batch)}`;
+    try {
+      const arr = parseJson(await ask(SYSTEM, user, 1500));
+      for (const r of arr) {
+        if (enriched[r.i]) enriched[r.i] = { ...enriched[r.i], impact: r.impact || enriched[r.i].impact, relevance: r.relevance || enriched[r.i].relevance, aiEnriched: true };
+      }
+    } catch (e) {
+      console.error(`aiEnrich chunk ${start}-${start + CHUNK} failed: ${e.message}`);
+    }
+  }
+  return enriched;
 }
 
 // Narrative Director briefing from the most notable recent items.

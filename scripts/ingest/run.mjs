@@ -67,13 +67,20 @@ async function run() {
       console.error(`${name} failed: ${e.message}`);
     }
   }
-  // Map each tracked docket to its proceeding topic so CPUC items inherit it.
-  const topicByDocket = Object.fromEntries(
-    proceedings.filter((p) => p.docket && p.docket !== "CONFIRM #" && p.topic).map((p) => [p.docket, p.topic])
+  // Map each tracked docket to its proceeding topic + relevance so CPUC filings
+  // inherit the proceeding's priority instead of scoring Low on a bare "COMMENTS".
+  const metaByDocket = Object.fromEntries(
+    proceedings.filter((p) => p.docket && p.docket !== "CONFIRM #")
+      .map((p) => [p.docket, { topic: p.topic, relevance: p.relevance }])
   );
   allNew = allNew
     .map(analyze) // rule-based baseline: topic, qual/quant, relevance, impact
-    .map((d) => (topicByDocket[d.docket] ? { ...d, topic: topicByDocket[d.docket] } : d));
+    .map((d) => {
+      const m = metaByDocket[d.docket];
+      if (!m) return d;
+      const inherited = m.relevance && m.relevance !== "Monitor" ? m.relevance : d.relevance;
+      return { ...d, topic: m.topic || d.topic, relevance: inherited };
+    });
 
   // Optional AI overlay: real impact summaries + relevance (falls back silently).
   if (aiEnabled()) {
