@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-04T16:36:21.571Z",
+  "generatedAt": "2026-07-04T17:07:34.513Z",
   "totals": {
-    "developments": 71,
-    "high": 30,
+    "developments": 72,
+    "high": 25,
     "quantitative": 9,
     "topics": 6
   },
@@ -12,7 +12,7 @@
     "Energy Efficiency": 8,
     "Demand Flexibility": 10,
     "Resource Adequacy / Planning": 16,
-    "General / Cross-cutting": 9
+    "General / Cross-cutting": 10
   },
   "proceedingCounts": {
     "R.25-04-010": 8,
@@ -36,7 +36,7 @@
       "dataType": "Qualitative",
       "relevance": "High",
       "impact": "Building Decarbonization notice from CEC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": true,
+      "aiEnriched": false,
       "firstSeen": "2026-07-04"
     },
     {
@@ -50,7 +50,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -65,7 +65,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -80,7 +80,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -95,7 +95,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -110,7 +110,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -125,7 +125,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -140,7 +140,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -155,7 +155,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Key CCAs are actively commenting on the budget approach for energy efficiency programs, indicating their direct engagement and interest.",
+      "impact": "Key CCAs are commenting on the budget approach for energy efficiency programs, influencing future funding and program design for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -170,8 +170,9 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     },
     {
       "source": "CPUC R.19-01-011",
@@ -184,8 +185,9 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "General / Cross-cutting ruling from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     },
     {
       "source": "CPUC R.19-01-011",
@@ -199,7 +201,8 @@
       "dataType": "Qualitative",
       "relevance": "High",
       "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     },
     {
       "source": "CPUC R.19-01-011",
@@ -213,7 +216,8 @@
       "dataType": "Qualitative",
       "relevance": "High",
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     },
     {
       "source": "CPUC R.19-01-011",
@@ -226,8 +230,9 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     },
     {
       "source": "CPUC R.19-01-011",
@@ -241,7 +246,8 @@
       "dataType": "Qualitative",
       "relevance": "High",
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     }
   ],
   "quantitative": [
@@ -256,7 +262,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -271,7 +277,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -286,7 +292,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -301,7 +307,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -316,7 +322,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -331,7 +337,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -346,7 +352,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+      "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
       "firstSeen": "2026-07-04",
       "aiEnriched": true
     },
@@ -361,8 +367,9 @@
       "topic": "Resource Adequacy / Planning",
       "dataType": "Quantitative",
       "relevance": "Medium",
-      "impact": "General / Cross-cutting decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04"
+      "impact": "Resource Adequacy / Planning decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false
     },
     {
       "source": "CPUC R.20-05-012",
@@ -375,9 +382,9 @@
       "topic": "DER / Rates",
       "dataType": "Quantitative",
       "relevance": "Medium",
-      "impact": "Extends the SGIP proceeding deadline to September 30, 2026, allowing more time for program development.",
+      "impact": "DER / Rates decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
       "firstSeen": "2026-07-04",
-      "aiEnriched": true
+      "aiEnriched": false
     }
   ]
 }

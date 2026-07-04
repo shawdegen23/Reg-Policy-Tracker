@@ -11,7 +11,7 @@
     "dataType": "Qualitative",
     "relevance": "High",
     "impact": "Building Decarbonization notice from CEC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "firstSeen": "2026-07-04"
   },
   {
@@ -26,7 +26,7 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "DER / Rates notice from CEC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "firstSeen": "2026-07-04"
   },
   {
@@ -40,7 +40,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -55,7 +55,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -70,7 +70,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -85,7 +85,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -100,7 +100,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -115,7 +115,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -130,7 +130,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "This ruling shapes how CCAs receive funding for energy efficiency programs, directly impacting program design, scope, and client opportunities.",
+    "impact": "This ruling shapes how CCAs fund and implement energy efficiency programs, directly affecting program availability and scope for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -145,7 +145,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Key CCAs are actively commenting on the budget approach for energy efficiency programs, indicating their direct engagement and interest.",
+    "impact": "Key CCAs are commenting on the budget approach for energy efficiency programs, influencing future funding and program design for clients.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true
   },
@@ -160,8 +160,9 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -174,8 +175,9 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting ruling from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -189,7 +191,8 @@
     "dataType": "Qualitative",
     "relevance": "High",
     "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -203,7 +206,8 @@
     "dataType": "Qualitative",
     "relevance": "High",
     "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -216,8 +220,9 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing/comments from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -231,7 +236,8 @@
     "dataType": "Qualitative",
     "relevance": "High",
     "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -245,7 +251,8 @@
     "dataType": "Qualitative",
     "relevance": "High",
     "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.19-01-011",
@@ -259,7 +266,8 @@
     "dataType": "Qualitative",
     "relevance": "High",
     "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -272,8 +280,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -286,8 +295,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting decision from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility decision from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -300,8 +310,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting decision from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility decision from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -314,8 +325,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting decision from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility decision from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -328,8 +340,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -342,8 +355,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing/comments from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -385,7 +399,8 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "DER / Rates decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -398,8 +413,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Equity filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -412,8 +428,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Equity filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -426,8 +443,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -440,8 +458,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -454,8 +473,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Equity filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -468,8 +488,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting decision from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -496,8 +517,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing/comments from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -510,8 +532,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Quantitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -524,8 +547,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -538,8 +562,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "DER / Rates decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -552,8 +577,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -566,8 +592,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting ruling from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -581,7 +608,8 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.23-10-011",
@@ -594,8 +622,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -608,9 +637,9 @@
     "topic": "DER / Rates",
     "dataType": "Quantitative",
     "relevance": "Medium",
-    "impact": "Extends the SGIP proceeding deadline to September 30, 2026, allowing more time for program development.",
+    "impact": "DER / Rates decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -622,10 +651,10 @@
     "date": "2026-07-04",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Directs SGIP administrators to resume payments for certain projects and notifies developers of upcoming audits.",
+    "relevance": "Medium",
+    "impact": "DER / Rates ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -638,9 +667,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Denies a petition to modify a previous SGIP decision, maintaining current program rules. Proceeding remains open.",
+    "impact": "DER / Rates decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -652,10 +681,10 @@
     "date": "2026-07-04",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Stakeholder comments influence future SGIP rules for verifying project costs before incentive payments are distributed.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -667,10 +696,10 @@
     "date": "2026-07-04",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Stakeholder comments influence future SGIP rules for verifying project costs before incentive payments are distributed.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -682,10 +711,10 @@
     "date": "2026-07-04",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Stakeholder comments influence future SGIP rules for verifying project costs before incentive payments are distributed.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -697,10 +726,10 @@
     "date": "2026-07-04",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Stakeholder comments influence future SGIP rules for verifying project costs before incentive payments are distributed.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -727,8 +756,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -741,8 +771,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -755,8 +786,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -770,7 +802,8 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -784,7 +817,8 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -797,8 +831,9 @@
     "topic": "Resource Adequacy / Planning",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -812,7 +847,8 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.25-06-019",
@@ -826,6 +862,22 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
+  },
+  {
+    "source": "CEC",
+    "agency": "CEC",
+    "docket": "",
+    "type": "Notice",
+    "headline": "CEC Approves Soda Mountain Solar and Battery Storage Project in San Bernardino County",
+    "url": "https://www.energy.ca.gov/news/2026-04/cec-approves-soda-mountain-solar-and-battery-storage-project-san-bernardino",
+    "date": "2026-07-04",
+    "topic": "General / Cross-cutting",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "General / Cross-cutting notice from CEC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-04"
   },
   {
@@ -840,7 +892,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -854,7 +907,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
@@ -867,8 +921,9 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing/comments from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-08-020",
@@ -881,8 +936,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "General / Cross-cutting filing/comments from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -896,7 +952,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -910,7 +967,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -924,7 +982,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -938,7 +997,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -952,7 +1012,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -966,7 +1027,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CARB",
@@ -980,7 +1042,8 @@
     "dataType": "Qualitative",
     "relevance": "Low",
     "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.20-05-012",
@@ -992,9 +1055,9 @@
     "date": "2024-07-01",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Corrects a typographical error in a previous ruling; no direct client impact.",
-    "aiEnriched": true,
+    "relevance": "Medium",
+    "impact": "DER / Rates ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-04"
   },
   {
@@ -1008,7 +1071,8 @@
     "topic": "Demand Flexibility",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "General / Cross-cutting filing from CPUC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
-    "firstSeen": "2026-07-04"
+    "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "firstSeen": "2026-07-04",
+    "aiEnriched": false
   }
 ]

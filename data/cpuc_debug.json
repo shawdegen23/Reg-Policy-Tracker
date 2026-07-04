@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-04T16:35:10.567Z",
+  "ranAt": "2026-07-04T17:06:09.370Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -32,6 +32,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030360",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030314",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609653636"
+          ],
+          "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "July 01, 2026",
+                "COMMENTS",
+                "Pacific Gas and Electric Company",
+                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "July 01, 2026",
+                "COMMENTS",
+                "Southern California Gas Company",
+                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "July 01, 2026",
+                "COMMENTS",
+                "WestLight Energy",
+                "Opening Comments on ALJ Ruling Seeing Comments on Budget Approach for Community "
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "July 01, 2026",
+                "COMMENTS",
+                "Marin Clean Energy",
+                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "July 01, 2026",
+                "COMMENTS",
+                "California Choice Energy Authority",
+                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
+              ]
+            }
           ],
           "docLinks": 100
         }
@@ -69,6 +116,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605438880",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605732300"
           ],
+          "sampleRows": [
+            {
+              "type": "NOTICE",
+              "cells": [
+                "July 01, 2026",
+                "NOTICE",
+                "WestLight Energy",
+                "NOTICE OF PARTY NAME CHANGE FROM PENINSULA CLEAN ENERGY AUTHORITY TO WESTLIGHT E"
+              ]
+            },
+            {
+              "type": "RULING",
+              "cells": [
+                "May 01, 2026",
+                "RULING",
+                "ACALJ/WANG/CPUC",
+                "E-mail Ruling Granting Pacific Gas and Electric Company Motion to Accept Late Fi"
+              ]
+            },
+            {
+              "type": "MOTION",
+              "cells": [
+                "April 28, 2026",
+                "MOTION",
+                "Pacific Gas and Electric Company",
+                "MOTION TO ACCEPT LATE FILING OF PACIFIC GAS AND ELECTRIC COMPANY'S REPLYCOMMENTS"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "April 28, 2026",
+                "COMMENTS",
+                "Pacific Gas and Electric Company",
+                "Reply Comments on Ruling Seeking Information on Building Decarbonization and Ent"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "April 28, 2026",
+                "COMMENTS",
+                "Small Business Utility Advocates",
+                "Reply Comments on Ruling Issued on April 7, 2026. Please Note: AC Wang approved "
+              ]
+            }
+          ],
           "docLinks": 100
         }
       ]
@@ -104,6 +198,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602347504",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=601687378",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=595352004"
+          ],
+          "sampleRows": [
+            {
+              "type": "REHEARING REQUEST",
+              "cells": [
+                "May 15, 2026",
+                "REHEARING REQUEST",
+                "UTILITY CONSUMERS' ACTION NETWORK",
+                "Application for Rehearing of Decision 26-04-017."
+              ]
+            },
+            {
+              "type": "DECISION",
+              "cells": [
+                "May 14, 2026",
+                "DECISION",
+                "-",
+                "Decision D2605029 - Decision Granting Compensation To The Utility Reform Network"
+              ]
+            },
+            {
+              "type": "DECISION",
+              "cells": [
+                "April 09, 2026",
+                "DECISION",
+                "-",
+                "Decision D2604017 - Decision Granting Compensation To Utility Consumer's Action "
+              ]
+            },
+            {
+              "type": "DECISION",
+              "cells": [
+                "April 09, 2026",
+                "DECISION",
+                "-",
+                "Decision D2604016 - Decision Granting Compensation To Sierra Club For Substantia"
+              ]
+            },
+            {
+              "type": "NOTICE",
+              "cells": [
+                "April 07, 2026",
+                "NOTICE",
+                "California Large Energy Consumers Association,Olivine, Inc.,Energy Producers and",
+                "Notice of Change of Name of Counsel"
+              ]
+            }
           ],
           "docLinks": 100
         }
@@ -141,6 +282,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066826",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=578885910"
           ],
+          "sampleRows": [
+            {
+              "type": "DECISION",
+              "cells": [
+                "June 15, 2026",
+                "DECISION",
+                "-",
+                "Decision D2606036 - Order Correcting Error. Rulemaking 20-08-020 remains closed."
+              ]
+            },
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "April 29, 2026",
+                "COMPLIANCE  FILING",
+                "San Jose Clean Energy",
+                "Disadvantaged Communities Green Tariff quarterly report in accordance with Resol"
+              ]
+            },
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "January 30, 2026",
+                "COMPLIANCE  FILING",
+                "San Jose Clean Energy",
+                "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR FOURTH QUARTER 2025."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "December 18, 2025",
+                "EXPARTE",
+                "California Solar & Storage Association",
+                "NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "December 12, 2025",
+                "EXPARTE",
+                "California Solar & Storage Association",
+                "Three-Day Advance Notice of Ex Parte Communication."
+              ]
+            }
+          ],
           "docLinks": 100
         }
       ]
@@ -176,6 +364,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066872",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066339",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066338"
+          ],
+          "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "June 29, 2026",
+                "COMMENTS",
+                "The Protect Our Communities Foundation",
+                "Opening Comments on Proposed Decision"
+              ]
+            },
+            {
+              "type": "PROPOSED DECISION",
+              "cells": [
+                "June 08, 2026",
+                "PROPOSED DECISION",
+                "ALJ/CHIV/CPUC",
+                "Proposed Decision Granting Compensation to The Protect Our Communities Foundatio"
+              ]
+            },
+            {
+              "type": "NOTICE",
+              "cells": [
+                "April 09, 2026",
+                "NOTICE",
+                "CALJ/Cooke/CPUC",
+                "NOTICE OF REASSIGNMENT."
+              ]
+            },
+            {
+              "type": "DECISION",
+              "cells": [
+                "December 04, 2025",
+                "DECISION",
+                "-",
+                "Decision D2512017 - Order Denying Rehearing Of Decision 25-06-048. Rulemaking 23"
+              ]
+            },
+            {
+              "type": "REQUEST",
+              "cells": [
+                "October 23, 2025",
+                "REQUEST",
+                "The Protect Our Communities Foundation",
+                "Supplement; to Request for intervenor compensation"
+              ]
+            }
           ],
           "docLinks": 100
         }
@@ -213,6 +448,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916895",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365885"
           ],
+          "sampleRows": [
+            {
+              "type": "DECISION",
+              "cells": [
+                "May 14, 2026",
+                "DECISION",
+                "-",
+                "Decision D2605021 - Order Extending Statutory Deadline. This decision extends th"
+              ]
+            },
+            {
+              "type": "RULING",
+              "cells": [
+                "May 08, 2026",
+                "RULING",
+                "COM/DOUGLAS/CPUC",
+                "ASSIGNED COMMISSIONER'S RULING DIRECTING PROGRAM ADMINISTRATORS TO RESUME PAYMEN"
+              ]
+            },
+            {
+              "type": "DECISION",
+              "cells": [
+                "March 19, 2026",
+                "DECISION",
+                "-",
+                "Decision D2603018 - Decision Denying Petition For Modification Of Decision 21-06"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "March 18, 2026",
+                "COMMENTS",
+                "Clean Power Alliance of Southern California",
+                "COMMENTS OF CLEAN POWER ALLIANCE OF SOUTHERN CALIFORNIA ON THE ASSIGNED COMMISSI"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "March 18, 2026",
+                "COMMENTS",
+                "GRID Alternatives",
+                "COMMENTS OF GRID ALTERNATIVES ON  ASSIGNED COMMISSIONERS RULING ON ENHANCING VER"
+              ]
+            }
+          ],
           "docLinks": 100
         }
       ]
@@ -248,6 +530,53 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066301",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066856",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608067154"
+          ],
+          "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 01, 2026",
+                "EXPARTE",
+                "Hydrostor, Inc.",
+                "THREE DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 01, 2026",
+                "EXPARTE",
+                "American Clean Power - California",
+                "NOTICE OF EX PARTE COMMUNICATION"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "June 24, 2026",
+                "EXPARTE",
+                "American Clean Power - California",
+                "THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "June 09, 2026",
+                "COMPLIANCE  FILING",
+                "Clean Power Alliance of Southern California",
+                "[PUBLIC VERSION] Amended June 2026 Integrated Resource Plan MTR compliance filin"
+              ]
+            },
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "June 09, 2026",
+                "LAW & MOTION",
+                "Clean Power Alliance of Southern California",
+                "Law and Motion Amended Motion for Leave to file the confidential version of its "
+              ]
+            }
           ],
           "docLinks": 100
         }
