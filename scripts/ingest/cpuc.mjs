@@ -1,4 +1,9 @@
 import { chromium } from "playwright";
+import { writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+
+const DEBUG_PATH = join(dirname(fileURLToPath(import.meta.url)), "..", "..", "data", "cpuc_debug.json");
 
 // CPUC docket system (apps.cpuc.ca.gov) is JavaScript-rendered — Playwright loads
 // it in a real browser. We try the Documents tab (57) and fall back to the docket
@@ -40,6 +45,7 @@ async function extract(page) {
 export async function scrapeCPUC(proceedings) {
   const targets = proceedings.filter((p) => p.docket && p.docket.toUpperCase().startsWith("R") && p.url);
   const items = [];
+  const diag = { ranAt: new Date().toISOString(), dockets: [] };
   const browser = await chromium.launch({ args: ["--no-sandbox"] });
   try {
     const ctx = await browser.newContext({ userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" });
@@ -47,18 +53,28 @@ export async function scrapeCPUC(proceedings) {
     for (const p of targets) {
       const c = core(p.docket);
       let rows = [];
+      const attempts = [];
       for (const url of urls(c)) {
         try {
           await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
           await page.waitForTimeout(3500); // let the APEX report render
           rows = await extract(page);
-          const anchors = await page.evaluate(() => document.querySelectorAll("a").length);
-          console.log(`CPUC ${p.docket} @ ${url.includes(":57:") ? "docs" : "card"}: ${anchors} anchors, ${rows.length} doc-links`);
+          const snap = await page.evaluate(() => ({
+            title: document.title,
+            anchors: document.querySelectorAll("a").length,
+            frames: window.frames.length,
+            tables: document.querySelectorAll("table").length,
+            sampleHrefs: Array.from(document.querySelectorAll("a")).map((a) => a.href).filter(Boolean).slice(0, 20),
+          }));
+          attempts.push({ tab: url.includes(":57:") ? "docs" : "card", ...snap, docLinks: rows.length });
+          console.log(`CPUC ${p.docket} @ ${url.includes(":57:") ? "docs" : "card"}: ${snap.anchors} anchors, ${snap.frames} frames, ${rows.length} doc-links`);
           if (rows.length) break;
         } catch (e) {
+          attempts.push({ tab: url.includes(":57:") ? "docs" : "card", error: e.message });
           console.error(`CPUC ${p.docket}: ${e.message}`);
         }
       }
+      diag.dockets.push({ docket: p.docket, docLinks: rows.length, attempts });
       for (const r of rows.slice(0, 8)) {
         items.push({
           source: `CPUC ${p.docket}`, agency: "CPUC", docket: p.docket,
@@ -67,6 +83,7 @@ export async function scrapeCPUC(proceedings) {
       }
     }
   } finally { await browser.close(); }
+  try { await writeFile(DEBUG_PATH, JSON.stringify(diag, null, 2) + "\n"); } catch {}
   return items;
 }
 
