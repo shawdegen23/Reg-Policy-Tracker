@@ -49,4 +49,7 @@ tr.prio-row td{background:#fff9e8}
 .star{background:none;border:none;cursor:pointer;font-size:18px;color:var(--amber);padding:0;line-height:1;font-family:inherit}
 .star:hover{color:#c58f00}
 .linklike{background:none;border:none;color:var(--blue);cursor:pointer;font-size:13px;text-decoration:underline;padding:0;font-family:inherit}
+.filterbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.filterbar select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px;font-family:inherit;background:#fff;color:var(--ink);cursor:pointer}
+.filterbar .search{width:auto;flex:1;min-width:160px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:26px}

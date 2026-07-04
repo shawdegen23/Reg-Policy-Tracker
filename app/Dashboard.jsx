@@ -42,6 +42,9 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
   const [dq, setDq] = useState("");
   const [bq, setBq] = useState("");
   const [topicFilter, setTopicFilter] = useState("");
+  const [devType, setDevType] = useState("");
+  const [devRel, setDevRel] = useState("");
+  const [devAgency, setDevAgency] = useState("");
   const [tracked, setTracked] = useState([]);
   const [snaps, setSnaps] = useState({});
 
@@ -74,7 +77,14 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
   const devs = [...developments]
     .filter((d) => d.headline && (!dq || JSON.stringify(d).toLowerCase().includes(dq.toLowerCase())))
     .filter((d) => !topicFilter || d.topic === topicFilter)
+    .filter((d) => !devType || d.type === devType)
+    .filter((d) => !devRel || d.relevance === devRel)
+    .filter((d) => !devAgency || d.agency === devAgency)
     .sort((a, z) => (z.date || z.firstSeen || "").localeCompare(a.date || a.firstSeen || ""));
+  const devTopics = [...new Set(developments.map((d) => d.topic).filter(Boolean))].sort();
+  const devTypes = [...new Set(developments.map((d) => d.type).filter(Boolean))].sort();
+  const devAgencies = [...new Set(developments.map((d) => d.agency).filter(Boolean))].sort();
+  const clearDevFilters = () => { setTopicFilter(""); setDevType(""); setDevRel(""); setDevAgency(""); setDq(""); };
   const blls = [...bills]
     .filter((b) => !bq || JSON.stringify(b).toLowerCase().includes(bq.toLowerCase()))
     .sort((a, z) => (z.lastActionDate || "").localeCompare(a.lastActionDate || ""));
@@ -203,7 +213,15 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
         {tab === "dev" && (
           <section>
             <div className="note"><b>Developments</b> ingested automatically, each tagged by topic, data type (qualitative/quantitative), and client relevance with a suggested impact summary. R.25-04-010 items highlighted.</div>
-            <input className="search" placeholder="Filter developments…" value={dq} onChange={(e) => setDq(e.target.value)} />
+            <div className="filterbar">
+              <input className="search" style={{ marginBottom: 0 }} placeholder="Search…" value={dq} onChange={(e) => setDq(e.target.value)} />
+              <select value={devAgency} onChange={(e) => setDevAgency(e.target.value)}><option value="">All sources</option>{devAgencies.map((a) => <option key={a} value={a}>{a}</option>)}</select>
+              <select value={topicFilter} onChange={(e) => setTopicFilter(e.target.value)}><option value="">All topics</option>{devTopics.map((t) => <option key={t} value={t}>{t}</option>)}</select>
+              <select value={devType} onChange={(e) => setDevType(e.target.value)}><option value="">All types</option>{devTypes.map((t) => <option key={t} value={t}>{t}</option>)}</select>
+              <select value={devRel} onChange={(e) => setDevRel(e.target.value)}><option value="">All relevance</option><option>High</option><option>Medium</option><option>Low</option></select>
+              {(dq || topicFilter || devType || devRel || devAgency) && <button className="linklike" onClick={clearDevFilters}>Clear</button>}
+              <span className="sub" style={{ marginLeft: "auto", marginTop: 0 }}>{devs.length} shown</span>
+            </div>
             {devs.length === 0
               ? <div className="empty">No developments ingested yet. They appear here after the first scheduled scraper run (or a manual run from the Actions tab).</div>
               : (
