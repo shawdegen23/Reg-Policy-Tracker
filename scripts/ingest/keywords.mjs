@@ -27,3 +27,21 @@ export function isRelevant(text) {
   if (!text) return false;
   return PATTERNS.some((re) => re.test(text));
 }
+
+// Bucket 1: a deliberately WIDE net for legislation. We'd rather over-include
+// here and let the AI relevance gate (bucket 2) make the real call, so we never
+// miss an energy bill because its title used unexpected wording.
+const WIDE = [
+  /energy/i, /electric/i, /utilit/i, /climate/i, /emission/i, /decarboniz/i,
+  /\bgrid\b/i, /\bsolar\b/i, /renewable/i, /greenhouse/i, /carbon/i,
+  /heat pump/i, /appliance/i, /building standard/i, /building code/i,
+  /\bDER\b/, /rooftop/i, /microgrid/i, /ratepayer/i, /electric vehicle/i,
+  /\bEV\b/, /charging station/i, /hydrogen/i, /\bstorage\b/i, /wildfire/i,
+  /kilowatt/i, /megawatt/i, /power plant/i, /transmission/i, /natural gas/i,
+  /clean energy/i, /efficiency/i, /net metering/i, /photovoltaic/i,
+];
+
+export function isBillCandidate(text) {
+  if (!text) return false;
+  return WIDE.some((re) => re.test(text));
+}

@@ -1,16 +1,17 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { isRelevant } from "./keywords.mjs";
+import { isBillCandidate } from "./keywords.mjs";
+import { aiClassifyBills } from "./ai.mjs";
 
 // LegiScan REST API — free public key (https://legiscan.com/legiscan).
 // Set LEGISCAN_API_KEY as a GitHub Actions secret. No key => returns [] gracefully.
 //
-// Good LegiScan citizenship (per their crash course):
-//  - one getMasterList call per run for California (well under the 30k/mo limit)
-//  - check "status" === "OK"
-//  - use change_hash + a local cache to detect changes and avoid re-spending
-//  - attribute LegiScan (shown in the app footer / Bills tab)
+// Two-bucket relevance:
+//   1) WIDE keyword net (isBillCandidate) — never miss an energy bill
+//   2) AI relevance gate (aiClassifyBills) — decide which candidates truly belong
+// The AI verdict is cached per bill keyed by change_hash, so each bill is judged
+// once and only re-judged when it actually changes (minimal query/AI spend).
 const KEY = process.env.LEGISCAN_API_KEY;
 const CACHE = join(dirname(fileURLToPath(import.meta.url)), "..", "..", "data", "legiscan_cache.json");
 
@@ -26,15 +27,38 @@ export async function scrapeLegiScan() {
   const data = await res.json();
   if (data.status !== "OK" || !data.masterlist) throw new Error("LegiScan bad response");
 
-  const cache = await readCache();          // bill_id -> change_hash (last seen)
+  const cache = await readCache();        // bill_id -> { hash, relevant }
   const nextCache = {};
-  const bills = [];
 
+  // Bucket 1: wide candidates
+  const candidates = [];
   for (const [k, b] of Object.entries(data.masterlist)) {
     if (k === "session") continue;
-    nextCache[b.bill_id] = b.change_hash;    // record every bill's hash
-    const text = `${b.number} ${b.title}`;
-    if (!isRelevant(text)) continue;         // energy/climate only
+    if (!isBillCandidate(`${b.number} ${b.title}`)) continue;
+    candidates.push(b);
+  }
+
+  // Reuse cached verdicts where hash is unchanged; classify the rest with AI.
+  const toClassify = [];
+  const verdict = new Map();               // bill_id -> boolean
+  for (const b of candidates) {
+    const prev = cache[b.bill_id];
+    if (prev && prev.hash === b.change_hash && typeof prev.relevant === "boolean") {
+      verdict.set(b.bill_id, prev.relevant);
+    } else {
+      toClassify.push(b);
+    }
+  }
+  if (toClassify.length) {
+    const keep = await aiClassifyBills(toClassify.map((b) => b.title));
+    toClassify.forEach((b, idx) => verdict.set(b.bill_id, keep ? keep.has(idx) : true));
+  }
+
+  const bills = [];
+  for (const b of candidates) {
+    const relevant = verdict.get(b.bill_id) === true;
+    nextCache[b.bill_id] = { hash: b.change_hash, relevant };
+    if (!relevant) continue;
     const prev = cache[b.bill_id];
     bills.push({
       number: b.number,
@@ -45,13 +69,11 @@ export async function scrapeLegiScan() {
       url: b.url || b.state_link || "",
       changeHash: b.change_hash,
       isNew: !prev,
-      isUpdated: Boolean(prev && prev !== b.change_hash),
+      isUpdated: Boolean(prev && prev.hash !== b.change_hash),
     });
   }
 
-  // Persist hashes so future runs can skip unchanged bills / avoid extra spend.
   try { await writeFile(CACHE, JSON.stringify(nextCache) + "\n"); } catch {}
-
   bills.sort((a, z) => (z.lastActionDate || "").localeCompare(a.lastActionDate || ""));
-  return bills.slice(0, 80);
+  return bills.slice(0, 100);
 }

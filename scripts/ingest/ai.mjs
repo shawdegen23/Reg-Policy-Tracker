@@ -91,6 +91,35 @@ ${JSON.stringify(batch)}`;
   return enriched;
 }
 
+// Bucket 2: AI relevance gate for legislation. Given candidate bill titles,
+// decide which are genuinely energy/climate policy relevant. Returns a Set of
+// the indices judged relevant. If no provider, returns null (caller keeps all).
+export async function aiClassifyBills(titles) {
+  if (!PROVIDER || titles.length === 0) return null;
+  const keep = new Set();
+  const CHUNK = 12;
+  for (let start = 0; start < titles.length; start += CHUNK) {
+    const batch = titles.slice(start, start + CHUNK).map((t, j) => ({ i: start + j, title: t }));
+    const user = `You are curating a California ENERGY & CLIMATE policy tracker. Relevant topics:
+energy efficiency, building decarbonization/electrification, demand flexibility, grid modernization,
+distributed energy resources, utility rates/ratepayers, appliance & building energy standards,
+energy equity, clean energy, GHG/climate, energy storage, EV charging infrastructure.
+NOT relevant: general transportation/DUI, health, education, housing finance, taxes, criminal justice,
+unless they are specifically about energy or climate. For each bill title, decide if it belongs.
+Return ONLY a JSON array like [{"i":0,"relevant":true}]. Bills:
+${JSON.stringify(batch)}`;
+    try {
+      const arr = parseJson(await ask(SYSTEM, user, 1200));
+      for (const r of arr) if (r && r.relevant) keep.add(r.i);
+    } catch (e) {
+      // On failure, keep this chunk's items (don't silently drop real bills)
+      console.error(`aiClassifyBills chunk ${start} failed: ${e.message}`);
+      for (let j = start; j < Math.min(start + CHUNK, titles.length); j++) keep.add(j);
+    }
+  }
+  return keep;
+}
+
 // Narrative Director briefing from the most notable recent items.
 export async function aiBrief(developments) {
   if (!PROVIDER) return null;
