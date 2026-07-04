@@ -32,10 +32,12 @@ impacts are analyst starting points, not final language.
 - **LegiScan API key (free):** register at https://legiscan.com/legiscan, then in the
   GitHub repo add a secret `LEGISCAN_API_KEY` (Settings → Secrets and variables → Actions).
   Without it, the Bills tab stays empty; everything else still works.
-- **AI summaries (optional):** add a secret `ANTHROPIC_API_KEY` to turn the templated
-  impact summaries into real AI-written ones and add a narrative Director briefing. Without
-  it, the rule-based analysis runs instead — nothing breaks. Optional `AI_MODEL` secret
-  overrides the default model.
+- **AI summaries (optional, free):** turns the templated impact summaries into real
+  AI-written ones and adds a narrative Director briefing. Add ONE of these GitHub secrets:
+  - `GEMINI_API_KEY` — free tier via Google AI Studio (aistudio.google.com). Preferred.
+  - `ANTHROPIC_API_KEY` — Claude, if you'd rather use Anthropic.
+  Without either, the rule-based analysis runs instead — nothing breaks. Optional `AI_MODEL`
+  secret overrides the default model (`gemini-2.5-flash` / `claude-haiku-4-5-20251001`).
 - **Vercel:** framework preset **Next.js** (auto-detected). No env vars needed for the app.
 
 ## Local development
