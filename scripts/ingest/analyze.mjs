@@ -34,12 +34,16 @@ export function analyze(item) {
   if (HIGH_TERMS.some((t) => text.includes(t))) relevance = "High";
   else if (topic === "General / Cross-cutting") relevance = "Low";
 
-  const typeLabel = (item.type || "item").toLowerCase();
-  const impact = `${topic} ${typeLabel} from ${item.agency || item.source || "source"}. ` +
-    `${dataType === "Quantitative" ? "Contains figures/deadlines — capture the numbers. " : ""}` +
-    `Flagged ${relevance.toLowerCase()} client relevance; confirm against the docket and add Director-facing framing.`;
+  return { ...item, topic, dataType, relevance, impact: impactText(topic, item.type, item.agency || item.source, dataType, relevance), aiEnriched: false };
+}
 
-  return { ...item, topic, dataType, relevance, impact };
+// Rule-based impact string. Exported so run.mjs can regenerate it after a CPUC
+// item inherits its proceeding's (corrected) topic/relevance.
+export function impactText(topic, type, agency, dataType, relevance) {
+  const typeLabel = (type || "item").toLowerCase();
+  return `${topic} ${typeLabel} from ${agency || "source"}. ` +
+    `${dataType === "Quantitative" ? "Contains figures/deadlines — capture the numbers. " : ""}` +
+    `Flagged ${(relevance || "medium").toLowerCase()} client relevance; confirm against the docket and add Director-facing framing.`;
 }
 
 // Build a synthesis object for the Director Brief from enriched developments.

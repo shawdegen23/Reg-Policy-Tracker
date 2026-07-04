@@ -78,6 +78,10 @@ export async function scrapeCPUC(proceedings) {
             frames: window.frames.length,
             tables: document.querySelectorAll("table").length,
             sampleHrefs: Array.from(document.querySelectorAll("a")).map((a) => a.href).filter(Boolean).slice(0, 20),
+            sampleRows: Array.from(document.querySelectorAll("a"))
+              .filter((a) => /SearchRes|PublishedDocs|docs\.cpuc/i.test(a.href || ""))
+              .slice(0, 5)
+              .map((a) => { const tr = a.closest("tr"); return { type: (a.textContent || "").trim(), cells: tr ? Array.from(tr.querySelectorAll("td,th")).map((c) => c.textContent.trim().slice(0, 80)) : [] }; }),
           }));
           attempts.push({ tab: url.includes(":57:") ? "docs" : "card", ...snap, docLinks: rows.length });
           console.log(`CPUC ${p.docket} @ ${url.includes(":57:") ? "docs" : "card"}: ${snap.anchors} anchors, ${snap.frames} frames, ${rows.length} doc-links`);

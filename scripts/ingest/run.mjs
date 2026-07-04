@@ -5,7 +5,7 @@ import { scrapeCARB } from "./carb.mjs";
 import { scrapeCEC } from "./cec.mjs";
 import { scrapeLegiScan } from "./legiscan.mjs";
 import { scrapeCPUC } from "./cpuc.mjs";
-import { analyze, synthesize } from "./analyze.mjs";
+import { analyze, synthesize, impactText } from "./analyze.mjs";
 import { aiEnrich, aiBrief, aiEnabled } from "./ai.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -78,8 +78,9 @@ async function run() {
     .map((d) => {
       const m = metaByDocket[d.docket];
       if (!m) return d;
-      const inherited = m.relevance && m.relevance !== "Monitor" ? m.relevance : d.relevance;
-      return { ...d, topic: m.topic || d.topic, relevance: inherited };
+      const topic = m.topic || d.topic;
+      const relevance = m.relevance && m.relevance !== "Monitor" ? m.relevance : d.relevance;
+      return { ...d, topic, relevance, impact: impactText(topic, d.type, d.agency, d.dataType, relevance) };
     });
 
   // Optional AI overlay: real impact summaries + relevance (falls back silently).
