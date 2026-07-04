@@ -102,10 +102,20 @@ export async function extractDeadlines(developments) {
 
   // Merge with existing, keep only future, dedupe by (date|type|docket|url), sort ascending.
   const all = [...existing, ...fresh].filter((x) => isFuture(x.date));
-  // One deadline per date+type+docket, even if many filings restate it.
-  const seen = new Set();
-  const merged = all.filter((x) => { const k = `${x.date}|${x.type}|${x.docket}`; return seen.has(k) ? false : (seen.add(k), true); })
-    .sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  // One deadline per date+docket. Different filings can label the same date
+  // differently (e.g. "opening" vs "reply"); resolve the type by majority vote.
+  const groups = new Map();
+  for (const x of all) {
+    const k = `${x.date}|${x.docket}`;
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(x);
+  }
+  const merged = [...groups.values()].map((items) => {
+    const counts = {};
+    items.forEach((x) => { counts[x.type] = (counts[x.type] || 0) + 1; });
+    const type = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+    return items.find((x) => x.type === type) || items[0];
+  }).sort((a, b) => (a.date || "").localeCompare(b.date || ""));
 
   await writeFile(join(DIR, "deadlines.json"), JSON.stringify(merged, null, 2) + "\n");
   await writeFile(CACHE, JSON.stringify(cache) + "\n");

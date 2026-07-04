@@ -46,10 +46,38 @@ async function callClaude(system, user, maxTokens) {
   return (data.content || []).map((b) => b.text || "").join("").trim();
 }
 
+// Rate limiting — Gemini's free tier allows ~10 requests/minute. Without spacing,
+// a heavy run bursts 40+ calls and 429s itself into full rule-based fallback.
+// Space calls ~7s apart, cap total per run (protects the daily quota too), and
+// retry on 429/5xx with backoff.
+const MIN_GAP_MS = 7000;   // ~8.5 calls/min, under the 10 RPM limit
+const CALL_BUDGET = 60;    // hard cap of AI calls per ingest run
+let lastCallAt = 0, callCount = 0;
+
+async function throttle() {
+  if (callCount >= CALL_BUDGET) { const e = new Error("AI call budget reached"); e.budget = true; throw e; }
+  const wait = lastCallAt + MIN_GAP_MS - Date.now();
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  lastCallAt = Date.now();
+  callCount++;
+}
+
 async function ask(system, user, maxTokens = 1500) {
-  if (PROVIDER === "gemini") return callGemini(system, user, maxTokens);
-  if (PROVIDER === "anthropic") return callClaude(system, user, maxTokens);
-  throw new Error("no AI provider configured");
+  if (!PROVIDER) throw new Error("no AI provider configured");
+  const call = PROVIDER === "gemini" ? callGemini : callClaude;
+  let lastErr;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      await throttle();
+      return await call(system, user, maxTokens);
+    } catch (e) {
+      lastErr = e;
+      if (e.budget) throw e;                                   // stop the whole layer
+      if (!/HTTP (429|500|503)/.test(e.message)) throw e;      // non-retryable
+      await new Promise((r) => setTimeout(r, 9000 * (attempt + 1))); // back off on rate limit
+    }
+  }
+  throw lastErr;
 }
 
 function parseJson(text) {
@@ -71,7 +99,7 @@ Be precise, neutral, and concrete. Never invent facts beyond the item text provi
 export async function aiEnrich(items) {
   if (!PROVIDER || items.length === 0) return items;
   const CHUNK = 8;
-  const MAX = 64; // cap items enriched per run to bound cost/time
+  const MAX = 48; // cap items enriched per run to bound cost/time
   const enriched = items.map((d) => ({ ...d }));
   for (let start = 0; start < Math.min(items.length, MAX); start += CHUNK) {
     // Chunk-LOCAL indices (0-based within each batch), remapped with `start`.
