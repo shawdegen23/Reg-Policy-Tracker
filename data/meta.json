@@ -1,24 +1,23 @@
 {
-  "lastRun": "2026-07-04T04:43:16.058Z",
+  "lastRun": "2026-07-04T05:09:17.446Z",
   "sources": {
     "cpuc": {
-      "lastRun": "2026-07-04T04:43:16.058Z",
+      "lastRun": "2026-07-04T05:09:17.446Z",
       "status": "ok",
-      "count": 0
+      "count": 56
     },
     "cec": {
-      "lastRun": "2026-07-04T04:43:16.058Z",
+      "lastRun": "2026-07-04T05:09:17.446Z",
       "status": "ok",
       "count": 2
     },
     "carb": {
-      "lastRun": "2026-07-04T04:43:16.058Z",
-      "status": "error",
-      "count": 0,
-      "error": "CARB HTTP 405"
+      "lastRun": "2026-07-04T05:09:17.446Z",
+      "status": "ok",
+      "count": 9
     },
     "legiscan": {
-      "lastRun": "2026-07-04T04:43:16.058Z",
+      "lastRun": "2026-07-04T05:09:17.446Z",
       "status": "pending",
       "count": 0,
       "error": "LEGISCAN_API_KEY not set"

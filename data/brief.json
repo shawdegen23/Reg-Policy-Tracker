@@ -1,16 +1,28 @@
 {
-  "generatedAt": "2026-07-04T04:43:42.759Z",
+  "generatedAt": "2026-07-04T05:09:55.412Z",
   "totals": {
-    "developments": 2,
-    "high": 1,
+    "developments": 67,
+    "high": 9,
     "quantitative": 0,
-    "topics": 2
+    "topics": 6
   },
   "topicCounts": {
-    "Building Decarbonization": 1,
-    "DER / Rates": 1
+    "Building Decarbonization": 9,
+    "DER / Rates": 17,
+    "Energy Efficiency": 8,
+    "Demand Flexibility": 8,
+    "Resource Adequacy / Planning": 16,
+    "General / Cross-cutting": 9
   },
-  "proceedingCounts": {},
+  "proceedingCounts": {
+    "R.25-04-010": 8,
+    "R.19-01-011": 8,
+    "R.22-07-005": 8,
+    "R.20-08-020": 8,
+    "R.23-10-011": 8,
+    "R.20-05-012": 8,
+    "R.25-06-019": 8
+  },
   "highRelevance": [
     {
       "source": "CEC",
@@ -23,11 +35,123 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "This first equitable building decarbonization project in SoCal sets a precedent, potentially guiding future program design and funding for TEC clients.",
+      "impact": "Building Decarbonization notice from CEC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": true,
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975304",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023482",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610110847",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030848",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023157",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023483",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975306",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04"
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609974085",
+      "date": "2026-07-04",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "General / Cross-cutting filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "firstSeen": "2026-07-04"
     }
   ],
   "quantitative": [],
-  "narrative": "Director,\n\nRegarding the Energy Efficiency proceeding (R.25-04-010), there are no new developments to report in this"
+  "narrative": "On July 4, 2026, the CPUC's Energy Efficiency proceeding (R.25-04-010) experienced significant activity, with numerous comments filed by stakeholders. This indicates an active phase in the proceeding, requiring close attention to upcoming proposals and decisions that will shape future energy efficiency program design and implementation.\n\nConcurrently, the CEC announced the completion of the first Equitable Building Decarbonization Project in Southern California on July 4, 2026. This milestone highlights progress in deploying decarbonization solutions with an equity focus.\n\nClients should note the ongoing developments in R.25-04-010, as these will directly influence future energy efficiency opportunities and compliance requirements."
 }
