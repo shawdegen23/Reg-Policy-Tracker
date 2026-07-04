@@ -4,6 +4,7 @@ import developments from "../data/developments.json";
 import bills from "../data/bills.json";
 import meta from "../data/meta.json";
 import brief from "../data/brief.json";
+import deadlines from "../data/deadlines.json";
 
 // Rebuilt on every ingestion commit, so the page always reflects the latest data.
 export const dynamic = "force-static";
@@ -16,6 +17,7 @@ export default function Page() {
       bills={bills}
       meta={meta}
       brief={brief}
+      deadlines={deadlines}
     />
   );
 }

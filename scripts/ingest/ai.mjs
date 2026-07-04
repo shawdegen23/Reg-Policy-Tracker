@@ -129,6 +129,23 @@ ${JSON.stringify(batch)}`;
   return keep;
 }
 
+// Extract actionable deadlines/key dates from a regulatory document's text.
+// Returns [{date:"YYYY-MM-DD", type, description}] or [] (never throws to caller
+// beyond the ask() error, which the caller catches to fall back to regex).
+export async function aiDeadlines(title, text) {
+  if (!PROVIDER || !text) return null;
+  const user = `From this California regulatory document, extract only DEADLINES or key FUTURE dates a
+stakeholder must act on: opening comment due dates, reply comment due dates, hearing dates, workshop
+dates, prehearing conferences, response deadlines. Ignore the filing date and past dates.
+Return ONLY a JSON array like [{"date":"2026-08-15","type":"Reply Comments","description":"short"}].
+Types: "Opening Comments", "Reply Comments", "Hearing", "Workshop", "Prehearing Conference", "Other".
+If there are no future deadlines, return []. Document title: ${title}
+Text:
+${text.slice(0, 9000)}`;
+  const out = await ask(SYSTEM, user, 800);
+  try { return parseJson(out); } catch { return []; }
+}
+
 // Narrative Director briefing from the most notable recent items.
 export async function aiBrief(developments) {
   if (!PROVIDER) return null;

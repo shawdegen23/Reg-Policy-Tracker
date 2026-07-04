@@ -49,7 +49,27 @@ function depthClass(d = "") {
   return ["scan", "SCAN"];
 }
 
-export default function Dashboard({ proceedings, developments, bills, meta, brief }) {
+export default function Dashboard({ proceedings, developments, bills, meta, brief, deadlines }) {
+  const dls = [...(deadlines || [])].filter((d) => d.date && Date.parse(d.date) >= Date.now() - 86400000).sort((a, b) => a.date.localeCompare(b.date));
+  const daysUntil = (iso) => Math.ceil((Date.parse(iso) - Date.now()) / 86400000);
+  function exportICS() {
+    const pad = (n) => String(n).padStart(2, "0");
+    const fmt = (iso) => iso.replace(/-/g, "");
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//TEC Regulatory Tracker//EN"];
+    dls.forEach((d, i) => {
+      const start = fmt(d.date);
+      const end = fmt(new Date(Date.parse(d.date) + 86400000).toISOString().slice(0, 10));
+      lines.push("BEGIN:VEVENT", `UID:tec-${i}-${start}@reg-tracker`, `DTSTART;VALUE=DATE:${start}`, `DTEND;VALUE=DATE:${end}`,
+        `SUMMARY:${(d.type || "Deadline")}${d.docket ? " · " + d.docket : ""}`,
+        `DESCRIPTION:${(d.description || d.headline || "").replace(/[\n,;]/g, " ")}${d.url ? " " + d.url : ""}`, "END:VEVENT");
+    });
+    lines.push("END:VCALENDAR");
+    const blob = new Blob([lines.join("\r\n")], { type: "text/calendar" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "TEC_regulatory_deadlines.ics";
+    a.click();
+  }
   const [tab, setTab] = useState("brief");
   const [pq, setPq] = useState("");
   const [dq, setDq] = useState("");
@@ -170,6 +190,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         <div className="tabs">
           <button className={"tab" + (tab === "brief" ? " active" : "")} onClick={() => setTab("brief")}>Director Brief</button>
+          <button className={"tab" + (tab === "deadlines" ? " active" : "")} onClick={() => setTab("deadlines")}>⏰ Deadlines {dls.length ? `(${dls.length})` : ""}</button>
           <button className={"tab" + (tab === "proc" ? " active" : "")} onClick={() => setTab("proc")}>Proceedings</button>
           <button className={"tab" + (tab === "dev" ? " active" : "")} onClick={() => setTab("dev")}>Developments {devs.length ? `(${developments.length})` : ""}</button>
           <button className={"tab" + (tab === "topics" ? " active" : "")} onClick={() => setTab("topics")}>Topics</button>
@@ -290,6 +311,35 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                 </div>
               ))}
             </div>
+          </section>
+        )}
+
+        {tab === "deadlines" && (
+          <section>
+            <div className="note"><b>Deadline radar.</b> Comment windows and hearing dates extracted from the actual CPUC filing documents. {dls.length ? <button className="linklike" onClick={exportICS}>⤓ Export to calendar (.ics)</button> : null}</div>
+            {dls.length === 0
+              ? <div className="empty">No upcoming deadlines extracted yet. These populate as the ingest reads new rulings and proposed decisions (only documents set comment schedules, so it fills in over time).</div>
+              : (
+                <table>
+                  <thead><tr><th>Due</th><th>In</th><th>Type</th><th>Proceeding</th><th>Detail</th><th>Source</th></tr></thead>
+                  <tbody>
+                    {dls.map((d, i) => {
+                      const days = daysUntil(d.date);
+                      const urgent = days <= 7;
+                      return (
+                        <tr key={i} className={urgent ? "prio-row" : ""}>
+                          <td><b>{d.date}</b></td>
+                          <td><span className={"pill " + (days <= 7 ? "High" : days <= 21 ? "Medium" : "Low")}>{days}d</span></td>
+                          <td>{d.type}</td>
+                          <td>{d.docket}</td>
+                          <td>{d.description || d.headline}</td>
+                          <td>{d.url ? <a href={d.url} target="_blank" rel="noreferrer">doc</a> : ""}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              )}
           </section>
         )}
 

@@ -7,6 +7,7 @@ import { scrapeLegiScan } from "./legiscan.mjs";
 import { scrapeCPUC } from "./cpuc.mjs";
 import { analyze, synthesize, impactText } from "./analyze.mjs";
 import { aiEnrich, aiBrief, aiEnabled } from "./ai.mjs";
+import { extractDeadlines } from "./deadlines.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "..", "data");
@@ -132,6 +133,14 @@ async function run() {
   meta.lastRun = nowIso;
   await writeJson("developments.json", developments);
   await writeJson("meta.json", meta);
+
+  // Deadline radar — read high-signal CPUC PDFs and extract comment/hearing dates
+  try {
+    const dl = await extractDeadlines(developments);
+    console.log(`deadlines: ${dl.length} upcoming`);
+  } catch (e) {
+    console.error(`deadlines failed: ${e.message}`);
+  }
 
   // Director Brief synthesis (rule-based rollup + optional AI narrative)
   const brief = synthesize(developments, proceedings);
