@@ -20,6 +20,19 @@ async function readCache() {
   try { return JSON.parse(await readFile(CACHE, "utf8")); } catch { return {}; }
 }
 
+// Legislative stage 0..4 (Introduced→Signed), -1 terminal-negative. Cached so we
+// can detect stage CHANGES run-to-run (momentum), not just "something changed".
+function billStage(status, lastAction) {
+  const s = parseInt(status || "0", 10);
+  const a = (lastAction || "").toLowerCase();
+  if (s === 5 || s === 6 || a.includes("vetoed") || a.includes("died") || a.includes("failed")) return -1;
+  if (s === 4 || a.includes("chaptered") || a.includes("approved by the governor")) return 4;
+  if (s === 3 || a.includes("enrolled")) return 3;
+  if (a.includes("third reading") || a.includes("do pass") || a.includes("passed") || s === 2) return 2;
+  if (a.includes("committee") || a.includes("referred")) return 1;
+  return 0;
+}
+
 export async function scrapeLegiScan() {
   if (!KEY) { const e = new Error("LEGISCAN_API_KEY not set"); e.skipped = true; throw e; }
 
@@ -58,9 +71,10 @@ export async function scrapeLegiScan() {
   const bills = [];
   for (const b of candidates) {
     const relevant = verdict.get(b.bill_id) === true;
-    nextCache[b.bill_id] = { hash: b.change_hash, relevant };
-    if (!relevant) continue;
+    const stage = billStage(b.status, b.last_action);
     const prev = cache[b.bill_id];
+    nextCache[b.bill_id] = { hash: b.change_hash, relevant, stage };
+    if (!relevant) continue;
     bills.push({
       number: b.number,
       title: b.title,
@@ -69,6 +83,8 @@ export async function scrapeLegiScan() {
       status: String(b.status || ""),
       url: b.url || b.state_link || "",
       changeHash: b.change_hash,
+      stage,
+      prevStage: prev && typeof prev.stage === "number" ? prev.stage : null,
       isNew: !prev,
       isUpdated: Boolean(prev && prev.hash !== b.change_hash),
     });

@@ -293,7 +293,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
           </section>
         )}
 
-        {tab === "analytics" && <Analytics developments={developments} bills={bills} />}
+        {tab === "analytics" && <Analytics developments={developments} bills={bills} proceedings={proceedings} />}
 
         {tab === "bills" && (
           <section>
