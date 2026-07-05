@@ -1,0 +1,155 @@
+// Educational content for the Intelligence learning hub. Lessons, an interactive
+// flow-diagram library, and a glossary — a browsable primer on California energy,
+// governance, the CPUC/CEC/CARB, and legislation. Reference material; verify
+// specifics (current officeholders, exact dates, live rule text) against sources.
+
+export const MODULES = [
+  {
+    id: "governance", icon: "🏛️", title: "California Governance 101",
+    summary: "How the state is organized — the three branches, the Governor's agencies, and where energy & climate power actually sits.",
+    diagram: "govTree",
+    sections: [
+      { h: "Three branches", body: "Legislative (a two-house Legislature: 80-member Assembly, 40-member Senate), Executive (the Governor plus constitutional officers and the departments/boards under them), and Judicial. The Legislature writes statutes; agencies implement them through regulations and programs." },
+      { h: "The agency umbrellas", body: "Most executive bodies sit under 'super-agencies.' Two matter most for energy & climate: CalEPA (California Environmental Protection Agency) houses CARB, the water boards, CalRecycle, and others; CNRA (California Natural Resources Agency) houses the CEC and more. These umbrellas coordinate policy and report to the Governor." },
+      { h: "The CPUC is different", body: "The California Public Utilities Commission is an INDEPENDENT agency created by the state Constitution — not under CalEPA or CNRA. It has both quasi-legislative power (making rules) and quasi-judicial power (deciding cases), which is why its process looks like a courtroom crossed with a rulemaking." },
+    ],
+    keyPoints: ["Legislature makes law; agencies implement it.", "CalEPA → CARB; CNRA → CEC.", "CPUC is constitutionally independent."],
+    ask: ["Why is the CPUC independent from the Governor's agencies?", "What's the difference between CalEPA and CNRA?"],
+  },
+  {
+    id: "cpuc", icon: "⚡", title: "The CPUC — Utilities & Energy Regulation",
+    summary: "Who the CPUC regulates, how a proceeding works, and the docket types you'll see (R., I., A., C.).",
+    diagram: "cpucFlow",
+    sections: [
+      { h: "What it regulates", body: "Investor-owned utilities (IOUs) — PG&E, SCE, SDG&E for electricity, SoCalGas & SDG&E for gas — plus telecom, water, and some transportation. It sets the rates these utilities charge and the programs they run (efficiency, DER compensation, procurement, reliability)." },
+      { h: "Who's in charge", body: "Five Commissioners appointed by the Governor to staggered six-year terms, confirmed by the Senate. Administrative Law Judges (ALJs) run the proceedings. The Public Advocates Office (Cal Advocates) is an independent ratepayer advocate inside the CPUC." },
+      { h: "Docket types", body: "Rulemaking (R.) — opened by an Order Instituting Rulemaking (OIR), the main policy vehicle. Investigation (I.) — an OII. Application (A.) — a utility asks for something, like a General Rate Case. Complaint (C.). A number like R.25-04-010 means: Rulemaking, opened 2025, month 04, sequence 010." },
+      { h: "How a proceeding moves", body: "See the interactive lifecycle diagram — from OIR, through scoping and record-building (comments, workshops, ALJ rulings), to a Proposed Decision, comments on it, and a Commission vote that produces a final Decision (D.)." },
+    ],
+    keyPoints: ["Regulates IOUs' rates & programs.", "5 Commissioners, run by ALJs.", "R./I./A./C. docket types.", "OIR → PD → Decision."],
+    ask: ["Walk me through a CPUC rulemaking from start to finish.", "What is a Proposed Decision and how can parties respond?", "What's the difference between a rulemaking and an investigation?"],
+  },
+  {
+    id: "cec", icon: "🔋", title: "The CEC — Energy Standards & Planning",
+    summary: "California's energy planning agency: building & appliance efficiency standards, forecasting, and power-plant siting.",
+    diagram: null,
+    sections: [
+      { h: "Its role", body: "The California Energy Commission is the state's primary energy policy and planning body, within CNRA, led by five Commissioners. Where the CPUC regulates utilities, the CEC sets standards and plans for the whole energy system." },
+      { h: "Efficiency standards", body: "Building Energy Efficiency Standards live in Title 24, Part 6 and are updated on roughly a three-year cycle (e.g., the 2022, 2025, and 2028 code cycles) — these increasingly push electrification and demand flexibility. Appliance standards are Title 20. Load Management Standards encourage shifting demand to cheaper/cleaner times." },
+      { h: "Planning & siting", body: "The biennial Integrated Energy Policy Report (IEPR) assesses trends and sets policy direction. The CEC also licenses large power plants; under AB 205 there's an opt-in certification path for big solar and storage projects." },
+    ],
+    keyPoints: ["Sets Title 24 (buildings) & Title 20 (appliances).", "Publishes the biennial IEPR.", "Licenses large generation."],
+    ask: ["How do the CEC's building standards drive electrification?", "What is the IEPR and why does it matter?"],
+  },
+  {
+    id: "carb", icon: "🌱", title: "CARB — Climate & Air",
+    summary: "The Air Resources Board: greenhouse-gas targets, cap-and-trade, the Low Carbon Fuel Standard, vehicle and appliance rules.",
+    diagram: null,
+    sections: [
+      { h: "Its role", body: "The California Air Resources Board, within CalEPA, handles air quality and climate. A 16-member board sets rules; 35 regional/local air districts (like South Coast AQMD) handle local air issues." },
+      { h: "Climate programs", body: "AB 32 (2006) and SB 32 set the state's greenhouse-gas targets; CARB's Scoping Plan is the roadmap to meet them. Cap-and-Trade puts a price on carbon; the Low Carbon Fuel Standard (LCFS) drives cleaner transportation fuels." },
+      { h: "Rules that touch buildings & vehicles", body: "CARB sets zero-emission vehicle rules (Advanced Clean Cars/Trucks/Fleets) and zero-NOx standards for space and water heaters — directly relevant to building decarbonization. New corporate climate-disclosure laws (SB 253, SB 261) are implemented here too." },
+      { h: "How it makes rules", body: "Unlike the CPUC, CARB follows the standard California Administrative Procedure Act: a 45-day public notice, comment period, a board hearing, adoption, and review by the Office of Administrative Law." },
+    ],
+    keyPoints: ["Scoping Plan = climate roadmap.", "Cap-and-trade + LCFS.", "Zero-NOx appliance & ZEV rules.", "Follows the standard APA."],
+    ask: ["How does CARB's rulemaking differ from the CPUC's?", "What are SB 253 and SB 261?", "How does cap-and-trade actually work?"],
+  },
+  {
+    id: "legislation", icon: "📜", title: "How a Bill Becomes Law in California",
+    summary: "The two-year session, committees, deadlines, and the path from introduction to the Governor's desk.",
+    diagram: "billFlow",
+    sections: [
+      { h: "The two-year session", body: "California runs a two-year legislative session (e.g., 2025–2026). Bills can carry over between the two years — a 'two-year bill.' Bills that miss their deadlines are effectively dead until reintroduced." },
+      { h: "The path", body: "A bill is introduced, heard in policy committee(s) in its house of origin, sent to the Appropriations committee if it costs money, voted on the floor, then repeats the whole process in the second house. Differences are reconciled ('concurrence'), and it goes to the Governor." },
+      { h: "The Governor", body: "The Governor can sign it, veto it, or let it become law without a signature. A signed bill is 'chaptered' (given a chapter number) and becomes law. This tracker maps LegiScan status codes to stages: Introduced → Committee → Floor → Enrolled → Signed, with Vetoed/Failed as terminal." },
+    ],
+    keyPoints: ["Two-year session; bills carry over.", "Policy → fiscal → floor, twice.", "Governor signs, vetoes, or lets pass.", "Signed = 'chaptered.'"],
+    ask: ["What are the key legislative deadlines each year?", "What does it mean when a bill is 'enrolled'?", "Which committees hear energy bills?"],
+  },
+  {
+    id: "energy-system", icon: "🔌", title: "The California Energy System",
+    summary: "Utilities, CCAs, the grid operator, and distributed energy — and which agency governs each piece.",
+    diagram: "agencyMap",
+    sections: [
+      { h: "Who delivers power", body: "IOUs (investor-owned, e.g., PG&E) and POUs (publicly-owned, e.g., LADWP, SMUD) run the wires. Community Choice Aggregators (CCAs) — local governments — increasingly buy the electricity while the IOU still delivers it. The CAISO (grid operator) runs the transmission grid and wholesale market." },
+      { h: "Distributed energy (DERs)", body: "Rooftop solar, batteries, EV chargers, and demand response are 'distributed energy resources.' Net billing sets how solar exports are compensated; demand flexibility and dynamic rates reward shifting use to cleaner, cheaper hours. Aggregated DERs can form a 'virtual power plant.'" },
+      { h: "Who governs what", body: "Utility rates, DER compensation, procurement, and reliability → CPUC. Efficiency standards, planning, siting → CEC. GHG/climate, fuels, vehicle & appliance emissions → CARB. The Legislature sets the statutes that direct all of them. See the map diagram." },
+    ],
+    keyPoints: ["IOUs vs POUs vs CCAs.", "DERs: solar, storage, EVs, demand response.", "CPUC=rates, CEC=standards, CARB=climate."],
+    ask: ["What is a CCA and how does it change who I buy power from?", "What is net billing and how did it change from net metering?", "What is demand flexibility?"],
+  },
+];
+
+// Interactive flow diagrams — rendered as clickable steppers.
+export const DIAGRAMS = {
+  cpucFlow: {
+    title: "CPUC proceeding lifecycle",
+    subtitle: "How a rulemaking moves from opening to a final, appealable decision.",
+    steps: [
+      { label: "OIR opens", desc: "An Order Instituting Rulemaking opens the docket (e.g., R.25-04-010) and lays out the scope and questions." },
+      { label: "Scoping", desc: "The Assigned Commissioner and ALJ issue a Scoping Memo setting the issues, schedule, and category (quasi-legislative, ratesetting, or adjudicatory). A Prehearing Conference is held." },
+      { label: "Record built", desc: "Parties file comments and testimony; workshops are held; ALJs issue rulings that pose questions and set comment deadlines. This is where most engagement happens." },
+      { label: "Proposed Decision", desc: "The ALJ issues a Proposed Decision (PD). A Commissioner may offer an Alternate (APD). Parties get ~30 days to file opening and reply comments on it." },
+      { label: "Commission vote", desc: "Commissioners vote on the PD/APD at a public Voting Meeting. An adopted PD becomes a Decision (D.)." },
+      { label: "Rehearing / review", desc: "Parties may file Applications for Rehearing; final decisions can be challenged by writ in the Court of Appeal or Supreme Court." },
+    ],
+  },
+  billFlow: {
+    title: "How a California bill becomes law",
+    subtitle: "The path through both houses to the Governor.",
+    steps: [
+      { label: "Introduced", desc: "A member introduces the bill in its house of origin (Assembly or Senate)." },
+      { label: "Policy committee", desc: "Heard and voted in one or more policy committees (e.g., Utilities & Energy). It can be amended or held (killed)." },
+      { label: "Appropriations", desc: "If it has a fiscal impact, it goes to the Appropriations committee — a common place for bills to stall on the 'suspense file.'" },
+      { label: "Floor vote", desc: "The full house votes. If it passes, it crosses to the second house and repeats the whole committee-and-floor process." },
+      { label: "Concurrence", desc: "If the second house amended it, the origin house must concur in the changes." },
+      { label: "Governor", desc: "Sign, veto, or allow to become law without signature. Signed bills are 'chaptered' and become law." },
+    ],
+  },
+  govTree: {
+    title: "Where energy & climate power sits",
+    subtitle: "The Governor's umbrellas plus the independent CPUC.",
+    steps: [
+      { label: "Legislature", desc: "Writes the statutes (bills) that direct every agency below. Two houses: Assembly (80) and Senate (40)." },
+      { label: "CalEPA → CARB", desc: "The California EPA houses the Air Resources Board (climate, cap-and-trade, LCFS, vehicle & appliance emissions) and the water boards." },
+      { label: "CNRA → CEC", desc: "The Natural Resources Agency houses the Energy Commission (building/appliance standards, planning, siting)." },
+      { label: "CPUC (independent)", desc: "Constitutionally independent — regulates the investor-owned utilities' rates and programs. Not under CalEPA or CNRA." },
+    ],
+  },
+  agencyMap: {
+    title: "Who regulates what",
+    subtitle: "Quick disambiguation across the energy & climate landscape.",
+    steps: [
+      { label: "CPUC", desc: "Utility rates, IOU programs, DER/net-billing compensation, procurement (IRP), resource adequacy, demand flexibility." },
+      { label: "CEC", desc: "Building efficiency (Title 24), appliance standards (Title 20), energy forecasting/planning (IEPR), power-plant siting." },
+      { label: "CARB", desc: "GHG targets & Scoping Plan, cap-and-trade, Low Carbon Fuel Standard, ZEV rules, zero-NOx appliances, climate disclosure." },
+      { label: "Legislature", desc: "Passes the statutes (e.g., SB/AB bills) that create and direct all of the above programs." },
+    ],
+  },
+};
+
+export const GLOSSARY = [
+  { term: "IOU", def: "Investor-Owned Utility — a for-profit utility regulated by the CPUC (PG&E, SCE, SDG&E, SoCalGas)." },
+  { term: "POU", def: "Publicly-Owned Utility — a municipal utility (e.g., LADWP, SMUD), governed locally, not by the CPUC." },
+  { term: "CCA", def: "Community Choice Aggregator — a local government that buys electricity for its residents while the IOU still delivers it (e.g., MCE, CleanPowerSF)." },
+  { term: "DER", def: "Distributed Energy Resource — small, customer-side resources: rooftop solar, batteries, EV chargers, demand response." },
+  { term: "VPP", def: "Virtual Power Plant — many DERs aggregated and dispatched together like a single power plant." },
+  { term: "NEM / Net Billing", def: "Rules for compensating customer-generated (usually solar) electricity exported to the grid; 'net billing' is the successor to net energy metering." },
+  { term: "RA", def: "Resource Adequacy — the requirement that utilities secure enough capacity to keep the grid reliable." },
+  { term: "IRP", def: "Integrated Resource Plan — long-term CPUC planning for what resources the system will procure." },
+  { term: "GRC", def: "General Rate Case — the proceeding where a utility sets its overall revenue requirement (what it can collect from ratepayers)." },
+  { term: "OIR / OII", def: "Order Instituting Rulemaking / Investigation — the orders that open a CPUC proceeding." },
+  { term: "ALJ", def: "Administrative Law Judge — runs a CPUC proceeding and drafts the Proposed Decision." },
+  { term: "PD / APD", def: "Proposed Decision / Alternate Proposed Decision — the draft ruling parties comment on before the Commission votes." },
+  { term: "IEPR", def: "Integrated Energy Policy Report — the CEC's biennial energy assessment and policy roadmap." },
+  { term: "Title 24 / Title 20", def: "California's building energy standards (Title 24, Part 6) and appliance efficiency standards (Title 20)." },
+  { term: "Scoping Plan", def: "CARB's roadmap for meeting the state's greenhouse-gas reduction targets." },
+  { term: "Cap-and-Trade", def: "A market program that caps total GHG emissions and lets entities trade allowances." },
+  { term: "LCFS", def: "Low Carbon Fuel Standard — CARB program to reduce the carbon intensity of transportation fuels." },
+  { term: "RPS", def: "Renewables Portfolio Standard — the requirement that utilities supply a rising share of renewable electricity." },
+  { term: "Building decarbonization", def: "Shifting buildings off fossil gas to efficient electric equipment (heat pumps for space/water heating) and grid readiness." },
+  { term: "Demand flexibility", def: "Shifting or reducing electricity use in response to grid needs or prices, often via dynamic rates." },
+  { term: "Ex parte", def: "A private communication with a decisionmaker; restricted and must be reported in CPUC proceedings." },
+  { term: "Chaptered", def: "A bill signed into law and assigned a chapter number." },
+  { term: "CAISO", def: "California Independent System Operator — runs the state's transmission grid and wholesale electricity market." },
+];
