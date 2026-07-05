@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 
 const Analytics = dynamic(() => import("./Analytics"), { ssr: false, loading: () => <div className="empty">Loading charts…</div> });
+const Intelligence = dynamic(() => import("./Intelligence"), { ssr: false });
 
 const STAGES = ["Introduced", "Committee", "Floor", "Enrolled", "Signed"];
 // LegiScan status codes: 1 Introduced, 2 Engrossed, 3 Enrolled, 4 Passed,
@@ -200,6 +201,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         <div className="tabs">
           <button className={"tab" + (tab === "brief" ? " active" : "")} onClick={() => setTab("brief")}>Director Brief</button>
+          <button className={"tab" + (tab === "intel" ? " active" : "")} onClick={() => setTab("intel")}>🧠 Intelligence</button>
           <button className={"tab" + (tab === "deadlines" ? " active" : "")} onClick={() => setTab("deadlines")}>⏰ Deadlines {dls.length ? `(${dls.length})` : ""}</button>
           <button className={"tab" + (tab === "proc" ? " active" : "")} onClick={() => setTab("proc")}>Proceedings</button>
           <button className={"tab" + (tab === "dev" ? " active" : "")} onClick={() => setTab("dev")}>Developments {devs.length ? `(${developments.length})` : ""}</button>
@@ -352,6 +354,8 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
               )}
           </section>
         )}
+
+        {tab === "intel" && <Intelligence />}
 
         {tab === "analytics" && <Analytics developments={developments} bills={bills} proceedings={proceedings} />}
 

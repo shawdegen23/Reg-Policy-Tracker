@@ -38,7 +38,11 @@ impacts are analyst starting points, not final language.
   - `ANTHROPIC_API_KEY` — Claude, if you'd rather use Anthropic.
   Without either, the rule-based analysis runs instead — nothing breaks. Optional `AI_MODEL`
   secret overrides the default model (`gemini-2.5-flash` / `claude-haiku-4-5-20251001`).
-- **Vercel:** framework preset **Next.js** (auto-detected). No env vars needed for the app.
+- **Vercel:** framework preset **Next.js** (auto-detected).
+- **Intelligence tab (chat):** add `GEMINI_API_KEY` to the **Vercel** project's Environment
+  Variables (Settings → Environment Variables), then redeploy. This is separate from the GitHub
+  Actions secret — the chat runs as a Vercel serverless function (`app/api/chat`) so the key stays
+  server-side, never in the browser. Without it, the Intelligence tab shows a "not configured" message.
 
 ## Local development
 ```bash
