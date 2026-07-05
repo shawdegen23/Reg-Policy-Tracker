@@ -131,69 +131,112 @@ function DeepDive({ text }) {
   );
 }
 
-function Calculator() {
-  const [heatload, setHeatload] = useState(40); // MMBtu/yr of heat delivered
-  const [gasPrice, setGasPrice] = useState(2.2); // $/therm
-  const [elecPrice, setElecPrice] = useState(0.32); // $/kWh
-  const [cop, setCop] = useState(3.2);
-  const furnaceEff = 0.92;
-  // gas: MMBtu -> therms (1 therm = 0.1 MMBtu). Furnace loses (1-eff).
-  const gasTherms = (heatload / furnaceEff) / 0.1;
-  const gasCost = gasTherms * gasPrice;
-  // heat pump: MMBtu heat delivered / COP = MMBtu electricity in; 1 kWh = 0.003412 MMBtu
-  const hpKwh = (heatload / cop) / 0.003412;
-  const hpCost = hpKwh * elecPrice;
-  const diff = gasCost - hpCost;
-  const cheaper = diff >= 0;
-  const fmtUsd = (n) => "$" + Math.round(n).toLocaleString();
-  const barMax = Math.max(gasCost, hpCost, 1);
-  const field = (label, val, set, min, max, step, unit) => (
-    <label style={{ display: "block", marginBottom: 16 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13, color: "#3a3a34", marginBottom: 5 }}>
-        <span>{label}</span><span style={{ fontFamily: "var(--serif)", fontWeight: 600, color: "#1c1b18" }}>{val}{unit}</span>
-      </div>
-      <input type="range" min={min} max={max} step={step} value={val} onChange={(e) => set(parseFloat(e.target.value))} style={{ width: "100%", accentColor: "var(--accent)" }} />
-    </label>
-  );
+const AGENCIES = {
+  CPUC: { name: "CPUC", full: "California Public Utilities Commission", color: "#2e5e8c" },
+  CEC: { name: "CEC", full: "California Energy Commission", color: "#2f8f4e" },
+  CARB: { name: "CARB", full: "California Air Resources Board", color: "#c0392b" },
+  LEG: { name: "Legislature", full: "California State Legislature", color: "#8a6100" },
+};
+const SCENARIOS = [
+  { q: "Set the rate PG&E charges its customers", a: "CPUC", why: "Investor-owned utility rates are set by the CPUC, primarily through a General Rate Case (GRC)." },
+  { q: "Decide how rooftop-solar exports get paid (net billing)", a: "CPUC", why: "DER compensation and the Net Billing Tariff are CPUC rate-design decisions (the NEM successor)." },
+  { q: "Approve a utility's long-term procurement plan (IRP)", a: "CPUC", why: "Integrated Resource Planning and Resource Adequacy live at the CPUC." },
+  { q: "Update the building energy code (Title 24)", a: "CEC", why: "The CEC writes Title 24, Part 6 building efficiency standards on a ~3-year cycle." },
+  { q: "Set appliance efficiency standards (Title 20)", a: "CEC", why: "Appliance efficiency standards are Title 20, administered by the CEC." },
+  { q: "License a large solar-plus-storage power plant", a: "CEC", why: "The CEC handles siting and certification of large generation (with the AB 205 opt-in path)." },
+  { q: "Publish the biennial state energy forecast (IEPR)", a: "CEC", why: "The Integrated Energy Policy Report is the CEC's core planning document." },
+  { q: "Run the cap-and-trade carbon market", a: "CARB", why: "Cap-and-trade and the GHG Scoping Plan are CARB programs." },
+  { q: "Set zero-emission vehicle rules (Advanced Clean Cars)", a: "CARB", why: "Vehicle emission standards and ZEV mandates are CARB's authority." },
+  { q: "Phase out new gas furnaces (zero-NOx appliance rule)", a: "CARB", why: "Zero-NOx space- and water-heater rules are adopted by CARB." },
+  { q: "Create a brand-new state energy program", a: "LEG", why: "Only the Legislature can pass the statute; the agencies then implement it." },
+  { q: "Set the 2045 carbon-neutrality target in law", a: "LEG", why: "Statewide targets (AB 32 / SB 32 / AB 1279) are set by the Legislature." },
+];
+
+function AgencyRouter() {
+  const [sel, setSel] = useState(0);
+  const s = SCENARIOS[sel];
+  const ag = AGENCIES[s.a];
   return (
     <div className="dossier">
-      <div className="kicker">Interactive tool</div>
-      <div className="display lg">Heat pump vs. gas — <em>run your own numbers</em>.</div>
-      <p className="lede">A heat pump is 3–4× more efficient, but California electricity is expensive per unit. Whether it actually lowers the bill depends on the spread between gas and electric prices. Drag the sliders to see.</p>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 30, marginTop: 22 }}>
+      <div className="kicker">Interactive · Who regulates what</div>
+      <div className="display lg">Pick a task — <em>find the agency</em>.</div>
+      <p className="lede">California's energy authority is split across three agencies and the Legislature, and the boundaries trip up nearly everyone. Tap a real action to see who actually holds the pen, and why.</p>
+      <div className="toolgrid">
         <div>
-          <div className="subhead" style={{ marginTop: 0 }}>Assumptions</div>
-          {field("Annual heat needed", heatload, setHeatload, 10, 100, 1, " MMBtu")}
-          {field("Gas price", gasPrice, setGasPrice, 0.8, 4, 0.1, " $/therm")}
-          {field("Electricity price", elecPrice, setElecPrice, 0.1, 0.6, 0.01, " $/kWh")}
-          {field("Heat-pump efficiency (COP)", cop, setCop, 1.8, 4.5, 0.1, "")}
-          <div style={{ fontSize: 11.5, color: "#a49e90", marginTop: 6 }}>Gas furnace assumed 92% efficient. Heating only; excludes equipment & install cost.</div>
+          <div className="subhead" style={{ marginTop: 0 }}>The task</div>
+          {SCENARIOS.map((x, i) => (
+            <button key={i} onClick={() => setSel(i)} style={{
+              display: "block", width: "100%", textAlign: "left", margin: "7px 0", padding: "11px 14px", borderRadius: 9, cursor: "pointer", fontFamily: "inherit", fontSize: 13.5, lineHeight: 1.4,
+              border: "1px solid " + (sel === i ? AGENCIES[x.a].color : "#e0d9ca"), background: "#fff", color: "#3a3a34", fontWeight: sel === i ? 600 : 400,
+              boxShadow: sel === i ? "inset 3px 0 0 " + AGENCIES[x.a].color : "none",
+            }}>{x.q}</button>
+          ))}
         </div>
         <div>
-          <div className="subhead" style={{ marginTop: 0 }}>Estimated annual heating cost</div>
-          {[["Gas furnace", gasCost, "#8a857a"], ["Heat pump", hpCost, "#2f8f4e"]].map(([lbl, cost, col], i) => (
-            <div key={i} style={{ marginBottom: 16 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13.5, marginBottom: 5 }}>
-                <span style={{ color: "#3a3a34" }}>{lbl}</span>
-                <span style={{ fontFamily: "var(--serif)", fontWeight: 600, fontSize: 18, color: "#1c1b18" }}>{fmtUsd(cost)}/yr</span>
-              </div>
-              <div style={{ height: 22, background: "#efe9dc", borderRadius: 6, overflow: "hidden" }}>
-                <div style={{ width: (cost / barMax * 100) + "%", height: "100%", background: col, borderRadius: 6 }} />
-              </div>
-            </div>
-          ))}
-          <div style={{ background: cheaper ? "#e9f4ec" : "#fbecea", border: "1px solid " + (cheaper ? "#b7ddc2" : "#f0b7ae"), borderRadius: 10, padding: "14px 16px", marginTop: 18 }}>
-            <div style={{ fontFamily: "var(--serif)", fontSize: 20, fontWeight: 600, color: cheaper ? "#1f7a3d" : "#c0392b" }}>
-              {cheaper ? "Heat pump saves " + fmtUsd(Math.abs(diff)) + "/yr" : "Gas is " + fmtUsd(Math.abs(diff)) + "/yr cheaper"}
-            </div>
-            <div style={{ fontSize: 13, color: "#4a4a42", marginTop: 5, lineHeight: 1.5 }}>
-              {cheaper
-                ? "At these prices the efficiency advantage wins. Add rebates and the case gets stronger."
-                : "This is the California paradox: the heat pump uses far less energy, but high per-kWh rates can erase the savings. It's why rate design (see the Rates lesson) is central to electrification."}
-            </div>
+          <div className="subhead" style={{ marginTop: 0 }}>The answer</div>
+          <div style={{ border: "1px solid " + ag.color, borderRadius: 12, padding: "22px 22px", background: "#fff" }}>
+            <span style={{ display: "inline-block", padding: "6px 14px", borderRadius: 20, background: ag.color, color: "#fff", fontFamily: "var(--serif)", fontWeight: 600, fontSize: 16 }}>{ag.name}</span>
+            <div style={{ fontFamily: "var(--serif)", fontSize: 20, color: "#1c1b18", marginTop: 12 }}>{ag.full}</div>
+            <p style={{ margin: "10px 0 0", fontSize: 14.5, lineHeight: 1.6, color: "#4a4a42" }}>{s.why}</p>
+          </div>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 16 }}>
+            {Object.values(AGENCIES).map((a, i) => (
+              <span key={i} style={{ fontSize: 11.5, padding: "4px 10px", borderRadius: 14, border: "1px solid " + a.color, color: a.color, fontWeight: 600, opacity: a.name === ag.name ? 1 : 0.4 }}>{a.name}</span>
+            ))}
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+const DOCKET_TYPES = {
+  R: { n: "Rulemaking", d: "A quasi-legislative proceeding opened by an Order Instituting Rulemaking (OIR) to make policy or rules." },
+  I: { n: "Investigation", d: "Opened by an Order Instituting Investigation (OII) — the Commission examines a utility's conduct or a problem." },
+  A: { n: "Application", d: "A utility or party formally asks the Commission for something — e.g., a General Rate Case or a project approval." },
+  C: { n: "Complaint", d: "A formal complaint filed against a utility, resolved through a quasi-judicial process." },
+  D: { n: "Decision", d: "A final, adopted Commission decision — the outcome a proceeding produces." },
+};
+const MONTHS = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+function DocketDecoder() {
+  const [v, setV] = useState("R.25-04-010");
+  const m = v.trim().toUpperCase().match(/^([RIACD])[.\s]*(\d{2})-?(\d{2})-?(\d{2,4})$/);
+  const t = m ? DOCKET_TYPES[m[1]] : null;
+  const samples = ["R.25-04-010", "A.23-05-004", "I.19-06-014", "D.26-04-017"];
+  return (
+    <div className="dossier">
+      <div className="kicker">Interactive · Docket decoder</div>
+      <div className="display lg">Decode a <em>CPUC docket number</em>.</div>
+      <p className="lede">Every CPUC filing carries a code like R.25-04-010. It isn't random — it tells you the type of proceeding and exactly when it opened. Type one, or try an example.</p>
+      <input value={v} onChange={(e) => setV(e.target.value)} placeholder="e.g. R.25-04-010" style={{ width: "100%", maxWidth: 340, padding: "12px 15px", border: "1px solid #d8d0bf", borderRadius: 10, fontSize: 18, fontFamily: "var(--serif)", fontWeight: 600, color: "#1c1b18", background: "#fff", marginTop: 6 }} />
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
+        {samples.map((s, i) => <button key={i} className="chip" onClick={() => setV(s)}>{s}</button>)}
+      </div>
+      {t ? (
+        <>
+          <div className="breakcards">
+            {[
+              { k: "Type", val: m[1], sub: t.n },
+              { k: "Year opened", val: "20" + m[2], sub: "" },
+              { k: "Month", val: m[3], sub: MONTHS[parseInt(m[3], 10)] || "" },
+              { k: "Sequence", val: "#" + parseInt(m[4], 10), sub: "nth filed that month" },
+            ].map((c, i) => (
+              <div key={i} style={{ flex: "1 1 130px", border: "1px solid #ece7dc", borderRadius: 10, padding: "14px 16px", background: "#fff" }}>
+                <div style={{ fontSize: 11, letterSpacing: ".08em", textTransform: "uppercase", color: "#a49e90" }}>{c.k}</div>
+                <div style={{ fontFamily: "var(--serif)", fontSize: 26, fontWeight: 600, color: "#1c1b18", marginTop: 4 }}>{c.val}</div>
+                {c.sub && <div style={{ fontSize: 12.5, color: "#6f6a5f", marginTop: 2 }}>{c.sub}</div>}
+              </div>
+            ))}
+          </div>
+          <div style={{ background: "#fff", border: "1px solid #ece7dc", borderRadius: 10, padding: "16px 18px", marginTop: 16 }}>
+            <span style={{ fontFamily: "var(--serif)", fontWeight: 600, color: "var(--accent)" }}>{m[1]} = {t.n}.</span>{" "}
+            <span style={{ fontSize: 14.5, color: "#4a4a42", lineHeight: 1.6 }}>{t.d}</span>
+          </div>
+        </>
+      ) : (
+        <div className="empty" style={{ marginTop: 18 }}>That doesn't look like a docket number yet. Try the format <b>R.25-04-010</b> — a letter (R/I/A/C/D), then year-month-sequence.</div>
+      )}
     </div>
   );
 }
@@ -321,8 +364,13 @@ export default function Intelligence() {
         </div>
       )}
 
-      {/* TOOLS — interactive calculator */}
-      {mode === "tools" && <Calculator />}
+      {/* TOOLS — interactive, agency-relevant */}
+      {mode === "tools" && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+          <AgencyRouter />
+          <DocketDecoder />
+        </div>
+      )}
 
       {/* DIAGRAMS */}
       {mode === "diagrams" && (
