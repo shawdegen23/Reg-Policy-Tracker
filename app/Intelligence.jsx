@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { MODULES, DIAGRAMS, GLOSSARY } from "./learnContent";
+import { MODULES, DIAGRAMS, GLOSSARY, ORG_TREE } from "./learnContent";
 
 function fmt(text) {
   return String(text).split(/\n/).map((line, i) => {
@@ -37,6 +37,167 @@ function FlowDiagram({ d, light }) {
   );
 }
 
+function Node({ nt, ns, cls }) {
+  return (
+    <span className={"node" + (cls ? " " + cls : "")}>
+      <span className="nt">{nt}</span>
+      {ns && <span className="ns">{ns}</span>}
+    </span>
+  );
+}
+
+function OrgTree({ t }) {
+  return (
+    <div style={{ margin: "24px 0" }}>
+      <div className="subhead" style={{ marginTop: 0 }}>California governance — the tree</div>
+      <div className="treewrap">
+        <ul className="tree">
+          <li>
+            <Node nt={t.top.nt} ns={t.top.ns} cls="top" />
+            <ul>
+              {t.branches.map((b, i) => (
+                <li key={i}>
+                  <Node nt={b.nt} ns={b.ns} />
+                  {b.children && (
+                    <ul>
+                      {b.children.map((c, j) => <li key={j}><Node nt={c.nt} ns={c.ns} /></li>)}
+                    </ul>
+                  )}
+                  {b.umbrellas && (
+                    <ul>
+                      {b.umbrellas.map((u, j) => (
+                        <li key={j}>
+                          <span className="node">
+                            <span className="nt">{u.nt}</span>
+                            <span className="ns">{u.ns}</span>
+                            <span className="agencylist">
+                              {u.agencies.map((a, k) => (
+                                <div key={k}>{a.star ? <span className="star">★ </span> : "· "}{a.name}{a.note ? " — " + a.note : ""}</div>
+                              ))}
+                            </span>
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div style={{ background: "#fff", border: "1px solid var(--accent)", borderRadius: 10, padding: "13px 16px", marginTop: 12, display: "flex", gap: 12, alignItems: "flex-start" }}>
+        <span style={{ fontFamily: "var(--serif)", fontWeight: 600, color: "var(--accent)", fontSize: 15, whiteSpace: "nowrap" }}>⚡ {t.independent.nt}</span>
+        <span style={{ fontSize: 13, color: "#3a3a34", lineHeight: 1.55 }}><b style={{ color: "#1c1b18" }}>{t.independent.ns}.</b> {t.independent.note}</span>
+      </div>
+      <div style={{ fontSize: 11.5, color: "#8a857a", marginTop: 8 }}>★ = the two agencies that do most energy &amp; climate work.</div>
+    </div>
+  );
+}
+
+function Breakdown({ b }) {
+  const max = Math.max(...b.items.map((i) => i.pct));
+  return (
+    <div style={{ margin: "24px 0" }}>
+      <div className="subhead" style={{ marginTop: 0 }}>{b.title}</div>
+      {b.note && <div style={{ fontSize: 13.5, color: "#6f6a5f", margin: "0 0 14px", maxWidth: "62ch" }}>{b.note}</div>}
+      {b.items.map((it, i) => (
+        <div key={i} style={{ display: "flex", alignItems: "center", gap: 12, margin: "9px 0" }}>
+          <div style={{ width: 190, flexShrink: 0, fontSize: 13.5, color: "#3a3a34" }}>
+            {it.label}{it.note && <span style={{ color: "#a49e90", fontSize: 12 }}> · {it.note}</span>}
+          </div>
+          <div style={{ flex: 1, height: 26, background: "#efe9dc", borderRadius: 6, overflow: "hidden" }}>
+            <div style={{ width: (it.pct / max * 100) + "%", height: "100%", background: it.color, borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "flex-end", paddingRight: 8, color: "#fff", fontSize: 12, fontWeight: 600 }}>{it.pct}%</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function DeepDive({ text }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div style={{ margin: "6px 0 16px" }}>
+      <button onClick={() => setOpen(!open)} className="linklike" style={{ fontFamily: "var(--serif)", fontSize: 13.5, color: "var(--accent)", textDecoration: "none", fontStyle: "italic" }}>
+        {open ? "− Less" : "+ Go deeper"}
+      </button>
+      {open && (
+        <div style={{ borderLeft: "2px solid #e4ddcf", paddingLeft: 16, marginTop: 10 }}>
+          <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.7, color: "#4a4a42" }}>{text}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Calculator() {
+  const [heatload, setHeatload] = useState(40); // MMBtu/yr of heat delivered
+  const [gasPrice, setGasPrice] = useState(2.2); // $/therm
+  const [elecPrice, setElecPrice] = useState(0.32); // $/kWh
+  const [cop, setCop] = useState(3.2);
+  const furnaceEff = 0.92;
+  // gas: MMBtu -> therms (1 therm = 0.1 MMBtu). Furnace loses (1-eff).
+  const gasTherms = (heatload / furnaceEff) / 0.1;
+  const gasCost = gasTherms * gasPrice;
+  // heat pump: MMBtu heat delivered / COP = MMBtu electricity in; 1 kWh = 0.003412 MMBtu
+  const hpKwh = (heatload / cop) / 0.003412;
+  const hpCost = hpKwh * elecPrice;
+  const diff = gasCost - hpCost;
+  const cheaper = diff >= 0;
+  const fmtUsd = (n) => "$" + Math.round(n).toLocaleString();
+  const barMax = Math.max(gasCost, hpCost, 1);
+  const field = (label, val, set, min, max, step, unit) => (
+    <label style={{ display: "block", marginBottom: 16 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13, color: "#3a3a34", marginBottom: 5 }}>
+        <span>{label}</span><span style={{ fontFamily: "var(--serif)", fontWeight: 600, color: "#1c1b18" }}>{val}{unit}</span>
+      </div>
+      <input type="range" min={min} max={max} step={step} value={val} onChange={(e) => set(parseFloat(e.target.value))} style={{ width: "100%", accentColor: "var(--accent)" }} />
+    </label>
+  );
+  return (
+    <div className="dossier">
+      <div className="kicker">Interactive tool</div>
+      <div className="display lg">Heat pump vs. gas — <em>run your own numbers</em>.</div>
+      <p className="lede">A heat pump is 3–4× more efficient, but California electricity is expensive per unit. Whether it actually lowers the bill depends on the spread between gas and electric prices. Drag the sliders to see.</p>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 30, marginTop: 22 }}>
+        <div>
+          <div className="subhead" style={{ marginTop: 0 }}>Assumptions</div>
+          {field("Annual heat needed", heatload, setHeatload, 10, 100, 1, " MMBtu")}
+          {field("Gas price", gasPrice, setGasPrice, 0.8, 4, 0.1, " $/therm")}
+          {field("Electricity price", elecPrice, setElecPrice, 0.1, 0.6, 0.01, " $/kWh")}
+          {field("Heat-pump efficiency (COP)", cop, setCop, 1.8, 4.5, 0.1, "")}
+          <div style={{ fontSize: 11.5, color: "#a49e90", marginTop: 6 }}>Gas furnace assumed 92% efficient. Heating only; excludes equipment & install cost.</div>
+        </div>
+        <div>
+          <div className="subhead" style={{ marginTop: 0 }}>Estimated annual heating cost</div>
+          {[["Gas furnace", gasCost, "#8a857a"], ["Heat pump", hpCost, "#2f8f4e"]].map(([lbl, cost, col], i) => (
+            <div key={i} style={{ marginBottom: 16 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13.5, marginBottom: 5 }}>
+                <span style={{ color: "#3a3a34" }}>{lbl}</span>
+                <span style={{ fontFamily: "var(--serif)", fontWeight: 600, fontSize: 18, color: "#1c1b18" }}>{fmtUsd(cost)}/yr</span>
+              </div>
+              <div style={{ height: 22, background: "#efe9dc", borderRadius: 6, overflow: "hidden" }}>
+                <div style={{ width: (cost / barMax * 100) + "%", height: "100%", background: col, borderRadius: 6 }} />
+              </div>
+            </div>
+          ))}
+          <div style={{ background: cheaper ? "#e9f4ec" : "#fbecea", border: "1px solid " + (cheaper ? "#b7ddc2" : "#f0b7ae"), borderRadius: 10, padding: "14px 16px", marginTop: 18 }}>
+            <div style={{ fontFamily: "var(--serif)", fontSize: 20, fontWeight: 600, color: cheaper ? "#1f7a3d" : "#c0392b" }}>
+              {cheaper ? "Heat pump saves " + fmtUsd(Math.abs(diff)) + "/yr" : "Gas is " + fmtUsd(Math.abs(diff)) + "/yr cheaper"}
+            </div>
+            <div style={{ fontSize: 13, color: "#4a4a42", marginTop: 5, lineHeight: 1.5 }}>
+              {cheaper
+                ? "At these prices the efficiency advantage wins. Add rebates and the case gets stronger."
+                : "This is the California paradox: the heat pump uses far less energy, but high per-kWh rates can erase the savings. It's why rate design (see the Rates lesson) is central to electrification."}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Intelligence() {
   const [mode, setMode] = useState("learn");
   const [openId, setOpenId] = useState(null);
@@ -65,7 +226,7 @@ export default function Intelligence() {
 
   const open = MODULES.find((m) => m.id === openId);
   const glossary = GLOSSARY.filter((g) => !gq || (g.term + " " + g.def).toLowerCase().includes(gq.toLowerCase()));
-  const NAV = [["learn", "The Dossier"], ["diagrams", "Diagrams"], ["glossary", "Glossary"], ["ask", "Ask AI"]];
+  const NAV = [["learn", "The Dossier"], ["structure", "Structure"], ["diagrams", "Diagrams"], ["tools", "Tools"], ["glossary", "Glossary"], ["ask", "Ask AI"]];
 
   return (
     <section>
@@ -83,7 +244,7 @@ export default function Intelligence() {
           <p className="lede">The agencies, the rules, and the machinery behind California's energy and climate system — CPUC, CEC, CARB, and the Legislature — explained from first principles, with the process diagrams and vocabulary you actually need.</p>
           <div className="statrow">
             <div className="stat"><div className="num">4</div><div className="lbl">agencies &amp; the Legislature</div></div>
-            <div className="stat"><div className="num">6</div><div className="lbl">guided lessons</div></div>
+            <div className="stat"><div className="num">8</div><div className="lbl">guided lessons</div></div>
             <div className="stat"><div className="num">2045</div><div className="lbl">carbon-neutral target</div></div>
           </div>
           <div style={{ marginTop: 20 }}>
@@ -112,11 +273,14 @@ export default function Intelligence() {
               {open.stats.map((s, i) => <div className="stat" key={i}><div className="num">{s.num}</div><div className="lbl">{s.lbl}</div></div>)}
             </div>
           )}
+          {open.id === "governance" && <OrgTree t={ORG_TREE} />}
           {open.diagram && DIAGRAMS[open.diagram] && <FlowDiagram d={DIAGRAMS[open.diagram]} />}
+          {open.breakdown && <Breakdown b={open.breakdown} />}
           {open.sections.map((s, i) => (
             <div key={i}>
               <div className="subhead">{s.h}</div>
               <p>{s.body}</p>
+              {s.deep && <DeepDive text={s.deep} />}
               {i === 1 && open.pullquote && <div className="pullquote">{open.pullquote}</div>}
             </div>
           ))}
@@ -141,6 +305,24 @@ export default function Intelligence() {
           </div>
         </div>
       )}
+
+      {/* STRUCTURE — the org tree */}
+      {mode === "structure" && (
+        <div className="dossier">
+          <div className="kicker">The structure</div>
+          <div className="display lg">Who sits <em>where</em> in California government.</div>
+          <p className="lede">Three branches, two agency umbrellas under the Governor, and one commission that answers to none of them. This is the map behind every acronym in the dossier.</p>
+          <OrgTree t={ORG_TREE} />
+          <div className="subhead">Read it top-down</div>
+          <p>The <strong>Legislature</strong> writes statutes that direct everyone below. The <strong>Governor</strong> runs the executive branch through cabinet 'super-agencies' — <strong>CalEPA</strong> (home of CARB) and <strong>CNRA</strong> (home of the CEC) are the two that matter for energy and climate. The <strong>CPUC</strong> sits off to the side: created by the Constitution, it regulates the investor-owned utilities' rates and programs and is reviewed directly by the appellate courts, not the Governor.</p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginTop: 8 }}>
+            {["Why is the CPUC independent from the Governor's agencies?", "What's the difference between CalEPA and CNRA?", "Which agency regulates my electric rates?"].map((q, i) => <button key={i} className="chip" onClick={() => askAbout(q)} style={{ maxWidth: 360, textAlign: "left" }}>{q}</button>)}
+          </div>
+        </div>
+      )}
+
+      {/* TOOLS — interactive calculator */}
+      {mode === "tools" && <Calculator />}
 
       {/* DIAGRAMS */}
       {mode === "diagrams" && (
