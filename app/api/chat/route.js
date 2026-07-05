@@ -2,6 +2,7 @@ import proceedings from "../../../data/proceedings.json";
 import developments from "../../../data/developments.json";
 import bills from "../../../data/bills.json";
 import deadlines from "../../../data/deadlines.json";
+import { KNOWLEDGE_BASE } from "../../knowledgeBase";
 
 // Server-side chat proxy. The Gemini key stays here (Vercel env var), never the
 // browser. Answers are grounded in the live tracker data plus the model's
@@ -31,9 +32,12 @@ Legislature, plus how the regulatory process works (rulemakings/proceedings, ALJ
 final decisions, comment periods, advice letters, the two-year legislative session, committees, etc.).
 
 You help the user learn about and reason through California regulatory and governance questions. You draw on:
-1. Your own expertise on California government and the regulatory/legislative process.
-2. LIVE TRACKER DATA (provided below) — the current proceedings, filings, bills, and deadlines this
-   organization is actively monitoring.
+1. The CALIFORNIA REGULATORY KNOWLEDGE BASE below — curated, authoritative reference on CA governance
+   structure, the CPUC/CEC/CARB, and the legislative process. Treat it as your primary reference for how
+   things work and prefer it over vague recollection.
+2. LIVE TRACKER DATA (below) — the current proceedings, filings, bills, and deadlines this organization
+   is actively monitoring.
+3. Your broader expertise, to fill gaps and add context.
 
 Rules:
 - When a question relates to the tracked data, ground your answer in it and cite specifics: dockets
@@ -53,7 +57,9 @@ export async function POST(req) {
   if (!msgs.length) return Response.json({ error: "No message." }, { status: 400 });
 
   const contents = msgs.map((m) => ({ role: m.role === "assistant" ? "model" : "user", parts: [{ text: String(m.content || "").slice(0, 4000) }] }));
-  const system = SYSTEM + "\n\n=== LIVE TRACKER DATA (as of the latest ingest) ===\n" + buildContext();
+  const system = SYSTEM
+    + "\n\n=== CALIFORNIA REGULATORY KNOWLEDGE BASE (curated reference) ===\n" + KNOWLEDGE_BASE
+    + "\n\n=== LIVE TRACKER DATA (as of the latest ingest) ===\n" + buildContext();
 
   try {
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
