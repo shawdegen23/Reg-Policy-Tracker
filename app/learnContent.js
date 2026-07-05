@@ -7,6 +7,9 @@ export const MODULES = [
   {
     id: "governance", icon: "🏛️", title: "California Governance 101",
     summary: "How the state is organized — the three branches, the Governor's agencies, and where energy & climate power actually sits.",
+    kicker: "§ 01 · Foundations",
+    stats: [{ num: "3", lbl: "branches of government" }, { num: "2", lbl: "agency umbrellas" }, { num: "1", lbl: "independent commission" }],
+    pullquote: "The Legislature writes the rules; the agencies make them real.",
     diagram: "govTree",
     sections: [
       { h: "Three branches", body: "Legislative (a two-house Legislature: 80-member Assembly, 40-member Senate), Executive (the Governor plus constitutional officers and the departments/boards under them), and Judicial. The Legislature writes statutes; agencies implement them through regulations and programs." },
@@ -19,6 +22,9 @@ export const MODULES = [
   {
     id: "cpuc", icon: "⚡", title: "The CPUC — Utilities & Energy Regulation",
     summary: "Who the CPUC regulates, how a proceeding works, and the docket types you'll see (R., I., A., C.).",
+    kicker: "§ 02 · The Regulator",
+    stats: [{ num: "5", lbl: "Commissioners" }, { num: "6-yr", lbl: "staggered terms" }, { num: "4", lbl: "big investor-owned utilities" }],
+    pullquote: "A CPUC proceeding is a courtroom crossed with a rulemaking.",
     diagram: "cpucFlow",
     sections: [
       { h: "What it regulates", body: "Investor-owned utilities (IOUs) — PG&E, SCE, SDG&E for electricity, SoCalGas & SDG&E for gas — plus telecom, water, and some transportation. It sets the rates these utilities charge and the programs they run (efficiency, DER compensation, procurement, reliability)." },
@@ -32,6 +38,9 @@ export const MODULES = [
   {
     id: "cec", icon: "🔋", title: "The CEC — Energy Standards & Planning",
     summary: "California's energy planning agency: building & appliance efficiency standards, forecasting, and power-plant siting.",
+    kicker: "§ 03 · Standards & Planning",
+    stats: [{ num: "~3 yr", lbl: "building-code cycle" }, { num: "Title 24", lbl: "building energy standards" }, { num: "2 yr", lbl: "IEPR planning cadence" }],
+    pullquote: "The CPUC regulates utilities; the CEC sets the standards everyone builds to.",
     diagram: null,
     sections: [
       { h: "Its role", body: "The California Energy Commission is the state's primary energy policy and planning body, within CNRA, led by five Commissioners. Where the CPUC regulates utilities, the CEC sets standards and plans for the whole energy system." },
@@ -44,6 +53,9 @@ export const MODULES = [
   {
     id: "carb", icon: "🌱", title: "CARB — Climate & Air",
     summary: "The Air Resources Board: greenhouse-gas targets, cap-and-trade, the Low Carbon Fuel Standard, vehicle and appliance rules.",
+    kicker: "§ 04 · Climate & Air",
+    stats: [{ num: "2045", lbl: "carbon-neutral target" }, { num: "35", lbl: "local air districts" }, { num: "16", lbl: "board members" }],
+    pullquote: "One board sets the price of carbon and the future of the tailpipe.",
     diagram: null,
     sections: [
       { h: "Its role", body: "The California Air Resources Board, within CalEPA, handles air quality and climate. A 16-member board sets rules; 35 regional/local air districts (like South Coast AQMD) handle local air issues." },
@@ -57,6 +69,9 @@ export const MODULES = [
   {
     id: "legislation", icon: "📜", title: "How a Bill Becomes Law in California",
     summary: "The two-year session, committees, deadlines, and the path from introduction to the Governor's desk.",
+    kicker: "§ 05 · Lawmaking",
+    stats: [{ num: "2 yr", lbl: "legislative session" }, { num: "120", lbl: "legislators (80 + 40)" }, { num: "5", lbl: "stages to become law" }],
+    pullquote: "A bill has to survive two houses, the money committee, and the Governor's pen.",
     diagram: "billFlow",
     sections: [
       { h: "The two-year session", body: "California runs a two-year legislative session (e.g., 2025–2026). Bills can carry over between the two years — a 'two-year bill.' Bills that miss their deadlines are effectively dead until reintroduced." },
@@ -69,6 +84,10 @@ export const MODULES = [
   {
     id: "energy-system", icon: "🔌", title: "The California Energy System",
     summary: "Utilities, CCAs, the grid operator, and distributed energy — and which agency governs each piece.",
+    kicker: "§ 06 · The System",
+    stats: [{ num: "~67%", lbl: "clean grid (2024)" }, { num: "~2×", lbl: "demand growth by 2045" }, { num: "14M", lbl: "served by CCAs" }],
+    pullquote: "Electrify a home today and it rides the decarbonizing grid automatically.",
+    compare: { title: "Efficiency — moving heat vs. making it", rows: [{ label: "Gas furnace", value: "85%", pct: 28, color: "#8a857a" }, { label: "Air-source heat pump", value: "300%+", pct: 100, color: "#2f8f4e" }] },
     diagram: "agencyMap",
     sections: [
       { h: "Who delivers power", body: "IOUs (investor-owned, e.g., PG&E) and POUs (publicly-owned, e.g., LADWP, SMUD) run the wires. Community Choice Aggregators (CCAs) — local governments — increasingly buy the electricity while the IOU still delivers it. The CAISO (grid operator) runs the transmission grid and wholesale market." },

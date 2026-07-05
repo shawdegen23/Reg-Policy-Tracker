@@ -1,4 +1,13 @@
 import "./globals.css";
+import { Fraunces } from "next/font/google";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-serif",
+  display: "swap",
+});
 
 export const metadata = {
   title: "TEC Regulatory Monitoring",
@@ -7,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={fraunces.variable}>
       <body>{children}</body>
     </html>
   );
