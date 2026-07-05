@@ -124,13 +124,17 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
   const devTypes = [...new Set(developments.map((d) => d.type).filter(Boolean))].sort();
   const devAgencies = [...new Set(developments.map((d) => d.agency).filter(Boolean))].sort();
   const clearDevFilters = () => { setTopicFilter(""); setDevType(""); setDevRel(""); setDevAgency(""); setDq(""); };
-  // A bill is "archived" once it's dead/vetoed/failed; active bills stay front and center.
+  // A bill is archived once it's formally dead OR has had no action in 6 months
+  // (reversible — new action moves it back to Active). Active bills stay up front.
+  const STALE_DAYS = 183;
   const isDead = (b) => { const o = billOutcome(b); return !!o && /Vetoed|Failed/.test(o.label); };
-  const activeCount = bills.filter((b) => !isDead(b)).length;
-  const archivedCount = bills.filter((b) => isDead(b)).length;
+  const isStale = (b) => { const d = (Date.now() - Date.parse(b.lastActionDate)) / 86400000; return !isNaN(d) && d > STALE_DAYS; };
+  const isArchived = (b) => isDead(b) || isStale(b);
+  const activeCount = bills.filter((b) => !isArchived(b)).length;
+  const archivedCount = bills.filter((b) => isArchived(b)).length;
   const blls = [...bills]
     .filter((b) => !bq || JSON.stringify(b).toLowerCase().includes(bq.toLowerCase()))
-    .filter((b) => billView === "all" ? true : billView === "archived" ? isDead(b) : !isDead(b))
+    .filter((b) => billView === "all" ? true : billView === "archived" ? isArchived(b) : !isArchived(b))
     .sort((a, z) => (z.lastActionDate || "").localeCompare(a.lastActionDate || ""));
 
   const src = meta?.sources || {};
@@ -353,7 +357,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         {tab === "bills" && (
           <section>
-            <div className="note"><b>Legislative bills</b> — energy/climate bills. Active bills are tracked here; ones that die (vetoed/failed) move to the Archive so effort stays on what's still alive.</div>
+            <div className="note"><b>Legislative bills</b> — energy/climate bills. Active bills stay here; ones that die (vetoed/failed) or go <b>6 months without action</b> move to the Archive. It's reversible — any new action brings a bill back to Active.</div>
             <div className="filterbar">
               <input className="search" style={{ marginBottom: 0 }} placeholder="Search bills…" value={bq} onChange={(e) => setBq(e.target.value)} />
               <div style={{ display: "flex", gap: 0, border: "1px solid var(--line)", borderRadius: 8, overflow: "hidden" }}>
@@ -378,7 +382,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
                           <td><button className="star" onClick={() => toggleTrack(b.number)} title="Track this bill">{tracked.includes(b.number) ? "★" : "☆"}</button></td>
                           <td>{b.isNew ? <span className="pill High">NEW</span> : b.isUpdated ? <span className="pill Medium">UPD</span> : ""}</td>
                           <td>{b.number}</td>
-                          <td>{o ? <span className={"pill " + o.cls}>{o.label.replace(" / Chaptered", "").replace(" / Dead", "")}</span> : <span className="pill Low">{STAGES[stageOf(b)]}</span>}</td>
+                          <td>{o ? <span className={"pill " + o.cls}>{o.label.replace(" / Chaptered", "").replace(" / Dead", "")}</span> : <span className="pill Low">{STAGES[stageOf(b)]}{isStale(b) ? " · dormant" : ""}</span>}</td>
                           <td>{b.title}</td><td>{b.lastAction}</td><td>{b.lastActionDate}</td>
                           <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">open</a> : ""}</td>
                         </tr>
