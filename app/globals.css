@@ -99,13 +99,13 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px}
 .tree li:last-child::before{border-right:1.5px solid #d8d0bf}
 .tree ul ul::before{content:"";position:absolute;top:0;left:50%;border-left:1.5px solid #d8d0bf;width:0;height:22px}
 .tree .node{display:inline-block;min-width:120px;padding:9px 13px;border:1px solid #e0d9ca;border-radius:10px;background:#fff;font-size:12.5px;color:var(--ink2);line-height:1.35}
-.tree .node .nt{font-family:var(--serif);font-weight:600;font-size:13.5px;color:#1c1b18}
-.tree .node .ns{font-size:11px;color:#8a857a;margin-top:2px}
+.tree .node .nt{display:block;font-family:var(--serif);font-weight:600;font-size:13.5px;color:#1c1b18}
+.tree .node .ns{display:block;font-size:11px;color:#8a857a;margin-top:2px}
 .tree .node.hl{border-color:var(--accent);background:#fff}
 .tree .node.hl .nt{color:var(--accent)}
 .tree .node.top{background:#1c1b18;border-color:#1c1b18}
 .tree .node.top .nt{color:#fff}
-.agencylist{margin-top:6px;text-align:left;font-size:11.5px;line-height:1.7;color:#4a4a42}
+.agencylist{display:block;margin-top:8px;padding-top:8px;border-top:1px solid #efe9dc;text-align:left;font-size:11.5px;line-height:1.7;color:#4a4a42}
 .agencylist .star{color:var(--accent);font-weight:700}
 .toolgrid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:22px}
 .breakcards{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
