@@ -10,7 +10,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "Pacific Gas and Electric Company"
@@ -26,7 +26,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "Southern California Gas Company"
@@ -42,7 +42,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "WestLight Energy"
@@ -58,7 +58,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "Marin Clean Energy"
@@ -74,7 +74,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "California Choice Energy Authority"
@@ -90,7 +90,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "SAN DIEGO GAS & ELECTRIC COMPANY"
@@ -106,7 +106,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Determines how CCAs fund and implement energy efficiency programs, directly impacting their ability to deliver services and achieve energy goals.",
+    "impact": "This impacts how CCAs fund and deliver energy efficiency programs, affecting program availability and scope for their customers. Crucial for decarbonization goals.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "CalAdvocates/Gibbs/CPUC"
@@ -121,8 +121,8 @@
     "date": "2026-07-01",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Comments on a CPUC Staff Proposal could shape future regulatory decisions impacting energy programs and policies relevant to clients.",
+    "relevance": "High",
+    "impact": "Comments on the Staff Proposal in R.25-04-010 will shape the budget approach for CCAs administering energy efficiency programs, impacting program funding.",
     "firstSeen": "2026-07-04",
     "aiEnriched": true,
     "filedBy": "San Diego Community Power, on behalf of San Diego Regional Energy Network,Clean Energy Alliance,Orange County Power Authority"
@@ -361,10 +361,10 @@
     "date": "2026-05-14",
     "topic": "DER / Rates",
     "dataType": "Quantitative",
-    "relevance": "High",
-    "impact": "Extends the SGIP proceeding deadline, impacting the program's longevity and future policy development for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "-"
   },
   {
@@ -377,10 +377,10 @@
     "date": "2026-05-08",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Resumes SGIP payments for certain projects, providing financial certainty, while audits ensure program integrity for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "COM/DOUGLAS/CPUC"
   },
   {
@@ -647,9 +647,9 @@
     "topic": "DER / Rates",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Denies a petition to modify SGIP rules, maintaining current program structure and stability for clients.",
+    "impact": "DER / Rates decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "-"
   },
   {
@@ -662,10 +662,10 @@
     "date": "2026-03-18",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Comments influence how SGIP project costs are verified, affecting payment processes and project eligibility for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "Clean Power Alliance of Southern California"
   },
   {
@@ -678,10 +678,10 @@
     "date": "2026-03-18",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Comments influence how SGIP project costs are verified, affecting payment processes and project eligibility for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "GRID Alternatives"
   },
   {
@@ -694,10 +694,10 @@
     "date": "2026-03-18",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Comments influence how SGIP project costs are verified, affecting payment processes and project eligibility for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "Marin Clean Energy,San Diego Community Power,Clean Energy Alliance,City of San Jose,Peninsula Clean Energy Authority"
   },
   {
@@ -710,10 +710,10 @@
     "date": "2026-03-18",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Comments influence how SGIP project costs are verified, affecting payment processes and project eligibility for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
-    "aiEnriched": true,
+    "aiEnriched": false,
     "filedBy": "California Solar & Storage Association"
   },
   {
@@ -726,11 +726,11 @@
     "date": "2026-03-18",
     "topic": "DER / Rates",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Comments influence how SGIP project costs are verified, affecting payment processes and project eligibility for clients.",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "firstSeen": "2026-07-04",
     "filedBy": "Southern California Gas Company",
-    "aiEnriched": true
+    "aiEnriched": false
   },
   {
     "source": "CPUC R.22-07-005",
