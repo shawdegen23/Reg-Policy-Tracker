@@ -159,8 +159,8 @@ function AgencyRouter() {
   return (
     <div className="dossier">
       <div className="kicker">Interactive · Who regulates what</div>
-      <div className="display lg">Pick a task — <em>find the agency</em>.</div>
-      <p className="lede">California's energy authority is split across three agencies and the Legislature, and the boundaries trip up nearly everyone. Tap a real action to see who actually holds the pen, and why.</p>
+      <div className="display lg">Which agency <em>does what</em>.</div>
+      <p className="lede">Energy authority is split across three agencies and the Legislature. Pick a task to see which one is responsible, and why.</p>
       <div className="toolgrid">
         <div>
           <div className="subhead" style={{ marginTop: 0 }}>The task</div>
@@ -208,7 +208,7 @@ function DocketDecoder() {
     <div className="dossier">
       <div className="kicker">Interactive · Docket decoder</div>
       <div className="display lg">Decode a <em>CPUC docket number</em>.</div>
-      <p className="lede">Every CPUC filing carries a code like R.25-04-010. It isn't random — it tells you the type of proceeding and exactly when it opened. Type one, or try an example.</p>
+      <p className="lede">Every CPUC filing has a code like R.25-04-010. It shows the type of proceeding and when it opened. Type one, or try an example.</p>
       <input value={v} onChange={(e) => setV(e.target.value)} placeholder="e.g. R.25-04-010" style={{ width: "100%", maxWidth: 340, padding: "12px 15px", border: "1px solid #d8d0bf", borderRadius: 10, fontSize: 18, fontFamily: "var(--serif)", fontWeight: 600, color: "#1c1b18", background: "#fff", marginTop: 6 }} />
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
         {samples.map((s, i) => <button key={i} className="chip" onClick={() => setV(s)}>{s}</button>)}
@@ -282,9 +282,9 @@ export default function Intelligence() {
       {/* THE DOSSIER — cover / table of contents */}
       {mode === "learn" && !open && (
         <div className="dossier">
-          <div className="kicker">TEC · Field Dossier · Vol. 01</div>
-          <div className="display xl">A working guide to <em>California energy &amp; governance</em>.</div>
-          <p className="lede">The agencies, the rules, and the machinery behind California's energy and climate system — CPUC, CEC, CARB, and the Legislature — explained from first principles, with the process diagrams and vocabulary you actually need.</p>
+          <div className="kicker">TEC · California Regulatory Primer</div>
+          <div className="display xl">A guide to <em>California energy &amp; governance</em>.</div>
+          <p className="lede">How California's energy and climate system works: what the CPUC, CEC, CARB, and the Legislature each do, how their processes run, and the key terms — in plain language.</p>
           <div className="statrow">
             <div className="stat"><div className="num">4</div><div className="lbl">agencies &amp; the Legislature</div></div>
             <div className="stat"><div className="num">8</div><div className="lbl">guided lessons</div></div>
@@ -353,11 +353,11 @@ export default function Intelligence() {
       {mode === "structure" && (
         <div className="dossier">
           <div className="kicker">The structure</div>
-          <div className="display lg">Who sits <em>where</em> in California government.</div>
-          <p className="lede">Three branches, two agency umbrellas under the Governor, and one commission that answers to none of them. This is the map behind every acronym in the dossier.</p>
+          <div className="display lg">Who does <em>what</em> in California government.</div>
+          <p className="lede">California's government has three branches. Under the Governor, most agencies sit within two umbrellas — CalEPA and CNRA. The CPUC is independent of both. Here's how it fits together.</p>
           <OrgTree t={ORG_TREE} />
-          <div className="subhead">Read it top-down</div>
-          <p>The <strong>Legislature</strong> writes statutes that direct everyone below. The <strong>Governor</strong> runs the executive branch through cabinet 'super-agencies' — <strong>CalEPA</strong> (home of CARB) and <strong>CNRA</strong> (home of the CEC) are the two that matter for energy and climate. The <strong>CPUC</strong> sits off to the side: created by the Constitution, it regulates the investor-owned utilities' rates and programs and is reviewed directly by the appellate courts, not the Governor.</p>
+          <div className="subhead">How to read it</div>
+          <p>The <strong>Legislature</strong> writes the statutes that direct the agencies. The <strong>Governor</strong> runs the executive branch through cabinet super-agencies: <strong>CalEPA</strong> (which includes CARB) and <strong>CNRA</strong> (which includes the CEC) are the two relevant to energy and climate. The <strong>CPUC</strong> is separate — it was created by the Constitution, regulates investor-owned utilities' rates and programs, and is reviewed by the appellate courts rather than the Governor.</p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginTop: 8 }}>
             {["Why is the CPUC independent from the Governor's agencies?", "What's the difference between CalEPA and CNRA?", "Which agency regulates my electric rates?"].map((q, i) => <button key={i} className="chip" onClick={() => askAbout(q)} style={{ maxWidth: 360, textAlign: "left" }}>{q}</button>)}
           </div>
@@ -376,8 +376,8 @@ export default function Intelligence() {
       {mode === "diagrams" && (
         <div className="dossier">
           <div className="kicker">Process diagrams</div>
-          <div className="display lg">How the machinery <em>actually moves</em>.</div>
-          <p className="lede">Click any step to see what happens there — from a CPUC rulemaking to a bill on the Governor's desk.</p>
+          <div className="display lg">How the <em>process</em> works.</div>
+          <p className="lede">Click any step to see what happens there, from a CPUC rulemaking to a bill going to the Governor.</p>
           {Object.values(DIAGRAMS).map((d, i) => <FlowDiagram key={i} d={d} />)}
         </div>
       )}
@@ -386,7 +386,7 @@ export default function Intelligence() {
       {mode === "glossary" && (
         <div className="dossier">
           <div className="kicker">Reference</div>
-          <div className="display lg">The <em>vocabulary</em>.</div>
+          <div className="display lg">Key <em>terms</em>.</div>
           <input className="search" placeholder="Search terms…" value={gq} onChange={(e) => setGq(e.target.value)} style={{ marginTop: 14 }} />
           <div>
             {glossary.map((g, i) => (
@@ -403,7 +403,7 @@ export default function Intelligence() {
       {/* ASK AI */}
       {mode === "ask" && (
         <div>
-          <div className="note"><b>Ask the assistant.</b> Grounded in the dossier knowledge base plus your live tracker data. Not legal advice — verify specifics against the source.</div>
+          <div className="note"><b>Ask the assistant.</b> It uses the primer's knowledge base plus your live tracker data. Not legal advice; verify specifics against the source.</div>
           <div style={{ background: "#fff", border: "1px solid var(--line)", borderRadius: 12, padding: 16, minHeight: 320, display: "flex", flexDirection: "column" }}>
             <div style={{ flex: 1 }}>
               {messages.length === 0 && !loading && (

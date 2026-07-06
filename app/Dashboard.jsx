@@ -215,7 +215,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         {tab === "brief" && (
           <section>
-            <div className="note"><b>Director Brief.</b> Auto-synthesized from the latest developments — the same layer you'd hand up for review. Generated {brief?.generatedAt ? new Date(brief.generatedAt).toLocaleString() : "on first ingest run"}.</div>
+            <div className="note"><b>Director Brief.</b> Automatically compiled from the latest developments for Director review. Generated {brief?.generatedAt ? new Date(brief.generatedAt).toLocaleString() : "on first ingest run"}.</div>
             {brief?.narrative && (
               <div className="card" style={{ borderLeft: "4px solid var(--blue)", marginBottom: 18 }}>
                 <div className="cat" style={{ marginBottom: 6 }}>AI SYNTHESIS</div>
@@ -313,7 +313,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         {tab === "topics" && (
           <section>
-            <div className="note"><b>Adjacent topics.</b> Maintain working knowledge across the areas the role spans. Click a topic to filter the Developments feed.</div>
+            <div className="note"><b>Adjacent topics.</b> The main policy areas this role covers. Click a topic to filter the Developments feed.</div>
             <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))" }}>
               {ADJACENT.concat(Object.keys(topicCounts).filter((x) => !ADJACENT.includes(x))).map((topic, i) => (
                 <div className="card" key={i} style={{ cursor: "pointer" }} onClick={() => { setTopicFilter(topic); setTab("dev"); }}>
@@ -446,7 +446,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         {tab === "agency" && (
           <section>
-            <div className="note"><b>Non-CPUC sources.</b> Live items land in the Developments and Bills tabs; each subscription is the safety net.</div>
+            <div className="note"><b>Non-CPUC sources.</b> Live items appear in the Developments and Bills tabs; the subscriptions are the reliable fallback.</div>
             <div className="grid">
               {WATCH.map((a, i) => {
                 const subUrl = (a.sub || "").match(/https?:\/\/\S+/);
@@ -465,7 +465,7 @@ export default function Dashboard({ proceedings, developments, bills, meta, brie
 
         {tab === "subs" && (
           <section>
-            <div className="note"><b>Reliability backbone.</b> Official subscriptions never miss a filing. Automated ingestion sits on top as the fast, prioritized layer.</div>
+            <div className="note"><b>Reliability.</b> Official subscriptions are the complete record of filings. Automated ingestion adds a faster, prioritized layer on top.</div>
             <table>
               <thead><tr><th>Source</th><th>Covers</th><th>Subscribe</th></tr></thead>
               <tbody>

@@ -9,7 +9,7 @@ export const MODULES = [
     summary: "How the state is organized — the three branches, the Governor's agencies, and where energy & climate power actually sits.",
     kicker: "§ 01 · Foundations",
     stats: [{ num: "3", lbl: "branches of government" }, { num: "2", lbl: "agency umbrellas" }, { num: "1", lbl: "independent commission" }],
-    pullquote: "The Legislature writes the rules; the agencies make them real.",
+    pullquote: "The Legislature writes the laws; the agencies carry them out.",
     diagram: "govTree",
     sections: [
       { h: "Three branches", body: "Legislative (a two-house Legislature: 80-member Assembly, 40-member Senate), Executive (the Governor plus constitutional officers and the departments/boards under them), and Judicial. The Legislature writes statutes; agencies implement them through regulations and programs." },
@@ -24,7 +24,7 @@ export const MODULES = [
     summary: "Who the CPUC regulates, how a proceeding works, and the docket types you'll see (R., I., A., C.).",
     kicker: "§ 02 · The Regulator",
     stats: [{ num: "5", lbl: "Commissioners" }, { num: "6-yr", lbl: "staggered terms" }, { num: "4", lbl: "big investor-owned utilities" }],
-    pullquote: "A CPUC proceeding is a courtroom crossed with a rulemaking.",
+    pullquote: "The CPUC both makes rules and decides cases, so its process is part rulemaking, part court.",
     diagram: "cpucFlow",
     sections: [
       { h: "What it regulates", body: "Investor-owned utilities (IOUs) — PG&E, SCE, SDG&E for electricity, SoCalGas & SDG&E for gas — plus telecom, water, and some transportation. It sets the rates these utilities charge and the programs they run (efficiency, DER compensation, procurement, reliability)." },
@@ -40,7 +40,7 @@ export const MODULES = [
     summary: "California's energy planning agency: building & appliance efficiency standards, forecasting, and power-plant siting.",
     kicker: "§ 03 · Standards & Planning",
     stats: [{ num: "~3 yr", lbl: "building-code cycle" }, { num: "Title 24", lbl: "building energy standards" }, { num: "2 yr", lbl: "IEPR planning cadence" }],
-    pullquote: "The CPUC regulates utilities; the CEC sets the standards everyone builds to.",
+    pullquote: "The CPUC regulates utilities; the CEC sets the building and appliance standards.",
     diagram: null,
     sections: [
       { h: "Its role", body: "The California Energy Commission is the state's primary energy policy and planning body, within CNRA, led by five Commissioners. Where the CPUC regulates utilities, the CEC sets standards and plans for the whole energy system." },
@@ -55,7 +55,7 @@ export const MODULES = [
     summary: "The Air Resources Board: greenhouse-gas targets, cap-and-trade, the Low Carbon Fuel Standard, vehicle and appliance rules.",
     kicker: "§ 04 · Climate & Air",
     stats: [{ num: "2045", lbl: "carbon-neutral target" }, { num: "35", lbl: "local air districts" }, { num: "16", lbl: "board members" }],
-    pullquote: "One board sets the price of carbon and the future of the tailpipe.",
+    pullquote: "CARB runs cap-and-trade and sets California's vehicle emission rules.",
     diagram: null,
     sections: [
       { h: "Its role", body: "The California Air Resources Board, within CalEPA, handles air quality and climate. A 16-member board sets rules; 35 regional/local air districts (like South Coast AQMD) handle local air issues." },
@@ -71,7 +71,7 @@ export const MODULES = [
     summary: "The two-year session, committees, deadlines, and the path from introduction to the Governor's desk.",
     kicker: "§ 05 · Lawmaking",
     stats: [{ num: "2 yr", lbl: "legislative session" }, { num: "120", lbl: "legislators (80 + 40)" }, { num: "5", lbl: "stages to become law" }],
-    pullquote: "A bill has to survive two houses, the money committee, and the Governor's pen.",
+    pullquote: "A bill must pass both houses and the appropriations committee, then get the Governor's signature.",
     diagram: "billFlow",
     sections: [
       { h: "The two-year session", body: "California runs a two-year legislative session (e.g., 2025–2026). Bills can carry over between the two years — a 'two-year bill.' Bills that miss their deadlines are effectively dead until reintroduced." },
@@ -86,11 +86,11 @@ export const MODULES = [
     summary: "Utilities, CCAs, the grid operator, and distributed energy — and which agency governs each piece.",
     kicker: "§ 06 · The System",
     stats: [{ num: "~67%", lbl: "clean grid (2024)" }, { num: "~2×", lbl: "demand growth by 2045" }, { num: "14M", lbl: "served by CCAs" }],
-    pullquote: "Electrify a home today and it rides the decarbonizing grid automatically.",
+    pullquote: "A home switched to electricity gets cleaner over time as the grid decarbonizes.",
     compare: { title: "Efficiency — moving heat vs. making it", rows: [{ label: "Gas furnace", value: "85%", pct: 28, color: "#8a857a" }, { label: "Air-source heat pump", value: "300%+", pct: 100, color: "#2f8f4e" }] },
     breakdown: {
       title: "California emissions by sector",
-      note: "Decarbonization means moving four buckets at once — electrifying buildings and cars only helps if the grid underneath them cleans up too.",
+      note: "Cutting emissions means addressing all four sectors. Electrifying cars and buildings only helps if the grid also gets cleaner.",
       items: [
         { label: "Transportation", pct: 37, color: "#2e5e8c", note: "cars, trucks, planes, ships" },
         { label: "Buildings", pct: 24, color: "#e0a800", note: "gas furnaces, water heaters, stoves" },
@@ -112,10 +112,10 @@ export const MODULES = [
     summary: "Why buildings are a quarter of California's emissions, what 'electrification' actually means, and the heat pump at the center of it.",
     kicker: "§ 07 · Buildings",
     stats: [{ num: "~24%", lbl: "of state emissions" }, { num: "3-4×", lbl: "heat-pump efficiency" }, { num: "2045", lbl: "carbon-neutral deadline" }],
-    pullquote: "You can't hit a carbon target while installing a new gas furnace that runs for 20 years.",
+    pullquote: "A gas furnace installed today locks in emissions for 15–20 years.",
     breakdown: {
       title: "Where a typical home's energy goes",
-      note: "Space and water heating are the fossil-gas heart of a house — and exactly what heat pumps replace.",
+      note: "Space and water heating use the most gas in a home, and are what heat pumps replace.",
       items: [
         { label: "Space heating", pct: 43, color: "#c0392b", note: "furnace / boiler" },
         { label: "Water heating", pct: 19, color: "#e0a800", note: "gas or electric tank" },
@@ -142,10 +142,10 @@ export const MODULES = [
     summary: "What you actually pay for, why California rates are high, and how time-of-use and fixed charges change the math of electrification.",
     kicker: "§ 08 · Rates",
     stats: [{ num: "3", lbl: "cost buckets on a bill" }, { num: "TOU", lbl: "time-of-use pricing" }, { num: "IOU", lbl: "rates set by the CPUC" }],
-    pullquote: "A kilowatt-hour at 6pm and one at noon are the same energy — and very different prices.",
+    pullquote: "Under time-of-use pricing, a kilowatt-hour at 6pm costs much more than one at noon.",
     breakdown: {
       title: "What's inside a typical IOU electric rate",
-      note: "Only part of your bill is the actual energy — most is the poles, wires, and public-program costs bundled into the rate.",
+      note: "Only part of your bill is the energy itself. Most covers the poles, wires, and public-program costs built into the rate.",
       items: [
         { label: "Generation (the energy)", pct: 38, color: "#2f8f4e", note: "power itself" },
         { label: "Transmission & distribution", pct: 42, color: "#2e5e8c", note: "poles, wires, upkeep" },
@@ -153,9 +153,9 @@ export const MODULES = [
       ],
     },
     sections: [
-      { h: "What you're paying for", body: "An electric bill isn't just energy. It bundles generation (the electricity itself), transmission and distribution (the poles, wires, substations, and their upkeep — including, in California, large wildfire-mitigation costs), and public-purpose programs (efficiency, low-income discounts like CARE, and DER incentives). For CPUC-regulated IOUs, all of these are set through rate proceedings — which is why 'rate design' is where a lot of energy policy actually bites.", deep: "The total revenue a utility is allowed to collect — its 'revenue requirement' — is set in a General Rate Case (GRC) roughly every four years. Rate design then decides how to split that requirement across customers and hours. Two levers dominate the debate: volumetric rates (per-kWh charges, which reward using less but make electrification more expensive) versus fixed charges (a flat monthly amount, which lowers per-kWh prices but weakens the conservation signal). California's controversial income-graduated fixed charge grew out of exactly this tension." },
-      { h: "Time-of-use", body: "Most California customers are now on Time-of-Use (TOU) rates: electricity costs more during the expensive evening 'peak' (typically ~4–9pm, when solar fades and demand is high) and less midday and overnight. TOU is the price signal behind demand flexibility — it's meant to nudge EV charging, laundry, and pre-cooling into cheaper, cleaner hours, and it's why a battery that shifts solar into the evening peak is so valuable.", deep: "The evening peak exists because of the 'duck curve': midday solar drives net demand down, then as the sun sets solar drops off just as people come home and turn things on, forcing a steep, expensive ramp from gas plants. TOU pricing tries to reshape demand to flatten that ramp. Dynamic and real-time rates go further, changing prices hour-to-hour based on actual grid conditions — the frontier of rate design and a live topic in CPUC dockets." },
-      { h: "Why California rates are high", body: "California has some of the highest electricity rates in the country, driven less by the cost of energy itself than by transmission-and-distribution investment, wildfire mitigation and liability, and the many public programs funded through rates. High per-kWh prices are the central obstacle to electrification: a heat pump or EV is far more efficient, but if each kilowatt-hour is expensive, the bill savings shrink. This is the tension the fixed-charge debate is trying to resolve.", deep: "It's also why the agencies interact so tightly here: CARB and the CEC push electrification of cars and buildings, but whether that actually saves households money depends on CPUC rate design. If electrification loads (EVs, heat pumps) are placed on well-designed off-peak rates, they can even lower everyone's rates by spreading fixed grid costs over more kWh — the 'load growth' argument. Poorly designed, they just raise bills. That's why rate design is quietly one of the most consequential levers in the whole decarbonization project." },
+      { h: "What you're paying for", body: "An electric bill isn't just energy. It bundles generation (the electricity itself), transmission and distribution (the poles, wires, substations, and their upkeep — including, in California, large wildfire-mitigation costs), and public-purpose programs (efficiency, low-income discounts like CARE, and DER incentives). For CPUC-regulated IOUs, all of these are set through rate proceedings, which is why rate design is where much energy policy has its practical effect.", deep: "The total revenue a utility is allowed to collect — its 'revenue requirement' — is set in a General Rate Case (GRC) roughly every four years. Rate design then decides how to split that requirement across customers and hours. Two levers dominate the debate: volumetric rates (per-kWh charges, which reward using less but make electrification more expensive) versus fixed charges (a flat monthly amount, which lowers per-kWh prices but weakens the conservation signal). California's controversial income-graduated fixed charge grew out of exactly this tension." },
+      { h: "Time-of-use", body: "Most California customers are now on Time-of-Use (TOU) rates: electricity costs more during the expensive evening 'peak' (typically ~4–9pm, when solar fades and demand is high) and less midday and overnight. TOU is the price signal behind demand flexibility — it's meant to nudge EV charging, laundry, and pre-cooling into cheaper, cleaner hours, and it's why a battery that shifts solar into the evening peak is so valuable.", deep: "The evening peak exists because of the 'duck curve': midday solar drives net demand down, then as the sun sets solar drops off just as people come home and turn things on, forcing a steep, expensive ramp from gas plants. TOU pricing tries to reshape demand to flatten that ramp. Dynamic and real-time rates go further, changing prices hour-to-hour based on actual grid conditions; they are a current topic in CPUC dockets." },
+      { h: "Why California rates are high", body: "California has some of the highest electricity rates in the country, driven less by the cost of energy itself than by transmission-and-distribution investment, wildfire mitigation and liability, and the many public programs funded through rates. High per-kWh prices are the central obstacle to electrification: a heat pump or EV is far more efficient, but if each kilowatt-hour is expensive, the bill savings shrink. This is the tension the fixed-charge debate is trying to resolve.", deep: "It's also why the agencies interact so tightly here: CARB and the CEC push electrification of cars and buildings, but whether that actually saves households money depends on CPUC rate design. If electrification loads (EVs, heat pumps) are placed on well-designed off-peak rates, they can even lower everyone's rates by spreading fixed grid costs over more kWh — the 'load growth' argument. Poorly designed, they just raise bills. That makes rate design one of the most important factors in whether electrification succeeds." },
     ],
     keyPoints: ["Bill = generation + wires + public programs.", "IOU rates are set by the CPUC in rate cases.", "TOU makes evening peak expensive — the demand-flexibility signal.", "High per-kWh rates are the main barrier to electrification."],
     ask: ["Why are California electricity rates so high?", "How do time-of-use rates work and when is peak?", "What is the income-graduated fixed charge debate?"],
