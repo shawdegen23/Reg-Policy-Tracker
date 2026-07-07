@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-06T23:09:03.446Z",
+  "ranAt": "2026-07-07T16:32:06.720Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602999022",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365946",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602900443",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916895",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365885"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916895"
           ],
           "sampleRows": [
+            {
+              "type": "NOTICE",
+              "cells": [
+                "July 01, 2026",
+                "NOTICE",
+                "WestLight Energy",
+                "Notice of Party Name Change from Peninsula Clean Energy Authority to WestLight E"
+              ]
+            },
             {
               "type": "DECISION",
               "cells": [
@@ -483,15 +492,6 @@
                 "COMMENTS",
                 "Clean Power Alliance of Southern California",
                 "COMMENTS OF CLEAN POWER ALLIANCE OF SOUTHERN CALIFORNIA ON THE ASSIGNED COMMISSI"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "March 18, 2026",
-                "COMMENTS",
-                "GRID Alternatives",
-                "COMMENTS OF GRID ALTERNATIVES ON  ASSIGNED COMMISSIONERS RULING ON ENHANCING VER"
               ]
             }
           ],
