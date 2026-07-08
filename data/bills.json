@@ -19,11 +19,11 @@
     "lastActionDate": "2026-07-02",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB35/2025",
-    "changeHash": "2221bf7de8b1b66ea15e292c26ee148b",
+    "changeHash": "138ad9614162028afb7cb32dbf65b945",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB40",
@@ -175,11 +175,11 @@
     "lastActionDate": "2026-07-02",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2175/2025",
-    "changeHash": "5d14d0d8598629b21310f10ae265beae",
+    "changeHash": "61f7b966b1d61a7687033245a9388e9f",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2383",
