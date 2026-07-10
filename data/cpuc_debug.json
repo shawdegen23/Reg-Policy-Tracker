@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-10T16:25:44.323Z",
+  "ranAt": "2026-07-10T22:59:48.969Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,19 +21,37 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610764704",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354189",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975304",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023482",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610110847",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030848",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023157",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023483",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975306",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609974085",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030360",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030314"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023483"
           ],
           "sampleRows": [
+            {
+              "type": "MOTION",
+              "cells": [
+                "July 10, 2026",
+                "MOTION",
+                "Local Government Sustainable Energy Coalition (LGSEC)",
+                "Motion for Party of Local Government Sustainable Energy Coalition"
+              ]
+            },
+            {
+              "type": "RULING",
+              "cells": [
+                "July 10, 2026",
+                "RULING",
+                "ALJ/KAO/CPUC",
+                "Email ruling granting motion for party status of AM Conservation"
+              ]
+            },
             {
               "type": "MOTION",
               "cells": [
@@ -46,37 +64,19 @@
             {
               "type": "COMMENTS",
               "cells": [
-                "July 01, 2026",
+                "July 10, 2026",
                 "COMMENTS",
-                "Pacific Gas and Electric Company",
-                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
+                "California Choice Energy Authority",
+                "Reply Comments Of The California Choice Energy Authority  On Administrative Law "
               ]
             },
             {
               "type": "COMMENTS",
               "cells": [
-                "July 01, 2026",
+                "July 10, 2026",
                 "COMMENTS",
                 "Southern California Gas Company",
-                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "July 01, 2026",
-                "COMMENTS",
-                "WestLight Energy",
-                "Opening Comments on ALJ Ruling Seeing Comments on Budget Approach for Community "
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "July 01, 2026",
-                "COMMENTS",
-                "Marin Clean Energy",
-                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
+                "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
               ]
             }
           ],
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354199",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529125",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602999022",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365946",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602900443",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916895"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602900443"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "July 10, 2026",
+                "RULING",
+                "COM/DOUGLAS/CPUC",
+                "Assigned Commissioner's Ruling Directing Program Administrators of The Self-Gene"
+              ]
+            },
             {
               "type": "NOTICE",
               "cells": [
@@ -483,15 +492,6 @@
                 "DECISION",
                 "-",
                 "Decision D2603018 - Decision Denying Petition For Modification Of Decision 21-06"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "March 18, 2026",
-                "COMMENTS",
-                "Clean Power Alliance of Southern California",
-                "COMMENTS OF CLEAN POWER ALLIANCE OF SOUTHERN CALIFORNIA ON THE ASSIGNED COMMISSI"
               ]
             }
           ],
