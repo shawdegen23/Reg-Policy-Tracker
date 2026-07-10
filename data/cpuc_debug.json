@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-09T23:12:52.127Z",
+  "ranAt": "2026-07-10T16:25:44.323Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975304",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023482",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610110847",
@@ -30,10 +31,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975306",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609974085",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030360",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030314",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609653636"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030314"
           ],
           "sampleRows": [
+            {
+              "type": "MOTION",
+              "cells": [
+                "July 10, 2026",
+                "MOTION",
+                "AM Conservation",
+                "Motion for Party Status of AM Conservation"
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -67,15 +76,6 @@
                 "July 01, 2026",
                 "COMMENTS",
                 "Marin Clean Energy",
-                "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "July 01, 2026",
-                "COMMENTS",
-                "California Choice Energy Authority",
                 "Opening Comments on ALJ Ruling Seeking Comments on Budget Approach for Community"
               ]
             }
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355493",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975327",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609981360",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609619373",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066823",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066858",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066301",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066856",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608067154"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066856"
           ],
           "sampleRows": [
+            {
+              "type": "NOTICE",
+              "cells": [
+                "July 09, 2026",
+                "NOTICE",
+                "Hydrostor, Inc",
+                "NOTICE OF EX PARTE COMMUNICATION"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -566,15 +575,6 @@
                 "COMPLIANCE  FILING",
                 "Clean Power Alliance of Southern California",
                 "[PUBLIC VERSION] Amended June 2026 Integrated Resource Plan MTR compliance filin"
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "June 09, 2026",
-                "LAW & MOTION",
-                "Clean Power Alliance of Southern California",
-                "Law and Motion Amended Motion for Leave to file the confidential version of its "
               ]
             }
           ],

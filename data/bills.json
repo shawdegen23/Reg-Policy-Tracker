@@ -1,5 +1,18 @@
 [
   {
+    "number": "AB2410",
+    "title": "Wildfire safety: fuels reduction projects: California Environmental Quality Act.",
+    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
+    "lastActionDate": "2026-07-09",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2410/2025",
+    "changeHash": "3a0c8a914a17a41dc1a42213632afad0",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB34",
     "title": "California Renewables Portfolio Standard Program: local publicly owned electric utilities: large hydroelectric generation.",
     "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
@@ -1092,19 +1105,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB2410",
-    "title": "Wildfire safety: fuels reduction projects: California Environmental Quality Act: California Coastal Act.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on N.R. & W. (Ayes 6. Noes 0.) (June 24). Re-referred to Com. on N.R. & W.",
-    "lastActionDate": "2026-06-24",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2410/2025",
-    "changeHash": "034f5288c2ad0430b17e1637794be2b7",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2463",
     "title": "Public Utilities Commission: rates: returns on equity.",
     "lastAction": "In committee: Set, first hearing. Hearing canceled at the request of author.",
@@ -1268,19 +1268,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2476/2025",
     "changeHash": "56a1418e4e710ed3684ee578b0dc8f03",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB58",
-    "title": "Air quality: standard: hydrogen sulfide.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 14. Noes 0.) (June 22). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-23",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB58/2025",
-    "changeHash": "3f22923be7cafe580b1ddb56e9b25627",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
