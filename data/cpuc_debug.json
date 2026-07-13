@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-13T16:34:39.279Z",
+  "ranAt": "2026-07-13T22:56:27.339Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,19 +21,28 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794806",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354742",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610764704",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354189",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975304",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023482",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610110847",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030848",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023157",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023483"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975304"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "July 13, 2026",
+                "RULING",
+                "ALJ/KAO/CPUC",
+                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABL"
+              ]
+            },
             {
               "type": "MOTION",
               "cells": [
@@ -44,21 +53,12 @@
               ]
             },
             {
-              "type": "RULING",
+              "type": "COMMENTS",
               "cells": [
                 "July 10, 2026",
-                "RULING",
-                "ALJ/KAO/CPUC",
-                "Email ruling granting motion for party status of AM Conservation"
-              ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "July 10, 2026",
-                "MOTION",
-                "AM Conservation",
-                "Motion for Party Status of AM Conservation"
+                "COMMENTS",
+                "Cal Advocates/D.GIBBS/CPUC",
+                "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
               ]
             },
             {
@@ -66,8 +66,8 @@
               "cells": [
                 "July 10, 2026",
                 "COMMENTS",
-                "California Choice Energy Authority",
-                "Reply Comments Of The California Choice Energy Authority  On Administrative Law "
+                "WestLight Energy",
+                "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
               ]
             },
             {
@@ -75,7 +75,7 @@
               "cells": [
                 "July 10, 2026",
                 "COMMENTS",
-                "Southern California Gas Company",
+                "San Diego Gas & Electric Company",
                 "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
               ]
             }
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794821",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355493",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975327",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609981360",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608309952",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066823",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066858",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066301",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066856"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066301"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "July 13, 2026",
+                "RULING",
+                "ALJ/RIZZO/CPUC",
+                "Administrative Law Judge's Ruling Granting Pacific Gas & Electric Company, San D"
+              ]
+            },
             {
               "type": "NOTICE",
               "cells": [
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "American Clean Power - California",
                 "THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "June 09, 2026",
-                "COMPLIANCE  FILING",
-                "Clean Power Alliance of Southern California",
-                "[PUBLIC VERSION] Amended June 2026 Integrated Resource Plan MTR compliance filin"
               ]
             }
           ],

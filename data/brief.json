@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-13T16:36:34.333Z",
+  "generatedAt": "2026-07-13T22:59:06.902Z",
   "totals": {
-    "developments": 80,
-    "high": 32,
-    "quantitative": 11,
+    "developments": 86,
+    "high": 35,
+    "quantitative": 15,
     "topics": 6
   },
   "topicCounts": {
-    "Energy Efficiency": 13,
+    "Energy Efficiency": 18,
+    "Resource Adequacy / Planning": 18,
     "DER / Rates": 21,
-    "Resource Adequacy / Planning": 17,
     "Building Decarbonization": 9,
     "Demand Flexibility": 10,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.25-04-010": 13,
+    "R.25-04-010": 18,
+    "R.25-06-019": 10,
     "R.20-05-012": 11,
-    "R.25-06-019": 9,
     "R.19-01-011": 8,
     "R.23-10-011": 8,
     "R.20-08-020": 9,
@@ -28,17 +28,17 @@
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
       "docket": "R.25-04-010",
-      "type": "Filing",
-      "headline": "Motion for Party Status of AM Conservation",
-      "filedBy": "AM Conservation",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
-      "date": "2026-07-10",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABLE ENERGY COALITION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
+      "date": "2026-07-13",
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-10",
+      "impact": "Local government coalition gaining party status strengthens advocacy for energy efficiency and decarbonization, aligning with TEC client interests.",
+      "aiEnriched": true,
+      "firstSeen": "2026-07-13",
       "similar": 0
     },
     {
@@ -53,25 +53,8 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-10",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Ruling",
-      "headline": "Email ruling granting motion for party status of AM Conservation",
-      "filedBy": "ALJ/KAO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
-      "date": "2026-07-10",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Local government coalition seeking party status aims to strengthen advocacy for energy efficiency and decarbonization, aligning with TEC client interests.",
+      "aiEnriched": true,
       "firstSeen": "2026-07-10",
       "similar": 0
     },
@@ -107,7 +90,7 @@
       "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-07-10",
-      "similar": 0
+      "similar": 4
     },
     {
       "source": "CPUC R.25-04-010",
@@ -277,6 +260,23 @@
       "aiEnriched": false,
       "filedBy": "Pacific Gas and Electric Company",
       "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Reply Comments on Ruling Seeking Information on Building Decarbonization and Entering Pilot Programs Draft Reports Into the Record. Please Note: AC Wang granted the acceptance of this late filing via E-mail Ruling Issued on May 1, 2026.",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606266358",
+      "date": "2026-04-28",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "firstSeen": "2026-07-04",
+      "aiEnriched": false,
+      "filedBy": "Pacific Gas and Electric Company",
+      "similar": 0
     }
   ],
   "quantitative": [
@@ -312,7 +312,7 @@
       "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-07-10",
-      "similar": 0
+      "similar": 4
     },
     {
       "source": "CPUC R.25-04-010",
@@ -400,5 +400,5 @@
       "similar": 0
     }
   ],
-  "narrative": "The CPUC's Energy Efficiency proceeding (R.25-04-010) is active, with AM Conservation granted party status"
+  "narrative": "The CPUC's Energy Efficiency proceeding (R.25-04-010) saw significant activity, with numerous opening ("
 }
