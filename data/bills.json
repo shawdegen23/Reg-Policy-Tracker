@@ -19,11 +19,11 @@
     "lastActionDate": "2026-07-02",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB34/2025",
-    "changeHash": "e8ce174ad0bcac68fdb880a61126d694",
+    "changeHash": "cb2aa4bbc56a21da52487efcaff4124e",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB35",
@@ -507,19 +507,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1153",
-    "title": "Disaster preparedness: urban retail water suppliers and public water systems: wildfire.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 6. Noes 0.) (June 30). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-01",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1153/2025",
-    "changeHash": "45b451003489269a96cd8cf3c6cecb40",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1167",
     "title": "Vehicles: electric bicycles.",
     "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
@@ -553,19 +540,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB1329/2025",
     "changeHash": "b625f9bde32208b1a9456e6199125ef2",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1330",
-    "title": "Assault and battery: utility workers.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 9. Noes 0.) (June 30). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-01",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1330/2025",
-    "changeHash": "a1f4cff4b2d4e9ab78eb49601b7a1af3",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1534,19 +1508,6 @@
     "isUpdated": false
   },
   {
-    "number": "SCR165",
-    "title": "California Wildfire Preparedness Week.",
-    "lastAction": "Chaptered by Secretary of State. Res. Chapter 80, Statutes of 2026.",
-    "lastActionDate": "2026-05-29",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/SCR165/2025",
-    "changeHash": "09adc6f665645dde85dc0c9ff03378b8",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1011",
     "title": "Energy: Utility Infrastructure AI Safety, Oversight, and Workforce Protection Act.",
     "lastAction": "Ordered to inactive file on request of Senator McNerney.",
@@ -1697,19 +1658,6 @@
     "status": "1",
     "url": "https://legiscan.com/CA/bill/AB2184/2025",
     "changeHash": "3dcea88519aa59b7529c0708ba2faf4f",
-    "stage": 1,
-    "prevStage": 1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2289",
-    "title": "Public utilities: Public Utilities Commission: telecommunications: broadband internet access service.",
-    "lastAction": "In committee: Held under submission.",
-    "lastActionDate": "2026-05-14",
-    "status": "1",
-    "url": "https://legiscan.com/CA/bill/AB2289/2025",
-    "changeHash": "b3a6bce10396ab52d667124b048fbb9c",
     "stage": 1,
     "prevStage": 1,
     "isNew": false,
@@ -1872,19 +1820,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1162",
-    "title": "Wildfire and Forest Resilience Task Force: FAIR Plan policies: wildland-urban interface.",
-    "lastAction": "May 14 hearing: Held in committee and under submission.",
-    "lastActionDate": "2026-05-14",
-    "status": "1",
-    "url": "https://legiscan.com/CA/bill/SB1162/2025",
-    "changeHash": "6a7581b01b836a07dd0c4bbac83d8abb",
-    "stage": 1,
-    "prevStage": 1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1183",
     "title": "Large-scale solar: Central Valley: study.",
     "lastAction": "May 14 hearing: Held in committee and under submission.",
@@ -2035,19 +1970,6 @@
     "status": "1",
     "url": "https://legiscan.com/CA/bill/SB875/2025",
     "changeHash": "a05f8ee1baa40e3851109776e4bd6f2c",
-    "stage": -1,
-    "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2284",
-    "title": "Electric bicycles: Attorney General list.",
-    "lastAction": "In committee: Set, first hearing. Failed passage. Reconsideration granted.",
-    "lastActionDate": "2026-04-20",
-    "status": "1",
-    "url": "https://legiscan.com/CA/bill/AB2284/2025",
-    "changeHash": "0f8533120547ea6ce700a36173ae8df0",
     "stage": -1,
     "prevStage": -1,
     "isNew": false,

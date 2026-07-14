@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-13T22:56:27.339Z",
+  "ranAt": "2026-07-14T15:24:30.884Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030345",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606596715",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578360",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605738152",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578364",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605383822",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605438880",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605732300"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605438880"
           ],
           "sampleRows": [
+            {
+              "type": "DECISION",
+              "cells": [
+                "July 02, 2026",
+                "DECISION",
+                "-",
+                "Decision D2607013 - Order Extending Statutory Deadline. This decision extends th"
+              ]
+            },
             {
               "type": "NOTICE",
               "cells": [
@@ -152,15 +161,6 @@
                 "Pacific Gas and Electric Company",
                 "Reply Comments on Ruling Seeking Information on Building Decarbonization and Ent"
               ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "April 28, 2026",
-                "COMMENTS",
-                "Small Business Utility Advocates",
-                "Reply Comments on Ruling Issued on April 7, 2026. Please Note: AC Wang approved "
-              ]
             }
           ],
           "docLinks": 100
@@ -187,6 +187,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610155197",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606860960",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606827971",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=604864451",
@@ -196,10 +197,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602766107",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602347523",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602347504",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=601687378",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=595352004"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=601687378"
           ],
           "sampleRows": [
+            {
+              "type": "DECISION",
+              "cells": [
+                "July 02, 2026",
+                "DECISION",
+                "-",
+                "Decision D2607021 - Decision Granting Compensation To Center For Accessible Tech"
+              ]
+            },
             {
               "type": "REHEARING REQUEST",
               "cells": [
@@ -234,15 +243,6 @@
                 "DECISION",
                 "-",
                 "Decision D2604016 - Decision Granting Compensation To Sierra Club For Substantia"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "April 07, 2026",
-                "NOTICE",
-                "California Large Energy Consumers Association,Olivine, Inc.,Energy Producers and",
-                "Notice of Change of Name of Counsel"
               ]
             }
           ],

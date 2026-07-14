@@ -11,8 +11,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Local government coalition gaining party status strengthens advocacy for energy efficiency and decarbonization, aligning with TEC client interests.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -42,9 +42,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "An energy efficiency product vendor seeking party status aims to add a supply-side perspective, potentially influencing program design.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -59,8 +59,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Local government coalition seeking party status aims to strengthen advocacy for energy efficiency and decarbonization, aligning with TEC client interests.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -74,9 +74,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Granting party status to an energy efficiency product vendor adds a supply-side perspective to proceedings, potentially influencing program design.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -139,8 +139,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Discussions on CCA energy efficiency program budgets directly impact program funding and design, crucial for TEC's CCA clients and program effectiveness.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -155,8 +155,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Discussions on CCA energy efficiency program budgets directly impact program funding and design, crucial for TEC's CCA clients and program effectiveness.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -171,8 +171,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Discussions on CCA energy efficiency program budgets directly impact program funding and design, crucial for TEC's CCA clients and program effectiveness.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -187,8 +187,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Discussions on CCA energy efficiency program budgets directly impact program funding and design, crucial for TEC's CCA clients and program effectiveness.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -206,6 +206,38 @@
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-07-10"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Decision",
+    "headline": "Decision D2607013 - Order Extending Statutory Deadline. This decision extends the statutory deadline in this proceeding until December 17, 2026.",
+    "filedBy": "-",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069",
+    "date": "2026-07-02",
+    "topic": "Building Decarbonization",
+    "dataType": "Quantitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-14"
+  },
+  {
+    "source": "CPUC R.22-07-005",
+    "agency": "CPUC",
+    "docket": "R.22-07-005",
+    "type": "Decision",
+    "headline": "Decision D2607021 - Decision Granting Compensation To Center For Accessible Technology For Substantial Contribution To Decision (D.) 25-08-049 And IGFC Implementation Process, Including Advice Letters And Resolution E-5354 Resolution E-5355 And Resolution E-5356.",
+    "filedBy": "-",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610155197",
+    "date": "2026-07-02",
+    "topic": "Demand Flexibility",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Demand Flexibility decision from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-14"
   },
   {
     "source": "CPUC R.25-04-010",
