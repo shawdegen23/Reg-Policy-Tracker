@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "Three Day Advance Notice of Ex Parte Communication. Hydrostor, Inc. is granted an ex parte meeting  with Kourtney Vaccaro, Julian Buchwalter and Cristina Lizarraga, advisors to Commissioner Karen Douglas on July 17, 2026 at 9:30 am.",
+    "filedBy": "Hydrostor, Inc",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144293",
+    "date": "2026-07-14",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-14"
+  },
+  {
     "source": "CPUC R.25-04-010",
     "agency": "CPUC",
     "docket": "R.25-04-010",
@@ -11,8 +27,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "LGSEC's party status ensures local government perspectives on energy efficiency and decarbonization are represented in the proceeding.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -42,9 +58,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "AM Conservation's motion for party status seeks to influence energy efficiency program design and product offerings.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -59,8 +75,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "LGSEC's motion for party status supports local government representation in energy efficiency and decarbonization discussions.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -74,9 +90,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "AM Conservation's party status allows a product provider to influence energy efficiency program design and offerings.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -139,8 +155,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -155,8 +171,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -171,8 +187,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -187,8 +203,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
