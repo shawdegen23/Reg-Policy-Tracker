@@ -117,19 +117,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1642",
-    "title": "Wildfires: contamination standards.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-02",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1642/2025",
-    "changeHash": "cde968dc2f9174eb2f8d7e73b2639800",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1787",
     "title": "Electrical corporations: rates: smart meter infrastructure: dynamic rate option.",
     "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
@@ -377,32 +364,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1707",
-    "title": "Electricians: certification application, examination, and renewal.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 5. Noes 0.) (July 1). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-01",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1707/2025",
-    "changeHash": "1db4b5eb523add405b7a1ebe38415336",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1749",
-    "title": "Interfering with wildfire suppression and emergency responses with drone.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 13. Noes 0.) (June 30). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-01",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1749/2025",
-    "changeHash": "da3b1bdfa9f1b1ca3683bed66922ce6b",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1847",
     "title": "Mortgage forbearance: state of emergency: wildfire.",
     "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 11. Noes 0.) (June 30). Re-referred to Com. on APPR.",
@@ -553,19 +514,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB353/2025",
     "changeHash": "d65589c84265f20600d9f63d39fcf954",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1712",
-    "title": "City of Santa Fe Springs: sale of water utility property.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-06-30",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1712/2025",
-    "changeHash": "e6a4c491629ce1656ef67ab79719e242",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1047,19 +995,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB1366/2025",
     "changeHash": "cf4eb59a733ac48113d5c6753260b270",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1569",
-    "title": "Pupil safety: electric bicycle: safety and training program.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 13. Noes 0.) (June 23). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-24",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1569/2025",
-    "changeHash": "d352dc6bca0e87fd3bc17e1b143481bf",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -2678,19 +2613,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB781",
-    "title": "Charges: health savings accounts: electricity.",
-    "lastAction": "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56.",
-    "lastActionDate": "2026-02-02",
-    "status": "6",
-    "url": "https://legiscan.com/CA/bill/AB781/2025",
-    "changeHash": "14bc9be419692817c7b3166d43faaf61",
-    "stage": -1,
-    "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB819",
     "title": "Electric vehicle charging stations: exempt entities: building standards.",
     "lastAction": "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56.",
@@ -3471,19 +3393,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB830",
-    "title": "State highways: encroachment permits: relocating or removing encroachments: public utility districts: County of Mendocino.",
-    "lastAction": "Consideration of Governor's veto stricken from file.",
-    "lastActionDate": "2026-01-22",
-    "status": "5",
-    "url": "https://legiscan.com/CA/bill/AB830/2025",
-    "changeHash": "3a0c464d00bc8ac4d73472e9999af1e9",
-    "stage": -1,
-    "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB986",
     "title": "State of emergency and local emergency: landslides and climate change.",
     "lastAction": "Consideration of Governor's veto stricken from file.",
@@ -3532,19 +3441,6 @@
     "changeHash": "a92e0c00445d8e3154a335dc55a0c115",
     "stage": -1,
     "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB777",
-    "title": "Food assistance: disasters: utilities.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 709, Statutes of 2025.",
-    "lastActionDate": "2025-10-13",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB777/2025",
-    "changeHash": "8b4c236f5567f5e0d3deb8a1f613eda4",
-    "stage": 4,
-    "prevStage": 4,
     "isNew": false,
     "isUpdated": false
   },
@@ -4611,19 +4507,6 @@
     "changeHash": "75a90cb5196d216402b12ee7aef40e42",
     "stage": 2,
     "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB758",
-    "title": "Wildfire: vegetation management.",
-    "lastAction": "From committee: Without further action pursuant to Joint Rule 62(a).",
-    "lastActionDate": "2025-05-15",
-    "status": "6",
-    "url": "https://legiscan.com/CA/bill/AB758/2025",
-    "changeHash": "6cbe1bbf8e3c38dda3b635c9d9312231",
-    "stage": -1,
-    "prevStage": -1,
     "isNew": false,
     "isUpdated": false
   },

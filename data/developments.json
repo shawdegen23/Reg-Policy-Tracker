@@ -27,7 +27,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "LGSEC's party status ensures local government perspectives on energy efficiency and decarbonization are represented in the proceeding.",
+    "impact": "Local governments gain formal voice in this proceeding, influencing energy program decisions relevant to TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -59,7 +59,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "AM Conservation's motion for party status seeks to influence energy efficiency program design and product offerings.",
+    "impact": "AM Conservation seeks party status, meaning their perspective on energy efficiency programs may influence program design for TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -75,7 +75,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "LGSEC's motion for party status supports local government representation in energy efficiency and decarbonization discussions.",
+    "impact": "Local governments seek formal voice in this proceeding, influencing energy program decisions relevant to TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -91,7 +91,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "AM Conservation's party status allows a product provider to influence energy efficiency program design and offerings.",
+    "impact": "AM Conservation's party status means their perspective on energy efficiency programs will be considered, potentially influencing program design for TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -155,7 +155,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -171,7 +171,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -187,7 +187,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -203,7 +203,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs budget and administer energy efficiency programs, directly affecting client program delivery.",
+    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
