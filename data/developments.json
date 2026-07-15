@@ -27,8 +27,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Local governments gain formal voice in this proceeding, influencing energy program decisions relevant to TEC clients.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -58,9 +58,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "AM Conservation seeks party status, meaning their perspective on energy efficiency programs may influence program design for TEC clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -75,8 +75,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Local governments seek formal voice in this proceeding, influencing energy program decisions relevant to TEC clients.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -90,9 +90,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "AM Conservation's party status means their perspective on energy efficiency programs will be considered, potentially influencing program design for TEC clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -155,8 +155,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -171,8 +171,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -187,8 +187,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -203,8 +203,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Comments shape how CCAs fund and manage energy efficiency programs, directly impacting TEC clients' program design and funding.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
