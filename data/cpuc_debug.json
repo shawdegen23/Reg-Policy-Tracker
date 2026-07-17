@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-17T15:14:04.711Z",
+  "ranAt": "2026-07-17T22:51:34.531Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144359",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144293",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794821",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355493",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608212046",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608305590",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608309952",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066823",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066858"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066823"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 17, 2026",
+                "EXPARTE",
+                "Hydrostor, Inc",
+                "Notice of Ex Parte Communication. Hydrostor, Inc. reports an ex parte meeting wi"
+              ]
+            },
             {
               "type": "NOTICE",
               "cells": [
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "Hydrostor, Inc.",
                 "THREE DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 01, 2026",
-                "EXPARTE",
-                "American Clean Power - California",
-                "NOTICE OF EX PARTE COMMUNICATION"
               ]
             }
           ],
