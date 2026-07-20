@@ -43,7 +43,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Local Government Sustainable Energy Coalition gaining party status ensures their voice influences decisions on local energy programs, impacting TEC's client interests.",
+    "impact": "LGSESC's party status ensures local government perspectives on energy efficiency and decarbonization are formally considered, impacting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -75,7 +75,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "AM Conservation gaining party status allows them to influence program design, potentially affecting product availability and program offerings for TEC clients.",
+    "impact": "AM Conservation's motion for party status indicates a vendor's intent to formally participate, potentially influencing energy efficiency program design.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -91,7 +91,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Local Government Sustainable Energy Coalition gaining party status ensures their voice influences decisions on local energy programs, impacting TEC's client interests.",
+    "impact": "LGSESC's motion for party status indicates local government intent to formally participate in energy efficiency and decarbonization discussions.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -107,7 +107,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "AM Conservation gaining party status allows them to influence program design, potentially affecting product availability and program offerings for TEC clients.",
+    "impact": "AM Conservation's party status introduces a vendor perspective, potentially influencing energy efficiency program design and product availability for TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -171,7 +171,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments on CCA energy efficiency budget approaches directly impact funding and program design for energy efficiency, affecting TEC clients' program opportunities.",
+    "impact": "Comments on CCA energy efficiency program budgets directly affect funding and design for client-administered programs, shaping decarbonization efforts.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -187,7 +187,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments on CCA energy efficiency budget approaches directly impact funding and program design for energy efficiency, affecting TEC clients' program opportunities.",
+    "impact": "Comments on CCA energy efficiency program budgets directly affect funding and design for client-administered programs, shaping decarbonization efforts.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -203,7 +203,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments on CCA energy efficiency budget approaches directly impact funding and program design for energy efficiency, affecting TEC clients' program opportunities.",
+    "impact": "Comments on CCA energy efficiency program budgets directly affect funding and design for client-administered programs, shaping decarbonization efforts.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -219,7 +219,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments on CCA energy efficiency budget approaches directly impact funding and program design for energy efficiency, affecting TEC clients' program opportunities.",
+    "impact": "Comments on CCA energy efficiency program budgets directly affect funding and design for client-administered programs, shaping decarbonization efforts.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T22:53:33.160Z",
+  "generatedAt": "2026-07-20T15:58:47.956Z",
   "totals": {
     "developments": 90,
     "high": 37,
@@ -36,7 +36,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Local Government Sustainable Energy Coalition gaining party status ensures their voice influences decisions on local energy programs, impacting TEC's client interests.",
+      "impact": "LGSESC's party status ensures local government perspectives on energy efficiency and decarbonization are formally considered, impacting TEC clients.",
       "aiEnriched": true,
       "firstSeen": "2026-07-13",
       "similar": 0
@@ -53,7 +53,7 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Local Government Sustainable Energy Coalition gaining party status ensures their voice influences decisions on local energy programs, impacting TEC's client interests.",
+      "impact": "LGSESC's motion for party status indicates local government intent to formally participate in energy efficiency and decarbonization discussions.",
       "aiEnriched": true,
       "firstSeen": "2026-07-10",
       "similar": 0
@@ -416,6 +416,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "Recent activity in the Energy Efficiency proceeding (R.25-04-010) includes the Local Government Sustainable Energy Coalition being granted party status"
+  ]
 }
