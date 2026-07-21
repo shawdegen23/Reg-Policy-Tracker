@@ -1,5 +1,85 @@
 [
   {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION.",
+    "filedBy": "CMMR/JOHN_REYNOLDS/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
+    "date": "2026-07-21",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "Signals ongoing stakeholder engagement in this CPUC proceeding, but specific content and impact are unknown.",
+    "aiEnriched": true,
+    "firstSeen": "2026-07-21"
+  },
+  {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION.",
+    "filedBy": "CMMR/JOHN_REYNOLDS/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
+    "date": "2026-07-21",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "Signals ongoing stakeholder engagement in this CPUC proceeding, but specific content and impact are unknown.",
+    "aiEnriched": true,
+    "firstSeen": "2026-07-21"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "CALIFORNIA COMMUNITY CHOICE ASSOCIATION",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
+    "date": "2026-07-21",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-21"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "CPUC/COMMR/PresidentReynolds",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412",
+    "date": "2026-07-21",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-21"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "CPUC/COMMR/PresidentReynolds",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611600918",
+    "date": "2026-07-21",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-21"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -42,9 +122,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Local Government Sustainable Energy Coalition gaining party status ensures local government perspectives are formally considered in this proceeding.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -90,9 +170,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Local Government Sustainable Energy Coalition filed to become a party, seeking formal influence on proceeding outcomes.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -106,9 +186,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "AM Conservation gaining party status ensures a commercial energy efficiency product provider's perspective is formally considered in this proceeding.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -171,8 +251,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Stakeholders are debating CCA energy efficiency program budget approaches, directly impacting funding and program design for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -187,8 +267,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Stakeholders are debating CCA energy efficiency program budget approaches, directly impacting funding and program design for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -203,8 +283,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Stakeholders are debating CCA energy efficiency program budget approaches, directly impacting funding and program design for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {

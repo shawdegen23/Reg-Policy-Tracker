@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-21T15:44:24.708Z",
+  "ranAt": "2026-07-21T22:57:51.456Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807",
@@ -29,11 +31,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354742",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610764704",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354189",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975304"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610764704"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 21, 2026",
+                "EXPARTE",
+                "CMMR/JOHN_REYNOLDS/CPUC",
+                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 21, 2026",
+                "EXPARTE",
+                "CMMR/JOHN_REYNOLDS/CPUC",
+                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -58,24 +76,6 @@
                 "July 10, 2026",
                 "COMMENTS",
                 "Cal Advocates/D.GIBBS/CPUC",
-                "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "July 10, 2026",
-                "COMMENTS",
-                "WestLight Energy",
-                "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "July 10, 2026",
-                "COMMENTS",
-                "San Diego Gas & Electric Company",
                 "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
               ]
             }
@@ -519,6 +519,9 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611600918",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144359",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144293",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794821",
@@ -526,12 +529,36 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975327",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609981360",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609619373",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608212046",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608305590",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608309952",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608066823"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608212046"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 21, 2026",
+                "EXPARTE",
+                "CALIFORNIA COMMUNITY CHOICE ASSOCIATION",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 21, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/PresidentReynolds",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 21, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/PresidentReynolds",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -548,33 +575,6 @@
                 "NOTICE",
                 "Hydrostor, Inc",
                 "Three Day Advance Notice of Ex Parte Communication. Hydrostor, Inc. is granted a"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "July 13, 2026",
-                "RULING",
-                "ALJ/RIZZO/CPUC",
-                "Administrative Law Judge's Ruling Granting Pacific Gas & Electric Company, San D"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "July 09, 2026",
-                "NOTICE",
-                "Hydrostor, Inc",
-                "NOTICE OF EX PARTE COMMUNICATION"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 01, 2026",
-                "EXPARTE",
-                "Hydrostor, Inc.",
-                "THREE DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],
