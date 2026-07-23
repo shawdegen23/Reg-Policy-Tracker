@@ -10,9 +10,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Signals ongoing advocacy in a relevant CPUC proceeding, but specific content is unknown.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -26,9 +26,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Signals ongoing advocacy in a relevant CPUC proceeding, but specific content is unknown.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -154,9 +154,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Local governments gain formal voice in a relevant CPUC proceeding, potentially supporting energy efficiency and decarbonization efforts.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -202,9 +202,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Local governments sought formal participation in a relevant CPUC proceeding to advocate for sustainable energy.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -218,9 +218,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "An energy efficiency product provider gains formal voice in a relevant CPUC proceeding, potentially influencing program design and market.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -283,8 +283,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments shape how CCAs will fund and administer energy efficiency programs, directly impacting program design and client opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -299,8 +299,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments shape how CCAs will fund and administer energy efficiency programs, directly impacting program design and client opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -315,8 +315,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments shape how CCAs will fund and administer energy efficiency programs, directly impacting program design and client opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
