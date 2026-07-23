@@ -112,6 +112,22 @@
     "firstSeen": "2026-07-17"
   },
   {
+    "source": "CPUC R.23-10-011",
+    "agency": "CPUC",
+    "docket": "R.23-10-011",
+    "type": "Decision",
+    "headline": "Decision D2607050 - Decision Granting Compensation To The Protect Our Communities Foundation For Contribution To Decisions (D.) 24-12-003 And D.25-06-048. Rulemaking (R.) 23-10-011 is closed.",
+    "filedBy": "-",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611984548",
+    "date": "2026-07-16",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-23"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",

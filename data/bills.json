@@ -1,5 +1,31 @@
 [
   {
+    "number": "AB353",
+    "title": "Public Utilities Commission: Independent Office of Audits and Investigations.",
+    "lastAction": "In committee: Hearing postponed by committee.",
+    "lastActionDate": "2026-07-22",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB353/2025",
+    "changeHash": "bfe48737501a0a3f1adecb137c842ecf",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1707",
+    "title": "Electricians: certification application, examination, and renewal.",
+    "lastAction": "In committee: Hearing postponed by committee.",
+    "lastActionDate": "2026-07-22",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1707/2025",
+    "changeHash": "5e26749e6349e1b254a4c4311e9c1b5a",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB35",
     "title": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Bond Act of 2024: Administrative Procedure Act: exemption: program guidelines and selection criteria.",
     "lastAction": "Chaptered by Secretary of State - Chapter 89, Statutes of 2026.",
@@ -507,19 +533,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB353",
-    "title": "Public Utilities Commission: Independent Office of Audits and Investigations.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 15. Noes 2.) (June 30). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-30",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB353/2025",
-    "changeHash": "d65589c84265f20600d9f63d39fcf954",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1761",
     "title": "Electricity: calculation methodology: data disclosure.",
     "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 17. Noes 0.) (June 30). Re-referred to Com. on APPR.",
@@ -663,6 +676,19 @@
     "isUpdated": false
   },
   {
+    "number": "AB441",
+    "title": "Wildfire prevention: wildfire mitigation program.",
+    "lastAction": "In committee: Referred to APPR. suspense file.",
+    "lastActionDate": "2026-06-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB441/2025",
+    "changeHash": "3febdeb87312759621c3377038708b68",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB710",
     "title": "Electrical corporations: resiliency planning: microgrid projects.",
     "lastAction": "Re-referred to Com. on APPR.",
@@ -674,6 +700,45 @@
     "prevStage": 2,
     "isNew": false,
     "isUpdated": false
+  },
+  {
+    "number": "AB1301",
+    "title": "Electricity.",
+    "lastAction": "In committee: Referred to APPR. suspense file.",
+    "lastActionDate": "2026-06-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1301/2025",
+    "changeHash": "d4ca20885eda0e1dbe65f1a90e80a0bd",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1715",
+    "title": "Public utilities: reporting.",
+    "lastAction": "In committee: Referred to APPR. suspense file.",
+    "lastActionDate": "2026-06-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1715/2025",
+    "changeHash": "d189505b873ecbd7f791e189c93b9d5c",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1813",
+    "title": "Electricity: customer renewable energy subscription program.",
+    "lastAction": "In committee: Referred to APPR. suspense file.",
+    "lastActionDate": "2026-06-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1813/2025",
+    "changeHash": "dd704e51b02603dd1b87d2cb2fe95d75",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2037",
@@ -1144,19 +1209,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1715",
-    "title": "Public utilities: reporting.",
-    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-23",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1715/2025",
-    "changeHash": "993b4d1c9f539bb5554594218fb6e490",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2458",
     "title": "Energy: appliance standards and cost-effective measures.",
     "lastAction": "Read second time. Ordered to third reading.",
@@ -1216,32 +1268,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2518/2025",
     "changeHash": "6441592043ed972744651a27f0527a34",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1301",
-    "title": "Electricity.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-18",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1301/2025",
-    "changeHash": "aff2f7c0da77492bf3dce41e4187673e",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1813",
-    "title": "Electricity: customer renewable energy subscription program.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-18",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1813/2025",
-    "changeHash": "98f034135c93cc83be51c4e6f82b1b0b",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1346,19 +1372,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB952/2025",
     "changeHash": "65bfd2a65c7a370da08fbb7ced78495b",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB441",
-    "title": "Wildfire prevention: wildfire mitigation program.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-10",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB441/2025",
-    "changeHash": "4916b7a7faa384b8173ae5a50b3e6e22",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,

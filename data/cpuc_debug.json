@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-22T23:04:40.316Z",
+  "ranAt": "2026-07-23T15:56:20.084Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -353,6 +353,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611984548",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023123",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608276968",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=604598870",
@@ -362,10 +363,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066449",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066226",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066872",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066339",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066338"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066339"
           ],
           "sampleRows": [
+            {
+              "type": "DECISION",
+              "cells": [
+                "July 16, 2026",
+                "DECISION",
+                "-",
+                "Decision D2607050 - Decision Granting Compensation To The Protect Our Communitie"
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -400,15 +409,6 @@
                 "DECISION",
                 "-",
                 "Decision D2512017 - Order Denying Rehearing Of Decision 25-06-048. Rulemaking 23"
-              ]
-            },
-            {
-              "type": "REQUEST",
-              "cells": [
-                "October 23, 2025",
-                "REQUEST",
-                "The Protect Our Communities Foundation",
-                "Supplement; to Request for intervenor compensation"
               ]
             }
           ],
