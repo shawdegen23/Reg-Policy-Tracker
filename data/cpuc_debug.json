@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-24T15:26:24.505Z",
+  "ranAt": "2026-07-24T23:02:08.463Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970655",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354199",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916891",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529125",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602999022",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365946",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602900443"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365946"
           ],
           "sampleRows": [
+            {
+              "type": "MOTION",
+              "cells": [
+                "July 24, 2026",
+                "MOTION",
+                "Southern California Edison Company",
+                "Southern California Edison Company's (U 338-E) Motion for Relief"
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -484,15 +493,6 @@
                 "COM/DOUGLAS/CPUC",
                 "ASSIGNED COMMISSIONER'S RULING DIRECTING PROGRAM ADMINISTRATORS TO RESUME PAYMEN"
               ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "March 19, 2026",
-                "DECISION",
-                "-",
-                "Decision D2603018 - Decision Denying Petition For Modification Of Decision 21-06"
-              ]
             }
           ],
           "docLinks": 100
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612335351",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618006",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144293",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794821",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355493",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975327",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609981360",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609619373"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975327"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 23, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/PresidentReynolds",
+                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 23, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/PresidentReynolds",
+                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -557,24 +575,6 @@
                 "EXPARTE",
                 "CPUC/COMMR/PresidentReynolds",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 21, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 17, 2026",
-                "EXPARTE",
-                "Hydrostor, Inc",
-                "Notice of Ex Parte Communication. Hydrostor, Inc. reports an ex parte meeting wi"
               ]
             }
           ],
