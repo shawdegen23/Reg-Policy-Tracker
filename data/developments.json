@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Ruling",
+    "headline": "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comments are due on August 14, 2026, and reply comments are due on August 21, 2026. The scope of this proceeding is amended as described above and is adopted. The schedule of this proceeding is set forth above and is adopted. Evidentiary hearings are not needed. The category of the proceeding remains quasi-legislative. Commissioner Darcie L. Houck is the presiding officer. Investor-owned utilities shall and other parties may file and serve responses to the questions set forth in this ruling no later than August 14, 2026. Parties may file and serve reply comments no later than August 21, 2026.",
+    "filedBy": "CMMR/ DARCIE L. HOUCK/ CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
+    "date": "2026-07-23",
+    "topic": "Building Decarbonization",
+    "dataType": "Quantitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-24"
+  },
+  {
     "source": "CPUC R.25-04-010",
     "agency": "CPUC",
     "docket": "R.25-04-010",
@@ -10,9 +26,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Signals ongoing advocacy in a relevant CPUC proceeding, but specific content is unknown.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
@@ -26,9 +42,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Signals ongoing advocacy in a relevant CPUC proceeding, but specific content is unknown.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
@@ -154,9 +170,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Local governments gain formal voice in a relevant CPUC proceeding, potentially supporting energy efficiency and decarbonization efforts.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -202,9 +218,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Local governments sought formal participation in a relevant CPUC proceeding to advocate for sustainable energy.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -218,9 +234,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "An energy efficiency product provider gains formal voice in a relevant CPUC proceeding, potentially influencing program design and market.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -283,8 +299,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments shape how CCAs will fund and administer energy efficiency programs, directly impacting program design and client opportunities.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -299,8 +315,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments shape how CCAs will fund and administer energy efficiency programs, directly impacting program design and client opportunities.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -315,8 +331,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments shape how CCAs will fund and administer energy efficiency programs, directly impacting program design and client opportunities.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {

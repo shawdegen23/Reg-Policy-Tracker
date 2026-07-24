@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-23T22:57:16.885Z",
+  "ranAt": "2026-07-24T15:26:24.505Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030345",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606596715",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605732298",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605738152",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578364",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605383822",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605438880"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605383822"
           ],
           "sampleRows": [
+            {
+              "type": "SCOPING RULING",
+              "cells": [
+                "July 23, 2026",
+                "SCOPING RULING",
+                "CMMR/ DARCIE L. HOUCK/ CPUC",
+                "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comme"
+              ]
+            },
             {
               "type": "DECISION",
               "cells": [
@@ -151,15 +160,6 @@
                 "MOTION",
                 "Pacific Gas and Electric Company",
                 "MOTION TO ACCEPT LATE FILING OF PACIFIC GAS AND ELECTRIC COMPANY'S REPLYCOMMENTS"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "April 28, 2026",
-                "COMMENTS",
-                "Pacific Gas and Electric Company",
-                "Reply Comments on Ruling Seeking Information on Building Decarbonization and Ent"
               ]
             }
           ],
