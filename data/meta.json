@@ -1,18 +1,18 @@
 {
-  "lastRun": "2026-07-27T16:20:46.383Z",
+  "lastRun": "2026-07-27T23:02:37.502Z",
   "sources": {
     "cpuc": {
-      "lastRun": "2026-07-27T16:20:46.383Z",
+      "lastRun": "2026-07-27T23:02:37.502Z",
       "status": "ok",
       "count": 56
     },
     "cec": {
-      "lastRun": "2026-07-27T16:20:46.383Z",
+      "lastRun": "2026-07-27T23:02:37.502Z",
       "status": "ok",
       "count": 2
     },
     "carb": {
-      "lastRun": "2026-07-27T16:20:46.383Z",
+      "lastRun": "2026-07-27T23:02:37.502Z",
       "status": "error",
       "count": 0,
       "error": "CARB HTTP 403",
@@ -20,7 +20,7 @@
       "lastGoodRun": "2026-07-24T23:02:08.463Z"
     },
     "legiscan": {
-      "lastRun": "2026-07-27T16:20:46.383Z",
+      "lastRun": "2026-07-27T23:02:37.502Z",
       "status": "ok",
       "count": 342
     }
