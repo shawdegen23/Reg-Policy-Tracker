@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-24T23:02:08.463Z",
+  "ranAt": "2026-07-27T16:20:46.384Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612353866",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612335351",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144359",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144293",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794821",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355493",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609975327"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355493"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 27, 2026",
+                "EXPARTE",
+                "Fervo Energy Company",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -557,15 +566,6 @@
                 "EXPARTE",
                 "CALIFORNIA COMMUNITY CHOICE ASSOCIATION",
                 "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 21, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
               ]
             },
             {

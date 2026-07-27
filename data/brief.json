@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-24T23:20:06.990Z",
+  "generatedAt": "2026-07-27T16:26:28.623Z",
   "totals": {
-    "developments": 101,
+    "developments": 102,
     "high": 42,
     "quantitative": 17,
     "topics": 6
   },
   "topicCounts": {
+    "Resource Adequacy / Planning": 28,
     "DER / Rates": 22,
     "Building Decarbonization": 11,
-    "Resource Adequacy / Planning": 27,
     "Energy Efficiency": 20,
     "Demand Flexibility": 11,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
+    "R.25-06-019": 19,
     "R.20-05-012": 12,
     "R.19-01-011": 10,
-    "R.25-06-019": 18,
     "R.25-04-010": 20,
     "R.23-10-011": 9,
     "R.22-07-005": 11,
@@ -434,5 +434,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "The Energy Efficiency proceeding (R.25-04-010) is highly active, with multiple ex parte communications and recent grants of party status"
 }
