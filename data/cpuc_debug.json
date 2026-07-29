@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-29T15:49:52.028Z",
+  "ranAt": "2026-07-29T22:59:39.461Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777782",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970655",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354199",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529039",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916891",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529125",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602999022",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602365946"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602999022"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "July 27, 2026",
+                "RULING",
+                "ALJ/FORTUNE/CPUC",
+                "EMAIL RULING SHORTENING PARTY RESPONSE TIME FOR SOUTHERN CALIFORNIA EDISON COMPA"
+              ]
+            },
             {
               "type": "MOTION",
               "cells": [
@@ -484,15 +493,6 @@
                 "-",
                 "Decision D2605021 - Order Extending Statutory Deadline. This decision extends th"
               ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "May 08, 2026",
-                "RULING",
-                "COM/DOUGLAS/CPUC",
-                "ASSIGNED COMMISSIONER'S RULING DIRECTING PROGRAM ADMINISTRATORS TO RESUME PAYMEN"
-              ]
             }
           ],
           "docLinks": 100
@@ -519,6 +519,9 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446002",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612428859",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777793",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612212915",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612445985",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612353866",
@@ -526,12 +529,36 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618006",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611600918",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144359",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611144293"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618006"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 29, 2026",
+                "EXPARTE",
+                "Fervo Energy Company",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "July 29, 2026",
+                "LAW & MOTION",
+                "Valley Clean Energy Alliance",
+                "Law and Motion Moton for confidential treatment of portions of its 2026 Integrat"
+              ]
+            },
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "July 29, 2026",
+                "COMPLIANCE  FILING",
+                "Valley Clean Energy Alliance",
+                "[PUBLIC VERSION] 2026 Integrated Resource Plan"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -548,33 +575,6 @@
                 "EXPARTE",
                 "CALIFORNIA COMMUNITY CHOICE ASSOCIATION",
                 "NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 27, 2026",
-                "EXPARTE",
-                "Fervo Energy Company",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 23, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 23, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
               ]
             }
           ],
