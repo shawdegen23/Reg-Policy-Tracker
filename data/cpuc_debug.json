@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-29T22:59:39.461Z",
+  "ranAt": "2026-07-30T15:52:33.517Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -521,6 +521,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446002",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612428859",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777799",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777793",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612212915",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612445985",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612335351",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618006"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412"
           ],
           "sampleRows": [
             {
@@ -551,6 +551,15 @@
               ]
             },
             {
+              "type": "NOTICE",
+              "cells": [
+                "July 29, 2026",
+                "NOTICE",
+                "WestLight Energy",
+                "Notice of Party Name Change"
+              ]
+            },
+            {
               "type": "COMPLIANCE  FILING",
               "cells": [
                 "July 29, 2026",
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "Fervo Energy Company",
                 "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 27, 2026",
-                "EXPARTE",
-                "CALIFORNIA COMMUNITY CHOICE ASSOCIATION",
-                "NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],

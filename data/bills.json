@@ -1,5 +1,44 @@
 [
   {
+    "number": "AB1704",
+    "title": "Greenhouse gases: embodied carbon building materials.",
+    "lastAction": "In committee: Hearing postponed by committee.",
+    "lastActionDate": "2026-07-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1704/2025",
+    "changeHash": "ce28b7f9815897a94c388dbd885becdc",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2513",
+    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
+    "lastAction": "In committee: Hearing postponed by committee.",
+    "lastActionDate": "2026-07-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2513/2025",
+    "changeHash": "db13d5e9443e6e782a0460d2752c9bfa",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2700",
+    "title": "Electrical corporations: wildfire victim restitution shortfalls: report.",
+    "lastAction": "In committee: Hearing postponed by committee.",
+    "lastActionDate": "2026-07-29",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2700/2025",
+    "changeHash": "c723ca783a79ceab48c9570f2246ad2d",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB353",
     "title": "Public Utilities Commission: Independent Office of Audits and Investigations.",
     "lastAction": "In committee: Hearing postponed by committee.",
@@ -572,19 +611,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB2700",
-    "title": "Electrical corporations: wildfire victim restitution shortfalls: report.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 16. Noes 0.) (June 30). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-30",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2700/2025",
-    "changeHash": "e2a0aab09c539dd3a1c41604cf3fc460",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB894",
     "title": "Wildfire resiliency: financial assistance.",
     "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To consent calendar. (Ayes 6. Noes 0.) (June 29). Re-referred to Com. on APPR.",
@@ -1053,19 +1079,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB2513",
-    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 7. Noes 0.) (June 23). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-24",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2513/2025",
-    "changeHash": "fbbe31fb8117bf32129da3f5910f030c",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2560",
     "title": "Climate Action Plan for Transportation Infrastructure: goals.",
     "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 9. Noes 4.) (June 23). Re-referred to Com. on APPR.",
@@ -1151,19 +1164,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1334/2025",
     "changeHash": "5f4874510a4cc8ece2c2bf00a7b561d8",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1704",
-    "title": "Greenhouse gases: embodied carbon building materials.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-23",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1704/2025",
-    "changeHash": "178a30eb6aebf7260ed82e13603861cd",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
