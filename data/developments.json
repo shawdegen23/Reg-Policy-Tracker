@@ -1,5 +1,69 @@
 [
   {
+    "source": "CPUC R.22-07-005",
+    "agency": "CPUC",
+    "docket": "R.22-07-005",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION.",
+    "filedBy": "CMMR/JOHN_REYNOLDS/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446035",
+    "date": "2026-07-30",
+    "topic": "Demand Flexibility",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-30"
+  },
+  {
+    "source": "CPUC R.20-08-020",
+    "agency": "CPUC",
+    "docket": "R.20-08-020",
+    "type": "Filing",
+    "headline": "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR SECOND QUARTER 2026.",
+    "filedBy": "San Jose Clean Energy",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777808",
+    "date": "2026-07-30",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-30"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Ruling",
+    "headline": "Administrative Law Judge Ruling on Small  Business Utility Advocates Notice of Intent to Claim Intervenor Compensation. This Ruling Direct the Small Business Utility Advocates (SBUA) to provide updated information to support its Notice of Intent to Claim Intervenor Compensation (NOI) within 30 days of the issuance of this ruling.",
+    "filedBy": "ALJ/ RIZZO/ CPUC,ALJ/ FITCH / CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613030988",
+    "date": "2026-07-30",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-30"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "NTEGRATED RESOURCE PLAN COMPLIANCE REPORT LETTER OF VOLT ENERGY LLC.",
+    "filedBy": "Volt Energy LLC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446038",
+    "date": "2026-07-30",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-07-30"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -202,9 +266,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Indicates ongoing advocacy by other parties in a relevant proceeding, but the content of the communication is unknown.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -218,9 +282,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Indicates ongoing advocacy by other parties in a relevant proceeding, but the content of the communication is unknown.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -346,9 +410,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "LGSEC's new party status enables local government perspectives to influence energy efficiency and decarbonization program decisions.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -394,9 +458,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "This motion led to LGSEC gaining party status, allowing local government perspectives to influence energy efficiency decisions.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -410,9 +474,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "AM Conservation's new party status enables a vendor/implementer perspective to influence energy efficiency program decisions.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -475,8 +539,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on CCA energy efficiency budget approaches will shape funding and program design, directly impacting client opportunities and program effectiveness.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -491,8 +555,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on CCA energy efficiency budget approaches will shape funding and program design, directly impacting client opportunities and program effectiveness.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -507,8 +571,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on CCA energy efficiency budget approaches will shape funding and program design, directly impacting client opportunities and program effectiveness.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {

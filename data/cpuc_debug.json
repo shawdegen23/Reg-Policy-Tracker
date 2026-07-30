@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-07-30T15:52:33.517Z",
+  "ranAt": "2026-07-30T23:08:14.963Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -187,6 +187,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446035",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610155197",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606860960",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606827971",
@@ -196,10 +197,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603473612",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602766107",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602347523",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602347504",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=601687378"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602347504"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 30, 2026",
+                "EXPARTE",
+                "CMMR/JOHN_REYNOLDS/CPUC",
+                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "DECISION",
               "cells": [
@@ -235,15 +244,6 @@
                 "-",
                 "Decision D2604017 - Decision Granting Compensation To Utility Consumer's Action "
               ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "April 09, 2026",
-                "DECISION",
-                "-",
-                "Decision D2604016 - Decision Granting Compensation To Sierra Club For Substantia"
-              ]
             }
           ],
           "docLinks": 100
@@ -270,6 +270,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777808",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609048635",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605874961",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=596902630",
@@ -279,10 +280,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=581690297",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066904",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066249",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066826",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=578885910"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066826"
           ],
           "sampleRows": [
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "July 30, 2026",
+                "COMPLIANCE  FILING",
+                "San Jose Clean Energy",
+                "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR SECOND QUARTER 2026."
+              ]
+            },
             {
               "type": "DECISION",
               "cells": [
@@ -317,15 +326,6 @@
                 "EXPARTE",
                 "California Solar & Storage Association",
                 "NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "December 12, 2025",
-                "EXPARTE",
-                "California Solar & Storage Association",
-                "Three-Day Advance Notice of Ex Parte Communication."
               ]
             }
           ],
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613030988",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446038",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446002",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612428859",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777799",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612445985",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612353866",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612335351",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611517110",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619412"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "July 30, 2026",
+                "RULING",
+                "ALJ/ RIZZO/ CPUC,ALJ/ FITCH / CPUC",
+                "Administrative Law Judge Ruling on Small  Business Utility Advocates Notice of I"
+              ]
+            },
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "July 30, 2026",
+                "COMPLIANCE  FILING",
+                "Volt Energy LLC",
+                "NTEGRATED RESOURCE PLAN COMPLIANCE REPORT LETTER OF VOLT ENERGY LLC."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -557,24 +575,6 @@
                 "NOTICE",
                 "WestLight Energy",
                 "Notice of Party Name Change"
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "July 29, 2026",
-                "COMPLIANCE  FILING",
-                "Valley Clean Energy Alliance",
-                "[PUBLIC VERSION] 2026 Integrated Resource Plan"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 27, 2026",
-                "EXPARTE",
-                "Fervo Energy Company",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],
