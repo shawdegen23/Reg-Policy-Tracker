@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-03T16:30:25.401Z",
+  "generatedAt": "2026-08-03T23:19:31.756Z",
   "totals": {
-    "developments": 113,
+    "developments": 116,
     "high": 43,
     "quantitative": 17,
     "topics": 6
   },
   "topicCounts": {
+    "DER / Rates": 25,
+    "Resource Adequacy / Planning": 38,
     "Demand Flexibility": 12,
-    "DER / Rates": 24,
-    "Resource Adequacy / Planning": 36,
     "Building Decarbonization": 11,
     "Energy Efficiency": 20,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
+    "R.20-05-012": 14,
+    "R.25-06-019": 29,
     "R.22-07-005": 12,
     "R.20-08-020": 10,
-    "R.25-06-019": 27,
-    "R.20-05-012": 13,
     "R.19-01-011": 10,
     "R.25-04-010": 20,
     "R.23-10-011": 9
@@ -434,6 +434,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "The CPUC's Energy Efficiency proceeding (R.25-04-010) saw significant activity, including multiple opening and reply"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-03T16:26:11.106Z",
+  "ranAt": "2026-08-03T23:01:25.372Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031046",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777782",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970655",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354199",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529039",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916891",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529125",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602999022"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529125"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 03, 2026",
+                "EXPARTE",
+                "CMMR/JOHN_REYNOLDS/CPUC",
+                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -484,15 +493,6 @@
                 "WestLight Energy",
                 "Notice of Party Name Change from Peninsula Clean Energy Authority to WestLight E"
               ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "May 14, 2026",
-                "DECISION",
-                "-",
-                "Decision D2605021 - Order Extending Statutory Deadline. This decision extends th"
-              ]
             }
           ],
           "docLinks": 100
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612937625",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613155675",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613030988",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446038",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446002",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777793",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612212915",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612445985",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612353866",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612335351",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970631"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612353866"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "August 03, 2026",
+                "RULING",
+                "ALJ/FITCH/CPUC,ALJ/RIZZO/CPUC",
+                "Administrative Law Judges' Ruling on the Nature Conservancy's Notice of Intent t"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "July 31, 2026",
+                "EXPARTE",
+                "Fervo Energy Company",
+                "NOTICE OF EX PARTE COMMUNICATIONS."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -557,24 +575,6 @@
                 "EXPARTE",
                 "Fervo Energy Company",
                 "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "July 29, 2026",
-                "LAW & MOTION",
-                "Valley Clean Energy Alliance",
-                "Law and Motion Moton for confidential treatment of portions of its 2026 Integrat"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "July 29, 2026",
-                "NOTICE",
-                "WestLight Energy",
-                "Notice of Party Name Change"
               ]
             }
           ],
