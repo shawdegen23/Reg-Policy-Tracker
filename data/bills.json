@@ -1,5 +1,174 @@
 [
   {
+    "number": "AB40",
+    "title": "California Environmental Quality Act: environmental impact reports: coal handling, storage, and export.",
+    "lastAction": "From committee: Be ordered to second reading pursuant to Senate Rule 28.8.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB40/2025",
+    "changeHash": "4c22e9ace83fa1cc3fc996526466cb94",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB353",
+    "title": "Public Utilities Commission: Inspector General.",
+    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on APPR.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB353/2025",
+    "changeHash": "24fb37c734d8e829b5ade7b89c1b82ab",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB643",
+    "title": "Climate change: short-lived climate pollutants: organic waste reduction.",
+    "lastAction": "Ordered to the Senate.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB643/2025",
+    "changeHash": "515907ed1cfaa60f8a1282ce4273e39e",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1569",
+    "title": "Pupil safety: electric bicycle: safety and training program.",
+    "lastAction": "From committee: Be ordered to second reading file pursuant to Senate Rule 28.8 and ordered to Consent Calendar.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1569/2025",
+    "changeHash": "439ef6e914a3d095b77589dbd3820139",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1707",
+    "title": "Electricians: certification application, examination, and renewal.",
+    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on APPR.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1707/2025",
+    "changeHash": "c3e6a3a5076c6b0c5eb204281b36dabd",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1820",
+    "title": "Electric vehicle charging stations: permit fees.",
+    "lastAction": "From committee: Be ordered to second reading pursuant to Senate Rule 28.8.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1820/2025",
+    "changeHash": "cee7c9764484fb16739fc9d571617ff1",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1873",
+    "title": "County of Ventura: fire suppression: backup energy source.",
+    "lastAction": "From committee: Be ordered to second reading file pursuant to Senate Rule 28.8 and ordered to Consent Calendar.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1873/2025",
+    "changeHash": "6efd92d4390b35943d0c28939910d16d",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2044",
+    "title": "Building standards: approval or adoption: cost of compliance estimate.",
+    "lastAction": "From committee: Be ordered to second reading file pursuant to Senate Rule 28.8 and ordered to Consent Calendar.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2044/2025",
+    "changeHash": "371a68e64c05daaf0df2cc971ec2359c",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2346",
+    "title": "Vehicles: electric bicycles and speed limits.",
+    "lastAction": "From committee: Be ordered to second reading pursuant to Senate Rule 28.8.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2346/2025",
+    "changeHash": "5165cfbed94bf2e51e69a7ae1d4eb36f",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2513",
+    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
+    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on APPR.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2513/2025",
+    "changeHash": "613eb7e17fee33b711458b3c6d7e094c",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2674",
+    "title": "State Air Resources Board: internet website: methane emissions data.",
+    "lastAction": "From committee: Be ordered to second reading pursuant to Senate Rule 28.8.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2674/2025",
+    "changeHash": "e2346016e0d9a6f6afacc584ff906afa",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2700",
+    "title": "Public Utilities Commission: electrical corporations: wildfire victim restitution shortfalls: report: restitution mechanisms.",
+    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on APPR.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2700/2025",
+    "changeHash": "cde8988a9d53465a514b6021a175f94f",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1090",
+    "title": "Planning and zoning: housing development projects: urban lot splits: subdivisions: 2025 Eaton Wildfire: Altadena.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-03",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1090/2025",
+    "changeHash": "4c0f346f850bc6871eecfaaf068c7f67",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB1704",
     "title": "Greenhouse gases: embodied carbon building materials.",
     "lastAction": "In committee: Hearing postponed by committee.",
@@ -7,45 +176,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1704/2025",
     "changeHash": "ce28b7f9815897a94c388dbd885becdc",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2513",
-    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
-    "lastAction": "In committee: Hearing postponed by committee.",
-    "lastActionDate": "2026-07-29",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2513/2025",
-    "changeHash": "db13d5e9443e6e782a0460d2752c9bfa",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2700",
-    "title": "Electrical corporations: wildfire victim restitution shortfalls: report.",
-    "lastAction": "In committee: Hearing postponed by committee.",
-    "lastActionDate": "2026-07-29",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2700/2025",
-    "changeHash": "c723ca783a79ceab48c9570f2246ad2d",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB353",
-    "title": "Public Utilities Commission: Independent Office of Audits and Investigations.",
-    "lastAction": "In committee: Hearing postponed by committee.",
-    "lastActionDate": "2026-07-22",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB353/2025",
-    "changeHash": "bfe48737501a0a3f1adecb137c842ecf",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -97,24 +227,11 @@
     "lastActionDate": "2026-07-09",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2410/2025",
-    "changeHash": "3a0c8a914a17a41dc1a42213632afad0",
+    "changeHash": "ae1096dc36aa00a5d85b6fd869f1480b",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB40",
-    "title": "California Environmental Quality Act: environmental impact reports: coal handling, storage, and export.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-02",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB40/2025",
-    "changeHash": "64e9255fa08d7c848c0200f99d4e55c7",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB306",
@@ -123,24 +240,24 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB306/2025",
-    "changeHash": "ae8f001736db85a59f88b39f03248a7f",
+    "changeHash": "7b8b63dd733501f3bfe0d497156170fd",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
-    "number": "AB643",
-    "title": "Climate change: short-lived climate pollutants: organic waste reduction.",
-    "lastAction": "In Assembly. Concurrence in Senate amendments pending.",
+    "number": "AB467",
+    "title": "Los Angeles Community College District: California Center for Climate Change Education.",
+    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 6. Noes 0.) (July 1). Re-referred to Com. on APPR.",
     "lastActionDate": "2026-07-02",
     "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB643/2025",
-    "changeHash": "e6ccd03a3a2e5802383c99efd570f74d",
+    "url": "https://legiscan.com/CA/bill/AB467/2025",
+    "changeHash": "b25644db57730d1d5f107321fef8e5b1",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB706",
@@ -149,11 +266,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB706/2025",
-    "changeHash": "dc1178e6ae5a9a5d1225bd4b5525b6a0",
+    "changeHash": "a81e6ea610dc1fbd6b872ac99fe5085f",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1237",
@@ -162,11 +279,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1237/2025",
-    "changeHash": "28357948f7b6d5dfb741afd231520246",
+    "changeHash": "e72f06c47a0524749f689eb0fbdd9257",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1486",
@@ -175,11 +292,24 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1486/2025",
-    "changeHash": "724e0c3def8e175167a69bdf230d5521",
+    "changeHash": "d5d60cc4a4df9a7f4945710924bddb7b",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB1642",
+    "title": "Wildfires: contamination standards.",
+    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
+    "lastActionDate": "2026-07-02",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1642/2025",
+    "changeHash": "ddd3022cfaee4df60edac445ce779981",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB1787",
@@ -188,11 +318,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1787/2025",
-    "changeHash": "63db42f649bdb291acbf1082bfed04d8",
+    "changeHash": "6212ae842b857ad4af45ee4fdf7fcfd3",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1815",
@@ -201,24 +331,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1815/2025",
-    "changeHash": "585d7de7567ae3644fb9a7c82111b693",
+    "changeHash": "36cc2758af2afdee6e7c3e65d8d8c0eb",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1820",
-    "title": "Electric vehicle charging stations: permit fees.",
-    "lastAction": "Read second time and amended. Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-02",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1820/2025",
-    "changeHash": "60243958d035d741c9fcbd564f136fa3",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2124",
@@ -227,11 +344,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2124/2025",
-    "changeHash": "d476e1bf7976ecbf29f8a4ab5271b905",
+    "changeHash": "6e13de0beac432e5615d5c9c4382cd95",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2383",
@@ -240,11 +357,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2383/2025",
-    "changeHash": "8511d314a279f9bdb583c79deeddccd7",
+    "changeHash": "46ddff2e2bb0df31aac4135a0a7b5d4a",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2493",
@@ -253,24 +370,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2493/2025",
-    "changeHash": "0e01ca84dc5bf36e6419a8c2a8aa804d",
+    "changeHash": "042ce0aafcdfe8401cf9deb3f76560bc",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2674",
-    "title": "State Air Resources Board: internet website: methane emissions data.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 6. Noes 0.) (July 1). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-07-02",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2674/2025",
-    "changeHash": "67d8a4613c19967b8476649d5b1b0433",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2748",
@@ -279,11 +383,11 @@
     "lastActionDate": "2026-07-02",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2748/2025",
-    "changeHash": "16a2e11e409ee0db6f41063d26da215f",
+    "changeHash": "3d36eaf7b0db3722b4cd01cff7fd16fa",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB222",
@@ -403,17 +507,30 @@
     "isUpdated": false
   },
   {
+    "number": "AB1749",
+    "title": "Interfering with wildfire suppression and emergency responses with drone.",
+    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 13. Noes 0.) (June 30). Re-referred to Com. on APPR.",
+    "lastActionDate": "2026-07-01",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1749/2025",
+    "changeHash": "4af428f762db5af4362d55ccf2ca369b",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB1847",
     "title": "Mortgage forbearance: state of emergency: wildfire.",
     "lastAction": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 11. Noes 0.) (June 30). Re-referred to Com. on APPR.",
     "lastActionDate": "2026-07-01",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1847/2025",
-    "changeHash": "9d290d22b4cd87d8cac2e27e2d6ca4f6",
+    "changeHash": "b34621ee4a9158ad28d7dfd78a92b8c7",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1960",
@@ -422,11 +539,11 @@
     "lastActionDate": "2026-07-01",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1960/2025",
-    "changeHash": "90bb0293e088db67546071dfe59ecc3a",
+    "changeHash": "c72ca39b7b82f61c64b941c08cda5ec4",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2111",
@@ -435,11 +552,11 @@
     "lastActionDate": "2026-07-01",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2111/2025",
-    "changeHash": "91a5339535b4a8661176f3193222cc9e",
+    "changeHash": "925b01a6d0714b9fd2798247b4aa4af7",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2473",
@@ -448,11 +565,11 @@
     "lastActionDate": "2026-07-01",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2473/2025",
-    "changeHash": "8162ef24c47549f11f747f6060e567e9",
+    "changeHash": "6edd4d82b44db818259297b55e78617d",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB741",
@@ -552,11 +669,11 @@
     "lastActionDate": "2026-06-30",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1761/2025",
-    "changeHash": "ce212974e898016550d389ef2efd7628",
+    "changeHash": "cc53a012a3ba06a504cd7acc4ce89eff",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2369",
@@ -565,11 +682,11 @@
     "lastActionDate": "2026-06-30",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2369/2025",
-    "changeHash": "a4a038e536ab20b612bc964158c9d093",
+    "changeHash": "835e0e85f152483e737034e7857a7995",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2505",
@@ -578,11 +695,11 @@
     "lastActionDate": "2026-06-30",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2505/2025",
-    "changeHash": "6b1d5624ead2143f1744661dd69a4ed0",
+    "changeHash": "d11b3abf7a4502e22f81f7e687d732ee",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2647",
@@ -591,11 +708,11 @@
     "lastActionDate": "2026-06-30",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2647/2025",
-    "changeHash": "859947e02f80ff65363076b6a361fbb4",
+    "changeHash": "72c9c2b17920d4efae30b8acab3dc038",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB894",
@@ -682,11 +799,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB710/2025",
-    "changeHash": "ce4e9c6f51cb24ef8fb916bbb8e93a6a",
+    "changeHash": "f717a72256a1a2ed81291eee66978deb",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1301",
@@ -734,11 +851,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2037/2025",
-    "changeHash": "e6796228abccbe4a8971ea7769513c4b",
+    "changeHash": "b7a3e704a8864954a780015724322f48",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2163",
@@ -747,11 +864,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2163/2025",
-    "changeHash": "463363d96120bbef7a87ce6c94015468",
+    "changeHash": "602cbc342156e7780ab746205a0527c4",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2182",
@@ -760,11 +877,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2182/2025",
-    "changeHash": "6b959ae89b45abc012a9e2832e1b7f50",
+    "changeHash": "9ee6a910ee69723c5b4c12386792aa30",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2516",
@@ -773,11 +890,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2516/2025",
-    "changeHash": "dc0c40b144f59ae58c74b9e7c2fdb3e7",
+    "changeHash": "38c7fa9c3ed843a5c63df6971b242984",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2589",
@@ -786,11 +903,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2589/2025",
-    "changeHash": "63b4e504db6dac17253f20aad47c3813",
+    "changeHash": "f5a8fad59bcd06d99f2c74928bca337c",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2612",
@@ -799,11 +916,11 @@
     "lastActionDate": "2026-06-29",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2612/2025",
-    "changeHash": "5a4474691f62ff9c61d32f24337148fe",
+    "changeHash": "81163a6d11bc797327ef830a24988cee",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB868",
@@ -968,11 +1085,11 @@
     "lastActionDate": "2026-06-25",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB550/2025",
-    "changeHash": "5c50ae6c2aef64bbec68d3f064ec0540",
+    "changeHash": "3fdea08106cf51439ad63a95ee7948cd",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1070",
@@ -981,11 +1098,11 @@
     "lastActionDate": "2026-06-25",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1070/2025",
-    "changeHash": "ddba795b8c0b0482f3fdb98da95a27b2",
+    "changeHash": "f7a129d171c129e4fd33f8b394b06aa1",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1945",
@@ -995,19 +1112,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1945/2025",
     "changeHash": "f201c69abe6565d694694e4a5a2f90aa",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2044",
-    "title": "Building standards: approval or adoption: cost of compliance estimate.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 10. Noes 0.) (June 24). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-25",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2044/2025",
-    "changeHash": "860fc17699221509ccb5700bbaea9cc8",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1040,30 +1144,17 @@
     "isUpdated": false
   },
   {
-    "number": "AB2346",
-    "title": "Vehicles: electric bicycles and speed limits.",
-    "lastAction": "Referred to Com. on APPR.",
-    "lastActionDate": "2026-06-24",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2346/2025",
-    "changeHash": "bfa62db2432496966570cde0e45e379b",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2463",
     "title": "Public Utilities Commission: rates: returns on equity.",
     "lastAction": "In committee: Set, first hearing. Hearing canceled at the request of author.",
     "lastActionDate": "2026-06-24",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2463/2025",
-    "changeHash": "d0301a338540ed414c250d3ba62676d4",
+    "changeHash": "013cb73d047461a4eddbedd500215670",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2560",
@@ -1072,11 +1163,11 @@
     "lastActionDate": "2026-06-24",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2560/2025",
-    "changeHash": "021a38d8c710a2aae321bfac82d22e41",
+    "changeHash": "22a096def5adc20b102be6061e347542",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB10",
@@ -1150,11 +1241,11 @@
     "lastActionDate": "2026-06-23",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1334/2025",
-    "changeHash": "5f4874510a4cc8ece2c2bf00a7b561d8",
+    "changeHash": "3c41c59fc5a5f8dd89383714ede3f698",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2458",
@@ -1202,11 +1293,11 @@
     "lastActionDate": "2026-06-22",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2266/2025",
-    "changeHash": "43d1706a27c1941c7832066cc0361840",
+    "changeHash": "a4e53ebf9af3aeb98f5b0b4d3764e6dd",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2518",
@@ -1228,24 +1319,11 @@
     "lastActionDate": "2026-06-17",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB72/2025",
-    "changeHash": "5fc630bdcd18c32e253480704b24b8eb",
+    "changeHash": "8dff9930b562295fb895332b9208b915",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1873",
-    "title": "County of Ventura: fire suppression: backup energy source.",
-    "lastAction": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 9. Noes 0.) (June 16). Re-referred to Com. on APPR.",
-    "lastActionDate": "2026-06-17",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1873/2025",
-    "changeHash": "7150958690c20b77489e8bcb1151e160",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB327",
@@ -1599,6 +1677,19 @@
     "isUpdated": false
   },
   {
+    "number": "AB2606",
+    "title": "Oil and gas: subsurface energy transition research and demonstration projects: California State University, Bakersfield.",
+    "lastAction": "From committee: Without further action pursuant to Joint Rule 62(a).",
+    "lastActionDate": "2026-05-14",
+    "status": "6",
+    "url": "https://legiscan.com/CA/bill/AB2606/2025",
+    "changeHash": "785d09455b4ce82da621eb5eeb622b53",
+    "stage": -1,
+    "prevStage": -1,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB2608",
     "title": "Energy: transportation fuels assessment.",
     "lastAction": "In committee: Held under submission.",
@@ -1840,19 +1931,6 @@
     "status": "1",
     "url": "https://legiscan.com/CA/bill/SB875/2025",
     "changeHash": "a05f8ee1baa40e3851109776e4bd6f2c",
-    "stage": -1,
-    "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2606",
-    "title": "Oil and gas: subsurface energy transition research and demonstration projects: California State University, Bakersfield.",
-    "lastAction": "In committee: Set, first hearing. Failed passage.",
-    "lastActionDate": "2026-04-20",
-    "status": "1",
-    "url": "https://legiscan.com/CA/bill/AB2606/2025",
-    "changeHash": "d4b7650056768743ff30d74e69d4eb1f",
     "stage": -1,
     "prevStage": -1,
     "isNew": false,
@@ -3484,19 +3562,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1003",
-    "title": "Public health: emergency plans and wildfire research.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 537, Statutes of 2025.",
-    "lastActionDate": "2025-10-10",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB1003/2025",
-    "changeHash": "42e98c935fd9ac01429a01257ca5333f",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB293",
     "title": "Real property tax: transfer of base year value: generational transfers: wildfire.",
     "lastAction": "Chaptered by Secretary of State. Chapter 539, Statutes of 2025.",
@@ -3582,19 +3647,6 @@
     "status": "4",
     "url": "https://legiscan.com/CA/bill/SB782/2025",
     "changeHash": "b9180f092507b9a66f1c6b3e71672074",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB987",
-    "title": "Vehicles: storage and towing.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 345, Statutes of 2025.",
-    "lastActionDate": "2025-10-06",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB987/2025",
-    "changeHash": "f9a00ff724a4f5e55fdb61d519cd5ebc",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
