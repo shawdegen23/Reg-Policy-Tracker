@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "CPUC / Julian Buchwalter / Advisor",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031060",
+    "date": "2026-08-04",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-04"
+  },
+  {
     "source": "CPUC R.20-05-012",
     "agency": "CPUC",
     "docket": "R.20-05-012",
