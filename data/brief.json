@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-05T16:04:34.495Z",
+  "generatedAt": "2026-08-05T23:14:00.138Z",
   "totals": {
-    "developments": 117,
-    "high": 38,
+    "developments": 118,
+    "high": 43,
     "quantitative": 17,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 39,
+    "Resource Adequacy / Planning": 40,
     "DER / Rates": 25,
     "Demand Flexibility": 12,
     "Building Decarbonization": 11,
@@ -15,7 +15,7 @@
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.25-06-019": 30,
+    "R.25-06-019": 31,
     "R.20-05-012": 14,
     "R.22-07-005": 12,
     "R.20-08-020": 10,
@@ -39,7 +39,7 @@
       "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-07-30",
-      "similar": 0
+      "similar": 2
     },
     {
       "source": "CPUC R.19-01-011",
@@ -62,6 +62,23 @@
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
       "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABLE ENERGY COALITION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
+      "date": "2026-07-13",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-07-13",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
       "type": "Filing",
       "headline": "Motion for Party Status of AM Conservation",
       "filedBy": "AM Conservation",
@@ -71,6 +88,40 @@
       "dataType": "Qualitative",
       "relevance": "High",
       "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-07-10",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing",
+      "headline": "Motion for Party of Local Government Sustainable Energy Coalition",
+      "filedBy": "Local Government Sustainable Energy Coalition (LGSEC)",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
+      "date": "2026-07-10",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-07-10",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "Email ruling granting motion for party status of AM Conservation",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
+      "date": "2026-07-10",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-07-10",
       "similar": 0
@@ -226,56 +277,6 @@
       "firstSeen": "2026-07-04",
       "aiEnriched": false,
       "filedBy": "WestLight Energy",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.22-07-005",
-      "agency": "CPUC",
-      "docket": "R.22-07-005",
-      "type": "Filing",
-      "headline": "Application for Rehearing of Decision 26-04-017.",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606860960",
-      "date": "2026-05-15",
-      "topic": "Demand Flexibility",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04",
-      "aiEnriched": false,
-      "filedBy": "UTILITY CONSUMERS' ACTION NETWORK",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.22-07-005",
-      "agency": "CPUC",
-      "docket": "R.22-07-005",
-      "type": "Decision",
-      "headline": "Decision D2605029 - Decision Granting Compensation To The Utility Reform Network For Substantial Contribution To Energy Division Disposition Of San Diego Gas and Electric Company Advice Letters 4572-E And 4582-E, Resolution E-5354, Resolution E-5355, And Resolution E-3556.",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606827971",
-      "date": "2026-05-14",
-      "topic": "Demand Flexibility",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Demand Flexibility decision from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "firstSeen": "2026-07-04",
-      "aiEnriched": false,
-      "filedBy": "-",
-      "similar": 0
-    },
-    {
-      "source": "CEC",
-      "agency": "CEC",
-      "docket": "",
-      "type": "Notice",
-      "headline": "Southern California Celebrates First Equitable Building Decarbonization Project",
-      "url": "https://www.energy.ca.gov/news/2026-05/southern-california-celebrates-first-equitable-building-decarbonization-project",
-      "date": "2026-05-01",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization notice from CEC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-04",
       "similar": 0
     }
   ],
@@ -433,6 +434,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "The Energy Efficiency proceeding (R.25-04-010) saw significant activity with numerous opening and reply comments filed on July"
+  ]
 }

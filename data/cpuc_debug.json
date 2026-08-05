@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-05T16:01:54.957Z",
+  "ranAt": "2026-08-05T22:59:39.885Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859234",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031060",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612937625",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613155675",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612428859",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777799",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777793",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612212915",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612445985"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612212915"
           ],
           "sampleRows": [
+            {
+              "type": "MISCELLANEOUS FILING",
+              "cells": [
+                "August 05, 2026",
+                "MISCELLANEOUS FILING",
+                "Valley Electric Association, Inc.",
+                "INFORMATION OF VALLEY ELECTRIC ASSOCIATION, INC.SUBSTANTIATING EXEMPTION FROM IR"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -566,15 +575,6 @@
                 "RULING",
                 "ALJ/ RIZZO/ CPUC,ALJ/ FITCH / CPUC",
                 "Administrative Law Judge Ruling on Small  Business Utility Advocates Notice of I"
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "July 30, 2026",
-                "COMPLIANCE  FILING",
-                "Volt Energy LLC",
-                "NTEGRATED RESOURCE PLAN COMPLIANCE REPORT LETTER OF VOLT ENERGY LLC."
               ]
             }
           ],
