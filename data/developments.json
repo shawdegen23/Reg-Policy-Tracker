@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.20-08-020",
+    "agency": "CPUC",
+    "docket": "R.20-08-020",
+    "type": "Filing",
+    "headline": "NOTICE OF PARTY NAME CHANGE FROM PENINSULA CLEAN ENERGY AUTHORITY TO WESTLIGHT ENERGY.",
+    "filedBy": "WestLight Energy",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854807",
+    "date": "2026-08-06",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-07"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",

@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-05T22:59:39.885Z",
+  "ranAt": "2026-08-07T01:30:43.794Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -270,6 +270,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854807",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777808",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609048635",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605874961",
@@ -279,10 +280,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=585487469",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=581690297",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066904",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066249",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066826"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066249"
           ],
           "sampleRows": [
+            {
+              "type": "NOTICE",
+              "cells": [
+                "August 06, 2026",
+                "NOTICE",
+                "WestLight Energy",
+                "NOTICE OF PARTY NAME CHANGE FROM PENINSULA CLEAN ENERGY AUTHORITY TO WESTLIGHT E"
+              ]
+            },
             {
               "type": "COMPLIANCE  FILING",
               "cells": [
@@ -317,15 +326,6 @@
                 "COMPLIANCE  FILING",
                 "San Jose Clean Energy",
                 "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR FOURTH QUARTER 2025."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "December 18, 2025",
-                "EXPARTE",
-                "California Solar & Storage Association",
-                "NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],
