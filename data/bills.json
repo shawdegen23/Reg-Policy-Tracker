@@ -1,5 +1,109 @@
 [
   {
+    "number": "SB505",
+    "title": "Money Transmission Act: authentication.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB505/2025",
+    "changeHash": "c2464d8908f9089f6ee3eb648b6c5ed3",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB908",
+    "title": "Residential windows: retrofitting: residential window replacement projects: California Building Code compliance.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB908/2025",
+    "changeHash": "1c1ecf68adfa0f58e4cb4d61239b4ebf",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB952",
+    "title": "State Water Project: renewable energy resources and zero-carbon resources.",
+    "lastAction": "Read second time and amended. Ordered to second reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB952/2025",
+    "changeHash": "7f653ea932393e97be1042b216f252ac",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1048",
+    "title": "State Seal of Climate Literacy.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1048/2025",
+    "changeHash": "71446996e83f366ec9ce2d3bda0255d7",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1153",
+    "title": "Disaster preparedness: urban retail water suppliers and public water systems: wildfire.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1153/2025",
+    "changeHash": "59d84e75e8910ab00cc8aaa9e92f4064",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1196",
+    "title": "Small energization projects: electrical service connections.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1196/2025",
+    "changeHash": "ff2d09a081dbf3cd2f650fa6256e52fe",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1283",
+    "title": "Electric vehicle charging stations: installation: permits.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1283/2025",
+    "changeHash": "2f0e9bb4f1ff5157b6549dd591414b70",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1359",
+    "title": "Natural Gas Ratepayer Protection Act.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-06",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1359/2025",
+    "changeHash": "0db3fbcacd3ba67ffc5810005731a799",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "SB58",
     "title": "Air quality: standard: hydrogen sulfide.",
     "lastAction": "August 5 set for first hearing. Placed on suspense file.",
@@ -10,7 +114,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB222",
@@ -23,7 +127,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB327",
@@ -36,20 +140,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB505",
-    "title": "Money Transmission Act: authentication.",
-    "lastAction": "From committee: Do pass. (Ayes 15. Noes 0.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB505/2025",
-    "changeHash": "4a1db82d46c291060f45ed04dc69485b",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB700",
@@ -62,7 +153,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB741",
@@ -75,7 +166,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB742",
@@ -88,7 +179,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB804",
@@ -101,7 +192,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB868",
@@ -114,7 +205,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB886",
@@ -127,7 +218,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB887",
@@ -140,7 +231,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB894",
@@ -153,7 +244,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB905",
@@ -166,20 +257,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB908",
-    "title": "Residential windows: retrofitting: residential window replacement projects: California Building Code compliance.",
-    "lastAction": "From committee: Do pass. (Ayes 14. Noes 1.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB908/2025",
-    "changeHash": "3c42261b1687034db9943f18299d5e5f",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB913",
@@ -192,7 +270,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB925",
@@ -205,7 +283,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB943",
@@ -218,20 +296,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB952",
-    "title": "State Water Project: renewable energy resources and zero-carbon resources.",
-    "lastAction": "From committee: Do pass as amended. (Ayes 15. Noes 0.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB952/2025",
-    "changeHash": "fa22c2c8feb5ae955492ed1f5eba469c",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB969",
@@ -244,7 +309,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB973",
@@ -257,7 +322,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1010",
@@ -270,20 +335,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1048",
-    "title": "State Seal of Climate Literacy.",
-    "lastAction": "From committee: Do pass. (Ayes 15. Noes 0.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1048/2025",
-    "changeHash": "555195b24b3d9eb3b0cd9c7b95123031",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1075",
@@ -296,7 +348,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1098",
@@ -309,7 +361,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1112",
@@ -322,20 +374,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1153",
-    "title": "Disaster preparedness: urban retail water suppliers and public water systems: wildfire.",
-    "lastAction": "From committee: Do pass. (Ayes 15. Noes 0.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1153/2025",
-    "changeHash": "975d2ba21bb15e8a2c6573ea0e5bef7d",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1158",
@@ -348,7 +387,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1167",
@@ -361,20 +400,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1196",
-    "title": "Small energization projects: electrical service connections.",
-    "lastAction": "From committee: Do pass. (Ayes 13. Noes 2.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1196/2025",
-    "changeHash": "96423a69238037d05c63c42a1968df3e",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1213",
@@ -387,7 +413,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1233",
@@ -400,20 +426,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1283",
-    "title": "Electric vehicle charging stations: installation: permits.",
-    "lastAction": "From committee: Do pass. (Ayes 12. Noes 1.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1283/2025",
-    "changeHash": "d3cbd85337a213e9314119237f8c2c57",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1295",
@@ -426,7 +439,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1300",
@@ -439,7 +452,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1329",
@@ -452,7 +465,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1337",
@@ -465,20 +478,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1359",
-    "title": "Natural Gas Ratepayer Protection Act.",
-    "lastAction": "From committee: Do pass. (Ayes 9. Noes 4.) (August 5).",
-    "lastActionDate": "2026-08-05",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1359/2025",
-    "changeHash": "10ebbc31222ab40fe45435b5867e5630",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1370",
@@ -491,7 +491,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB40",
@@ -3211,19 +3211,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB708",
-    "title": "Public Utilities Commission: quorum for the transaction of business.",
-    "lastAction": "Returned to Secretary of Senate pursuant to Joint Rule 56.",
-    "lastActionDate": "2026-02-02",
-    "status": "6",
-    "url": "https://legiscan.com/CA/bill/SB708/2025",
-    "changeHash": "8459afe90fda4785be87d3a2641e635e",
-    "stage": -1,
-    "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB714",
     "title": "Zero-emission vehicles: workforce development: Clean Energy Workforce Training Council.",
     "lastAction": "Returned to Secretary of Senate pursuant to Joint Rule 56.",
@@ -3751,19 +3738,6 @@
     "status": "4",
     "url": "https://legiscan.com/CA/bill/SB593/2025",
     "changeHash": "6ce413e9cb6a59c66298b392a830efd1",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB709",
-    "title": "Self-service storage facilities: rental agreement disclosures.",
-    "lastAction": "Chaptered by Secretary of State. Chapter 353, Statutes of 2025.",
-    "lastActionDate": "2025-10-06",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/SB709/2025",
-    "changeHash": "3f3a68f68f15abb10cfd5cffb980db68",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
