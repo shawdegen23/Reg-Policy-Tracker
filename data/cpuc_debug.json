@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-07T22:36:04.657Z",
+  "ranAt": "2026-08-10T14:58:40.897Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,19 +519,55 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613988291",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859278",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990008",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613727770",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613727768",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859234",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031060",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612937625",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613155675",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613030988",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446038",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446002",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612428859",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777799"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613030988"
           ],
           "sampleRows": [
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "August 10, 2026",
+                "COMPLIANCE  FILING",
+                "BP Energy Retail Company California LLC",
+                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
+              ]
+            },
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "August 10, 2026",
+                "COMPLIANCE  FILING",
+                "3 Phases Renewables Inc.",
+                "(PUBLIC VERSION) 2026 INTEGRATED RESOURCE PLAN."
+              ]
+            },
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "August 10, 2026",
+                "LAW & MOTION",
+                "BP Energy Retail Company California LLC",
+                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
+              ]
+            },
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "August 10, 2026",
+                "LAW & MOTION",
+                "3 Phases Renewables Inc.",
+                "(PUBLIC VERSION) 2026 INTEGRATED RESOURCE PLAN."
+              ]
+            },
             {
               "type": "LAW & MOTION",
               "cells": [
@@ -539,42 +575,6 @@
                 "LAW & MOTION",
                 "WestLight Energy",
                 "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN."
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "August 07, 2026",
-                "COMPLIANCE  FILING",
-                "WestLight Energy",
-                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN."
-              ]
-            },
-            {
-              "type": "MISCELLANEOUS FILING",
-              "cells": [
-                "August 05, 2026",
-                "MISCELLANEOUS FILING",
-                "Valley Electric Association, Inc.",
-                "INFORMATION OF VALLEY ELECTRIC ASSOCIATION, INC.SUBSTANTIATING EXEMPTION FROM IR"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 04, 2026",
-                "EXPARTE",
-                "CPUC / Julian Buchwalter / Advisor",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "August 03, 2026",
-                "RULING",
-                "ALJ/FITCH/CPUC,ALJ/RIZZO/CPUC",
-                "Administrative Law Judges' Ruling on the Nature Conservancy's Notice of Intent t"
               ]
             }
           ],
