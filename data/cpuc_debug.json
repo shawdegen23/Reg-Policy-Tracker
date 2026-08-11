@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-11T14:57:51.388Z",
+  "ranAt": "2026-08-11T22:41:49.833Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487824",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614483595",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854881",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613880341",
@@ -527,9 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613988332",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859320",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614473987",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859311",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990033",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859287"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859311"
           ],
           "sampleRows": [
             {
@@ -538,6 +538,24 @@
                 "August 10, 2026",
                 "COMPLIANCE  FILING",
                 "BP Energy Retail Company California LLC",
+                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
+              ]
+            },
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "August 10, 2026",
+                "LAW & MOTION",
+                "Orange County Power Authority",
+                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN."
+              ]
+            },
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "August 10, 2026",
+                "LAW & MOTION",
+                "Shell Energy North America (US), L.P.",
                 "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
               ]
             },
@@ -557,24 +575,6 @@
                 "COMPLIANCE  FILING",
                 "PacifiCorp",
                 "INTEGRATED RESOURCE PLAN OF PACIFICORP (U 901-E) FOR 2026."
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "August 10, 2026",
-                "LAW & MOTION",
-                "Redwood Coast Energy Authority",
-                "[PUBLIC VERSION] 2025 INTEGRATED RESOURCE PLAN."
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "August 10, 2026",
-                "COMPLIANCE  FILING",
-                "Pilot Power Group, LLC",
-                "[PUBLIC VERSION} 2026 INTEGRATED RESOURCE PLAN."
               ]
             }
           ],

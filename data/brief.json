@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-11T15:06:10.365Z",
+  "generatedAt": "2026-08-11T23:00:10.393Z",
   "totals": {
-    "developments": 136,
+    "developments": 138,
     "high": 43,
     "quantitative": 17,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 57,
+    "Resource Adequacy / Planning": 59,
     "DER / Rates": 26,
     "Demand Flexibility": 12,
     "Building Decarbonization": 11,
@@ -15,7 +15,7 @@
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.25-06-019": 48,
+    "R.25-06-019": 50,
     "R.20-08-020": 11,
     "R.20-05-012": 14,
     "R.22-07-005": 12,
