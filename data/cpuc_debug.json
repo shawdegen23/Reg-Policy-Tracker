@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-12T14:57:14.312Z",
+  "ranAt": "2026-08-12T22:41:06.318Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487824",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474000",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613988332",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859320",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614473987",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859311"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614473987"
           ],
           "sampleRows": [
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "August 12, 2026",
+                "COMPLIANCE  FILING",
+                "Tiger Natural Gas, Inc.",
+                "2026 INTEGRATED RESOURCE PLAN COMPLIANCE FILING OF TIGER NATURAL GAS, INC."
+              ]
+            },
             {
               "type": "COMPLIANCE  FILING",
               "cells": [
@@ -566,15 +575,6 @@
                 "COMPLIANCE  FILING",
                 "Pacific Gas and Electric Company",
                 "(PUBLIC VERSION) 2026 INTEGRATED RESOURCE PROCUREMENT PLAN."
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "August 10, 2026",
-                "COMPLIANCE  FILING",
-                "PacifiCorp",
-                "INTEGRATED RESOURCE PLAN OF PACIFICORP (U 901-E) FOR 2026."
               ]
             }
           ],

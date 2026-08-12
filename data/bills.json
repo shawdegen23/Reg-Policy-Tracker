@@ -8,9 +8,9 @@
     "url": "https://legiscan.com/CA/bill/AB1569/2025",
     "changeHash": "258da0564a4b7205a803be607fc88928",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1873",
@@ -23,7 +23,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2044",
@@ -34,9 +34,9 @@
     "url": "https://legiscan.com/CA/bill/AB2044/2025",
     "changeHash": "3652b1375588b0eccfb606796c5e9e68",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SCR180",
@@ -49,7 +49,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB353",
@@ -72,19 +72,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1704/2025",
     "changeHash": "117382cb663796708d57d977a335b01a",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1707",
-    "title": "Electricians: certification application, examination, and renewal.",
-    "lastAction": "In committee: Referred to APPR. suspense file.",
-    "lastActionDate": "2026-08-10",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1707/2025",
-    "changeHash": "f89c714b54f93b60b4ba3c3bb9fedc14",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -806,19 +793,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1749",
-    "title": "Interfering with wildfire suppression and emergency responses with drone.",
-    "lastAction": "In committee: Referred to APPR. suspense file.",
-    "lastActionDate": "2026-08-03",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1749/2025",
-    "changeHash": "14051b0cff4f42c53196705ef0813692",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1761",
     "title": "Electricity: calculation methodology: data disclosure.",
     "lastAction": "In committee: Referred to APPR. suspense file.",
@@ -852,19 +826,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1815/2025",
     "changeHash": "f940b91e8ab6313598faa6752a0c9bce",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1847",
-    "title": "Mortgage forbearance: state of emergency: wildfire.",
-    "lastAction": "In committee: Referred to APPR. suspense file.",
-    "lastActionDate": "2026-08-03",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1847/2025",
-    "changeHash": "3dbfe39eff6a4d89f5bcc6b0a30a2109",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1554,19 +1515,6 @@
     "status": "1",
     "url": "https://legiscan.com/CA/bill/AB1911/2025",
     "changeHash": "8839d71610ad7e2fb30398bc61b9a07d",
-    "stage": 1,
-    "prevStage": 1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1942",
-    "title": "Electric bicycles: registration and special license plates.",
-    "lastAction": "In committee: Held under submission.",
-    "lastActionDate": "2026-05-14",
-    "status": "1",
-    "url": "https://legiscan.com/CA/bill/AB1942/2025",
-    "changeHash": "8593b0c516be22b50cc934081f841ae1",
     "stage": 1,
     "prevStage": 1,
     "isNew": false,
