@@ -1,16 +1,29 @@
 [
   {
+    "number": "SB1048",
+    "title": "State Seal of Climate Literacy.",
+    "lastAction": "Ordered to third reading.",
+    "lastActionDate": "2026-08-12",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1048/2025",
+    "changeHash": "c4d184c775ef9638156e540753031202",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB1569",
     "title": "Pupil safety: electric bicycle: safety and training program.",
     "lastAction": "In Assembly. Ordered to Engrossing and Enrolling.",
     "lastActionDate": "2026-08-11",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1569/2025",
-    "changeHash": "258da0564a4b7205a803be607fc88928",
+    "changeHash": "a1f59bd81a971fb7dfb3a1cdceaa3101",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1873",
@@ -32,11 +45,11 @@
     "lastActionDate": "2026-08-11",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2044/2025",
-    "changeHash": "3652b1375588b0eccfb606796c5e9e68",
+    "changeHash": "0864d91597d849ef3748a9860b589cb0",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SCR180",
@@ -124,19 +137,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB908/2025",
     "changeHash": "1c1ecf68adfa0f58e4cb4d61239b4ebf",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1048",
-    "title": "State Seal of Climate Literacy.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-06",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1048/2025",
-    "changeHash": "71446996e83f366ec9ce2d3bda0255d7",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
