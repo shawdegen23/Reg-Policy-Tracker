@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-14T14:52:25.507Z",
+  "ranAt": "2026-08-14T22:23:11.498Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031046",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777782",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970655",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529039",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916891",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529125"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916891"
           ],
           "sampleRows": [
+            {
+              "type": "PROPOSED DECISION",
+              "cells": [
+                "August 14, 2026",
+                "PROPOSED DECISION",
+                "COM/DOUGLAS/CPUC",
+                "Proposed Decision Closing Rulemaking 20-05-012.Opening comments, which shall not"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -483,15 +492,6 @@
                 "RULING",
                 "COM/DOUGLAS/CPUC",
                 "Assigned Commissioner's Ruling Directing Program Administrators of The Self-Gene"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "July 01, 2026",
-                "NOTICE",
-                "WestLight Energy",
-                "Notice of Party Name Change from Peninsula Clean Energy Authority to WestLight E"
               ]
             }
           ],

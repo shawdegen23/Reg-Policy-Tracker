@@ -16,6 +16,22 @@
     "firstSeen": "2026-08-14"
   },
   {
+    "source": "CPUC R.20-05-012",
+    "agency": "CPUC",
+    "docket": "R.20-05-012",
+    "type": "Decision",
+    "headline": "Proposed Decision Closing Rulemaking 20-05-012.Opening comments, which shall not exceed 15 pages, are due no later than September 3, 2026.  Reply comments, which shall not exceed 5 pages, are due within five days after the last day for filing opening comments.",
+    "filedBy": "COM/DOUGLAS/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
+    "date": "2026-08-14",
+    "topic": "DER / Rates",
+    "dataType": "Quantitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-14"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -698,8 +714,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Indicates active advocacy by other parties in the proceeding, potentially influencing decisions on energy efficiency or decarbonization programs.",
+    "relevance": "Low",
+    "impact": "Notice of an ex parte communication indicates ongoing advocacy in a relevant proceeding, but specific impact is unknown without content.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -714,8 +730,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Indicates active advocacy by other parties in the proceeding, potentially influencing decisions on energy efficiency or decarbonization programs.",
+    "relevance": "Low",
+    "impact": "Notice of an ex parte communication indicates ongoing advocacy in a relevant proceeding, but specific impact is unknown without content.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -842,8 +858,8 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "LGSEC gaining party status ensures local government perspectives on energy efficiency and decarbonization are formally considered, aligning with client interests.",
+    "relevance": "Medium",
+    "impact": "A key local government coalition gained party status, enabling their advocacy on energy efficiency and decarbonization issues relevant to TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -890,8 +906,8 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "LGSEC filed to gain party status, indicating their intent to formally represent local government interests in energy efficiency and decarbonization.",
+    "relevance": "Low",
+    "impact": "A local government coalition sought formal participation in a proceeding, indicating their intent to influence energy policy.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -907,7 +923,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "AM Conservation gaining party status adds a product/service provider's perspective, potentially influencing energy efficiency program design and procurement.",
+    "impact": "An energy/water product provider gained party status, adding another industry voice to discussions on energy efficiency programs.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -971,7 +987,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments debate CCA energy efficiency program budget approaches, directly impacting funding, program design, and delivery for TEC's clients.",
+    "impact": "Parties are debating CCA energy efficiency program budgets, directly impacting funding and design for programs relevant to TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -987,7 +1003,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments debate CCA energy efficiency program budget approaches, directly impacting funding, program design, and delivery for TEC's clients.",
+    "impact": "Parties are debating CCA energy efficiency program budgets, directly impacting funding and design for programs relevant to TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -1003,7 +1019,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments debate CCA energy efficiency program budget approaches, directly impacting funding, program design, and delivery for TEC's clients.",
+    "impact": "Parties are debating CCA energy efficiency program budgets, directly impacting funding and design for programs relevant to TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },

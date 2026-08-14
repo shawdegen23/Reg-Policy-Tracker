@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-14T14:58:25.316Z",
+  "generatedAt": "2026-08-14T22:40:36.437Z",
   "totals": {
-    "developments": 140,
-    "high": 39,
-    "quantitative": 17,
+    "developments": 141,
+    "high": 38,
+    "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "DER / Rates": 27,
+    "DER / Rates": 28,
     "Resource Adequacy / Planning": 60,
     "Demand Flexibility": 12,
     "Building Decarbonization": 11,
@@ -16,8 +16,8 @@
   },
   "proceedingCounts": {
     "R.20-08-020": 12,
+    "R.20-05-012": 15,
     "R.25-06-019": 51,
-    "R.20-05-012": 14,
     "R.22-07-005": 12,
     "R.19-01-011": 10,
     "R.25-04-010": 20,
@@ -56,23 +56,6 @@
       "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-07-24",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Ruling",
-      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABLE ENERGY COALITION.",
-      "filedBy": "ALJ/KAO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
-      "date": "2026-07-13",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "LGSEC gaining party status ensures local government perspectives on energy efficiency and decarbonization are formally considered, aligning with client interests.",
-      "aiEnriched": true,
-      "firstSeen": "2026-07-13",
       "similar": 0
     },
     {
@@ -278,9 +261,42 @@
       "aiEnriched": false,
       "filedBy": "-",
       "similar": 0
+    },
+    {
+      "source": "CEC",
+      "agency": "CEC",
+      "docket": "",
+      "type": "Notice",
+      "headline": "Southern California Celebrates First Equitable Building Decarbonization Project",
+      "url": "https://www.energy.ca.gov/news/2026-05/southern-california-celebrates-first-equitable-building-decarbonization-project",
+      "date": "2026-05-01",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization notice from CEC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-07-04",
+      "similar": 0
     }
   ],
   "quantitative": [
+    {
+      "source": "CPUC R.20-05-012",
+      "agency": "CPUC",
+      "docket": "R.20-05-012",
+      "type": "Decision",
+      "headline": "Proposed Decision Closing Rulemaking 20-05-012.Opening comments, which shall not exceed 15 pages, are due no later than September 3, 2026.  Reply comments, which shall not exceed 5 pages, are due within five days after the last day for filing opening comments.",
+      "filedBy": "COM/DOUGLAS/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
+      "date": "2026-08-14",
+      "topic": "DER / Rates",
+      "dataType": "Quantitative",
+      "relevance": "Medium",
+      "impact": "DER / Rates decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-14",
+      "similar": 0
+    },
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
@@ -434,6 +450,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "The CPUC's Energy Efficiency proceeding (R.25-04-010) saw the Local Government Sustainable Energy Coalition granted"
+  ]
 }
