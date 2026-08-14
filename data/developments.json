@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.20-08-020",
+    "agency": "CPUC",
+    "docket": "R.20-08-020",
+    "type": "Filing",
+    "headline": "for intervenor compensation for contribution to judicial review of D22-12-056",
+    "filedBy": "The Protect Our Communities Foundation",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474066",
+    "date": "2026-08-14",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-14"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -682,8 +698,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Procedural notice of a meeting with a decision-maker; content unknown, so direct impact on client interests is unclear.",
+    "relevance": "Medium",
+    "impact": "Indicates active advocacy by other parties in the proceeding, potentially influencing decisions on energy efficiency or decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -698,8 +714,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Procedural notice of a meeting with a decision-maker; content unknown, so direct impact on client interests is unclear.",
+    "relevance": "Medium",
+    "impact": "Indicates active advocacy by other parties in the proceeding, potentially influencing decisions on energy efficiency or decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -826,8 +842,8 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Adds a local government advocate for sustainable energy to the proceeding, potentially strengthening outcomes for TEC's clients.",
+    "relevance": "High",
+    "impact": "LGSEC gaining party status ensures local government perspectives on energy efficiency and decarbonization are formally considered, aligning with client interests.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -874,8 +890,8 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "This filing requested party status; the subsequent ruling (Item 2) is the impactful event for client interests.",
+    "relevance": "Medium",
+    "impact": "LGSEC filed to gain party status, indicating their intent to formally represent local government interests in energy efficiency and decarbonization.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -891,7 +907,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Adds an energy efficiency product/program implementer's perspective to the proceeding, potentially influencing program design.",
+    "impact": "AM Conservation gaining party status adds a product/service provider's perspective, potentially influencing energy efficiency program design and procurement.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -955,7 +971,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments will shape how CCAs fund and deliver energy efficiency programs, directly impacting client opportunities and services.",
+    "impact": "Reply comments debate CCA energy efficiency program budget approaches, directly impacting funding, program design, and delivery for TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -971,7 +987,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments will shape how CCAs fund and deliver energy efficiency programs, directly impacting client opportunities and services.",
+    "impact": "Reply comments debate CCA energy efficiency program budget approaches, directly impacting funding, program design, and delivery for TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -987,7 +1003,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments will shape how CCAs fund and deliver energy efficiency programs, directly impacting client opportunities and services.",
+    "impact": "Reply comments debate CCA energy efficiency program budget approaches, directly impacting funding, program design, and delivery for TEC's clients.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },

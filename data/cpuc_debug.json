@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-13T22:41:54.217Z",
+  "ranAt": "2026-08-14T14:52:25.507Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -270,6 +270,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474066",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854807",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777808",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609048635",
@@ -279,10 +280,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=590427358",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=585487469",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=581690297",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066904",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066249"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066904"
           ],
           "sampleRows": [
+            {
+              "type": "REQUEST",
+              "cells": [
+                "August 14, 2026",
+                "REQUEST",
+                "The Protect Our Communities Foundation",
+                "for intervenor compensation for contribution to judicial review of D22-12-056"
+              ]
+            },
             {
               "type": "NOTICE",
               "cells": [
@@ -317,15 +326,6 @@
                 "COMPLIANCE  FILING",
                 "San Jose Clean Energy",
                 "Disadvantaged Communities Green Tariff quarterly report in accordance with Resol"
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "January 30, 2026",
-                "COMPLIANCE  FILING",
-                "San Jose Clean Energy",
-                "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR FOURTH QUARTER 2025."
               ]
             }
           ],
