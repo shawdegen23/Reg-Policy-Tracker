@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-14T22:23:11.498Z",
+  "ranAt": "2026-08-17T14:28:02.881Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,62 +104,62 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614484372",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587076",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614997055",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030345",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606596715",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578360",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606266358",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606206122",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605732298",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605738152",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578364",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605383822"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578360"
           ],
           "sampleRows": [
             {
-              "type": "SCOPING RULING",
+              "type": "COMMENTS",
               "cells": [
-                "July 23, 2026",
-                "SCOPING RULING",
-                "CMMR/ DARCIE L. HOUCK/ CPUC",
-                "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comme"
+                "August 14, 2026",
+                "COMMENTS",
+                "San Diego Gas & Electric Company,Southern California Gas Company",
+                "OPENING COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RU"
               ]
             },
             {
-              "type": "DECISION",
+              "type": "COMMENTS",
               "cells": [
-                "July 02, 2026",
-                "DECISION",
-                "-",
-                "Decision D2607013 - Order Extending Statutory Deadline. This decision extends th"
+                "August 14, 2026",
+                "COMMENTS",
+                "Southern California Tribal Charimen''s Association",
+                "COMMENTS OF THE SOUTHERN CALIFORNIA TRIBAL CHAIRMEN'S ASSOCIATION ON THE AMENDED"
               ]
             },
             {
-              "type": "NOTICE",
+              "type": "COMMENTS",
               "cells": [
-                "July 01, 2026",
-                "NOTICE",
-                "WestLight Energy",
-                "NOTICE OF PARTY NAME CHANGE FROM PENINSULA CLEAN ENERGY AUTHORITY TO WESTLIGHT E"
+                "August 14, 2026",
+                "COMMENTS",
+                "PACIFIC GAS AND ELECTRIC COMPANY",
+                "COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING."
               ]
             },
             {
-              "type": "RULING",
+              "type": "COMMENTS",
               "cells": [
-                "May 01, 2026",
-                "RULING",
-                "ACALJ/WANG/CPUC",
-                "E-mail Ruling Granting Pacific Gas and Electric Company Motion to Accept Late Fi"
+                "August 14, 2026",
+                "COMMENTS",
+                "Southern California Edison Company",
+                "COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING."
               ]
             },
             {
-              "type": "MOTION",
+              "type": "COMMENTS",
               "cells": [
-                "April 28, 2026",
-                "MOTION",
-                "Pacific Gas and Electric Company",
-                "MOTION TO ACCEPT LATE FILING OF PACIFIC GAS AND ELECTRIC COMPANY'S REPLYCOMMENTS"
+                "August 14, 2026",
+                "COMMENTS",
+                "Sycuan Band of the Kumeyaay Nation",
+                "OPENING COMMENTS OF THE SYCUAN BAND OF THE KUMEYAAY NATION TO ORDER INSTITUTING "
               ]
             }
           ],

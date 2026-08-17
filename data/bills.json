@@ -84,11 +84,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB706/2025",
-    "changeHash": "ad8311bfde3e83485f4c822302158f1c",
+    "changeHash": "a131c83931b2743a3f12efcdddea8f14",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB710",
@@ -136,11 +136,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1301/2025",
-    "changeHash": "3f02bc3f76fb67382816b9a88b9d739e",
+    "changeHash": "c43ff9d6dfe6d1c559d7c3d50a8a9be7",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1334",
@@ -235,16 +235,16 @@
   },
   {
     "number": "AB1761",
-    "title": "Electricity: calculation methodology: data disclosure.",
+    "title": "Electricity: calculation methodology: nonbypassable charges: data disclosure.",
     "lastAction": "Read second time and amended. Ordered returned to second reading.",
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1761/2025",
-    "changeHash": "72922726b31ba1f8c45d60e82b278594",
+    "changeHash": "edd19969594f99b600b04526e3baea71",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1787",
@@ -292,11 +292,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1847/2025",
-    "changeHash": "ff495e7b6fe37edabaed834159f75c5e",
+    "changeHash": "3daa4a171ccfab9fa94efb733108cff8",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1873",
@@ -357,11 +357,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2124/2025",
-    "changeHash": "391f8a833a934e6026cd83a2c3f569fb",
+    "changeHash": "bcdb79817459b75952015a5a84449eca",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2163",
@@ -390,17 +390,30 @@
     "isUpdated": false
   },
   {
+    "number": "AB2234",
+    "title": "California Environmental Quality Act: geothermal exploratory projects: geothermal technology pilot projects: Geologic Energy Management Division.",
+    "lastAction": "Read second time and amended. Ordered returned to second reading.",
+    "lastActionDate": "2026-08-13",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB2234/2025",
+    "changeHash": "b72c2bc319b579f857c73353ecbbb7d0",
+    "stage": 2,
+    "prevStage": null,
+    "isNew": true,
+    "isUpdated": false
+  },
+  {
     "number": "AB2266",
     "title": "Electricity: load-serving entities.",
     "lastAction": "Read second time and amended. Ordered returned to second reading.",
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2266/2025",
-    "changeHash": "446d25b0486ee03d64d3d290a43f6be0",
+    "changeHash": "ce4e08047c245aa753b1e5d620e8e7f9",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2369",
@@ -409,11 +422,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2369/2025",
-    "changeHash": "0158a3b27246b0e69193f0a619d1ecab",
+    "changeHash": "2d40e6bd040ef138a77b86eb403f0d56",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2383",
@@ -422,11 +435,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2383/2025",
-    "changeHash": "84b77dd8ae480c04a9386f01a95abba2",
+    "changeHash": "012ff6858e2fdf5ab7c42ccecc0ec4ee",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2410",
@@ -443,16 +456,16 @@
   },
   {
     "number": "AB2463",
-    "title": "Public Utilities Commission: rates: returns on equity.",
+    "title": "Public Utilities Commission: rates: cost of capital proceeding: authorized return on equity.",
     "lastAction": "Read second time and amended. Ordered returned to second reading.",
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2463/2025",
-    "changeHash": "20c8dc3058f24f0cf6fd87db47033eb3",
+    "changeHash": "6585ed6b1bd49c7bfe21e5351e31d8f0",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2473",
@@ -469,16 +482,16 @@
   },
   {
     "number": "AB2493",
-    "title": "Electrical corporations: interconnection: transmission: permitting: auditor.",
+    "title": "Electrical corporations: interconnection: Public Utilities Commission: transmission development monitor.",
     "lastAction": "Read second time and amended. Ordered returned to second reading.",
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2493/2025",
-    "changeHash": "4b72ac00655b6b0bb92e99175cbcb68d",
+    "changeHash": "dc29e475b319d7224fdd3f9339d2a871",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2505",
@@ -591,11 +604,11 @@
     "lastActionDate": "2026-08-13",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2700/2025",
-    "changeHash": "c0e324fb9bafc7a79a9c93a3a7f9fc8b",
+    "changeHash": "acd0476848b67c489747290d593c0ae2",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2748",
@@ -3003,19 +3016,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB223",
-    "title": "The Wildfire Smoke and Health Outcomes Data Act.",
-    "lastAction": "Returned to Secretary of Senate pursuant to Joint Rule 56.",
-    "lastActionDate": "2026-02-02",
-    "status": "6",
-    "url": "https://legiscan.com/CA/bill/SB223/2025",
-    "changeHash": "deb249ace185cd811ffcc25ef2eab2c9",
-    "stage": -1,
-    "prevStage": -1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB231",
     "title": "California Environmental Quality Act: the Office of Land Use and Climate Innovation: technical advisory.",
     "lastAction": "Returned to Secretary of Senate pursuant to Joint Rule 56.",
@@ -3556,19 +3556,6 @@
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB851/2025",
     "changeHash": "79b1eb72aef95c0b22b29050e569a354",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB293",
-    "title": "Real property tax: transfer of base year value: generational transfers: wildfire.",
-    "lastAction": "Chaptered by Secretary of State. Chapter 539, Statutes of 2025.",
-    "lastActionDate": "2025-10-10",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/SB293/2025",
-    "changeHash": "fd173d4b5fa425f0f23be51de80b420b",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
@@ -4193,19 +4180,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB74/2025",
     "changeHash": "4519ba0345d1eb46effe7d9925f14252",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB234",
-    "title": "Wildfires: workgroup: toxic heavy metals.",
-    "lastAction": "August 29 hearing: Held in committee and under submission.",
-    "lastActionDate": "2025-08-29",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB234/2025",
-    "changeHash": "0c3077981be6374fd4769f079cf49fce",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
