@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-17T14:28:02.881Z",
+  "ranAt": "2026-08-17T22:24:53.962Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -105,6 +105,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614484372",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587076",
@@ -112,9 +114,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030345",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606596715",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605578360"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030345"
           ],
           "sampleRows": [
             {
@@ -124,6 +124,24 @@
                 "COMMENTS",
                 "San Diego Gas & Electric Company,Southern California Gas Company",
                 "OPENING COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RU"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "August 14, 2026",
+                "COMMENTS",
+                "Small Business Utility Advocates",
+                "SMALL BUSINESS UTILITY ADVOCATES' OPENING COMMENTS ON THE ASSIGNED COMMISSIONER'"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "August 14, 2026",
+                "COMMENTS",
+                "Small Business Utility Advocates",
+                "SMALL BUSINESS UTILITY ADVOCATES' OPENINGCOMMENTS ON THE ASSIGNED COMMISSIONER'S"
               ]
             },
             {
@@ -142,24 +160,6 @@
                 "COMMENTS",
                 "PACIFIC GAS AND ELECTRIC COMPANY",
                 "COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING."
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 14, 2026",
-                "COMMENTS",
-                "Southern California Edison Company",
-                "COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING."
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 14, 2026",
-                "COMMENTS",
-                "Sycuan Band of the Kumeyaay Nation",
-                "OPENING COMMENTS OF THE SYCUAN BAND OF THE KUMEYAAY NATION TO ORDER INSTITUTING "
               ]
             }
           ],
@@ -501,7 +501,7 @@
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 100,
+      "docLinks": 99,
       "attempts": [
         {
           "tab": "docs",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "http://www.cpuc.ca.gov/orderadocument/",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613880341",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474000",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613988332",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859320",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614473987"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859320"
           ],
           "sampleRows": [
             {
@@ -578,7 +578,7 @@
               ]
             }
           ],
-          "docLinks": 100
+          "docLinks": 99
         }
       ]
     }

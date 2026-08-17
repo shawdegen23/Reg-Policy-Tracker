@@ -128,6 +128,38 @@
     "firstSeen": "2026-08-17"
   },
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Filing/Comments",
+    "headline": "SMALL BUSINESS UTILITY ADVOCATES' OPENING COMMENTS ON THE ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
+    "filedBy": "Small Business Utility Advocates",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
+    "date": "2026-08-14",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-17"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Filing/Comments",
+    "headline": "SMALL BUSINESS UTILITY ADVOCATES' OPENINGCOMMENTS ON THE ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
+    "filedBy": "Small Business Utility Advocates",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
+    "date": "2026-08-14",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-17"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -810,9 +842,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Notice of ex parte communication occurred; content unknown, so direct impact on client interests is unclear.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
@@ -826,9 +858,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Notice of ex parte communication occurred; content unknown, so direct impact on client interests is unclear.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
@@ -954,9 +986,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Local government coalition gains formal participation, strengthening advocacy for energy efficiency and decarbonization relevant to clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1002,9 +1034,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Motion sought formal participation for local governments, potentially influencing energy policy relevant to clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1018,9 +1050,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "AM Conservation gains party status, adding a voice for energy efficiency product and program development relevant to clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1083,8 +1115,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments directly influence how CCAs fund and administer energy efficiency programs, impacting client opportunities and program design.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1099,8 +1131,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments directly influence how CCAs fund and administer energy efficiency programs, impacting client opportunities and program design.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1115,8 +1147,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments directly influence how CCAs fund and administer energy efficiency programs, impacting client opportunities and program design.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
