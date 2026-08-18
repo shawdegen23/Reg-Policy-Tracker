@@ -1,5 +1,37 @@
 [
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Filing",
+    "headline": "Notice of Co-Assignment.",
+    "filedBy": "CALJ/Cooke/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675",
+    "date": "2026-08-17",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-18"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Ruling",
+    "headline": "ADMINISTRATIVE LAW JUDGE'S RULING REQUESTING COMMENT ON THE INVESTOR-OWNED UTILITIES' BUNDLED PROCUREMENT PLANS, PROCEEDING SCHEDULE, AND NOTICE OF WORKSHOP.",
+    "filedBy": "ALJ/RIZZO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
+    "date": "2026-08-17",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-18"
+  },
+  {
     "source": "CPUC R.20-08-020",
     "agency": "CPUC",
     "docket": "R.20-08-020",

@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-17T22:24:53.962Z",
+  "ranAt": "2026-08-18T14:34:01.037Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614997055",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610030345"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069"
           ],
           "sampleRows": [
+            {
+              "type": "NOTICE",
+              "cells": [
+                "August 17, 2026",
+                "NOTICE",
+                "CALJ/Cooke/CPUC",
+                "Notice of Co-Assignment."
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -151,15 +160,6 @@
                 "COMMENTS",
                 "Southern California Tribal Charimen''s Association",
                 "COMMENTS OF THE SOUTHERN CALIFORNIA TRIBAL CHAIRMEN'S ASSOCIATION ON THE AMENDED"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 14, 2026",
-                "COMMENTS",
-                "PACIFIC GAS AND ELECTRIC COMPANY",
-                "COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING."
               ]
             }
           ],
@@ -501,7 +501,7 @@
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 99,
+      "docLinks": 100,
       "attempts": [
         {
           "tab": "docs",
@@ -519,7 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "http://www.cpuc.ca.gov/orderadocument/",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
@@ -532,6 +532,15 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859320"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "August 17, 2026",
+                "RULING",
+                "ALJ/RIZZO/CPUC",
+                "ADMINISTRATIVE LAW JUDGE'S RULING REQUESTING COMMENT ON THE INVESTOR-OWNED UTILI"
+              ]
+            },
             {
               "type": "COMPLIANCE  FILING",
               "cells": [
@@ -567,18 +576,9 @@
                 "Shell Energy North America (US), L.P.",
                 "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
               ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "August 10, 2026",
-                "COMPLIANCE  FILING",
-                "Pacific Gas and Electric Company",
-                "(PUBLIC VERSION) 2026 INTEGRATED RESOURCE PROCUREMENT PLAN."
-              ]
             }
           ],
-          "docLinks": 99
+          "docLinks": 100
         }
       ]
     }
