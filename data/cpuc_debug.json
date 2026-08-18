@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-18T14:34:01.037Z",
+  "ranAt": "2026-08-18T22:23:49.972Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -107,14 +107,14 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614484372",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587076",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614997055",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610645069"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034"
           ],
           "sampleRows": [
             {
@@ -145,12 +145,12 @@
               ]
             },
             {
-              "type": "COMMENTS",
+              "type": "RULING",
               "cells": [
                 "August 14, 2026",
-                "COMMENTS",
-                "Small Business Utility Advocates",
-                "SMALL BUSINESS UTILITY ADVOCATES' OPENINGCOMMENTS ON THE ASSIGNED COMMISSIONER'S"
+                "RULING",
+                "ALJ/GERSTLE/CPUC",
+                "Email Ruling: Notice of August 25th Tribal Consultation"
               ]
             },
             {
@@ -158,8 +158,8 @@
               "cells": [
                 "August 14, 2026",
                 "COMMENTS",
-                "Southern California Tribal Charimen''s Association",
-                "COMMENTS OF THE SOUTHERN CALIFORNIA TRIBAL CHAIRMEN'S ASSOCIATION ON THE AMENDED"
+                "Small Business Utility Advocates",
+                "SMALL BUSINESS UTILITY ADVOCATES' OPENINGCOMMENTS ON THE ASSIGNED COMMISSIONER'S"
               ]
             }
           ],
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614483595",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854881",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613880341",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474000",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613988332",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613859320"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474000"
           ],
           "sampleRows": [
+            {
+              "type": "LAW & MOTION",
+              "cells": [
+                "August 18, 2026",
+                "LAW & MOTION",
+                "Ava Community Energy Authority",
+                "Amended Motion Of Ava Community Energy Authority (Formerly East Bay Community En"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 18, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/BAKER",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -556,24 +574,6 @@
                 "August 10, 2026",
                 "COMPLIANCE  FILING",
                 "BP Energy Retail Company California LLC",
-                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "August 10, 2026",
-                "LAW & MOTION",
-                "Orange County Power Authority",
-                "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN."
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "August 10, 2026",
-                "LAW & MOTION",
-                "Shell Energy North America (US), L.P.",
                 "[PUBLIC VERSION] 2026 INTEGRATED RESOURCE PLAN"
               ]
             }

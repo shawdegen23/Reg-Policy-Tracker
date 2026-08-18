@@ -1,5 +1,37 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "Amended Motion Of Ava Community Energy Authority (Formerly East Bay Community Energy) For Leave To File Under Seal The Confidential Information In Its 2026 Integrated Resource Plan",
+    "filedBy": "Ava Community Energy Authority",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
+    "date": "2026-08-18",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-18"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "CPUC/COMMR/BAKER",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
+    "date": "2026-08-18",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-18"
+  },
+  {
     "source": "CPUC R.19-01-011",
     "agency": "CPUC",
     "docket": "R.19-01-011",
@@ -190,6 +222,22 @@
     "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-08-17"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Ruling",
+    "headline": "Email Ruling: Notice of August 25th Tribal Consultation",
+    "filedBy": "ALJ/GERSTLE/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
+    "date": "2026-08-14",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-18"
   },
   {
     "source": "CPUC R.25-06-019",
