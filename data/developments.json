@@ -35,6 +35,22 @@
     "source": "CPUC R.19-01-011",
     "agency": "CPUC",
     "docket": "R.19-01-011",
+    "type": "Ruling",
+    "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
+    "filedBy": "ALJ/SISTO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
+    "date": "2026-08-18",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-19"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
     "type": "Filing",
     "headline": "Notice of Co-Assignment.",
     "filedBy": "CALJ/Cooke/CPUC",
@@ -62,6 +78,22 @@
     "impact": "Resource Adequacy / Planning ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-08-18"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "XGS",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615266370",
+    "date": "2026-08-17",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-19"
   },
   {
     "source": "CPUC R.20-08-020",
@@ -922,9 +954,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Procedural notice of communication with a decisionmaker; specific impact on clients is unknown without content.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -938,9 +970,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Procedural notice of communication with a decisionmaker; specific impact on clients is unknown without content.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1066,9 +1098,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Grants local government coalition formal participation, increasing their influence on energy efficiency and decarbonization policies.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1114,9 +1146,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "This motion sought formal participation for local governments, increasing their potential influence on energy efficiency and decarbonization.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1130,9 +1162,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Grants an energy efficiency product/program provider formal participation, potentially influencing program design and market opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1195,8 +1227,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs fund and deliver energy efficiency programs, directly affecting program design and client opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1211,8 +1243,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs fund and deliver energy efficiency programs, directly affecting program design and client opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1227,8 +1259,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence how CCAs fund and deliver energy efficiency programs, directly affecting program design and client opportunities.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
