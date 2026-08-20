@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T22:43:07.912Z",
+  "generatedAt": "2026-08-20T14:40:16.329Z",
   "totals": {
     "developments": 156,
-    "high": 49,
+    "high": 50,
     "quantitative": 18,
     "topics": 6
   },
@@ -232,6 +232,23 @@
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
       "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABLE ENERGY COALITION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
+      "date": "2026-07-13",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "LGSEC gaining party status allows local governments to directly advocate for their energy efficiency and decarbonization priorities.",
+      "aiEnriched": true,
+      "firstSeen": "2026-07-13",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
       "type": "Filing",
       "headline": "Motion for Party Status of AM Conservation",
       "filedBy": "AM Conservation",
@@ -261,23 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-07-10",
       "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community Choice Aggregators that Elect to Administer Energy Efficiency Programs",
-      "filedBy": "Southern California Gas Company",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354189",
-      "date": "2026-07-10",
-      "topic": "Energy Efficiency",
-      "dataType": "Quantitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-10",
-      "similar": 4
     }
   ],
   "quantitative": [

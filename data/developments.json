@@ -954,8 +954,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Procedural notice of communication with a decisionmaker; specific impact on clients is unknown without content.",
+    "relevance": "Medium",
+    "impact": "This filing discloses discussions with decision-makers, offering transparency into stakeholder influence on energy policy.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -970,8 +970,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "Procedural notice of communication with a decisionmaker; specific impact on clients is unknown without content.",
+    "relevance": "Medium",
+    "impact": "This filing discloses discussions with decision-makers, offering transparency into stakeholder influence on energy policy.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -1098,8 +1098,8 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Grants local government coalition formal participation, increasing their influence on energy efficiency and decarbonization policies.",
+    "relevance": "High",
+    "impact": "LGSEC gaining party status allows local governments to directly advocate for their energy efficiency and decarbonization priorities.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -1147,7 +1147,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "This motion sought formal participation for local governments, increasing their potential influence on energy efficiency and decarbonization.",
+    "impact": "This motion initiated the process for local governments to gain formal standing and influence energy policy decisions.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -1163,7 +1163,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Grants an energy efficiency product/program provider formal participation, potentially influencing program design and market opportunities.",
+    "impact": "AM Conservation gaining party status allows a key energy efficiency product and program provider to directly influence policy.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -1227,7 +1227,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs fund and deliver energy efficiency programs, directly affecting program design and client opportunities.",
+    "impact": "These comments shape how CCAs fund and deliver energy efficiency programs, directly affecting market opportunities and program design.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -1243,7 +1243,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs fund and deliver energy efficiency programs, directly affecting program design and client opportunities.",
+    "impact": "These comments shape how CCAs fund and deliver energy efficiency programs, directly affecting market opportunities and program design.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -1259,7 +1259,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "These comments influence how CCAs fund and deliver energy efficiency programs, directly affecting program design and client opportunities.",
+    "impact": "These comments shape how CCAs fund and deliver energy efficiency programs, directly affecting market opportunities and program design.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },

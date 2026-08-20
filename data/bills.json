@@ -1,5 +1,161 @@
 [
   {
+    "number": "AB817",
+    "title": "Cold storage facilities.",
+    "lastAction": "Re-referred to Com. on RLS.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB817/2025",
+    "changeHash": "08fb887a148d7f1bff68251b5dd993c0",
+    "stage": 2,
+    "prevStage": null,
+    "isNew": true,
+    "isUpdated": false
+  },
+  {
+    "number": "AB1301",
+    "title": "Electricity.",
+    "lastAction": "In Assembly. Concurrence in Senate amendments pending.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1301/2025",
+    "changeHash": "9bbb5751cbb93fec6f6977334bf517e3",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1707",
+    "title": "Electricians: certification application, examination, and renewal.",
+    "lastAction": "Read third time and amended. Ordered to second reading.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1707/2025",
+    "changeHash": "3e63b462ca6c2a3dd88e4b5032eb605e",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1960",
+    "title": "Wildfire Prevention Grants Program: wildfire mitigation validation.",
+    "lastAction": "Read third time and amended. Ordered to second reading.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB1960/2025",
+    "changeHash": "3bbaa8c7b7268703f16a47b68ebe1fbc",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2346",
+    "title": "Vehicles: electric bicycles and speed limits.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 77. Noes 0.).",
+    "lastActionDate": "2026-08-19",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2346/2025",
+    "changeHash": "3f19f20b2a16d7c65a68b849f4184939",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2458",
+    "title": "Energy: appliance standards and cost-effective measures.",
+    "lastAction": "In Assembly. Ordered to Engrossing and Enrolling.",
+    "lastActionDate": "2026-08-19",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2458/2025",
+    "changeHash": "dfd2a334f171a505851ccf48df62722b",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2595",
+    "title": "San Mateo Electric Bicycle Safety Pilot Program.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 75. Noes 0.).",
+    "lastActionDate": "2026-08-19",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2595/2025",
+    "changeHash": "a48ff754524df4174e2548a71abad2e4",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2618",
+    "title": "Public Utilities Commission: commissioners: employment.",
+    "lastAction": "In Assembly. Ordered to Engrossing and Enrolling.",
+    "lastActionDate": "2026-08-19",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2618/2025",
+    "changeHash": "35727a38dea42cf14666b0bb3b530135",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB453",
+    "title": "Microgrid incentive program.",
+    "lastAction": "Ordered to third reading.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB453/2025",
+    "changeHash": "313277d6cd062f1a1ed165bc366a7be2",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB925",
+    "title": "Fusion energy: State Energy Resources Conservation and Development Commission: strategic plan: certification and environmental review.",
+    "lastAction": "In Senate. Concurrence in Assembly amendments pending.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB925/2025",
+    "changeHash": "f525fbdca747e293aa1e519cf8a5c9b5",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1090",
+    "title": "Planning and zoning: housing development projects: urban lot splits: subdivisions: 2025 Eaton Wildfire: Altadena.",
+    "lastAction": "Ordered to third reading.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1090/2025",
+    "changeHash": "085bcbf14808cd67279ce501d6a0a60a",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1283",
+    "title": "Electric vehicle charging stations: installation: permits.",
+    "lastAction": "Ordered to third reading.",
+    "lastActionDate": "2026-08-19",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1283/2025",
+    "changeHash": "3b4995061d7c485bc9c88e0846e1454a",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB40",
     "title": "California Environmental Quality Act: environmental impact reports: coal handling, storage, and export.",
     "lastAction": "Read second time. Ordered to third reading.",
@@ -58,11 +214,11 @@
     "lastActionDate": "2026-08-18",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1944/2025",
-    "changeHash": "e22011717112e7fda73f72e2af538ad0",
+    "changeHash": "6e368e6c1e3bd9e494a45449cabe9649",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2044",
@@ -117,19 +273,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB453",
-    "title": "Microgrid incentive program.",
-    "lastAction": "Notice of intention to remove from inactive file given by Assembly Member Aguiar-Curry.",
-    "lastActionDate": "2026-08-18",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB453/2025",
-    "changeHash": "f7015faeb996c35332da5ecf1eaa61af",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB804",
     "title": "Hydrogen Pipeline Safety Act.",
     "lastAction": "Read second time. Ordered to third reading.",
@@ -175,11 +318,11 @@
     "lastActionDate": "2026-08-18",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1196/2025",
-    "changeHash": "2daa842cdbcfad837027c4d039df0483",
+    "changeHash": "acb92d7c2a9aeaa4ea8231806d0a1f36",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB706",
@@ -195,30 +338,17 @@
     "isUpdated": false
   },
   {
-    "number": "AB1301",
-    "title": "Electricity.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-17",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1301/2025",
-    "changeHash": "8e270984d3de78dd283e2fe59b00a7af",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1712",
     "title": "City of Santa Fe Springs: sale of water utility property.",
     "lastAction": "In Assembly. Ordered to Engrossing and Enrolling.",
     "lastActionDate": "2026-08-17",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1712/2025",
-    "changeHash": "946869acd162be0855f325c37829963a",
+    "changeHash": "7dab6a228dbb290ed798affd73e4b0ec",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1761",
@@ -286,19 +416,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB2346",
-    "title": "Vehicles: electric bicycles and speed limits.",
-    "lastAction": "In Assembly. Concurrence in Senate amendments pending.",
-    "lastActionDate": "2026-08-17",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2346/2025",
-    "changeHash": "686607f40c4396e91c634a928de2177e",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2369",
     "title": "Electricity: energy storage: energy-only resources.",
     "lastAction": "Read second time. Ordered to third reading.",
@@ -345,19 +462,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2493/2025",
     "changeHash": "2c334319d3935d45d917b12657e8859f",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2595",
-    "title": "San Mateo Electric Bicycle Safety Pilot Program.",
-    "lastAction": "In Assembly. Concurrence in Senate amendments pending.",
-    "lastActionDate": "2026-08-17",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2595/2025",
-    "changeHash": "ff5615c7b59a7b36646ad15fa9c81cb5",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -416,30 +520,17 @@
     "isUpdated": false
   },
   {
-    "number": "SB925",
-    "title": "Fusion energy: State Energy Resources Conservation and Development Commission: strategic plan: certification and environmental review.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-17",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB925/2025",
-    "changeHash": "4846906fecd1f671845b45b76442f8bd",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB952",
     "title": "State Water Project: renewable energy resources and zero-carbon resources.",
     "lastAction": "Assembly amendments concurred in. (Ayes 40. Noes 0.) Ordered to engrossing and enrolling.",
     "lastActionDate": "2026-08-17",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB952/2025",
-    "changeHash": "ca4f6c31f8e472b682dc49b308299220",
+    "changeHash": "6487a228b4ae74838a4166600f7aba5a",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB969",
@@ -663,19 +754,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1707",
-    "title": "Electricians: certification application, examination, and renewal.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1707/2025",
-    "changeHash": "3e5c2e5fc8dd34f0c9f2dc7ef30d2d2c",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1715",
     "title": "Public utilities: reporting.",
     "lastAction": "Read second time. Ordered to third reading.",
@@ -737,19 +815,6 @@
     "changeHash": "30ebb3dd0bfe2cb45f625292b4234bab",
     "stage": 3,
     "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1960",
-    "title": "Wildfire Prevention Grants Program: identified cohesive fire communities.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1960/2025",
-    "changeHash": "7d597ca1183e153626a33ffaa503c397",
-    "stage": 2,
-    "prevStage": 2,
     "isNew": false,
     "isUpdated": false
   },
@@ -1183,32 +1248,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1330",
-    "title": "Assault and battery: utility workers.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1330/2025",
-    "changeHash": "c8f9e11013210e49a85e4b23e3b9720d",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1366",
-    "title": "Public Utilities Commission: report.",
-    "lastAction": "August 13 hearing: Held in committee and under submission.",
-    "lastActionDate": "2026-08-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1366/2025",
-    "changeHash": "0f36800e0967b87887a1ed89184f39a7",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1370",
     "title": "Covered wildfire mitigation projects: consolidated and expedited review.",
     "lastAction": "Read second time. Ordered to third reading.",
@@ -1255,19 +1294,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB908/2025",
     "changeHash": "1c1ecf68adfa0f58e4cb4d61239b4ebf",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1283",
-    "title": "Electric vehicle charging stations: installation: permits.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-06",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1283/2025",
-    "changeHash": "2f0e9bb4f1ff5157b6549dd591414b70",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1333,19 +1359,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2674/2025",
     "changeHash": "17dc5d8c52b62a26bbd5ed5c8119a6b3",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1090",
-    "title": "Planning and zoning: housing development projects: urban lot splits: subdivisions: 2025 Eaton Wildfire: Altadena.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-03",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1090/2025",
-    "changeHash": "4c0f346f850bc6871eecfaaf068c7f67",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -1476,19 +1489,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB1267/2025",
     "changeHash": "42f2ea6113dd3fe21e61c005fd2d9fa9",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2458",
-    "title": "Energy: appliance standards and cost-effective measures.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-06-23",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2458/2025",
-    "changeHash": "3b909dde2083163c784b39b450aa6d08",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
