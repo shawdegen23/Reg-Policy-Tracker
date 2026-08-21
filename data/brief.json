@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-21T14:40:22.535Z",
+  "generatedAt": "2026-08-21T22:43:36.497Z",
   "totals": {
-    "developments": 156,
-    "high": 49,
+    "developments": 158,
+    "high": 56,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
+    "Building Decarbonization": 24,
     "Resource Adequacy / Planning": 64,
-    "Building Decarbonization": 22,
     "DER / Rates": 28,
     "Demand Flexibility": 12,
     "Energy Efficiency": 20,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
+    "R.19-01-011": 23,
     "R.25-06-019": 55,
-    "R.19-01-011": 21,
     "R.20-08-020": 12,
     "R.20-05-012": 15,
     "R.22-07-005": 12,
@@ -24,6 +24,40 @@
     "R.23-10-011": 9
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling",
+      "filedBy": "PACIFIC GAS AND ELECTRIC COMPANY",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
+      "date": "2026-08-21",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-21",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
+      "filedBy": "Southern California Edison Company",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
+      "date": "2026-08-21",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-21",
+      "similar": 0
+    },
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
@@ -209,7 +243,7 @@
       "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-07-30",
-      "similar": 0
+      "similar": 2
     },
     {
       "source": "CPUC R.19-01-011",
@@ -232,52 +266,18 @@
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
       "docket": "R.25-04-010",
-      "type": "Filing",
-      "headline": "Motion for Party Status of AM Conservation",
-      "filedBy": "AM Conservation",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
-      "date": "2026-07-10",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABLE ENERGY COALITION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
+      "date": "2026-07-13",
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
-      "firstSeen": "2026-07-10",
+      "firstSeen": "2026-07-13",
       "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments Of The California Choice Energy Authority  On Administrative Law Judge's Ruling Seeking Comments on Budget Approach for Community Choice Aggregators that Elect to Administer Energy Efficiency Programs",
-      "filedBy": "California Choice Energy Authority",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610764704",
-      "date": "2026-07-10",
-      "topic": "Energy Efficiency",
-      "dataType": "Quantitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-10",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community Choice Aggregators that Elect to Administer Energy Efficiency Programs",
-      "filedBy": "Southern California Gas Company",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354189",
-      "date": "2026-07-10",
-      "topic": "Energy Efficiency",
-      "dataType": "Quantitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-10",
-      "similar": 4
     }
   ],
   "quantitative": [
