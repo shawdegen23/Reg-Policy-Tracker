@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-24T14:42:08.877Z",
+  "ranAt": "2026-08-24T22:26:56.851Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,26 +104,35 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614484372",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093"
           ],
           "sampleRows": [
             {
               "type": "COMMENTS",
               "cells": [
+                "August 24, 2026",
+                "COMMENTS",
+                "Small Business Utility Advocates",
+                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
                 "August 21, 2026",
                 "COMMENTS",
-                "California Environmental Justice Alliance",
-                "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULI"
+                "Southern California Tribal Charimen''''s Association",
+                "Reply Comments on the Amended Phase 3B Scoping Memo and Ruling"
               ]
             },
             {
@@ -140,26 +149,17 @@
               "cells": [
                 "August 21, 2026",
                 "COMMENTS",
-                "PACIFIC GAS AND ELECTRIC COMPANY",
+                "Southern California Gas Company,San Diego Gas & Electric Company",
                 "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
               ]
             },
             {
-              "type": "RULING",
+              "type": "COMMENTS",
               "cells": [
-                "August 18, 2026",
-                "RULING",
-                "ALJ/SISTO/CPUC",
-                "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's "
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "August 17, 2026",
-                "NOTICE",
-                "CALJ/Cooke/CPUC",
-                "Notice of Co-Assignment."
+                "August 21, 2026",
+                "COMMENTS",
+                "PACIFIC GAS AND ELECTRIC COMPANY",
+                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
               ]
             }
           ],
@@ -353,6 +353,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927638",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615738224",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611984548",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023123",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608276968",
@@ -361,11 +363,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=585486378",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=584711318",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066449",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066226",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066872",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066339"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066226"
           ],
           "sampleRows": [
+            {
+              "type": "REHEARING REQUEST",
+              "cells": [
+                "August 21, 2026",
+                "REHEARING REQUEST",
+                "The Protect Our Communities Foundation",
+                "Application for Rehearing of Decision 26-07-050."
+              ]
+            },
+            {
+              "type": "DECISION",
+              "cells": [
+                "August 13, 2026",
+                "DECISION",
+                "-",
+                "Decision D2608030 - Decision Granting Compensation To California Environmental J"
+              ]
+            },
             {
               "type": "DECISION",
               "cells": [
@@ -391,24 +409,6 @@
                 "PROPOSED DECISION",
                 "ALJ/CHIV/CPUC",
                 "Proposed Decision Granting Compensation to The Protect Our Communities Foundatio"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "April 09, 2026",
-                "NOTICE",
-                "CALJ/Cooke/CPUC",
-                "NOTICE OF REASSIGNMENT."
-              ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "December 04, 2025",
-                "DECISION",
-                "-",
-                "Decision D2512017 - Order Denying Rehearing Of Decision 25-06-048. Rulemaking 23"
               ]
             }
           ],
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621935",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487824",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614483595",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854881",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613880341"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854881"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 24, 2026",
+                "EXPARTE",
+                "CPUC / Julian Buchwalter / Advisor",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "LAW & MOTION",
               "cells": [
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "XGS",
                 "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "August 12, 2026",
-                "COMPLIANCE  FILING",
-                "Tiger Natural Gas, Inc.",
-                "2026 INTEGRATED RESOURCE PLAN COMPLIANCE FILING OF TIGER NATURAL GAS, INC."
               ]
             }
           ],

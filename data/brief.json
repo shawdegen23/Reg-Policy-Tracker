@@ -1,29 +1,46 @@
 {
-  "generatedAt": "2026-08-24T14:48:04.179Z",
+  "generatedAt": "2026-08-24T22:45:09.816Z",
   "totals": {
-    "developments": 159,
-    "high": 57,
+    "developments": 166,
+    "high": 61,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Building Decarbonization": 25,
-    "Resource Adequacy / Planning": 64,
+    "Building Decarbonization": 29,
+    "Resource Adequacy / Planning": 67,
     "DER / Rates": 28,
     "Demand Flexibility": 12,
     "Energy Efficiency": 20,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.19-01-011": 24,
-    "R.25-06-019": 55,
+    "R.19-01-011": 28,
+    "R.25-06-019": 56,
+    "R.23-10-011": 11,
     "R.20-08-020": 12,
     "R.20-05-012": 15,
     "R.22-07-005": 12,
-    "R.25-04-010": 20,
-    "R.23-10-011": 9
+    "R.25-04-010": 20
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling. Please Note: ALJ Carolyn Sisto authorized the acceptance of this late filing via email sent on August  24, 2026.",
+      "filedBy": "Small Business Utility Advocates",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
+      "date": "2026-08-24",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-24",
+      "similar": 0
+    },
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
@@ -39,7 +56,7 @@
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-08-21",
-      "similar": 0
+      "similar": 2
     },
     {
       "source": "CPUC R.19-01-011",
@@ -57,6 +74,23 @@
       "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 1
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Reply Comments on the Amended Phase 3B Scoping Memo and Ruling",
+      "filedBy": "Southern California Tribal Charimen''''s Association",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
+      "date": "2026-08-21",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-24",
+      "similar": 0
     },
     {
       "source": "CPUC R.19-01-011",
@@ -244,40 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-07-30",
       "similar": 2
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comments are due on August 14, 2026, and reply comments are due on August 21, 2026. The scope of this proceeding is amended as described above and is adopted. The schedule of this proceeding is set forth above and is adopted. Evidentiary hearings are not needed. The category of the proceeding remains quasi-legislative. Commissioner Darcie L. Houck is the presiding officer. Investor-owned utilities shall and other parties may file and serve responses to the questions set forth in this ruling no later than August 14, 2026. Parties may file and serve reply comments no later than August 21, 2026.",
-      "filedBy": "CMMR/ DARCIE L. HOUCK/ CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
-      "date": "2026-07-23",
-      "topic": "Building Decarbonization",
-      "dataType": "Quantitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-24",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Ruling",
-      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABLE ENERGY COALITION.",
-      "filedBy": "ALJ/KAO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
-      "date": "2026-07-13",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-13",
-      "similar": 0
     }
   ],
   "quantitative": [
