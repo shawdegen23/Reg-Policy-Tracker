@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-21T22:25:26.235Z",
+  "ranAt": "2026-08-24T14:42:08.877Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,8 +104,9 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
@@ -113,8 +114,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614484372",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587076"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605"
           ],
           "sampleRows": [
             {
@@ -122,8 +122,8 @@
               "cells": [
                 "August 21, 2026",
                 "COMMENTS",
-                "PACIFIC GAS AND ELECTRIC COMPANY",
-                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
+                "California Environmental Justice Alliance",
+                "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULI"
               ]
             },
             {
@@ -133,6 +133,15 @@
                 "COMMENTS",
                 "Southern California Edison Company",
                 "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULI"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "August 21, 2026",
+                "COMMENTS",
+                "PACIFIC GAS AND ELECTRIC COMPANY",
+                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
               ]
             },
             {
@@ -151,15 +160,6 @@
                 "NOTICE",
                 "CALJ/Cooke/CPUC",
                 "Notice of Co-Assignment."
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 14, 2026",
-                "COMMENTS",
-                "San Diego Gas & Electric Company,Southern California Gas Company",
-                "OPENING COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RU"
               ]
             }
           ],

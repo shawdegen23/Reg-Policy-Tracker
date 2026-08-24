@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-21T22:43:36.497Z",
+  "generatedAt": "2026-08-24T14:48:04.179Z",
   "totals": {
-    "developments": 158,
-    "high": 56,
+    "developments": 159,
+    "high": 57,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Building Decarbonization": 24,
+    "Building Decarbonization": 25,
     "Resource Adequacy / Planning": 64,
     "DER / Rates": 28,
     "Demand Flexibility": 12,
@@ -15,7 +15,7 @@
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.19-01-011": 23,
+    "R.19-01-011": 24,
     "R.25-06-019": 55,
     "R.20-08-020": 12,
     "R.20-05-012": 15,
@@ -56,7 +56,7 @@
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-08-21",
-      "similar": 0
+      "similar": 1
     },
     {
       "source": "CPUC R.19-01-011",
