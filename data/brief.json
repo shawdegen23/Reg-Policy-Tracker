@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T22:45:09.816Z",
+  "generatedAt": "2026-08-25T14:49:36.634Z",
   "totals": {
-    "developments": 166,
-    "high": 61,
+    "developments": 167,
+    "high": 60,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
     "Building Decarbonization": 29,
-    "Resource Adequacy / Planning": 67,
+    "Resource Adequacy / Planning": 68,
     "DER / Rates": 28,
     "Demand Flexibility": 12,
     "Energy Efficiency": 20,
@@ -16,7 +16,7 @@
   },
   "proceedingCounts": {
     "R.19-01-011": 28,
-    "R.25-06-019": 56,
+    "R.25-06-019": 57,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
     "R.20-05-012": 15,
@@ -36,8 +36,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -53,8 +53,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -70,8 +70,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -87,26 +87,9 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
-      "filedBy": "ALJ/SISTO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
-      "date": "2026-08-18",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-19",
       "similar": 0
     },
     {
@@ -278,6 +261,23 @@
       "aiEnriched": false,
       "firstSeen": "2026-07-30",
       "similar": 2
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comments are due on August 14, 2026, and reply comments are due on August 21, 2026. The scope of this proceeding is amended as described above and is adopted. The schedule of this proceeding is set forth above and is adopted. Evidentiary hearings are not needed. The category of the proceeding remains quasi-legislative. Commissioner Darcie L. Houck is the presiding officer. Investor-owned utilities shall and other parties may file and serve responses to the questions set forth in this ruling no later than August 14, 2026. Parties may file and serve reply comments no later than August 21, 2026.",
+      "filedBy": "CMMR/ DARCIE L. HOUCK/ CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
+      "date": "2026-07-23",
+      "topic": "Building Decarbonization",
+      "dataType": "Quantitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-07-24",
+      "similar": 0
     }
   ],
   "quantitative": [
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "Recent CPUC activity in R.25-04-010 (Energy Efficiency) includes multiple ex parte communications and the granting of party status"
 }

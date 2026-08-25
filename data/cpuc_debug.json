@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-24T22:26:56.851Z",
+  "ranAt": "2026-08-25T14:45:29.874Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621935",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487824",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614483595",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854881"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614483595"
           ],
           "sampleRows": [
             {
@@ -539,6 +539,15 @@
                 "EXPARTE",
                 "CPUC / Julian Buchwalter / Advisor",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 24, 2026",
+                "EXPARTE",
+                "XGS",
+                "NOTICE OF EX PARTE COMMUNICATIONS ."
               ]
             },
             {
@@ -566,15 +575,6 @@
                 "RULING",
                 "ALJ/RIZZO/CPUC",
                 "ADMINISTRATIVE LAW JUDGE'S RULING REQUESTING COMMENT ON THE INVESTOR-OWNED UTILI"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 17, 2026",
-                "EXPARTE",
-                "XGS",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],
