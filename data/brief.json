@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T14:49:36.634Z",
+  "generatedAt": "2026-08-25T22:44:06.972Z",
   "totals": {
     "developments": 167,
     "high": 60,
@@ -36,7 +36,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -53,7 +53,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -70,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -87,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Stakeholder comments influence the CPUC's DER proceeding scope, shaping future policies for energy efficiency, demand flexibility, and building decarbonization affecting clients.",
+      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -452,5 +452,5 @@
       "similar": 0
     }
   ],
-  "narrative": "Recent CPUC activity in R.25-04-010 (Energy Efficiency) includes multiple ex parte communications and the granting of party status"
+  "narrative": "**Director Briefing: California Regulatory Update**\n\nIn the Energy Efficiency proceeding (R.25-04-010), recent"
 }
