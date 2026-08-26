@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-25T22:27:52.894Z",
+  "ranAt": "2026-08-26T14:44:11.353Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,19 +519,55 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903340",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616451120",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927705",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927700",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621935",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615266370",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613990009",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481285",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487824",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614483595"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 25, 2026",
+                "EXPARTE",
+                "CMMR/HARADA/CPUC",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 25, 2026",
+                "EXPARTE",
+                "CMMR/HARADA/CPUC",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 25, 2026",
+                "EXPARTE",
+                "CMMR/HARADA/CPUC",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "August 25, 2026",
+                "EXPARTE",
+                "CMMR/HARADA/CPUC",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -539,42 +575,6 @@
                 "EXPARTE",
                 "CPUC / Julian Buchwalter / Advisor",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 24, 2026",
-                "EXPARTE",
-                "XGS",
-                "NOTICE OF EX PARTE COMMUNICATIONS ."
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "August 18, 2026",
-                "LAW & MOTION",
-                "Ava Community Energy Authority",
-                "Amended Motion Of Ava Community Energy Authority (Formerly East Bay Community En"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 18, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/BAKER",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "August 17, 2026",
-                "RULING",
-                "ALJ/RIZZO/CPUC",
-                "ADMINISTRATIVE LAW JUDGE'S RULING REQUESTING COMMENT ON THE INVESTOR-OWNED UTILI"
               ]
             }
           ],

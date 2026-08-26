@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-25T22:44:06.972Z",
+  "generatedAt": "2026-08-26T14:49:26.042Z",
   "totals": {
-    "developments": 167,
-    "high": 60,
+    "developments": 171,
+    "high": 61,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
+    "Resource Adequacy / Planning": 72,
     "Building Decarbonization": 29,
-    "Resource Adequacy / Planning": 68,
     "DER / Rates": 28,
     "Demand Flexibility": 12,
     "Energy Efficiency": 20,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
+    "R.25-06-019": 61,
     "R.19-01-011": 28,
-    "R.25-06-019": 57,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
     "R.20-05-012": 15,
@@ -36,7 +36,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
+      "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -53,7 +53,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
+      "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -70,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
+      "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -87,9 +87,26 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the CPUC's energy efficiency rulemaking scope, directly impacting future program design, funding, and client opportunities.",
+      "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
+      "filedBy": "ALJ/SISTO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
+      "date": "2026-08-18",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Granting party status to a tribal association ensures diverse equity perspectives are formally included in this critical proceeding.",
+      "aiEnriched": true,
+      "firstSeen": "2026-08-19",
       "similar": 0
     },
     {
@@ -261,23 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-07-30",
       "similar": 2
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comments are due on August 14, 2026, and reply comments are due on August 21, 2026. The scope of this proceeding is amended as described above and is adopted. The schedule of this proceeding is set forth above and is adopted. Evidentiary hearings are not needed. The category of the proceeding remains quasi-legislative. Commissioner Darcie L. Houck is the presiding officer. Investor-owned utilities shall and other parties may file and serve responses to the questions set forth in this ruling no later than August 14, 2026. Parties may file and serve reply comments no later than August 21, 2026.",
-      "filedBy": "CMMR/ DARCIE L. HOUCK/ CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
-      "date": "2026-07-23",
-      "topic": "Building Decarbonization",
-      "dataType": "Quantitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-24",
-      "similar": 0
     }
   ],
   "quantitative": [
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "**Director Briefing: California Regulatory Update**\n\nIn the Energy Efficiency proceeding (R.25-04-010), recent"
+  ]
 }
