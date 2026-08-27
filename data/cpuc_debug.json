@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-27T02:58:39.879Z",
+  "ranAt": "2026-08-27T23:38:31.173Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
@@ -29,11 +31,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794806",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354742",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610764704"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "August 27, 2026",
+                "RULING",
+                "ALJ/KAO/CPUC",
+                "This email ruling grants the August 26, 2026 motion for party status of Californ"
+              ]
+            },
+            {
+              "type": "MOTION",
+              "cells": [
+                "August 26, 2026",
+                "MOTION",
+                "California Coast Credit Union",
+                "Motion For Party Status of California Coast Credit Union"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -59,24 +77,6 @@
                 "RULING",
                 "ALJ/KAO/CPUC",
                 "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABL"
-              ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "July 10, 2026",
-                "MOTION",
-                "Local Government Sustainable Energy Coalition (LGSEC)",
-                "Motion for Party of Local Government Sustainable Energy Coalition"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "July 10, 2026",
-                "COMMENTS",
-                "Cal Advocates/D.GIBBS/CPUC",
-                "Reply Comments on ALJ Ruling Seeking Comments on Budget Approach for Community C"
               ]
             }
           ],
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587322",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903340",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616451120",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927705",
@@ -528,16 +529,15 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615266370",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481305"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615266370"
           ],
           "sampleRows": [
             {
               "type": "EXPARTE",
               "cells": [
-                "August 25, 2026",
+                "August 26, 2026",
                 "EXPARTE",
-                "CMMR/HARADA/CPUC",
+                "CPUC/COMMR/BAKER",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
               ]
             },
@@ -571,9 +571,9 @@
             {
               "type": "EXPARTE",
               "cells": [
-                "August 24, 2026",
+                "August 25, 2026",
                 "EXPARTE",
-                "CPUC / Julian Buchwalter / Advisor",
+                "CMMR/HARADA/CPUC",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
               ]
             }

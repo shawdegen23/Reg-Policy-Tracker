@@ -1,5 +1,53 @@
 [
   {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Ruling",
+    "headline": "This email ruling grants the August 26, 2026 motion for party status of California Coast Credit Union, in accordance with Rule 1.4 of the Commission's Rules of Practice and Procedure.",
+    "filedBy": "ALJ/KAO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
+    "date": "2026-08-27",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "A credit union gaining party status is unlikely to directly impact TEC's clients' core interests.",
+    "aiEnriched": true,
+    "firstSeen": "2026-08-27"
+  },
+  {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Filing",
+    "headline": "Motion For Party Status of California Coast Credit Union",
+    "filedBy": "California Coast Credit Union",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
+    "date": "2026-08-26",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "A credit union seeking party status is unlikely to directly impact TEC's clients' core interests.",
+    "aiEnriched": true,
+    "firstSeen": "2026-08-27"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "CPUC/COMMR/BAKER",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587322",
+    "date": "2026-08-26",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-08-27"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -75,7 +123,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -123,7 +171,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -139,7 +187,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -155,7 +203,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -171,7 +219,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -187,7 +235,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -203,7 +251,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+    "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -267,7 +315,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Granting party status to a tribal association ensures broader representation in shaping clean energy programs for disadvantaged communities.",
+    "impact": "Granting party status to SCTCA ensures tribal perspectives are formally included in R.19-01-011, potentially influencing equity and project decisions.",
     "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },
@@ -1195,7 +1243,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "Signals a private discussion with a decision-maker occurred. The content, not the notice, determines direct client impact.",
+    "impact": "Procedural notice of communication with a decision-maker; content and impact on clients are unknown without further detail.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -1211,7 +1259,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "Signals a private discussion with a decision-maker occurred. The content, not the notice, determines direct client impact.",
+    "impact": "Procedural notice of communication with a decision-maker; content and impact on clients are unknown without further detail.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -1339,7 +1387,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "Local governments gain formal voice in proceedings, potentially influencing energy efficiency and decarbonization program design and funding.",
+    "impact": "LGSEC gaining party status allows local government perspectives on sustainable energy to influence proceeding outcomes.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -1387,7 +1435,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Medium",
-    "impact": "A coalition representing local governments sought formal participation in proceedings, aiming to influence energy policy relevant to clients.",
+    "impact": "LGSEC seeking party status indicates local government interest in influencing sustainable energy policy.",
     "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
@@ -1467,7 +1515,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments address how CCAs will budget for energy efficiency programs, directly impacting program funding, design, and availability for clients.",
+    "impact": "Reply comments on CCA energy efficiency program budgets directly influence funding and structure of key energy efficiency initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
@@ -1483,7 +1531,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Reply comments address how CCAs will budget for energy efficiency programs, directly impacting program funding, design, and availability for clients.",
+    "impact": "Reply comments on CCA energy efficiency program budgets directly influence funding and structure of key energy efficiency initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },

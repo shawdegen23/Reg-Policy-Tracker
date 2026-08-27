@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-08-27T03:13:25.166Z",
+  "generatedAt": "2026-08-27T23:43:54.631Z",
   "totals": {
-    "developments": 171,
+    "developments": 174,
     "high": 55,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 72,
+    "Energy Efficiency": 22,
+    "Resource Adequacy / Planning": 73,
     "Building Decarbonization": 29,
     "DER / Rates": 28,
     "Demand Flexibility": 12,
-    "Energy Efficiency": 20,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.25-06-019": 61,
+    "R.25-04-010": 22,
+    "R.25-06-019": 62,
     "R.19-01-011": 28,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
     "R.20-05-012": 15,
-    "R.22-07-005": 12,
-    "R.25-04-010": 20
+    "R.22-07-005": 12
   },
   "highRelevance": [
     {
@@ -36,7 +36,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -53,7 +53,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -70,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -87,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
+      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
