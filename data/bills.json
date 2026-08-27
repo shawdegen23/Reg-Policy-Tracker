@@ -10,7 +10,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB550",
@@ -23,7 +23,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB643",
@@ -36,7 +36,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB817",
@@ -49,7 +49,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1301",
@@ -62,7 +62,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1761",
@@ -75,7 +75,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1847",
@@ -86,9 +86,9 @@
     "url": "https://legiscan.com/CA/bill/AB1847/2025",
     "changeHash": "45a4507dae311f2e25314d48c18e94b9",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1945",
@@ -101,7 +101,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2111",
@@ -114,7 +114,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2234",
@@ -127,7 +127,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2346",
@@ -140,7 +140,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2458",
@@ -153,7 +153,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2463",
@@ -166,7 +166,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2589",
@@ -179,7 +179,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2595",
@@ -192,7 +192,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2618",
@@ -205,7 +205,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2647",
@@ -216,9 +216,9 @@
     "url": "https://legiscan.com/CA/bill/AB2647/2025",
     "changeHash": "2a1096689b061531254b565c00b0913e",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2700",
@@ -231,7 +231,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB222",
@@ -242,9 +242,9 @@
     "url": "https://legiscan.com/CA/bill/SB222/2025",
     "changeHash": "aa5307da00091331c92759f479ad876e",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB505",
@@ -257,7 +257,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB700",
@@ -270,7 +270,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB741",
@@ -283,7 +283,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB742",
@@ -294,9 +294,9 @@
     "url": "https://legiscan.com/CA/bill/SB742/2025",
     "changeHash": "bf0f55c40c40a6cc926095365cc41866",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB804",
@@ -309,7 +309,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB868",
@@ -322,7 +322,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB908",
@@ -335,7 +335,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB913",
@@ -348,7 +348,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB969",
@@ -361,7 +361,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1213",
@@ -374,7 +374,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1267",
@@ -385,9 +385,9 @@
     "url": "https://legiscan.com/CA/bill/SB1267/2025",
     "changeHash": "b89bf05d3115293a6e94e36b92e6a66f",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1283",
@@ -398,9 +398,9 @@
     "url": "https://legiscan.com/CA/bill/SB1283/2025",
     "changeHash": "86c41be2b79e4a5b6d736e468f1fbd75",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB353",
@@ -452,7 +452,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1707",
@@ -504,7 +504,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1815",
@@ -530,7 +530,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1944",

@@ -75,7 +75,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -123,7 +123,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -139,7 +139,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -155,7 +155,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -171,7 +171,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -187,7 +187,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -203,7 +203,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments help shape the CPUC's future actions on energy affordability and equity, directly impacting programs for TEC's clients.",
+    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities in Phase 3B, directly affecting TEC clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -266,8 +266,8 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Granting party status to a tribal association ensures diverse equity perspectives are formally included in this critical proceeding.",
+    "relevance": "Medium",
+    "impact": "Granting party status to a tribal association ensures broader representation in shaping clean energy programs for disadvantaged communities.",
     "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },
@@ -1194,9 +1194,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Signals a private discussion with a decision-maker occurred. The content, not the notice, determines direct client impact.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1210,9 +1210,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "Signals a private discussion with a decision-maker occurred. The content, not the notice, determines direct client impact.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1338,9 +1338,9 @@
     "date": "2026-07-13",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Local governments gain formal voice in proceedings, potentially influencing energy efficiency and decarbonization program design and funding.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1386,9 +1386,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "A coalition representing local governments sought formal participation in proceedings, aiming to influence energy policy relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1402,9 +1402,9 @@
     "date": "2026-07-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "A provider of energy efficiency products gains formal voice in proceedings, potentially influencing program design and market opportunities for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1467,8 +1467,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments address how CCAs will budget for energy efficiency programs, directly impacting program funding, design, and availability for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1483,8 +1483,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments address how CCAs will budget for energy efficiency programs, directly impacting program funding, design, and availability for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1499,8 +1499,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments address how CCAs will budget for energy efficiency programs, directly impacting program funding, design, and availability for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
