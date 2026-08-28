@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-27T23:43:54.631Z",
+  "generatedAt": "2026-08-28T23:30:21.395Z",
   "totals": {
     "developments": 174,
-    "high": 55,
+    "high": 61,
     "quantitative": 18,
     "topics": 6
   },
@@ -25,6 +25,40 @@
   },
   "highRelevance": [
     {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "This email ruling grants the August 26, 2026 motion for party status of California Coast Credit Union, in accordance with Rule 1.4 of the Commission's Rules of Practice and Procedure.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
+      "date": "2026-08-27",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-27",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing",
+      "headline": "Motion For Party Status of California Coast Credit Union",
+      "filedBy": "California Coast Credit Union",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
+      "date": "2026-08-26",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-27",
+      "similar": 0
+    },
+    {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
       "docket": "R.19-01-011",
@@ -36,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
+      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -53,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
+      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -70,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
+      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -87,7 +121,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC R.19-01-011 Phase 3B, shaping future energy efficiency, demand flexibility, and decarbonization policies affecting clients.",
+      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -243,40 +277,6 @@
       "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-08-18",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.22-07-005",
-      "agency": "CPUC",
-      "docket": "R.22-07-005",
-      "type": "Filing",
-      "headline": "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION.",
-      "filedBy": "CMMR/JOHN_REYNOLDS/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446035",
-      "date": "2026-07-30",
-      "topic": "Demand Flexibility",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-30",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling.  Opening comments are due on August 14, 2026, and reply comments are due on August 21, 2026. The scope of this proceeding is amended as described above and is adopted. The schedule of this proceeding is set forth above and is adopted. Evidentiary hearings are not needed. The category of the proceeding remains quasi-legislative. Commissioner Darcie L. Houck is the presiding officer. Investor-owned utilities shall and other parties may file and serve responses to the questions set forth in this ruling no later than August 14, 2026. Parties may file and serve reply comments no later than August 21, 2026.",
-      "filedBy": "CMMR/ DARCIE L. HOUCK/ CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611618034",
-      "date": "2026-07-23",
-      "topic": "Building Decarbonization",
-      "dataType": "Quantitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-07-24",
       "similar": 0
     }
   ],
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August 27"
 }
