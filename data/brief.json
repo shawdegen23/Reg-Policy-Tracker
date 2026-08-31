@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T23:30:21.395Z",
+  "generatedAt": "2026-08-31T20:01:19.762Z",
   "totals": {
     "developments": 174,
     "high": 61,
@@ -70,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
+      "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -87,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
+      "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -104,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
+      "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -121,7 +121,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape CPUC's R.19-01-011, influencing clean energy program design and equity for disadvantaged communities, impacting TEC clients.",
+      "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August 27"
+  ]
 }
