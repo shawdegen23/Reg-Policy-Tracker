@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-31T19:51:40.945Z",
+  "ranAt": "2026-09-01T01:00:54.827Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616589361",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587322",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903340",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616451120",
@@ -528,25 +529,24 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002690",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615495401",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615266370"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587099"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "August 31, 2026",
+                "RULING",
+                "ALJ/FITCH/CPUC",
+                "Administrative Law Judge's Ruling Seeking Comments on Electricity Portfolios for"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
                 "August 26, 2026",
                 "EXPARTE",
                 "CPUC/COMMR/BAKER",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 25, 2026",
-                "EXPARTE",
-                "CMMR/HARADA/CPUC",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
               ]
             },

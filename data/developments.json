@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Ruling",
+    "headline": "Administrative Law Judge's Ruling Seeking Comments on Electricity Portfolios for the 2027-2028 Transmission Planning Process and Potential for Geographically-Targeted Procurement. Comments in response to this ruling are invited to be filed and served no later than September 28, 2026, with reply comments filed and served no later than October 12, 2026.",
+    "filedBy": "ALJ/FITCH/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616589361",
+    "date": "2026-08-31",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-01"
+  },
+  {
     "source": "CPUC R.25-04-010",
     "agency": "CPUC",
     "docket": "R.25-04-010",
@@ -123,8 +139,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -171,8 +187,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-21"
   },
   {
@@ -187,8 +203,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-21"
   },
   {
@@ -203,8 +219,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -219,8 +235,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -235,8 +251,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -251,8 +267,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape a key CPUC proceeding's scope, directly influencing future energy efficiency, decarbonization, and demand flexibility programs affecting clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -314,9 +330,9 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Granting tribal party status introduces new equity and environmental justice considerations, potentially influencing program design and resource allocation for clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-19"
   },
   {
