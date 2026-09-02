@@ -6,11 +6,50 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB192/2025",
-    "changeHash": "b8e7e436594fc298175a0fdaab4426f6",
+    "changeHash": "d9992c1dfd61de28992466a4beb0c57d",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB193",
+    "title": "Public resources: Greenhouse Gas Reduction Fund: programs.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-31",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB193/2025",
+    "changeHash": "d0ce74b2878ffb01af1f4706f8408829",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB195",
+    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
+    "lastAction": "Read second time. Ordered to third reading.",
+    "lastActionDate": "2026-08-31",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB195/2025",
+    "changeHash": "2801b79e1d93e2cf4aa6829879ee18f4",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB196",
+    "title": "School Energy Efficiency Stimulus Program.",
+    "lastAction": "In committee: Hearing postponed by committee.",
+    "lastActionDate": "2026-08-31",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/AB196/2025",
+    "changeHash": "c0d54e53ce4d4233bcda529edc484409",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB353",
@@ -19,11 +58,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB353/2025",
-    "changeHash": "fe77a13cd7d6f8c0f326c09d90ea84ad",
+    "changeHash": "ddb1daf3d2e78882eef24c7d817cfec0",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1301",
@@ -32,11 +71,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1301/2025",
-    "changeHash": "16e5dfe9cfa174518d26575df2833f3f",
+    "changeHash": "f9d5f0297fc492b172db63a49ba57391",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1642",
@@ -45,11 +84,11 @@
     "lastActionDate": "2026-08-31",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1642/2025",
-    "changeHash": "5861e4554a2b087aadfa1c87fcef967e",
+    "changeHash": "de8d9579a077c81901a8c3f7fb6b5f7a",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1707",
@@ -58,11 +97,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1707/2025",
-    "changeHash": "e5e50cbb3ac9bda5382c0a601cb2fc2d",
+    "changeHash": "ec0f5036c693202de5b5af1ab8514189",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1813",
@@ -71,11 +110,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1813/2025",
-    "changeHash": "1f377105a13eb38b66541f2f7bc18e8e",
+    "changeHash": "a501385fac81bba52d72c466fa5ba128",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1847",
@@ -110,11 +149,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2163/2025",
-    "changeHash": "d795a16dab381cf6129ee677f9b6daa9",
+    "changeHash": "48029c2117cf780161a530d5057b75b5",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2458",
@@ -125,9 +164,9 @@
     "url": "https://legiscan.com/CA/bill/AB2458/2025",
     "changeHash": "c3c37409f60b7b80b846443e41f84fe4",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2476",
@@ -136,11 +175,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2476/2025",
-    "changeHash": "6802da1b29a4fdb31c922af3e9e036c8",
+    "changeHash": "cfe4c900dd2d6494f62233c6242772f8",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2493",
@@ -149,11 +188,24 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2493/2025",
-    "changeHash": "31c6de91423572cd3caeddff7afff5a0",
+    "changeHash": "dee938ea37899e4d48e9cc24c94b9dd7",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB2513",
+    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastActionDate": "2026-08-31",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2513/2025",
+    "changeHash": "358461d29de248b500657e5a5d94e0ac",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2647",
@@ -175,11 +227,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2700/2025",
-    "changeHash": "dd8ddddf8f454b6596bc50983f44f346",
+    "changeHash": "0507d966819587d8ab8c6e4b93292d3e",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB195",
@@ -190,9 +242,9 @@
     "url": "https://legiscan.com/CA/bill/SB195/2025",
     "changeHash": "a5142851aae31bc9a2dd1a06fe1b4666",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB868",
@@ -247,17 +299,30 @@
     "isUpdated": false
   },
   {
+    "number": "SB1330",
+    "title": "Assault and battery: utility workers.",
+    "lastAction": "Read third time. Passed. Ordered to the Senate.",
+    "lastActionDate": "2026-08-31",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB1330/2025",
+    "changeHash": "36306f2efc1edd54aa50de47f2df0ba7",
+    "stage": 2,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "SB1370",
     "title": "Covered wildfire mitigation projects: consolidated and expedited review.",
     "lastAction": "Read third time. Passed. Ordered to the Senate.",
     "lastActionDate": "2026-08-31",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB1370/2025",
-    "changeHash": "afb968a6001f27f0b629f6c5365575e8",
+    "changeHash": "8fceb33a900ca5317624897ee9784676",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1715",
@@ -305,11 +370,11 @@
     "lastActionDate": "2026-08-30",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB2383/2025",
-    "changeHash": "264fdba1d316335315592202761963e4",
+    "changeHash": "2a9901f0ff821ed3a97c9836d4578e7d",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2518",
@@ -370,11 +435,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB741/2025",
-    "changeHash": "287abceb72281bfc1ba02454ccb17d33",
+    "changeHash": "f6a604d7a9ead84f1b944074857d11cb",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB742",
@@ -396,11 +461,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB905/2025",
-    "changeHash": "2c29dcc6c5bca6b1ac8a37a9a06c8387",
+    "changeHash": "ef5633bac913999e244eb3745f4fb181",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB1090",
@@ -409,11 +474,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1090/2025",
-    "changeHash": "2ff2f231b39be3f4aba149168fb23000",
+    "changeHash": "aa57507f38646d0ba2ab1e671979b15e",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB1153",
@@ -422,11 +487,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1153/2025",
-    "changeHash": "f2f2ce064abca5c21e64cf3495c0735b",
+    "changeHash": "3f666eee3af69053c4a9ad1a8f99d374",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB1158",
@@ -435,11 +500,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1158/2025",
-    "changeHash": "810ca961e7e3193ba193344d95641484",
+    "changeHash": "ad87f0de1c4162c346d3d8c91dd6b22d",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB1213",
@@ -448,11 +513,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1213/2025",
-    "changeHash": "882e8b2d04ed4b15bd2a8cebdab3a757",
+    "changeHash": "1f9f89b79e1c1081860bea4c0e189ced",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB1267",
@@ -507,56 +572,17 @@
     "isUpdated": false
   },
   {
-    "number": "AB193",
-    "title": "Public resources: Greenhouse Gas Reduction Fund: programs.",
-    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on B. & F. R.",
-    "lastActionDate": "2026-08-28",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB193/2025",
-    "changeHash": "ec76026d2f3aff103f0a48ee3e40c06b",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB195",
-    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
-    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on B. & F. R.",
-    "lastActionDate": "2026-08-28",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB195/2025",
-    "changeHash": "65141f9b915629ede36d0f92796512f8",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB196",
-    "title": "School Energy Efficiency Stimulus Program.",
-    "lastAction": "From committee chair, with author's amendments: Amend, and re-refer to committee. Read second time, amended, and re-referred to Com. on B. & F. R.",
-    "lastActionDate": "2026-08-28",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB196/2025",
-    "changeHash": "a8d3241f2cf64cf78bc8f01a096a0fca",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB817",
     "title": "Cold storage facilities.",
     "lastAction": "Read second time. Ordered to third reading.",
     "lastActionDate": "2026-08-28",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB817/2025",
-    "changeHash": "21e98681c08bc87414da89132c7341d6",
+    "changeHash": "50209feec34f4a170b7f5ef0965b4d26",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1156",
@@ -565,11 +591,11 @@
     "lastActionDate": "2026-08-28",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB1156/2025",
-    "changeHash": "62bb33ade0a0589fb48fdf7ede7b2d1c",
+    "changeHash": "98756a60efcfb46daf78d3b083bb5fba",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1486",
@@ -708,11 +734,11 @@
     "lastActionDate": "2026-08-28",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB886/2025",
-    "changeHash": "d02d5af6cafc0121f43ca00ce9ae518a",
+    "changeHash": "da1615184d3e6078d4eb76f0daeda452",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB969",
@@ -773,11 +799,11 @@
     "lastActionDate": "2026-08-27",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB306/2025",
-    "changeHash": "c8788355a2f39b0bdb679e578ee141ab",
+    "changeHash": "9a61a491fa20a24479ae28be35a75856",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB643",
@@ -786,11 +812,11 @@
     "lastActionDate": "2026-08-27",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB643/2025",
-    "changeHash": "f91cbbb78473af322ac2a720abc1ef26",
+    "changeHash": "78af2390944253ab7cf98d532f41de0e",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB706",
@@ -799,11 +825,11 @@
     "lastActionDate": "2026-08-27",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB706/2025",
-    "changeHash": "c66f24b3ad981a6355b41fef1421d96a",
+    "changeHash": "ed349d822aba7ef23060f081aa0bf62b",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1569",
@@ -838,11 +864,11 @@
     "lastActionDate": "2026-08-27",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2124/2025",
-    "changeHash": "35f67780734f7cb3533159de523b5307",
+    "changeHash": "3c763112de424c4f0abe289bb59dfd11",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB700",
@@ -1062,19 +1088,6 @@
     "changeHash": "b643ad9627f458113d4e8b68d99fb377",
     "stage": 3,
     "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2513",
-    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-24",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2513/2025",
-    "changeHash": "7951b78bf4be77a2f3c1680265a1a76c",
-    "stage": 2,
-    "prevStage": 2,
     "isNew": false,
     "isUpdated": false
   },
