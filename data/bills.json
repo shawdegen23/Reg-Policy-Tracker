@@ -8,9 +8,9 @@
     "url": "https://legiscan.com/CA/bill/AB192/2025",
     "changeHash": "b8e7e436594fc298175a0fdaab4426f6",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB353",
@@ -21,9 +21,9 @@
     "url": "https://legiscan.com/CA/bill/AB353/2025",
     "changeHash": "fe77a13cd7d6f8c0f326c09d90ea84ad",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1301",
@@ -34,9 +34,9 @@
     "url": "https://legiscan.com/CA/bill/AB1301/2025",
     "changeHash": "16e5dfe9cfa174518d26575df2833f3f",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1642",
@@ -49,7 +49,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1707",
@@ -60,9 +60,9 @@
     "url": "https://legiscan.com/CA/bill/AB1707/2025",
     "changeHash": "e5e50cbb3ac9bda5382c0a601cb2fc2d",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1813",
@@ -73,9 +73,9 @@
     "url": "https://legiscan.com/CA/bill/AB1813/2025",
     "changeHash": "1f377105a13eb38b66541f2f7bc18e8e",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1847",
@@ -88,7 +88,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1873",
@@ -99,9 +99,9 @@
     "url": "https://legiscan.com/CA/bill/AB1873/2025",
     "changeHash": "b01adb3033a2019d1a5a07f685f48191",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2163",
@@ -112,7 +112,20 @@
     "url": "https://legiscan.com/CA/bill/AB2163/2025",
     "changeHash": "d795a16dab381cf6129ee677f9b6daa9",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": false
+  },
+  {
+    "number": "AB2458",
+    "title": "Energy: appliance standards and cost-effective measures.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 171, Statutes of 2026.",
+    "lastActionDate": "2026-08-31",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB2458/2025",
+    "changeHash": "c3c37409f60b7b80b846443e41f84fe4",
+    "stage": 4,
+    "prevStage": 3,
     "isNew": false,
     "isUpdated": true
   },
@@ -127,7 +140,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2493",
@@ -138,9 +151,9 @@
     "url": "https://legiscan.com/CA/bill/AB2493/2025",
     "changeHash": "31c6de91423572cd3caeddff7afff5a0",
     "stage": 3,
-    "prevStage": 2,
+    "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2647",
@@ -153,7 +166,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2700",
@@ -163,6 +176,19 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2700/2025",
     "changeHash": "dd8ddddf8f454b6596bc50983f44f346",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": false
+  },
+  {
+    "number": "SB195",
+    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
+    "lastAction": "Assembly amendments concurred in. (Ayes 40. Noes 0.) Ordered to engrossing and enrolling.",
+    "lastActionDate": "2026-08-31",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB195/2025",
+    "changeHash": "a5142851aae31bc9a2dd1a06fe1b4666",
     "stage": 3,
     "prevStage": 2,
     "isNew": false,
@@ -179,7 +205,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB908",
@@ -192,7 +218,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB925",
@@ -205,7 +231,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB952",
@@ -216,9 +242,9 @@
     "url": "https://legiscan.com/CA/bill/SB952/2025",
     "changeHash": "9c791ac47e80cb7fbfa6af98173d1d40",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1370",
@@ -231,7 +257,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1715",
@@ -319,19 +345,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB193/2025",
     "changeHash": "aef5254bcca2c5d1575a408d93d534f1",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB195",
-    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
-    "lastAction": "Ordered to third reading.",
-    "lastActionDate": "2026-08-30",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB195/2025",
-    "changeHash": "b64288e8faf5560d712456e10cb34c3b",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -647,7 +660,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB327",
@@ -660,7 +673,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB453",
@@ -686,7 +699,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB886",
@@ -712,7 +725,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1098",
@@ -1008,19 +1021,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2346/2025",
     "changeHash": "42e4d902e7b53eecc333b0aefa012b46",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2458",
-    "title": "Energy: appliance standards and cost-effective measures.",
-    "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
-    "lastActionDate": "2026-08-25",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB2458/2025",
-    "changeHash": "e596d3b2550ed6cccf9fab092ec0f33f",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
