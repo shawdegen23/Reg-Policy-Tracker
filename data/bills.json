@@ -1,16 +1,94 @@
 [
   {
-    "number": "AB192",
-    "title": "Energy: transmission infrastructure accelerator: financing.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
-    "lastActionDate": "2026-08-31",
+    "number": "SB505",
+    "title": "Money Transmission Act: authentication.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-02",
     "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB192/2025",
-    "changeHash": "d9992c1dfd61de28992466a4beb0c57d",
+    "url": "https://legiscan.com/CA/bill/SB505/2025",
+    "changeHash": "5e22e0561fe32d5ae80b883f486118b3",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "SB700",
+    "title": "Capital Programs and Climate Financing Authority Act: California Investment and Innovation Program.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-02",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB700/2025",
+    "changeHash": "a94b7d2bfa109c3593319819eb5bed59",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB894",
+    "title": "Wildfire resiliency: financial assistance.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-02",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB894/2025",
+    "changeHash": "a2c657f4a9f614c6e03f8d228789bfbc",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB913",
+    "title": "Resource adequacy: aggregated distributed energy resources.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-02",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB913/2025",
+    "changeHash": "7c619f4a2cc7427356e7f1b9f8d141f3",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB973",
+    "title": "Wildfire County Coordinator Program.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-02",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB973/2025",
+    "changeHash": "413765052ffa50a0d2d373a467fadc79",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1048",
+    "title": "State Seal of Climate Literacy.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-02",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB1048/2025",
+    "changeHash": "8fab5059495551f99ad43f15e58461e9",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB192",
+    "title": "Energy: transmission infrastructure accelerator: financing.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 60. Noes 17.).",
+    "lastActionDate": "2026-08-31",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB192/2025",
+    "changeHash": "f7c2564db6a703e19dbd08fd4e973926",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB193",
@@ -54,67 +132,67 @@
   {
     "number": "AB353",
     "title": "Public Utilities Commission: Inspector General.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 67. Noes 8.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB353/2025",
-    "changeHash": "ddb1daf3d2e78882eef24c7d817cfec0",
+    "changeHash": "8d340778db2b124685cf2e5ad9091064",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB817",
+    "title": "Cold storage facilities.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 55. Noes 19.).",
+    "lastActionDate": "2026-08-31",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB817/2025",
+    "changeHash": "e8e79537934d99962d18233a4517a4a6",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1156",
+    "title": "Williamson Act contracts: cancellation fees: photovoltaic solar facilities.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 56. Noes 6.).",
+    "lastActionDate": "2026-08-31",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1156/2025",
+    "changeHash": "994e12122d9c7211f69710b1d9d2acdd",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB1301",
     "title": "Electricity.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1301/2025",
-    "changeHash": "f9d5f0297fc492b172db63a49ba57391",
+    "changeHash": "54ea907ed9f22e0c0b5f63c4c5d2e24b",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1642",
-    "title": "Wildfires: contamination standards.",
-    "lastAction": "Read third time. Passed. Ordered to the Assembly. (Ayes 29. Noes 2.).",
-    "lastActionDate": "2026-08-31",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1642/2025",
-    "changeHash": "de8d9579a077c81901a8c3f7fb6b5f7a",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1707",
-    "title": "Electricians: certification application, examination, and renewal.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1707/2025",
-    "changeHash": "ec0f5036c693202de5b5af1ab8514189",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1813",
     "title": "Electricity: customer renewable energy subscription program.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 52. Noes 12.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1813/2025",
-    "changeHash": "a501385fac81bba52d72c466fa5ba128",
+    "changeHash": "9407b79e9900beee174490d413467a7a",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1847",
@@ -145,15 +223,28 @@
   {
     "number": "AB2163",
     "title": "Energy: Strategic Clean Energy and Critical Mineral Development Zones.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 77. Noes 0.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2163/2025",
-    "changeHash": "48029c2117cf780161a530d5057b75b5",
+    "changeHash": "a833d67db0430cfe5e6e73003cf51a5b",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB2383",
+    "title": "Electricity: data centers.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 67. Noes 2.).",
+    "lastActionDate": "2026-08-31",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2383/2025",
+    "changeHash": "c84aee56feae61f39a392c4b2a2a32b9",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2458",
@@ -171,28 +262,28 @@
   {
     "number": "AB2476",
     "title": "Electricity: integrated resource plans: Department of Water Resources: procurement.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 77. Noes 0.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2476/2025",
-    "changeHash": "cfe4c900dd2d6494f62233c6242772f8",
+    "changeHash": "c07b22b57e5e99fc243b8d45c0b5a4c3",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2493",
     "title": "Electrical corporations: interconnection: Public Utilities Commission: transmission development monitor.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 60. Noes 16.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2493/2025",
-    "changeHash": "dee938ea37899e4d48e9cc24c94b9dd7",
+    "changeHash": "2c70676fe7ff4ead7dd851777575312d",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2513",
@@ -201,11 +292,11 @@
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2513/2025",
-    "changeHash": "358461d29de248b500657e5a5d94e0ac",
+    "changeHash": "7a76564cda5b1b9fdef666f46bd99fc7",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2647",
@@ -223,15 +314,15 @@
   {
     "number": "AB2700",
     "title": "Public Utilities Commission: electrical corporations: wildfire victim restitution shortfalls: report: restitution mechanisms.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 78. Noes 0.).",
     "lastActionDate": "2026-08-31",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2700/2025",
-    "changeHash": "0507d966819587d8ab8c6e4b93292d3e",
+    "changeHash": "ba01062c90cd7a358bf7051bfe09cf5e",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB195",
@@ -244,7 +335,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB868",
@@ -299,19 +390,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1330",
-    "title": "Assault and battery: utility workers.",
-    "lastAction": "Read third time. Passed. Ordered to the Senate.",
-    "lastActionDate": "2026-08-31",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1330/2025",
-    "changeHash": "36306f2efc1edd54aa50de47f2df0ba7",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1370",
     "title": "Covered wildfire mitigation projects: consolidated and expedited review.",
     "lastAction": "Read third time. Passed. Ordered to the Senate.",
@@ -327,67 +405,80 @@
   {
     "number": "AB1715",
     "title": "Public utilities: reporting.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 66. Noes 9.).",
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1715/2025",
-    "changeHash": "89007ed99436780db4c6359417f6796c",
+    "changeHash": "dd0b825f3e04b1b0565a5945384da4fa",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1815",
     "title": "Factory-built housing: building standards and local requirements.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 74. Noes 0.).",
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1815/2025",
-    "changeHash": "9ac19c1ae93ea8291bcab152d5ae68b0",
+    "changeHash": "cf82d1cf7208ca5aa106110fcea3f3ec",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB1960",
+    "title": "Wildfire Prevention Grants Program: wildfire mitigation validation.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 77. Noes 0.).",
+    "lastActionDate": "2026-08-30",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1960/2025",
+    "changeHash": "be3c1f2759962aea2bce366e5f328086",
+    "stage": 3,
+    "prevStage": 2,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1974",
+    "title": "Firearms: voluntary firearm storage program.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 73. Noes 2.).",
+    "lastActionDate": "2026-08-30",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1974/2025",
+    "changeHash": "ae18a7b23125ccdf93eb94f0c27677ca",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2266",
     "title": "Electricity: load-serving entities.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0.).",
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2266/2025",
-    "changeHash": "3d5f876cf935a219448d96542f79853e",
+    "changeHash": "c8d57154319a3aa96225962d079cd6d6",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2383",
-    "title": "Electricity: data centers.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-30",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB2383/2025",
-    "changeHash": "2a9901f0ff821ed3a97c9836d4578e7d",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2518",
     "title": "San Diego Gas and Electric Company: energization pilot program.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling.",
+    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0.).",
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2518/2025",
-    "changeHash": "00d17faa6dcdc4bc5492b31fb67ae353",
+    "changeHash": "8edbaa0c9397e4eec6098c26601c5ae5",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB192",
@@ -413,7 +504,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB222",
@@ -552,11 +643,11 @@
     "lastActionDate": "2026-08-30",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1359/2025",
-    "changeHash": "14bd3384844d62408d59d69b20eff260",
+    "changeHash": "1a9695720795bbb21cb1c52206a2b25f",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB40",
@@ -565,37 +656,11 @@
     "lastActionDate": "2026-08-28",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB40/2025",
-    "changeHash": "59682e484c5a983f864e31700a8226ed",
+    "changeHash": "c947a5f8ceadc49c9dcc18387b74d113",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB817",
-    "title": "Cold storage facilities.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-28",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB817/2025",
-    "changeHash": "50209feec34f4a170b7f5ef0965b4d26",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1156",
-    "title": "Williamson Act contracts: cancellation fees: photovoltaic solar facilities.",
-    "lastAction": "From committee: That the measure be returned to Senate Floor for consideration. (Ayes 5. Noes 1.) (August 28)",
-    "lastActionDate": "2026-08-28",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB1156/2025",
-    "changeHash": "98756a60efcfb46daf78d3b083bb5fba",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1486",
@@ -605,19 +670,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1486/2025",
     "changeHash": "fa3c8f99708480368916c96da157659f",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1749",
-    "title": "Interfering with wildfire suppression and emergency responses with drone.",
-    "lastAction": "Enrolled and presented to the Governor at 3:30 p.m.",
-    "lastActionDate": "2026-08-28",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1749/2025",
-    "changeHash": "e8081dd496f3537a7d9f31120e4b72c2",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -643,11 +695,11 @@
     "lastActionDate": "2026-08-28",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1945/2025",
-    "changeHash": "060e277fa58e7683b739bde74840d2bb",
+    "changeHash": "0301b62c82eeabf653654b2a9a172d3e",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2369",
@@ -656,11 +708,11 @@
     "lastActionDate": "2026-08-28",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2369/2025",
-    "changeHash": "264aa88067ff90a3dcf2be6734ef0bbb",
+    "changeHash": "a89a5599f75e231984c349f6b4476017",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2674",
@@ -669,11 +721,11 @@
     "lastActionDate": "2026-08-28",
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2674/2025",
-    "changeHash": "4f8d9c9be0e100c6bdc9af3c28664c9b",
+    "changeHash": "9ec45933cb7cd03514170e7e7afeb451",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB58",
@@ -764,7 +816,7 @@
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1167",
@@ -832,19 +884,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1569",
-    "title": "Pupil safety: electric bicycle: safety and training program.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 128, Statutes of 2026.",
-    "lastActionDate": "2026-08-27",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB1569/2025",
-    "changeHash": "99d3815106a1d6f0f7c5ef0a8ff9776e",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2044",
     "title": "Building standards: approval or adoption: cost of compliance estimate.",
     "lastAction": "Chaptered by Secretary of State - Chapter 136, Statutes of 2026.",
@@ -865,71 +904,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2124/2025",
     "changeHash": "3c763112de424c4f0abe289bb59dfd11",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB700",
-    "title": "Capital Programs and Climate Financing Authority Act: California Investment and Innovation Program.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 39. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-27",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB700/2025",
-    "changeHash": "8b5278c85a18e9037ebeef392ecfde62",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB894",
-    "title": "Wildfire resiliency: financial assistance.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 40. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-27",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB894/2025",
-    "changeHash": "5354dfb56805a033d03fdd6850516802",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB913",
-    "title": "Resource adequacy: aggregated distributed energy resources.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 40. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-27",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB913/2025",
-    "changeHash": "c91220381e870d4364de43ef89216339",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB973",
-    "title": "Wildfire County Coordinator Program.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 39. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-27",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB973/2025",
-    "changeHash": "52ca578ca80e4e16364b56e4057132c9",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1048",
-    "title": "State Seal of Climate Literacy.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 39. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-27",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1048/2025",
-    "changeHash": "4fc368140e02a54d64daff02e9753d05",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -1385,19 +1359,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB1075/2025",
     "changeHash": "3dbbcc9910f7bc319bbb68aeba3023a5",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1112",
-    "title": "Vehicles: towing companies and storage facilities.",
-    "lastAction": "August 13 hearing: Held in committee and under submission.",
-    "lastActionDate": "2026-08-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB1112/2025",
-    "changeHash": "7635c1a3b34fcf96058fce50a24c2fef",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -4258,19 +4219,6 @@
     "status": "4",
     "url": "https://legiscan.com/CA/bill/SR50/2025",
     "changeHash": "974b22a57a3af51bc62ca6532506c6f4",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1459",
-    "title": "Hazardous waste: underground storage tanks.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 89, Statutes of 2025.",
-    "lastActionDate": "2025-07-30",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB1459/2025",
-    "changeHash": "d1685d101decf1ff9ed467115ea20175",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,

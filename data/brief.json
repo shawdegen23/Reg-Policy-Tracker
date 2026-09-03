@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T00:11:33.094Z",
+  "generatedAt": "2026-09-03T17:37:20.847Z",
   "totals": {
     "developments": 177,
     "high": 61,
@@ -70,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments will shape CPUC's Phase 3B, influencing policies on energy efficiency, decarbonization, and demand flexibility, directly impacting client programs and opportunities.",
+      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -87,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments will shape CPUC's Phase 3B, influencing policies on energy efficiency, decarbonization, and demand flexibility, directly impacting client programs and opportunities.",
+      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -104,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments will shape CPUC's Phase 3B, influencing policies on energy efficiency, decarbonization, and demand flexibility, directly impacting client programs and opportunities.",
+      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -121,7 +121,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments will shape CPUC's Phase 3B, influencing policies on energy efficiency, decarbonization, and demand flexibility, directly impacting client programs and opportunities.",
+      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August"
 }
