@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.20-05-012",
+    "agency": "CPUC",
+    "docket": "R.20-05-012",
+    "type": "Filing/Comments",
+    "headline": "Comments of the California Solar & Storage Association on the Proposed Decision Closing Rulemaking 20-05-012.",
+    "filedBy": "California Solar & Storage Association",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617423890",
+    "date": "2026-09-03",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-03"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -171,8 +187,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -219,8 +235,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-21"
   },
   {
@@ -235,8 +251,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-21"
   },
   {
@@ -251,8 +267,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -267,8 +283,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -283,8 +299,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -299,8 +315,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -362,9 +378,9 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Granting party status to SCTCA ensures tribal equity perspectives are included in IDER decisions, potentially influencing program design and resource allocation.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-19"
   },
   {

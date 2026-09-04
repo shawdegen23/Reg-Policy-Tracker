@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-03T17:37:20.847Z",
+  "generatedAt": "2026-09-04T00:04:52.061Z",
   "totals": {
-    "developments": 177,
-    "high": 61,
+    "developments": 178,
+    "high": 62,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
+    "DER / Rates": 29,
     "Resource Adequacy / Planning": 76,
     "Energy Efficiency": 22,
     "Building Decarbonization": 29,
-    "DER / Rates": 28,
     "Demand Flexibility": 12,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
+    "R.20-05-012": 16,
     "R.25-06-019": 65,
     "R.25-04-010": 22,
     "R.19-01-011": 28,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
-    "R.20-05-012": 15,
     "R.22-07-005": 12
   },
   "highRelevance": [
@@ -70,8 +70,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -87,8 +87,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -104,8 +104,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -121,9 +121,26 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape future energy efficiency and demand flexibility programs, directly impacting client opportunities and requirements.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-24",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
+      "filedBy": "ALJ/SISTO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
+      "date": "2026-08-18",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-19",
       "similar": 0
     },
     {
@@ -260,23 +277,6 @@
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-08-17",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Email Ruling: Notice of August 25th Tribal Consultation",
-      "filedBy": "ALJ/GERSTLE/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
-      "date": "2026-08-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-18",
       "similar": 0
     }
   ],
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August"
+  ]
 }

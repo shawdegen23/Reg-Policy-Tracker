@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-03T17:33:59.457Z",
+  "ranAt": "2026-09-03T23:50:27.345Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617423890",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031046",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777782",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529039",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=602916891"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529039"
           ],
           "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 03, 2026",
+                "COMMENTS",
+                "California Solar & Storage Association",
+                "Comments of the California Solar & Storage Association on the Proposed Decision "
+              ]
+            },
             {
               "type": "PROPOSED DECISION",
               "cells": [
@@ -483,15 +492,6 @@
                 "MOTION",
                 "Southern California Edison Company",
                 "Southern California Edison Company's (U 338-E) Motion for Relief"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "July 10, 2026",
-                "RULING",
-                "COM/DOUGLAS/CPUC",
-                "Assigned Commissioner's Ruling Directing Program Administrators of The Self-Gene"
               ]
             }
           ],
