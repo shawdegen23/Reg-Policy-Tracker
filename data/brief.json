@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T00:04:52.061Z",
+  "generatedAt": "2026-09-04T17:26:52.455Z",
   "totals": {
-    "developments": 178,
-    "high": 62,
+    "developments": 180,
+    "high": 61,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
     "DER / Rates": 29,
-    "Resource Adequacy / Planning": 76,
+    "Resource Adequacy / Planning": 78,
     "Energy Efficiency": 22,
     "Building Decarbonization": 29,
     "Demand Flexibility": 12,
@@ -16,7 +16,7 @@
   },
   "proceedingCounts": {
     "R.20-05-012": 16,
-    "R.25-06-019": 65,
+    "R.25-06-019": 67,
     "R.25-04-010": 22,
     "R.19-01-011": 28,
     "R.23-10-011": 11,
@@ -70,8 +70,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -87,8 +87,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -104,8 +104,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -121,26 +121,9 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
-      "filedBy": "ALJ/SISTO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
-      "date": "2026-08-18",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-19",
       "similar": 0
     },
     {
@@ -277,6 +260,23 @@
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-08-17",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Email Ruling: Notice of August 25th Tribal Consultation",
+      "filedBy": "ALJ/GERSTLE/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
+      "date": "2026-08-14",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-18",
       "similar": 0
     }
   ],
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "**Director Briefing: California Energy Regulatory Updates**\n\nIn the Energy Efficiency proceeding (R.25-04-010), California Coast Credit"
 }

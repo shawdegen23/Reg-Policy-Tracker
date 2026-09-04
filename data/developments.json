@@ -19,6 +19,22 @@
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "XGS ENERGY, INC.",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617665969",
+    "date": "2026-09-03",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-04"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
     "type": "Ruling",
     "headline": "Administrative Law Judge's Ruling Seeking Comments on Electricity Portfolios for the 2027-2028 Transmission Planning Process and Potential for Geographically-Targeted Procurement. Comments in response to this ruling are invited to be filed and served no later than September 28, 2026, with reply comments filed and served no later than October 12, 2026.",
     "filedBy": "ALJ/FITCH/CPUC",
@@ -62,6 +78,22 @@
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-09-01"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "Supplement; to Notice of Intent to Claim Intervenor Compensation",
+    "filedBy": "Small Business Utility Advcocates",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617649814",
+    "date": "2026-08-31",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-04"
   },
   {
     "source": "CPUC R.25-04-010",
@@ -187,8 +219,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -235,8 +267,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
   {
@@ -251,8 +283,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
   {
@@ -267,8 +299,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -283,8 +315,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -299,8 +331,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -315,8 +347,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Reply comments on Phase 3B Scoping Memo will shape future energy efficiency and demand-side management incentives, directly impacting TEC clients' programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -378,9 +410,9 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Granting party status to tribal association introduces new equity perspectives to energy efficiency and demand-side management rulemaking, influencing program design.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },
   {
