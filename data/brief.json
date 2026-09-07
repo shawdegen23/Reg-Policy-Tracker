@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T23:58:13.154Z",
+  "generatedAt": "2026-09-07T18:41:25.419Z",
   "totals": {
     "developments": 180,
     "high": 62,
@@ -70,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape how energy efficiency, decarbonization, and demand flexibility programs are designed for disadvantaged communities, directly affecting TEC's clients.",
+      "impact": "Reply comments influence the scope of clean energy programs for disadvantaged communities, directly affecting TEC's clients and program design.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -87,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape how energy efficiency, decarbonization, and demand flexibility programs are designed for disadvantaged communities, directly affecting TEC's clients.",
+      "impact": "Reply comments influence the scope of clean energy programs for disadvantaged communities, directly affecting TEC's clients and program design.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -104,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape how energy efficiency, decarbonization, and demand flexibility programs are designed for disadvantaged communities, directly affecting TEC's clients.",
+      "impact": "Reply comments influence the scope of clean energy programs for disadvantaged communities, directly affecting TEC's clients and program design.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -121,7 +121,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments shape how energy efficiency, decarbonization, and demand flexibility programs are designed for disadvantaged communities, directly affecting TEC's clients.",
+      "impact": "Reply comments influence the scope of clean energy programs for disadvantaged communities, directly affecting TEC's clients and program design.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -138,7 +138,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "New party status for a tribal association ensures tribal perspectives are included in shaping equity-focused energy programs, relevant to TEC's clients.",
+      "impact": "Granting party status ensures broader representation and input on clean energy programs for disadvantaged communities, impacting equity outcomes.",
       "aiEnriched": true,
       "firstSeen": "2026-08-19",
       "similar": 0
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), the CPUC granted party status to California Coast Credit Union on August"
 }
