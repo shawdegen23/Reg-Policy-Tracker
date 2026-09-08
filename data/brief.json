@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T00:18:21.975Z",
+  "generatedAt": "2026-09-08T17:50:08.820Z",
   "totals": {
     "developments": 180,
     "high": 62,
@@ -70,8 +70,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -87,8 +87,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -104,8 +104,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -121,8 +121,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -138,8 +138,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Granting tribal association party status ensures tribal perspectives are included in clean energy program design, impacting equity and program access for TEC's clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-19",
       "similar": 0
     },
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August 27,"
 }
