@@ -1,5 +1,69 @@
 [
   {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Filing",
+    "headline": "MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION.",
+    "filedBy": "Teresa Centeno Kim",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617559078",
+    "date": "2026-09-09",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-09"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "THREE-DAY ADVANCE EX PARTE NOTICE.",
+    "filedBy": "Small Business Utility Advcocates",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426261",
+    "date": "2026-09-09",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-09"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Ruling",
+    "headline": "EMAIL RULING GRANTING MOTION TO MODIFY BUNDLED PROCUREMENT PLAN SCHEDULE FOR COMMENTS.",
+    "filedBy": "ALJ/RIZZO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666031",
+    "date": "2026-09-09",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning ruling from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-09"
+  },
+  {
+    "source": "CPUC R.20-05-012",
+    "agency": "CPUC",
+    "docket": "R.20-05-012",
+    "type": "Filing/Comments",
+    "headline": "REPLY COMMENTS ON THE PROPOSED DECISION CLOSING RULEMAKING 20-05-012.",
+    "filedBy": "Southern California Edison Company",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666029",
+    "date": "2026-09-08",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-09"
+  },
+  {
     "source": "CPUC R.20-05-012",
     "agency": "CPUC",
     "docket": "R.20-05-012",
@@ -106,9 +170,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "A credit union gained party status. Its direct impact on TEC clients' core interests is unclear without further context.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-27"
   },
   {
@@ -122,9 +186,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "A credit union seeks party status. Its direct impact on TEC clients' core interests is unclear without further context.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-27"
   },
   {
@@ -219,7 +283,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -267,7 +331,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -283,7 +347,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -299,7 +363,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -315,7 +379,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -331,7 +395,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -347,7 +411,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
+    "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -410,8 +474,8 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Granting party status to tribal representatives ensures diverse voices influence energy efficiency program design, promoting equity for clients.",
+    "relevance": "Medium",
+    "impact": "Granting party status to a tribal association ensures diverse perspectives, including equity considerations, are formally included in the CPUC's DER proceeding.",
     "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },
@@ -1338,9 +1402,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "A party communicated with a decision-maker. The substance and impact on clients are unknown without further details.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1354,9 +1418,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "A party communicated with a decision-maker. The substance and impact on clients are unknown without further details.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1483,8 +1547,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "LGSEC gaining party status could influence outcomes for local government energy programs, aligning with TEC client interests.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1531,8 +1595,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "LGSEC seeking party status could influence outcomes for local government energy programs, aligning with TEC client interests.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1611,8 +1675,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Discussions on CCA energy efficiency program budgets directly affect funding and scope of energy efficiency initiatives, impacting TEC clients.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-13"
   },
   {

@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-08T23:53:03.579Z",
+  "ranAt": "2026-09-09T23:51:33.417Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617559078",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
@@ -30,10 +31,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794806",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353965"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860"
           ],
           "sampleRows": [
+            {
+              "type": "MOTION",
+              "cells": [
+                "September 09, 2026",
+                "MOTION",
+                "Teresa Centeno Kim",
+                "MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -68,15 +77,6 @@
                 "EXPARTE",
                 "CMMR/JOHN_REYNOLDS/CPUC",
                 "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "July 13, 2026",
-                "RULING",
-                "ALJ/KAO/CPUC",
-                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE LOCAL GOVERNMENT SUSTAINABL"
               ]
             }
           ],
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666029",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617423890",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031046",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603529039"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299"
           ],
           "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 08, 2026",
+                "COMMENTS",
+                "Southern California Edison Company",
+                "REPLY COMMENTS ON THE PROPOSED DECISION CLOSING RULEMAKING 20-05-012."
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -484,15 +493,6 @@
                 "ALJ/FORTUNE/CPUC",
                 "EMAIL RULING SHORTENING PARTY RESPONSE TIME FOR SOUTHERN CALIFORNIA EDISON COMPA"
               ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "July 24, 2026",
-                "MOTION",
-                "Southern California Edison Company",
-                "Southern California Edison Company's (U 338-E) Motion for Relief"
-              ]
             }
           ],
           "docLinks": 100
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426261",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666031",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617665969",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616588149",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587598",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587322",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903340",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616451120",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927705",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927700",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621935"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927705"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 09, 2026",
+                "EXPARTE",
+                "Small Business Utility Advcocates",
+                "THREE-DAY ADVANCE EX PARTE NOTICE."
+              ]
+            },
+            {
+              "type": "RULING",
+              "cells": [
+                "September 09, 2026",
+                "RULING",
+                "ALJ/RIZZO/CPUC",
+                "EMAIL RULING GRANTING MOTION TO MODIFY BUNDLED PROCUREMENT PLAN SCHEDULE FOR COM"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -557,24 +575,6 @@
                 "EXPARTE",
                 "CPUC/COMMR/BAKER",
                 "Decisionmaker Notice of Ex Parte Communication. Kyle Navis, Senior Advisor (Offi"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "August 31, 2026",
-                "NOTICE",
-                "Small Business Utility Advcocates",
-                "Supplement; to Notice of Intent to Claim Intervenor Compensation"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "August 31, 2026",
-                "RULING",
-                "ALJ/FITCH/CPUC",
-                "Administrative Law Judge's Ruling Seeking Comments on Electricity Portfolios for"
               ]
             }
           ],
