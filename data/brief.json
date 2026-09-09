@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T17:50:08.820Z",
+  "generatedAt": "2026-09-09T00:05:14.270Z",
   "totals": {
     "developments": 180,
-    "high": 62,
+    "high": 58,
     "quantitative": 18,
     "topics": 6
   },
@@ -25,40 +25,6 @@
   },
   "highRelevance": [
     {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Ruling",
-      "headline": "This email ruling grants the August 26, 2026 motion for party status of California Coast Credit Union, in accordance with Rule 1.4 of the Commission's Rules of Practice and Procedure.",
-      "filedBy": "ALJ/KAO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
-      "date": "2026-08-27",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-27",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Filing",
-      "headline": "Motion For Party Status of California Coast Credit Union",
-      "filedBy": "California Coast Credit Union",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
-      "date": "2026-08-26",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-27",
-      "similar": 0
-    },
-    {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
       "docket": "R.19-01-011",
@@ -70,7 +36,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -87,7 +53,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -104,7 +70,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -121,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+      "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -138,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Granting tribal association party status ensures tribal perspectives are included in clean energy program design, impacting equity and program access for TEC's clients.",
+      "impact": "Granting party status to tribal representatives ensures diverse voices influence energy efficiency program design, promoting equity for clients.",
       "aiEnriched": true,
       "firstSeen": "2026-08-19",
       "similar": 0
@@ -277,6 +243,40 @@
       "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-08-17",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Email Ruling: Notice of August 25th Tribal Consultation",
+      "filedBy": "ALJ/GERSTLE/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002658",
+      "date": "2026-08-14",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-18",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.22-07-005",
+      "agency": "CPUC",
+      "docket": "R.22-07-005",
+      "type": "Filing",
+      "headline": "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION.",
+      "filedBy": "CMMR/JOHN_REYNOLDS/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446035",
+      "date": "2026-07-30",
+      "topic": "Demand Flexibility",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Demand Flexibility filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-07-30",
       "similar": 0
     }
   ],
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August 27,"
+  ]
 }

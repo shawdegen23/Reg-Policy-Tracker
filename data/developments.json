@@ -106,9 +106,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "A credit union gained party status. Its direct impact on TEC clients' core interests is unclear without further context.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -122,9 +122,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "A credit union seeks party status. Its direct impact on TEC clients' core interests is unclear without further context.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -219,7 +219,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -267,7 +267,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -283,7 +283,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -299,7 +299,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -315,7 +315,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -331,7 +331,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -347,7 +347,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments influence the scope and direction of clean energy programs for disadvantaged communities, directly affecting TEC clients' access to benefits.",
+    "impact": "These comments influence future energy efficiency program design and funding, directly impacting client opportunities and benefits.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -411,7 +411,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Granting tribal association party status ensures tribal perspectives are included in clean energy program design, impacting equity and program access for TEC's clients.",
+    "impact": "Granting party status to tribal representatives ensures diverse voices influence energy efficiency program design, promoting equity for clients.",
     "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },
@@ -1338,9 +1338,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "A party communicated with a decision-maker. The substance and impact on clients are unknown without further details.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1354,9 +1354,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "A party communicated with a decision-maker. The substance and impact on clients are unknown without further details.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1483,8 +1483,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "LGSEC gaining party status could influence outcomes for local government energy programs, aligning with TEC client interests.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1531,8 +1531,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "LGSEC seeking party status could influence outcomes for local government energy programs, aligning with TEC client interests.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-10"
   },
   {
@@ -1611,8 +1611,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Discussions on CCA energy efficiency program budgets directly affect funding and scope of energy efficiency initiatives, impacting TEC clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
@@ -1627,8 +1627,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Quantitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing/comments from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Discussions on CCA energy efficiency program budgets directly affect funding and scope of energy efficiency initiatives, impacting TEC clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-13"
   },
   {
