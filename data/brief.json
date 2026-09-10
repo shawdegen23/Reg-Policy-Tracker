@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T23:55:10.276Z",
+  "generatedAt": "2026-09-10T17:33:29.815Z",
   "totals": {
     "developments": 184,
-    "high": 62,
+    "high": 63,
     "quantitative": 18,
     "topics": 6
   },
@@ -87,8 +87,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -104,8 +104,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -121,8 +121,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -138,9 +138,26 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope and direction of CPUC's DER policies, directly affecting energy efficiency, demand flexibility, and building decarbonization programs.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-24",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
+      "filedBy": "ALJ/SISTO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
+      "date": "2026-08-18",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-19",
       "similar": 0
     },
     {
@@ -253,23 +270,6 @@
       "headline": "SMALL BUSINESS UTILITY ADVOCATES' OPENING COMMENTS ON THE ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
       "filedBy": "Small Business Utility Advocates",
       "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
-      "date": "2026-08-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-17",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "SMALL BUSINESS UTILITY ADVOCATES' OPENINGCOMMENTS ON THE ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
-      "filedBy": "Small Business Utility Advocates",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002637",
       "date": "2026-08-14",
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
@@ -452,5 +452,5 @@
       "similar": 0
     }
   ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status, and Travis"
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August 27"
 }

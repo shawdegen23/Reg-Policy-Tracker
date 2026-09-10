@@ -1,5 +1,44 @@
 [
   {
+    "number": "AB1715",
+    "title": "Public utilities: reporting.",
+    "lastAction": "Enrolled and presented to the Governor at 1 p.m.",
+    "lastActionDate": "2026-09-09",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1715/2025",
+    "changeHash": "dba7bda0890d435a5c5a87fa2cacff9e",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB195",
+    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
+    "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
+    "lastActionDate": "2026-09-09",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB195/2025",
+    "changeHash": "936d1b39c8cc9258964e4a2d8ab889d3",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB886",
+    "title": "California Technology Innovation and Ratepayer Protection Act.",
+    "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
+    "lastActionDate": "2026-09-09",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB886/2025",
+    "changeHash": "1709f327feb4673a1268d0c15ed9c256",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB40",
     "title": "California Environmental Quality Act: environmental impact reports: coal handling, storage, and export.",
     "lastAction": "Enrolled and presented to the Governor at 3:30 p.m.",
@@ -10,7 +49,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB192",
@@ -23,7 +62,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1945",
@@ -36,7 +75,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2369",
@@ -49,7 +88,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2674",
@@ -62,7 +101,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB741",
@@ -75,7 +114,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB905",
@@ -88,33 +127,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1090",
-    "title": "Planning and zoning: housing development projects: urban lot splits: subdivisions: 2025 Eaton Wildfire: Altadena.",
-    "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
-    "lastActionDate": "2026-09-08",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1090/2025",
-    "changeHash": "79309343ab3034c59a3d7d1ee9162cbd",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "SB1153",
-    "title": "Disaster preparedness: urban retail water suppliers and public water systems: wildfire.",
-    "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
-    "lastActionDate": "2026-09-08",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1153/2025",
-    "changeHash": "faf5bcb5117ead7c422c7fcb0be8665a",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1158",
@@ -127,7 +140,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1213",
@@ -140,7 +153,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1359",
@@ -153,7 +166,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB306",
@@ -559,19 +572,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1642",
-    "title": "Wildfires: contamination standards.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 61. Noes 1.).",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1642/2025",
-    "changeHash": "250e843807a97f667fd4d028bbd75987",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB1707",
     "title": "Electricians: certification application, examination, and renewal.",
     "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 78. Noes 0.).",
@@ -728,19 +728,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB195",
-    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 40. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB195/2025",
-    "changeHash": "fa83d9092ae5ed4fe5480e67818b03af",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB868",
     "title": "Electricity: portable solar generation devices.",
     "lastAction": "Enrolled and presented to the Governor at 6 p.m.",
@@ -748,19 +735,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB868/2025",
     "changeHash": "56ccbcb327c2644f4ed36d252b571892",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB886",
-    "title": "California Technology Innovation and Ratepayer Protection Act.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 28. Noes 10.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB886/2025",
-    "changeHash": "013eafc9befc8513b4b6ec5081c295af",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -819,19 +793,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1330",
-    "title": "Assault and battery: utility workers.",
-    "lastAction": "In Senate. Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1330/2025",
-    "changeHash": "5b2e58975761319dd3db3a028b40f9a4",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1370",
     "title": "Covered wildfire mitigation projects: consolidated and expedited review.",
     "lastAction": "Assembly amendments concurred in. (Ayes 39. Noes 0.) Ordered to engrossing and enrolling.",
@@ -839,19 +800,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB1370/2025",
     "changeHash": "cd02745831ca6c82669d292a252e87ba",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": true
-  },
-  {
-    "number": "AB1715",
-    "title": "Public utilities: reporting.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 66. Noes 9.).",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1715/2025",
-    "changeHash": "d97d087682e667d57477cea9b1be0141",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -878,19 +826,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB1960/2025",
     "changeHash": "bc42bd44dfe82758ebf365858e149600",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1974",
-    "title": "Firearms: voluntary firearm storage program.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 73. Noes 2.).",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1974/2025",
-    "changeHash": "e3446d6e93ceb2f1c400af0178bc4185",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
