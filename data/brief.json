@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:59:18.519Z",
+  "generatedAt": "2026-09-11T17:37:54.709Z",
   "totals": {
     "developments": 185,
     "high": 62,
@@ -87,7 +87,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+      "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -104,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+      "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -121,7 +121,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+      "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -138,7 +138,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+      "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), California Coast Credit Union was granted party status on August 2"
 }

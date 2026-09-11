@@ -1,5 +1,83 @@
 [
   {
+    "number": "AB1815",
+    "title": "Factory-built housing: building standards and local requirements.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-10",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1815/2025",
+    "changeHash": "eb398a8ba61c7187ef2f402fededa671",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1960",
+    "title": "Wildfire Prevention Grants Program: wildfire mitigation validation.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-10",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1960/2025",
+    "changeHash": "8895f878f6da4dbce0f90afc816675a2",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1974",
+    "title": "Firearms: voluntary firearm storage program.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-10",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB1974/2025",
+    "changeHash": "f580b70d36e292ba60b126c3ecf9de38",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2266",
+    "title": "Electricity: load-serving entities.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-10",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2266/2025",
+    "changeHash": "a1faf36a2777279c04e768799c197475",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB2518",
+    "title": "San Diego Gas and Electric Company: energization pilot program.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-10",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2518/2025",
+    "changeHash": "e3c1af9f2e6311b28fca0d804e82d009",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1370",
+    "title": "Covered wildfire mitigation projects: consolidated and expedited review.",
+    "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
+    "lastActionDate": "2026-09-10",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB1370/2025",
+    "changeHash": "8c1e968bfce1fb2a5ab78a6672e660cc",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB1715",
     "title": "Public utilities: reporting.",
     "lastAction": "Enrolled and presented to the Governor at 1 p.m.",
@@ -23,7 +101,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB195",
@@ -62,7 +140,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB40",
@@ -789,71 +867,6 @@
     "changeHash": "5eeb611b679035338f6524cc24ca1117",
     "stage": 4,
     "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1370",
-    "title": "Covered wildfire mitigation projects: consolidated and expedited review.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 39. Noes 0.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1370/2025",
-    "changeHash": "cd02745831ca6c82669d292a252e87ba",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1815",
-    "title": "Factory-built housing: building standards and local requirements.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 74. Noes 0.).",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1815/2025",
-    "changeHash": "be611a3d79f7d3ea6ddc462e440ad259",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1960",
-    "title": "Wildfire Prevention Grants Program: wildfire mitigation validation.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 77. Noes 0.).",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1960/2025",
-    "changeHash": "bc42bd44dfe82758ebf365858e149600",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2266",
-    "title": "Electricity: load-serving entities.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0.).",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB2266/2025",
-    "changeHash": "eb94b33038aa1c7184fff5ee63769ddb",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2518",
-    "title": "San Diego Gas and Electric Company: energization pilot program.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0.).",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB2518/2025",
-    "changeHash": "0a48b268677f9c693f6d3534f0ee3e16",
-    "stage": 3,
-    "prevStage": 3,
     "isNew": false,
     "isUpdated": false
   },
@@ -1723,19 +1736,6 @@
     "status": "1",
     "url": "https://legiscan.com/CA/bill/SB978/2025",
     "changeHash": "007b0a760bdab8fb5f6b76e1696ee597",
-    "stage": 1,
-    "prevStage": 1,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1001",
-    "title": "Local agency, public utility, or mutual water company: personnel access: Personal Identity Verification-Interoperable.",
-    "lastAction": "May 14 hearing: Held in committee and under submission.",
-    "lastActionDate": "2026-05-14",
-    "status": "1",
-    "url": "https://legiscan.com/CA/bill/SB1001/2025",
-    "changeHash": "43c3e07106d493aa37c4525f9c392143",
     "stage": 1,
     "prevStage": 1,
     "isNew": false,
