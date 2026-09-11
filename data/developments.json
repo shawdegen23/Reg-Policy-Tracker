@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "NOTICE OF EX PARTE COMMUNICATIONS.",
+    "filedBy": "XGS ENERGY, INC.",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426268",
+    "date": "2026-09-10",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-10"
+  },
+  {
     "source": "CPUC R.25-04-010",
     "agency": "CPUC",
     "docket": "R.25-04-010",
@@ -283,8 +299,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -331,8 +347,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
   {
@@ -347,8 +363,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
   {
@@ -363,8 +379,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -379,8 +395,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -395,8 +411,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -411,8 +427,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "These comments influence the scope of CPUC's Phase 3B, shaping future policies on energy efficiency, decarbonization, and demand flexibility affecting clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
   {
@@ -474,9 +490,9 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Granting party status to a tribal association enhances equity and broadens stakeholder representation, potentially influencing policy outcomes in this proceeding.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },
   {

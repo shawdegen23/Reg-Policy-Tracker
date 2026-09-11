@@ -10,6 +10,19 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
+    "isUpdated": false
+  },
+  {
+    "number": "SB193",
+    "title": "Public resources: Greenhouse Gas Reduction Fund: programs.",
+    "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
+    "lastActionDate": "2026-09-09",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB193/2025",
+    "changeHash": "8a42225388419ced2bbb6f777df7e2c2",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
     "isUpdated": true
   },
   {
@@ -23,7 +36,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB886",
@@ -33,6 +46,19 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB886/2025",
     "changeHash": "1709f327feb4673a1268d0c15ed9c256",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": false
+  },
+  {
+    "number": "SB1098",
+    "title": "Public Utilities Commission: memorandum and balancing accounts.",
+    "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
+    "lastActionDate": "2026-09-09",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/SB1098/2025",
+    "changeHash": "b53b39199f42df6b6f1ce92919cbf0ad",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -715,19 +741,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB193",
-    "title": "Public resources: Greenhouse Gas Reduction Fund: programs.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 30. Noes 10.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB193/2025",
-    "changeHash": "f13945a85f26b817603b240562db285e",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB868",
     "title": "Electricity: portable solar generation devices.",
     "lastAction": "Enrolled and presented to the Governor at 6 p.m.",
@@ -776,19 +789,6 @@
     "changeHash": "5eeb611b679035338f6524cc24ca1117",
     "stage": 4,
     "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1098",
-    "title": "Public Utilities Commission: memorandum and balancing accounts.",
-    "lastAction": "Assembly amendments concurred in. (Ayes 30. Noes 10.) Ordered to engrossing and enrolling.",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1098/2025",
-    "changeHash": "ab60b1a2a85d2ceeb379acf8f1cce9c6",
-    "stage": 3,
-    "prevStage": 3,
     "isNew": false,
     "isUpdated": false
   },

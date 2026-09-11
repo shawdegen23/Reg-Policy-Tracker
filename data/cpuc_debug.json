@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-10T17:30:29.289Z",
+  "ranAt": "2026-09-10T23:47:34.147Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426268",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426261",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666031",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617665969",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616589361",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587322",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903340",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616451120",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927705"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616451120"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 10, 2026",
+                "EXPARTE",
+                "XGS ENERGY, INC.",
+                "NOTICE OF EX PARTE COMMUNICATIONS."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "CPUC/COMMR/BAKER",
                 "Decisionmaker Notice of Ex Parte Communication. Kyle Navis, Senior Advisor; Just"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 31, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/BAKER",
-                "Decisionmaker Notice of Ex Parte Communication. Kyle Navis, Senior Advisor (Offi"
               ]
             }
           ],
