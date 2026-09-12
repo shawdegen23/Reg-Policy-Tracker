@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Ruling",
+    "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION.",
+    "filedBy": "ALJ/KAO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
+    "date": "2026-09-11",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-11"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -299,7 +315,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -347,7 +363,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -363,7 +379,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-21"
   },
@@ -379,7 +395,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -395,7 +411,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -411,7 +427,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -427,7 +443,7 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "These comments shape future energy efficiency and decarbonization program design and policy in Phase 3B, directly impacting client opportunities and program access.",
+    "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
     "aiEnriched": true,
     "firstSeen": "2026-08-24"
   },
@@ -490,8 +506,8 @@
     "date": "2026-08-18",
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Grants tribal association party status, adding an important equity perspective to the proceeding that may influence program design and access.",
+    "relevance": "High",
+    "impact": "Granting party status allows a tribal association to formally influence clean energy programs for disadvantaged communities, enhancing equity and representation.",
     "aiEnriched": true,
     "firstSeen": "2026-08-19"
   },

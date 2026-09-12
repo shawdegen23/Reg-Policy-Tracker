@@ -10,7 +10,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1960",
@@ -23,7 +23,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1974",
@@ -36,7 +36,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2266",
@@ -49,7 +49,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2518",
@@ -62,7 +62,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1370",
@@ -75,7 +75,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1715",

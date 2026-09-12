@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-11T17:35:13.370Z",
+  "ranAt": "2026-09-11T23:54:44.764Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617559078",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
@@ -30,10 +31,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794806",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353860"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794806"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "September 11, 2026",
+                "RULING",
+                "ALJ/KAO/CPUC",
+                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
+              ]
+            },
             {
               "type": "MOTION",
               "cells": [
@@ -59,15 +68,6 @@
                 "MOTION",
                 "California Coast Credit Union",
                 "Motion For Party Status of California Coast Credit Union"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 21, 2026",
-                "EXPARTE",
-                "CMMR/JOHN_REYNOLDS/CPUC",
-                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
               ]
             },
             {
