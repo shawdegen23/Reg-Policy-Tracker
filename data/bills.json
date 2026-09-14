@@ -26,19 +26,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB1974",
-    "title": "Firearms: voluntary firearm storage program.",
-    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
-    "lastActionDate": "2026-09-10",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1974/2025",
-    "changeHash": "f580b70d36e292ba60b126c3ecf9de38",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2266",
     "title": "Electricity: load-serving entities.",
     "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
@@ -592,19 +579,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/AB193/2025",
     "changeHash": "d0ce74b2878ffb01af1f4706f8408829",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB195",
-    "title": "Income taxes: exclusions: wildfire loss mitigation payments.",
-    "lastAction": "Read second time. Ordered to third reading.",
-    "lastActionDate": "2026-08-31",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB195/2025",
-    "changeHash": "2801b79e1d93e2cf4aa6829879ee18f4",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
@@ -3818,19 +3792,6 @@
     "changeHash": "34a741a22ae61f334bc8842a54694657",
     "stage": 4,
     "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB159",
-    "title": "Personal Income Tax Law: Corporation Tax Law: exemptions: wildfire.",
-    "lastAction": "Ordered to inactive file at the request of Senator Grayson.",
-    "lastActionDate": "2025-09-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/AB159/2025",
-    "changeHash": "7457a146d8f498f2ea151984f1e56245",
-    "stage": 2,
-    "prevStage": 2,
     "isNew": false,
     "isUpdated": false
   },

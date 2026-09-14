@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T00:03:47.712Z",
+  "generatedAt": "2026-09-14T19:07:56.220Z",
   "totals": {
     "developments": 186,
-    "high": 64,
+    "high": 63,
     "quantitative": 18,
     "topics": 6
   },
@@ -104,7 +104,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
+      "impact": "These comments influence future energy efficiency program design and funding within R.19-01-011, directly impacting TEC clients' opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
@@ -121,7 +121,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
+      "impact": "These comments influence future energy efficiency program design and funding within R.19-01-011, directly impacting TEC clients' opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
@@ -138,7 +138,7 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
+      "impact": "These comments influence future energy efficiency program design and funding within R.19-01-011, directly impacting TEC clients' opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
@@ -155,26 +155,9 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments shape the scope of clean energy programs for disadvantaged communities, directly affecting TEC clients involved in or benefiting from these initiatives.",
+      "impact": "These comments influence future energy efficiency program design and funding within R.19-01-011, directly impacting TEC clients' opportunities and benefits.",
       "aiEnriched": true,
       "firstSeen": "2026-08-24",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Email Ruling Granting Party Status to the Southern California Tribal Chairmen's Association's",
-      "filedBy": "ALJ/SISTO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
-      "date": "2026-08-18",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Granting party status allows a tribal association to formally influence clean energy programs for disadvantaged communities, enhancing equity and representation.",
-      "aiEnriched": true,
-      "firstSeen": "2026-08-19",
       "similar": 0
     },
     {
@@ -270,6 +253,23 @@
       "headline": "OPENING COMMENTS OF THE PUBLIC ADVOCATES OFFICE ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
       "filedBy": "CAL ADVOCATES/DELAPORTA/CPUC",
       "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
+      "date": "2026-08-14",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-17",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "SMALL BUSINESS UTILITY ADVOCATES' OPENING COMMENTS ON THE ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
+      "filedBy": "Small Business Utility Advocates",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
       "date": "2026-08-14",
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Travis Credit Union (September 11) and California"
 }
