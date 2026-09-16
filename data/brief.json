@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T00:19:02.190Z",
+  "generatedAt": "2026-09-16T18:03:40.207Z",
   "totals": {
     "developments": 188,
-    "high": 65,
+    "high": 64,
     "quantitative": 18,
     "topics": 6
   },
@@ -36,25 +36,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-09-16",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-5472.",
-      "filedBy": "San Diego Gas & Electric Company",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
-      "date": "2026-09-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "This ruling modifies rules on refrigerants in appliances incentivized by building decarbonization programs, affecting eligible technologies and program design for clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-09-16",
       "similar": 0
     },
@@ -138,8 +121,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on the Phase 3B scoping memo will shape the issues and direction of this proceeding, impacting future building decarbonization policies.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -155,8 +138,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on the Phase 3B scoping memo will shape the issues and direction of this proceeding, impacting future building decarbonization policies.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -172,8 +155,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on the Phase 3B scoping memo will shape the issues and direction of this proceeding, impacting future building decarbonization policies.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -189,8 +172,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Reply comments on the Phase 3B scoping memo will shape the issues and direction of this proceeding, impacting future building decarbonization policies.",
+      "aiEnriched": true,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -270,6 +253,23 @@
       "headline": "OPENING COMMENTS OF THE SYCUAN BAND OF THE KUMEYAAY NATION TO ORDER INSTITUTING RULEMAKING 19-01-011.",
       "filedBy": "Sycuan Band of the Kumeyaay Nation",
       "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614997055",
+      "date": "2026-08-14",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-17",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "OPENING COMMENTS OF THE PUBLIC ADVOCATES OFFICE ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
+      "filedBy": "CAL ADVOCATES/DELAPORTA/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
       "date": "2026-08-14",
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), the CPUC recently granted party status to Travis Credit Union"
 }
