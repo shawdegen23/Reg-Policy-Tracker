@@ -1,5 +1,37 @@
 [
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Ruling",
+    "headline": "Assigned Commissioner's Ruling Regarding Modifications to The Prohibition on High Global Warming Potential Refrigerants Used in Appliances Incentivized by Building Decarbonization Programs",
+    "filedBy": "CMMR/HOUCK/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
+    "date": "2026-09-15",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-16"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Filing/Comments",
+    "headline": "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-5472.",
+    "filedBy": "San Diego Gas & Electric Company",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
+    "date": "2026-09-14",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-16"
+  },
+  {
     "source": "CPUC R.25-04-010",
     "agency": "CPUC",
     "docket": "R.25-04-010",
@@ -315,8 +347,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -363,8 +395,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-21"
   },
   {
@@ -379,8 +411,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-21"
   },
   {
@@ -411,8 +443,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -427,8 +459,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {
@@ -443,8 +475,8 @@
     "topic": "Building Decarbonization",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-    "aiEnriched": true,
+    "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-24"
   },
   {

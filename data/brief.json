@@ -1,29 +1,63 @@
 {
-  "generatedAt": "2026-09-15T18:01:13.907Z",
+  "generatedAt": "2026-09-16T00:19:02.190Z",
   "totals": {
-    "developments": 186,
-    "high": 63,
+    "developments": 188,
+    "high": 65,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
+    "Building Decarbonization": 31,
     "Energy Efficiency": 24,
     "Resource Adequacy / Planning": 81,
     "DER / Rates": 30,
-    "Building Decarbonization": 29,
     "Demand Flexibility": 12,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
+    "R.19-01-011": 30,
     "R.25-04-010": 24,
     "R.25-06-019": 70,
     "R.20-05-012": 17,
-    "R.19-01-011": 28,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
     "R.22-07-005": 12
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Assigned Commissioner's Ruling Regarding Modifications to The Prohibition on High Global Warming Potential Refrigerants Used in Appliances Incentivized by Building Decarbonization Programs",
+      "filedBy": "CMMR/HOUCK/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
+      "date": "2026-09-15",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-16",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-5472.",
+      "filedBy": "San Diego Gas & Electric Company",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
+      "date": "2026-09-14",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-16",
+      "similar": 0
+    },
     {
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
@@ -104,8 +138,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -121,8 +155,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 2
     },
@@ -138,8 +172,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 1
     },
@@ -155,8 +189,8 @@
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Reply comments influence the IDER proceeding's scope, impacting future energy efficiency, demand flexibility, and grid modernization programs for TEC clients.",
-      "aiEnriched": true,
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-08-24",
       "similar": 0
     },
@@ -236,40 +270,6 @@
       "headline": "OPENING COMMENTS OF THE SYCUAN BAND OF THE KUMEYAAY NATION TO ORDER INSTITUTING RULEMAKING 19-01-011.",
       "filedBy": "Sycuan Band of the Kumeyaay Nation",
       "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614997055",
-      "date": "2026-08-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-17",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "OPENING COMMENTS OF THE PUBLIC ADVOCATES OFFICE ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
-      "filedBy": "CAL ADVOCATES/DELAPORTA/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587077",
-      "date": "2026-08-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-17",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "SMALL BUSINESS UTILITY ADVOCATES' OPENING COMMENTS ON THE ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
-      "filedBy": "Small Business Utility Advocates",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093",
       "date": "2026-08-14",
       "topic": "Building Decarbonization",
       "dataType": "Qualitative",
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "Recent CPUC activity in R.25-04-010 (Energy Efficiency) includes granting party status to Travis Credit Union and California Coast Credit"
+  ]
 }

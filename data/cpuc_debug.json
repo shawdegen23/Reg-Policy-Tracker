@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-15T17:58:02.221Z",
+  "ranAt": "2026-09-15T23:59:44.700Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
@@ -112,11 +114,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614487903",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614587093"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "September 15, 2026",
+                "RULING",
+                "CMMR/HOUCK/CPUC",
+                "Assigned Commissioner's Ruling Regarding Modifications to The Prohibition on Hig"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 14, 2026",
+                "COMMENTS",
+                "San Diego Gas & Electric Company",
+                "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-54"
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -142,24 +160,6 @@
                 "COMMENTS",
                 "Southern California Edison Company",
                 "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULI"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 21, 2026",
-                "COMMENTS",
-                "Southern California Gas Company,San Diego Gas & Electric Company",
-                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 21, 2026",
-                "COMMENTS",
-                "PACIFIC GAS AND ELECTRIC COMPANY",
-                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
               ]
             }
           ],
