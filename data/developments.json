@@ -16,6 +16,22 @@
     "firstSeen": "2026-09-17"
   },
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "AMENDED THREE-DAY ADVANCED EX PARTE NOTICE.",
+    "filedBy": "Small Business Utility Advcocates",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619599749",
+    "date": "2026-09-16",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-17"
+  },
+  {
     "source": "CPUC R.19-01-011",
     "agency": "CPUC",
     "docket": "R.19-01-011",

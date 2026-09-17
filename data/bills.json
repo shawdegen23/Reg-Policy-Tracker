@@ -1,5 +1,31 @@
 [
   {
+    "number": "AB1642",
+    "title": "Wildfires: contamination standards.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 239, Statutes of 2026.",
+    "lastActionDate": "2026-09-15",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB1642/2025",
+    "changeHash": "51f70dfebab36a45803f6fdf788330c1",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "AB1847",
+    "title": "Mortgage forbearance: state of emergency: wildfire.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 242, Statutes of 2026.",
+    "lastActionDate": "2026-09-15",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB1847/2025",
+    "changeHash": "bd6cbadd67d5807ab1d7f7075609deee",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB2163",
     "title": "Energy: Strategic Clean Energy and Critical Mineral Development Zones.",
     "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
@@ -50,6 +76,19 @@
     "prevStage": 3,
     "isNew": false,
     "isUpdated": false
+  },
+  {
+    "number": "AB2513",
+    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
+    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
+    "lastActionDate": "2026-09-15",
+    "status": "3",
+    "url": "https://legiscan.com/CA/bill/AB2513/2025",
+    "changeHash": "3f44e9b55dfd0b58add48922e6f9ca0e",
+    "stage": 3,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2700",
@@ -754,19 +793,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB2513",
-    "title": "Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.",
-    "lastAction": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 78. Noes 0.).",
-    "lastActionDate": "2026-08-31",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB2513/2025",
-    "changeHash": "e2caebfedbae72685d093006ce4e538a",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "AB2647",
     "title": "Energy: nuclear powerplants: assessment.",
     "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
@@ -1177,19 +1203,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB10/2025",
     "changeHash": "c4e5bcb4c1e7ae602bb0ac0fbbde8650",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB899",
-    "title": "Fire prevention: Wildfire and Forest Resilience Task Force: wildfire smoke.",
-    "lastAction": "August 13 hearing: Held in committee and under submission.",
-    "lastActionDate": "2026-08-13",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB899/2025",
-    "changeHash": "5040ccd1485194edd749e2af5715c702",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,

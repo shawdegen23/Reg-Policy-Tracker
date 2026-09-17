@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-17T00:19:15.091Z",
+  "generatedAt": "2026-09-17T17:59:48.070Z",
   "totals": {
-    "developments": 189,
+    "developments": 190,
     "high": 66,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
     "Building Decarbonization": 32,
+    "Resource Adequacy / Planning": 82,
     "Energy Efficiency": 24,
-    "Resource Adequacy / Planning": 81,
     "DER / Rates": 30,
     "Demand Flexibility": 12,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
     "R.19-01-011": 31,
+    "R.25-06-019": 71,
     "R.25-04-010": 24,
-    "R.25-06-019": 70,
     "R.20-05-012": 17,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Travis Credit Union and California Coast Credit Union were recently granted party"
 }
