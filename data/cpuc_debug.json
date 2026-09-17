@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-16T17:59:42.609Z",
+  "ranAt": "2026-09-17T00:10:16.971Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618860520",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615351675"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "September 16, 2026",
+                "RULING",
+                "ALJ/SISTO/CPUC",
+                "EMAIL RULING GRANTING PARTY STATUS TO THE SYCUAN BAND OF THE KUMEYAAY NATION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -151,15 +160,6 @@
                 "COMMENTS",
                 "Southern California Tribal Charimen''''s Association",
                 "Reply Comments on the Amended Phase 3B Scoping Memo and Ruling"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 21, 2026",
-                "COMMENTS",
-                "Southern California Edison Company",
-                "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULI"
               ]
             }
           ],
