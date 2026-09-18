@@ -8,9 +8,9 @@
     "url": "https://legiscan.com/CA/bill/AB1642/2025",
     "changeHash": "51f70dfebab36a45803f6fdf788330c1",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1847",
@@ -21,9 +21,9 @@
     "url": "https://legiscan.com/CA/bill/AB1847/2025",
     "changeHash": "bd6cbadd67d5807ab1d7f7075609deee",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2163",
@@ -88,7 +88,7 @@
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2700",
