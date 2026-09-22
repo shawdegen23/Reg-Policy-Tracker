@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-21T19:06:48.413Z",
+  "ranAt": "2026-09-22T00:37:37.197Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818361",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412447",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619599749",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426268",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426261",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616588149",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587598",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617649814",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616589361",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587322",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903340"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616589361"
           ],
           "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 21, 2026",
+                "COMMENTS",
+                "Southern California Edison Company",
+                "COMMENTS OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) ON INDIVIDUAL INTEGRATE"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 21, 2026",
+                "COMMENTS",
+                "San Diego Gas & Electric Company",
+                "OPENING COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY  (U 902 E) ON LOAD SERVING "
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -557,24 +575,6 @@
                 "EXPARTE",
                 "Small Business Utility Advcocates",
                 "THREE-DAY ADVANCE EX PARTE NOTICE."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "September 09, 2026",
-                "RULING",
-                "ALJ/RIZZO/CPUC",
-                "EMAIL RULING GRANTING MOTION TO MODIFY BUNDLED PROCUREMENT PLAN SCHEDULE FOR COM"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "September 03, 2026",
-                "EXPARTE",
-                "XGS ENERGY, INC.",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],

@@ -1,5 +1,37 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing/Comments",
+    "headline": "COMMENTS OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) ON INDIVIDUAL INTEGRATED RESOURCE PLAN FILINGS.",
+    "filedBy": "Southern California Edison Company",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818361",
+    "date": "2026-09-21",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-22"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing/Comments",
+    "headline": "OPENING COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY  (U 902 E) ON LOAD SERVING ENTITIES' INDIVIDUAL  INTEGRATED RESOURCE PLANS.",
+    "filedBy": "San Diego Gas & Electric Company",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412447",
+    "date": "2026-09-21",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-22"
+  },
+  {
     "source": "CPUC R.19-01-011",
     "agency": "CPUC",
     "docket": "R.19-01-011",

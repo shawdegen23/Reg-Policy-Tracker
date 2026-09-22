@@ -8,9 +8,9 @@
     "url": "https://legiscan.com/CA/bill/AB306/2025",
     "changeHash": "01b5c42d87dd4316b5821cd51965bfc7",
     "stage": -1,
-    "prevStage": 3,
+    "prevStage": -1,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB550",
@@ -21,9 +21,9 @@
     "url": "https://legiscan.com/CA/bill/AB550/2025",
     "changeHash": "8cb8043211dfbf9630a4b2f975caa15d",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB643",
@@ -34,9 +34,9 @@
     "url": "https://legiscan.com/CA/bill/AB643/2025",
     "changeHash": "7f0098be384710a322acd3dcea9c19d9",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1715",
@@ -47,9 +47,9 @@
     "url": "https://legiscan.com/CA/bill/AB1715/2025",
     "changeHash": "e855c7f3c271474746186859c809fd52",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1761",
@@ -60,9 +60,9 @@
     "url": "https://legiscan.com/CA/bill/AB1761/2025",
     "changeHash": "e8db485959eb7b2d5e9b2e76b08ebd82",
     "stage": -1,
-    "prevStage": 3,
+    "prevStage": -1,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1820",
@@ -73,9 +73,9 @@
     "url": "https://legiscan.com/CA/bill/AB1820/2025",
     "changeHash": "9fd8b3a734dc00c6cec8dd25f9648faa",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2111",
@@ -86,9 +86,9 @@
     "url": "https://legiscan.com/CA/bill/AB2111/2025",
     "changeHash": "c7906b52c56de07ffde7c9c2fb685f4f",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2266",
@@ -99,9 +99,9 @@
     "url": "https://legiscan.com/CA/bill/AB2266/2025",
     "changeHash": "9411a4b93b891ef4ba13c62a07863b63",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2674",
@@ -112,9 +112,9 @@
     "url": "https://legiscan.com/CA/bill/AB2674/2025",
     "changeHash": "f4e757865f9655d60406c535735a47ae",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB192",
@@ -125,9 +125,9 @@
     "url": "https://legiscan.com/CA/bill/AB192/2025",
     "changeHash": "564324be12804b4c46bb6642629d296d",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB353",
@@ -138,9 +138,9 @@
     "url": "https://legiscan.com/CA/bill/AB353/2025",
     "changeHash": "939713bf76c4f6af6871af4a93727ef3",
     "stage": -1,
-    "prevStage": 3,
+    "prevStage": -1,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1945",
@@ -151,9 +151,9 @@
     "url": "https://legiscan.com/CA/bill/AB1945/2025",
     "changeHash": "c05c351497099d242bab21600ce44be6",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2124",
@@ -164,9 +164,9 @@
     "url": "https://legiscan.com/CA/bill/AB2124/2025",
     "changeHash": "b3ed4cb9a48811b1c96390c495ee9c30",
     "stage": -1,
-    "prevStage": 3,
+    "prevStage": -1,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2476",
@@ -177,9 +177,9 @@
     "url": "https://legiscan.com/CA/bill/AB2476/2025",
     "changeHash": "6b4f771da3b276d19163759234725526",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB193",
@@ -190,9 +190,9 @@
     "url": "https://legiscan.com/CA/bill/SB193/2025",
     "changeHash": "8be2a6731822aeb9e76b4d9b494b735a",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB195",
@@ -203,9 +203,9 @@
     "url": "https://legiscan.com/CA/bill/SB195/2025",
     "changeHash": "c33f2261c87fcdbc86d35d21733292a2",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB741",
@@ -216,9 +216,9 @@
     "url": "https://legiscan.com/CA/bill/SB741/2025",
     "changeHash": "ed01ae992ba1029373a2bec7207b909d",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2163",
