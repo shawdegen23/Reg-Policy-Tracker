@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-22T00:42:03.301Z",
+  "generatedAt": "2026-09-22T18:04:19.409Z",
   "totals": {
-    "developments": 192,
+    "developments": 195,
     "high": 66,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 84,
+    "Resource Adequacy / Planning": 87,
     "Building Decarbonization": 32,
     "Energy Efficiency": 24,
     "DER / Rates": 30,
@@ -15,7 +15,7 @@
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.25-06-019": 73,
+    "R.25-06-019": 76,
     "R.19-01-011": 31,
     "R.25-04-010": 24,
     "R.20-05-012": 17,
@@ -452,5 +452,5 @@
       "similar": 0
     }
   ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Travis Credit Union and California Coast Credit Union were recently granted party status"
+  "narrative": "Recent CPUC developments include activity in the Energy Efficiency and Building Decarbonization proceedings.\n\nIn the Energy Efficiency proceeding (R.25-0"
 }

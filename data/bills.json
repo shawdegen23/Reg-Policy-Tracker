@@ -1,5 +1,31 @@
 [
   {
+    "number": "AB2383",
+    "title": "Electricity: data centers.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 435, Statutes of 2026.",
+    "lastActionDate": "2026-09-21",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB2383/2025",
+    "changeHash": "81371ca105f33d44d20cdc57abbf9d5d",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB886",
+    "title": "California Technology Innovation and Ratepayer Protection Act.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 438, Statutes of 2026.",
+    "lastActionDate": "2026-09-21",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB886/2025",
+    "changeHash": "491edda5a0b27f3275ffa09aa8b2fe00",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB306",
     "title": "California Building Standards Commission: appeals: code interpretations.",
     "lastAction": "Vetoed by Governor.",
@@ -19,11 +45,11 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB550/2025",
-    "changeHash": "8cb8043211dfbf9630a4b2f975caa15d",
+    "changeHash": "3b9947137bd38987a80de6a5eec075a9",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB643",
@@ -32,11 +58,24 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB643/2025",
-    "changeHash": "7f0098be384710a322acd3dcea9c19d9",
+    "changeHash": "f89b47a7bb7c80a0d229d86c2a48293f",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "AB1712",
+    "title": "City of Santa Fe Springs: sale of water utility property.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 371, Statutes of 2026.",
+    "lastActionDate": "2026-09-20",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB1712/2025",
+    "changeHash": "4fe531bb8bc1b33835c0093a1fbd9a47",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB1715",
@@ -45,11 +84,11 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB1715/2025",
-    "changeHash": "e855c7f3c271474746186859c809fd52",
+    "changeHash": "03cdbfd46a68b9cbc20a88618e4f0af0",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB1761",
@@ -71,11 +110,11 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB1820/2025",
-    "changeHash": "9fd8b3a734dc00c6cec8dd25f9648faa",
+    "changeHash": "8aceb2f3e6cbf2da7262156790a4252e",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2111",
@@ -84,11 +123,11 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB2111/2025",
-    "changeHash": "c7906b52c56de07ffde7c9c2fb685f4f",
+    "changeHash": "b93ce2316bc4af35544332c297848619",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2266",
@@ -97,11 +136,11 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB2266/2025",
-    "changeHash": "9411a4b93b891ef4ba13c62a07863b63",
+    "changeHash": "d6836bc334e49a3f58bfdb7b5cefc94f",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2674",
@@ -110,11 +149,76 @@
     "lastActionDate": "2026-09-20",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB2674/2025",
-    "changeHash": "f4e757865f9655d60406c535735a47ae",
+    "changeHash": "680e8bfc12c3e4242460d326c729c7f1",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
+  },
+  {
+    "number": "SB58",
+    "title": "Air quality: standard: hydrogen sulfide.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 411, Statutes of 2026.",
+    "lastActionDate": "2026-09-20",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB58/2025",
+    "changeHash": "48045367300eedfaf597ccfef45cc68e",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB969",
+    "title": "Weights and measures: electric vehicle fueling systems.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 346, Statutes of 2026.",
+    "lastActionDate": "2026-09-20",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB969/2025",
+    "changeHash": "4e824a0ca2f845dbd1dfd4a2b69c2257",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1213",
+    "title": "Zero- and near-zero-emission medium- and heavy-duty vehicles: incentives: transparency.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 349, Statutes of 2026.",
+    "lastActionDate": "2026-09-20",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB1213/2025",
+    "changeHash": "21025b3f9361e20a9168451de8a88f04",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1267",
+    "title": "Common interest developments: electric vehicle charging stations owned by members in common areas.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 350, Statutes of 2026.",
+    "lastActionDate": "2026-09-20",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB1267/2025",
+    "changeHash": "c35820e7e7bf77cfecd199b0c6cfa2eb",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
+    "number": "SB1283",
+    "title": "Electric vehicle charging stations: installation: permits.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 347, Statutes of 2026.",
+    "lastActionDate": "2026-09-20",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB1283/2025",
+    "changeHash": "a7e299421ed216ff24f35eabe6a27f78",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB192",
@@ -123,11 +227,11 @@
     "lastActionDate": "2026-09-18",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB192/2025",
-    "changeHash": "564324be12804b4c46bb6642629d296d",
+    "changeHash": "5420c416fd89a1e3b256371136b7d9b3",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB353",
@@ -149,11 +253,11 @@
     "lastActionDate": "2026-09-18",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB1945/2025",
-    "changeHash": "c05c351497099d242bab21600ce44be6",
+    "changeHash": "0758a054d206edc55d11c8c366982959",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2124",
@@ -175,11 +279,11 @@
     "lastActionDate": "2026-09-18",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB2476/2025",
-    "changeHash": "6b4f771da3b276d19163759234725526",
+    "changeHash": "e2985e633568adc95e09c82b96866c2d",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB193",
@@ -201,11 +305,11 @@
     "lastActionDate": "2026-09-18",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/SB195/2025",
-    "changeHash": "c33f2261c87fcdbc86d35d21733292a2",
+    "changeHash": "08f57a9e8ced8e3ba2c295833ebd04fb",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB741",
@@ -214,11 +318,11 @@
     "lastActionDate": "2026-09-18",
     "status": "4",
     "url": "https://legiscan.com/CA/bill/SB741/2025",
-    "changeHash": "ed01ae992ba1029373a2bec7207b909d",
+    "changeHash": "1829021450d20c512f977901b64d3429",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "AB2163",
@@ -228,19 +332,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/AB2163/2025",
     "changeHash": "959e3ba5afbe515cb17901296350c99d",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB2383",
-    "title": "Electricity: data centers.",
-    "lastAction": "Enrolled and presented to the Governor at 3 p.m.",
-    "lastActionDate": "2026-09-15",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB2383/2025",
-    "changeHash": "d25edb92590183ef3f073aea80855736",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -377,19 +468,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB886",
-    "title": "California Technology Innovation and Ratepayer Protection Act.",
-    "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
-    "lastActionDate": "2026-09-09",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB886/2025",
-    "changeHash": "1709f327feb4673a1268d0c15ed9c256",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1098",
     "title": "Public Utilities Commission: memorandum and balancing accounts.",
     "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
@@ -455,19 +533,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1213",
-    "title": "Zero- and near-zero-emission medium- and heavy-duty vehicles: incentives: transparency.",
-    "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
-    "lastActionDate": "2026-09-08",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1213/2025",
-    "changeHash": "2836c5c55c691642a97c3317bdd8b7c6",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1359",
     "title": "Natural Gas Ratepayer Protection Act.",
     "lastAction": "Enrolled and presented to the Governor at 4 p.m.",
@@ -514,19 +579,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB804/2025",
     "changeHash": "625fc643d6998b657ed8e04012c469dc",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB969",
-    "title": "Weights and measures: electric vehicle fueling systems.",
-    "lastAction": "Enrolled and presented to the Governor at 2 p.m.",
-    "lastActionDate": "2026-09-04",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB969/2025",
-    "changeHash": "46a4e75d4fad6927f7e0f6ee74cbc3ec",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
@@ -826,32 +878,6 @@
     "status": "3",
     "url": "https://legiscan.com/CA/bill/SB742/2025",
     "changeHash": "1bbcd75fdf6b3c0628bda50d589c11ef",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1267",
-    "title": "Common interest developments: electric vehicle charging stations owned by members in common areas.",
-    "lastAction": "Enrolled and presented to the Governor at 6 p.m.",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1267/2025",
-    "changeHash": "bb945a923f5825eee2018b260d1817b2",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB1283",
-    "title": "Electric vehicle charging stations: installation: permits.",
-    "lastAction": "Enrolled and presented to the Governor at 6 p.m.",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB1283/2025",
-    "changeHash": "7a276882507aad9e84e2a9c0e01c1f53",
     "stage": 3,
     "prevStage": 3,
     "isNew": false,
