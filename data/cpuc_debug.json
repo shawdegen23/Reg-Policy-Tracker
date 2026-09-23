@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-22T17:59:03.676Z",
+  "ranAt": "2026-09-23T00:03:40.403Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,19 +519,28 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549611",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818361",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412458",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620524362",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818366",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412447",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549614",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619599749",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426268",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618426261",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666031",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617665969",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616588149"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666031"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 22, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/BAKER",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -566,15 +575,6 @@
                 "COMMENTS",
                 "Pacific Gas and Electric Company",
                 "Comments of Pacific Gas and Electric Company (U 39 E) on Individual Load Serving"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 21, 2026",
-                "COMMENTS",
-                "San Diego Gas & Electric Company",
-                "OPENING COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY  (U 902 E) ON LOAD SERVING "
               ]
             }
           ],

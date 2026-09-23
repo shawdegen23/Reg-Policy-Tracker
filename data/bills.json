@@ -8,9 +8,9 @@
     "url": "https://legiscan.com/CA/bill/AB2383/2025",
     "changeHash": "81371ca105f33d44d20cdc57abbf9d5d",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB886",
@@ -21,9 +21,9 @@
     "url": "https://legiscan.com/CA/bill/SB886/2025",
     "changeHash": "491edda5a0b27f3275ffa09aa8b2fe00",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB306",
@@ -49,7 +49,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB643",
@@ -62,7 +62,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1712",
@@ -73,9 +73,9 @@
     "url": "https://legiscan.com/CA/bill/AB1712/2025",
     "changeHash": "4fe531bb8bc1b33835c0093a1fbd9a47",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1715",
@@ -88,7 +88,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB1761",
@@ -114,7 +114,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2111",
@@ -127,7 +127,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2266",
@@ -140,7 +140,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2674",
@@ -153,7 +153,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB58",
@@ -164,9 +164,9 @@
     "url": "https://legiscan.com/CA/bill/SB58/2025",
     "changeHash": "48045367300eedfaf597ccfef45cc68e",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB969",
@@ -177,9 +177,9 @@
     "url": "https://legiscan.com/CA/bill/SB969/2025",
     "changeHash": "4e824a0ca2f845dbd1dfd4a2b69c2257",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1213",
@@ -190,9 +190,9 @@
     "url": "https://legiscan.com/CA/bill/SB1213/2025",
     "changeHash": "21025b3f9361e20a9168451de8a88f04",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1267",
@@ -203,9 +203,9 @@
     "url": "https://legiscan.com/CA/bill/SB1267/2025",
     "changeHash": "c35820e7e7bf77cfecd199b0c6cfa2eb",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB1283",
@@ -216,9 +216,9 @@
     "url": "https://legiscan.com/CA/bill/SB1283/2025",
     "changeHash": "a7e299421ed216ff24f35eabe6a27f78",
     "stage": 4,
-    "prevStage": 3,
+    "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB192",
@@ -231,7 +231,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB353",
@@ -257,7 +257,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2124",
@@ -283,7 +283,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB193",
@@ -309,7 +309,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "SB741",
@@ -322,7 +322,7 @@
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": true
+    "isUpdated": false
   },
   {
     "number": "AB2163",
