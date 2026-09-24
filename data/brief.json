@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-24T00:23:21.776Z",
+  "generatedAt": "2026-09-24T18:18:25.990Z",
   "totals": {
-    "developments": 201,
-    "high": 66,
+    "developments": 203,
+    "high": 67,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 93,
+    "Resource Adequacy / Planning": 94,
     "Building Decarbonization": 32,
-    "Energy Efficiency": 24,
+    "Energy Efficiency": 25,
     "DER / Rates": 30,
     "Demand Flexibility": 12,
     "General / Cross-cutting": 10
   },
   "proceedingCounts": {
-    "R.25-06-019": 82,
+    "R.25-06-019": 83,
     "R.19-01-011": 31,
-    "R.25-04-010": 24,
+    "R.25-04-010": 25,
     "R.20-05-012": 17,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
@@ -90,6 +90,23 @@
       "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-09-11",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing",
+      "headline": "Motion for Party Status of USC Credit Union",
+      "filedBy": "USC Credit Union",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549635",
+      "date": "2026-09-10",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-24",
       "similar": 0
     },
     {
@@ -261,23 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-08-17",
       "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
-      "filedBy": "PACIFIC GAS AND ELECTRIC COMPANY",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615002605",
-      "date": "2026-08-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-17",
-      "similar": 1
     }
   ],
   "quantitative": [
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "The CPUC's new Energy Efficiency proceeding (R.25-04-010) recently granted party status to several credit"
 }

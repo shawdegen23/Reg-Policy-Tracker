@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-24T00:16:31.056Z",
+  "ranAt": "2026-09-24T18:15:53.383Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -22,6 +22,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549635",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617559078",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
@@ -30,8 +31,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794806"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654"
           ],
           "sampleRows": [
             {
@@ -41,6 +41,15 @@
                 "RULING",
                 "ALJ/KAO/CPUC",
                 "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
+              ]
+            },
+            {
+              "type": "MOTION",
+              "cells": [
+                "September 10, 2026",
+                "MOTION",
+                "USC Credit Union",
+                "Motion for Party Status of USC Credit Union"
               ]
             },
             {
@@ -68,15 +77,6 @@
                 "MOTION",
                 "California Coast Credit Union",
                 "Motion For Party Status of California Coast Credit Union"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 21, 2026",
-                "EXPARTE",
-                "CMMR/JOHN_REYNOLDS/CPUC",
-                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
               ]
             }
           ],
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619782754",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565691",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412491",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549611",
@@ -526,12 +527,20 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412470",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412458",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620524362",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620382825",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549623",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818366",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412447",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549614"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818366"
           ],
           "sampleRows": [
+            {
+              "type": "NOTICE",
+              "cells": [
+                "September 24, 2026",
+                "NOTICE",
+                "Redwood Coast Energy Authority",
+                "Three-Day Advance Notice of Ex Parte Meeting. Redwood Coast Energy Authority is "
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -566,15 +575,6 @@
                 "COMMENTS",
                 "Southern California Edison Company",
                 "COMMENTS OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) ON INDIVIDUAL INTEGRATE"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 21, 2026",
-                "COMMENTS",
-                "American Clean Power-California",
-                "Opening Comments on Load Serving Entities' Individual Integrated Resource Plan F"
               ]
             }
           ],
