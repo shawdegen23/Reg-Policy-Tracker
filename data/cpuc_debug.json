@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-23T18:17:07.374Z",
+  "ranAt": "2026-09-24T00:16:31.056Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565691",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412491",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549611",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818361",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412470",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549623",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818366",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412447",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549614",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818375",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619599749"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549614"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 23, 2026",
+                "EXPARTE",
+                "Redwood Coast Energy Authority",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 23, 2026",
+                "EXPARTE",
+                "Redwood Coast Energy Authority",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -557,24 +575,6 @@
                 "COMMENTS",
                 "American Clean Power-California",
                 "Opening Comments on Load Serving Entities' Individual Integrated Resource Plan F"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 21, 2026",
-                "COMMENTS",
-                "Sierra Club,California Environmental Justice Alliance",
-                "California Environmental Justice Alliance and Sierra Club Comments on Individual"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 21, 2026",
-                "COMMENTS",
-                "Small Business Utility Advocates",
-                "Comments of Small Business Utility Advocates on the 2026 Individual Integrated R"
               ]
             }
           ],
