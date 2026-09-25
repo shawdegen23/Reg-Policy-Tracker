@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-24T18:15:53.383Z",
+  "ranAt": "2026-09-25T00:18:43.299Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618860520",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615005887"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285"
           ],
           "sampleRows": [
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "September 24, 2026",
+                "COMPLIANCE  FILING",
+                "LIBERTY UTILITIES (CALPECO ELECTRIC) LLC",
+                "RESPONSE OF LIBERTY UTILITIES (CALPECO ELECTRIC) LLC (U 933-E) TO THE QUESTIONS "
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -151,15 +160,6 @@
                 "COMMENTS",
                 "Small Business Utility Advocates",
                 "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 21, 2026",
-                "COMMENTS",
-                "Southern California Tribal Charimen''''s Association",
-                "Reply Comments on the Amended Phase 3B Scoping Memo and Ruling"
               ]
             }
           ],

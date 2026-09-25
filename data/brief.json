@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-24T18:18:25.990Z",
+  "generatedAt": "2026-09-25T00:24:10.324Z",
   "totals": {
-    "developments": 203,
-    "high": 67,
+    "developments": 205,
+    "high": 68,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
     "Resource Adequacy / Planning": 94,
-    "Building Decarbonization": 32,
+    "Building Decarbonization": 33,
     "Energy Efficiency": 25,
     "DER / Rates": 30,
-    "Demand Flexibility": 12,
-    "General / Cross-cutting": 10
+    "General / Cross-cutting": 11,
+    "Demand Flexibility": 12
   },
   "proceedingCounts": {
     "R.25-06-019": 83,
-    "R.19-01-011": 31,
+    "R.19-01-011": 32,
     "R.25-04-010": 25,
     "R.20-05-012": 17,
     "R.23-10-011": 11,
@@ -24,6 +24,23 @@
     "R.22-07-005": 12
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing",
+      "headline": "RESPONSE OF LIBERTY UTILITIES (CALPECO ELECTRIC) LLC (U 933-E) TO THE QUESTIONS RAISED IN D.25-06-034.",
+      "filedBy": "LIBERTY UTILITIES (CALPECO ELECTRIC) LLC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
+      "date": "2026-09-24",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-25",
+      "similar": 0
+    },
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
@@ -261,23 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-08-17",
       "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "COMMENTS OF THE SOUTHERN CALIFORNIA TRIBAL CHAIRMEN'S ASSOCIATION ON THE AMENDED PHASE 3B SCOPING MEMO AND RULING; AND CONCURRENT MOTION FOR PARTY STATUS.",
-      "filedBy": "Southern California Tribal Charimen''s Association",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614484372",
-      "date": "2026-08-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-17",
-      "similar": 0
     }
   ],
   "quantitative": [
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "The CPUC's new Energy Efficiency proceeding (R.25-04-010) recently granted party status to several credit"
+  ]
 }

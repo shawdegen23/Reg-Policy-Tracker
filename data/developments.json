@@ -16,6 +16,22 @@
     "firstSeen": "2026-09-24"
   },
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Filing",
+    "headline": "RESPONSE OF LIBERTY UTILITIES (CALPECO ELECTRIC) LLC (U 933-E) TO THE QUESTIONS RAISED IN D.25-06-034.",
+    "filedBy": "LIBERTY UTILITIES (CALPECO ELECTRIC) LLC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
+    "date": "2026-09-24",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-25"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -398,6 +414,21 @@
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-09-04"
+  },
+  {
+    "source": "CEC",
+    "agency": "CEC",
+    "docket": "",
+    "type": "Notice",
+    "headline": "Clean Energy Leaders Gather for EPIC Symposium Sept. 29",
+    "url": "https://www.energy.ca.gov/news/2026-09/clean-energy-leaders-gather-epic-symposium-sept-29",
+    "date": "2026-09-01",
+    "topic": "General / Cross-cutting",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "General / Cross-cutting notice from CEC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-25"
   },
   {
     "source": "CPUC R.25-06-019",
