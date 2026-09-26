@@ -1,5 +1,37 @@
 [
   {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Ruling",
+    "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF USC CREDIT UNION.",
+    "filedBy": "ALJ/KAO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
+    "date": "2026-09-25",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Credit unions gaining party status allows them to represent member interests, potentially influencing financing or consumer-facing aspects of energy programs.",
+    "aiEnriched": true,
+    "firstSeen": "2026-09-26"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Ruling",
+    "headline": "Assigned Commissioner's Ruling Providing Notice and Opportunity Regarding Tribal Consultation Notes.  No later than 10 days after the issuance of this ruling (10-5-26), parties may file comments responding to the information provided related to the Tribal Consultations that occurred in R.19-01-011.",
+    "filedBy": "CMMR/HOUCK/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
+    "date": "2026-09-25",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-26"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
@@ -282,9 +314,9 @@
     "date": "2026-09-11",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Credit unions gaining party status allows them to represent member interests, potentially influencing financing or consumer-facing aspects of energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-11"
   },
   {
@@ -314,9 +346,9 @@
     "date": "2026-09-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Credit unions seeking party status indicates their intent to represent member interests, potentially influencing financing or consumer-facing energy aspects.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-24"
   },
   {
@@ -330,9 +362,9 @@
     "date": "2026-09-09",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Credit unions seeking party status indicates their intent to represent member interests, potentially influencing financing or consumer-facing energy aspects.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-09"
   },
   {
@@ -505,9 +537,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Credit unions gaining party status allows them to represent member interests, potentially influencing financing or consumer-facing aspects of energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -521,9 +553,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Credit unions seeking party status indicates their intent to represent member interests, potentially influencing financing or consumer-facing energy aspects.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -1737,9 +1769,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Notices indicate parties are actively communicating with decision-makers, signaling ongoing advocacy that could influence the proceeding's outcome.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -1753,9 +1785,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Notices indicate parties are actively communicating with decision-makers, signaling ongoing advocacy that could influence the proceeding's outcome.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {

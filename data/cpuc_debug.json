@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-25T18:15:44.264Z",
+  "ranAt": "2026-09-26T00:24:01.447Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549635",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617559078",
@@ -30,10 +31,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610788654"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "September 25, 2026",
+                "RULING",
+                "ALJ/KAO/CPUC",
+                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF USC CREDIT UNION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -69,15 +78,6 @@
                 "ALJ/KAO/CPUC",
                 "This email ruling grants the August 26, 2026 motion for party status of Californ"
               ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "August 26, 2026",
-                "MOTION",
-                "California Coast Credit Union",
-                "Motion For Party Status of California Coast Credit Union"
-              ]
             }
           ],
           "docLinks": 100
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618860520",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615903285"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "September 25, 2026",
+                "RULING",
+                "CMMR/HOUCK/CPUC",
+                "Assigned Commissioner's Ruling Providing Notice and Opportunity Regarding Tribal"
+              ]
+            },
             {
               "type": "COMPLIANCE  FILING",
               "cells": [
@@ -151,15 +160,6 @@
                 "COMMENTS",
                 "San Diego Gas & Electric Company",
                 "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-54"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "August 24, 2026",
-                "COMMENTS",
-                "Small Business Utility Advocates",
-                "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruli"
               ]
             }
           ],
