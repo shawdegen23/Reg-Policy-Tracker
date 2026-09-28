@@ -1,5 +1,18 @@
 [
   {
+    "number": "AB1974",
+    "title": "Firearms: voluntary firearm storage program.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 460, Statutes of 2026.",
+    "lastActionDate": "2026-09-26",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB1974/2025",
+    "changeHash": "4e50efdbde9548b6423613087668699a",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB2383",
     "title": "Electricity: data centers.",
     "lastAction": "Chaptered by Secretary of State - Chapter 435, Statutes of 2026.",

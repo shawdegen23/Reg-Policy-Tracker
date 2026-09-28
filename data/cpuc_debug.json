@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-26T00:24:01.447Z",
+  "ranAt": "2026-09-28T20:24:13.556Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,19 +519,55 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038721",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038716",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621049339",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619782754",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565691",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412491",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549611",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818361",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412470",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412458",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620524362",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620382825",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549623",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818366"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412458"
           ],
           "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 28, 2026",
+                "COMMENTS",
+                "CALPINE LLC",
+                "COMMENTS OF CALPINE LLC ON ADMINISTRATIVE LAW JUDGE'S RULING SEEKING COMMENTS ON"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 28, 2026",
+                "COMMENTS",
+                "ALLIANCE FOR RETAIL ENERGY MARKETS",
+                "COMMENTS ON ALJ'S RULING SEEKING COMMENTS ON ELECTRICITY PORTFOLIOS FOR 2027-202"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 28, 2026",
+                "COMMENTS",
+                "Mussey Grade Road Alliance",
+                "Opening Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for th"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 28, 2026",
+                "COMMENTS",
+                "Middle River Power LLC",
+                "COMMENTS ON ELECTRICITY PORTFOLIOS FOR THE 2027-2028 TRANSMISSION PLANNING PROCE"
+              ]
+            },
             {
               "type": "NOTICE",
               "cells": [
@@ -539,42 +575,6 @@
                 "NOTICE",
                 "Redwood Coast Energy Authority",
                 "Three-Day Advance Notice of Ex Parte Meeting. Redwood Coast Energy Authority is "
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "September 23, 2026",
-                "EXPARTE",
-                "Redwood Coast Energy Authority",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "September 23, 2026",
-                "EXPARTE",
-                "Redwood Coast Energy Authority",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "September 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/BAKER",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 21, 2026",
-                "COMMENTS",
-                "Southern California Edison Company",
-                "COMMENTS OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) ON INDIVIDUAL INTEGRATE"
               ]
             }
           ],
