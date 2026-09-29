@@ -64,6 +64,38 @@
     "firstSeen": "2026-09-28"
   },
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing/Comments",
+    "headline": "COMMENTS OF ORMAT TECHNOLOGIES, INC. ON ADMINISTRATIVE LAW JUDGE'S RULING SEEKING COMMENTS ON ELECTRICITY PORTFOLIOS FOR THE 2027-2028 TRANSMISSION PLANNING PROCESS AND POTENTIAL FOR GEOGRAPHICALLY-TARGETED PROCUREMENT.",
+    "filedBy": "Ormat Technologies, Inc",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720800",
+    "date": "2026-09-28",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-29"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing/Comments",
+    "headline": "COMMENTS OF THE WESTERN POWER TRADING FORUM ON THE PROPOSED 2027–2028 TPP PORTFOLIOS AND POTENTIAL GEOGRAPHICALLY TARGETED PROCUREMENT.",
+    "filedBy": "Western Power Trading Forum",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720798",
+    "date": "2026-09-28",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-29"
+  },
+  {
     "source": "CPUC R.25-04-010",
     "agency": "CPUC",
     "docket": "R.25-04-010",
@@ -94,6 +126,22 @@
     "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-09-26"
+  },
+  {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Filing",
+    "headline": "Second Supplement to Request for Intervenor Compensation",
+    "filedBy": "California Environmental Justice Alliance",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565761",
+    "date": "2026-09-25",
+    "topic": "Building Decarbonization",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-29"
   },
   {
     "source": "CPUC R.25-06-019",

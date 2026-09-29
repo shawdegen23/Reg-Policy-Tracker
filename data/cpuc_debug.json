@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-28T20:24:13.556Z",
+  "ranAt": "2026-09-29T01:30:54.746Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -105,6 +105,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565761",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618860520",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
@@ -113,8 +114,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615631517"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492"
           ],
           "sampleRows": [
             {
@@ -124,6 +124,15 @@
                 "RULING",
                 "CMMR/HOUCK/CPUC",
                 "Assigned Commissioner's Ruling Providing Notice and Opportunity Regarding Tribal"
+              ]
+            },
+            {
+              "type": "REQUEST",
+              "cells": [
+                "September 25, 2026",
+                "REQUEST",
+                "California Environmental Justice Alliance",
+                "Second Supplement to Request for Intervenor Compensation"
               ]
             },
             {
@@ -151,15 +160,6 @@
                 "RULING",
                 "CMMR/HOUCK/CPUC",
                 "Assigned Commissioner's Ruling Regarding Modifications to The Prohibition on Hig"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 14, 2026",
-                "COMMENTS",
-                "San Diego Gas & Electric Company",
-                "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-54"
               ]
             }
           ],
@@ -501,7 +501,7 @@
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 100,
+      "docLinks": 98,
       "attempts": [
         {
           "tab": "docs",
@@ -520,16 +520,16 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755",
+            "http://www.cpuc.ca.gov/orderadocument/",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038721",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720800",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038716",
+            "http://www.cpuc.ca.gov/orderadocument/",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621049339",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720798",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619782754",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565691",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412491",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549611",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818361",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412470",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412458"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412491"
           ],
           "sampleRows": [
             {
@@ -555,6 +555,15 @@
               "cells": [
                 "September 28, 2026",
                 "COMMENTS",
+                "Ormat Technologies, Inc",
+                "COMMENTS OF ORMAT TECHNOLOGIES, INC. ON ADMINISTRATIVE LAW JUDGE'S RULING SEEKIN"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 28, 2026",
+                "COMMENTS",
                 "Mussey Grade Road Alliance",
                 "Opening Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for th"
               ]
@@ -567,18 +576,9 @@
                 "Middle River Power LLC",
                 "COMMENTS ON ELECTRICITY PORTFOLIOS FOR THE 2027-2028 TRANSMISSION PLANNING PROCE"
               ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "September 24, 2026",
-                "NOTICE",
-                "Redwood Coast Energy Authority",
-                "Three-Day Advance Notice of Ex Parte Meeting. Redwood Coast Energy Authority is "
-              ]
             }
           ],
-          "docLinks": 100
+          "docLinks": 98
         }
       ]
     }

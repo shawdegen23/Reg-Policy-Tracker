@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-28T20:26:58.890Z",
+  "generatedAt": "2026-09-29T01:35:47.568Z",
   "totals": {
-    "developments": 211,
-    "high": 70,
+    "developments": 214,
+    "high": 71,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 98,
+    "Resource Adequacy / Planning": 100,
     "Energy Efficiency": 26,
-    "Building Decarbonization": 34,
+    "Building Decarbonization": 35,
     "DER / Rates": 30,
     "General / Cross-cutting": 11,
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 87,
+    "R.25-06-019": 89,
     "R.25-04-010": 26,
-    "R.19-01-011": 33,
+    "R.19-01-011": 34,
     "R.20-05-012": 17,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
@@ -56,6 +56,23 @@
       "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-09-26",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing",
+      "headline": "Second Supplement to Request for Intervenor Compensation",
+      "filedBy": "California Environmental Justice Alliance",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565761",
+      "date": "2026-09-25",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-29",
       "similar": 0
     },
     {
@@ -261,23 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 1
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on the Amended Phase 3B Scoping Memo and Ruling",
-      "filedBy": "Southern California Tribal Charimen''''s Association",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
-      "date": "2026-08-21",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-24",
-      "similar": 0
     }
   ],
   "quantitative": [
@@ -452,5 +452,5 @@
       "similar": 0
     }
   ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), the CPUC recently granted party status to several credit unions, including USC"
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), several credit unions, including USC, Travis, and California Coast"
 }
