@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-29T01:30:54.746Z",
+  "ranAt": "2026-09-29T19:08:52.434Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -501,7 +501,7 @@
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 98,
+      "docLinks": 60,
       "attempts": [
         {
           "tab": "docs",
@@ -521,15 +521,15 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755",
             "http://www.cpuc.ca.gov/orderadocument/",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038721",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720800",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038716",
             "http://www.cpuc.ca.gov/orderadocument/",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621049339",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720798",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619782754",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565691",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620412491"
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/",
+            "http://www.cpuc.ca.gov/orderadocument/"
           ],
           "sampleRows": [
             {
@@ -578,7 +578,7 @@
               ]
             }
           ],
-          "docLinks": 98
+          "docLinks": 60
         }
       ]
     }
