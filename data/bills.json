@@ -1,5 +1,18 @@
 [
   {
+    "number": "SB222",
+    "title": "Residential heat pump water heater or heat pump HVAC systems.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 738, Statutes of 2026.",
+    "lastActionDate": "2026-09-28",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/SB222/2025",
+    "changeHash": "0e69efcff79553c2864cba17b9dca7fb",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB817",
     "title": "Cold storage facilities.",
     "lastAction": "Chaptered by Secretary of State - Chapter 493, Statutes of 2026.",
@@ -7,19 +20,6 @@
     "status": "4",
     "url": "https://legiscan.com/CA/bill/AB817/2025",
     "changeHash": "4414147a1e3ff8019be0cb8ea9a47670",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1707",
-    "title": "Electricians: certification application, examination, and renewal.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 544, Statutes of 2026.",
-    "lastActionDate": "2026-09-27",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB1707/2025",
-    "changeHash": "79e4770d9affe33c77a78823326e2523",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
@@ -78,19 +78,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB505",
-    "title": "Money Transmission Act: authentication.",
-    "lastAction": "Chaptered by Secretary of State. Chapter 648, Statutes of 2026.",
-    "lastActionDate": "2026-09-27",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/SB505/2025",
-    "changeHash": "2fd36ffabbb3aa26115bc272c89755db",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB700",
     "title": "Capital Programs and Climate Financing Authority Act: California Investment and Innovation Program.",
     "lastAction": "Chaptered by Secretary of State. Chapter 651, Statutes of 2026.",
@@ -117,19 +104,6 @@
     "isUpdated": false
   },
   {
-    "number": "SB1330",
-    "title": "Assault and battery: utility workers.",
-    "lastAction": "Chaptered by Secretary of State. Chapter 699, Statutes of 2026.",
-    "lastActionDate": "2026-09-27",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/SB1330/2025",
-    "changeHash": "d340987a50d42d42471426c926e43c68",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SB1337",
     "title": "State Energy Resources Conservation and Development Commission: air districts and local governments: transportation fuels refining facilities: memoranda of understanding.",
     "lastAction": "Chaptered by Secretary of State. Chapter 700, Statutes of 2026.",
@@ -137,19 +111,6 @@
     "status": "4",
     "url": "https://legiscan.com/CA/bill/SB1337/2025",
     "changeHash": "95fd19463a0a94c39ef9f16ce5e7450b",
-    "stage": 4,
-    "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1974",
-    "title": "Firearms: voluntary firearm storage program.",
-    "lastAction": "Chaptered by Secretary of State - Chapter 460, Statutes of 2026.",
-    "lastActionDate": "2026-09-26",
-    "status": "4",
-    "url": "https://legiscan.com/CA/bill/AB1974/2025",
-    "changeHash": "b586464eb2df2b3a86acfbecb8c6145e",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
@@ -878,32 +839,6 @@
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB192/2025",
     "changeHash": "80c72ee74b4a0ba23068770c5687490c",
-    "stage": 2,
-    "prevStage": 2,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB222",
-    "title": "Residential heat pump water heater or heat pump HVAC systems.",
-    "lastAction": "Enrolled and presented to the Governor at 6 p.m.",
-    "lastActionDate": "2026-08-30",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/SB222/2025",
-    "changeHash": "ff9368bc269bbc5353a6c2bfa192c081",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "SB492",
-    "title": "Wildfire.",
-    "lastAction": "Assembly Rule 96 suspended. (Ayes 56. Noes 18. Page 6920.)",
-    "lastActionDate": "2026-08-30",
-    "status": "2",
-    "url": "https://legiscan.com/CA/bill/SB492/2025",
-    "changeHash": "e9963663aa96885397d2d1a4a1b5be6b",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,

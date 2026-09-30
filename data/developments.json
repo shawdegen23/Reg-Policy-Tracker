@@ -4,6 +4,22 @@
     "agency": "CPUC",
     "docket": "R.25-06-019",
     "type": "Filing",
+    "headline": "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING.",
+    "filedBy": "Redwood Coast Energy Authority,County of Humboldt",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923",
+    "date": "2026-09-30",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-30"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
     "headline": "NOTICE OF EX PARTE COMMUNICATION.",
     "filedBy": "California Grid Holdings LLC",
     "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
@@ -12,6 +28,38 @@
     "dataType": "Qualitative",
     "relevance": "Medium",
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-30"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing/Comments",
+    "headline": "Opening Comments of Zanskar Geothermal & Minerals, Inc.",
+    "filedBy": "Zanskar Geothermal & Minerals, Inc.",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646112",
+    "date": "2026-09-29",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-30"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing/Comments",
+    "headline": "Opening Comments in Response to ALJ Ruling Seeking Comments on Electricity Portfolios for the 2027-2028 Transmission Planning Process and Potential for Geographically-Targeted Procurement. Please Note: ALJ Julie Fitch authorized the acceptance of this late filing via email sent on September 30, 2026",
+    "filedBy": "Bay Area Municipal Transmission Group",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646111",
+    "date": "2026-09-29",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing/comments from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-09-30"
   },
@@ -218,9 +266,9 @@
     "date": "2026-09-25",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-26"
   },
   {
@@ -464,6 +512,22 @@
     "firstSeen": "2026-09-23"
   },
   {
+    "source": "CPUC R.20-05-012",
+    "agency": "CPUC",
+    "docket": "R.20-05-012",
+    "type": "Decision",
+    "headline": "Decision D2609048 - Decision Closing Rulemaking 20-05-12. Rulemaking 20-05-12 is closed.",
+    "filedBy": "-",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620598659",
+    "date": "2026-09-17",
+    "topic": "DER / Rates",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "DER / Rates decision from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-09-30"
+  },
+  {
     "source": "CPUC R.19-01-011",
     "agency": "CPUC",
     "docket": "R.19-01-011",
@@ -538,9 +602,9 @@
     "date": "2026-09-11",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-11"
   },
   {
@@ -570,9 +634,9 @@
     "date": "2026-09-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-24"
   },
   {
@@ -586,9 +650,9 @@
     "date": "2026-09-09",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-09"
   },
   {
@@ -761,9 +825,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -777,9 +841,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -1993,9 +2057,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Notices of ex parte communications indicate active lobbying, potentially influencing proceeding outcomes relevant to TEC's clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
@@ -2009,9 +2073,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Notices of ex parte communications indicate active lobbying, potentially influencing proceeding outcomes relevant to TEC's clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {

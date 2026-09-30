@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-30T01:07:41.750Z",
+  "ranAt": "2026-09-30T18:51:13.553Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -436,6 +436,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620598659",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666029",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617423890",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
@@ -445,10 +446,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354199",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=603067299"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890"
           ],
           "sampleRows": [
+            {
+              "type": "DECISION",
+              "cells": [
+                "September 17, 2026",
+                "DECISION",
+                "-",
+                "Decision D2609048 - Decision Closing Rulemaking 20-05-12. Rulemaking 20-05-12 is"
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -484,15 +493,6 @@
                 "CMMR/JOHN_REYNOLDS/CPUC",
                 "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
               ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "July 27, 2026",
-                "RULING",
-                "ALJ/FORTUNE/CPUC",
-                "EMAIL RULING SHORTENING PARTY RESPONSE TIME FOR SOUTHERN CALIFORNIA EDISON COMPA"
-              ]
             }
           ],
           "docLinks": 100
@@ -501,7 +501,7 @@
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 98,
+      "docLinks": 100,
       "attempts": [
         {
           "tab": "docs",
@@ -519,19 +519,37 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646112",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646111",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646022",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646084",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621645996",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621645980",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646005",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720819",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038755",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038752",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013119"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720819"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 30, 2026",
+                "EXPARTE",
+                "Redwood Coast Energy Authority,County of Humboldt",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "September 29, 2026",
+                "COMMENTS",
+                "Zanskar Geothermal & Minerals, Inc.",
+                "Opening Comments of Zanskar Geothermal & Minerals, Inc."
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -544,41 +562,23 @@
             {
               "type": "COMMENTS",
               "cells": [
+                "September 29, 2026",
+                "COMMENTS",
+                "Bay Area Municipal Transmission Group",
+                "Opening Comments in Response to ALJ Ruling Seeking Comments on Electricity Portf"
+              ]
+            },
+            {
+              "type": "COMMENTS",
+              "cells": [
                 "September 28, 2026",
                 "COMMENTS",
                 "CALPINE LLC",
                 "COMMENTS OF CALPINE LLC ON ADMINISTRATIVE LAW JUDGE'S RULING SEEKING COMMENTS ON"
               ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "September 28, 2026",
-                "MOTION",
-                "TransWest Express LLC",
-                "Motion for Party Status"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 28, 2026",
-                "COMMENTS",
-                "Terra-Gen, LLC",
-                "COMMENTS OF TERRA-GEN, LLC ON THE ADMINISTRATIVE LAW JUDGE'S RULING SEEKING COMM"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 28, 2026",
-                "COMMENTS",
-                "TransWest Express LLC",
-                "COMMENTS OF TRANSWEST EXPRESS LLC ON ELECTRIC PORTFOLIOS FOR THE 2027-2028 TRANS"
-              ]
             }
           ],
-          "docLinks": 98
+          "docLinks": 100
         }
       ]
     }
