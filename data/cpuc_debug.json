@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-29T19:08:52.434Z",
+  "ranAt": "2026-09-30T01:07:41.750Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -501,7 +501,7 @@
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 60,
+      "docLinks": 98,
       "attempts": [
         {
           "tab": "docs",
@@ -519,19 +519,28 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/",
-            "http://www.cpuc.ca.gov/orderadocument/"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646022",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646084",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621645996",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621645980",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646005",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720819",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038755",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038752",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013119"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "September 29, 2026",
+                "EXPARTE",
+                "California Grid Holdings LLC",
+                "NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -542,12 +551,12 @@
               ]
             },
             {
-              "type": "COMMENTS",
+              "type": "MOTION",
               "cells": [
                 "September 28, 2026",
-                "COMMENTS",
-                "ALLIANCE FOR RETAIL ENERGY MARKETS",
-                "COMMENTS ON ALJ'S RULING SEEKING COMMENTS ON ELECTRICITY PORTFOLIOS FOR 2027-202"
+                "MOTION",
+                "TransWest Express LLC",
+                "Motion for Party Status"
               ]
             },
             {
@@ -555,8 +564,8 @@
               "cells": [
                 "September 28, 2026",
                 "COMMENTS",
-                "Ormat Technologies, Inc",
-                "COMMENTS OF ORMAT TECHNOLOGIES, INC. ON ADMINISTRATIVE LAW JUDGE'S RULING SEEKIN"
+                "Terra-Gen, LLC",
+                "COMMENTS OF TERRA-GEN, LLC ON THE ADMINISTRATIVE LAW JUDGE'S RULING SEEKING COMM"
               ]
             },
             {
@@ -564,21 +573,12 @@
               "cells": [
                 "September 28, 2026",
                 "COMMENTS",
-                "Mussey Grade Road Alliance",
-                "Opening Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for th"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 28, 2026",
-                "COMMENTS",
-                "Middle River Power LLC",
-                "COMMENTS ON ELECTRICITY PORTFOLIOS FOR THE 2027-2028 TRANSMISSION PLANNING PROCE"
+                "TransWest Express LLC",
+                "COMMENTS OF TRANSWEST EXPRESS LLC ON ELECTRIC PORTFOLIOS FOR THE 2027-2028 TRANS"
               ]
             }
           ],
-          "docLinks": 60
+          "docLinks": 98
         }
       ]
     }
