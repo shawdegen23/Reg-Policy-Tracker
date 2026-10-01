@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-30T18:51:13.553Z",
+  "ranAt": "2026-10-01T01:06:06.265Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621049383",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646112",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646111",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646084",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621645996",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621645980",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646005",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720819"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646005"
           ],
           "sampleRows": [
             {
@@ -538,6 +538,15 @@
                 "September 30, 2026",
                 "EXPARTE",
                 "Redwood Coast Energy Authority,County of Humboldt",
+                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
+              ]
+            },
+            {
+              "type": "NOTICE",
+              "cells": [
+                "September 30, 2026",
+                "NOTICE",
+                "County of Humboldt,Redwood Coast Energy Authority",
                 "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
               ]
             },
@@ -566,15 +575,6 @@
                 "COMMENTS",
                 "Bay Area Municipal Transmission Group",
                 "Opening Comments in Response to ALJ Ruling Seeking Comments on Electricity Portf"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 28, 2026",
-                "COMMENTS",
-                "CALPINE LLC",
-                "COMMENTS OF CALPINE LLC ON ADMINISTRATIVE LAW JUDGE'S RULING SEEKING COMMENTS ON"
               ]
             }
           ],

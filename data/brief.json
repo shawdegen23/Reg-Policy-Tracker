@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-30T18:56:41.371Z",
+  "generatedAt": "2026-10-01T01:11:13.828Z",
   "totals": {
-    "developments": 225,
+    "developments": 226,
     "high": 63,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 110,
+    "Resource Adequacy / Planning": 111,
     "Energy Efficiency": 26,
     "Building Decarbonization": 35,
     "DER / Rates": 31,
@@ -15,7 +15,7 @@
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 99,
+    "R.25-06-019": 100,
     "R.25-04-010": 26,
     "R.19-01-011": 34,
     "R.20-05-012": 18,
@@ -452,5 +452,5 @@
       "similar": 0
     }
   ],
-  "narrative": "There are no new developments to report in the Energy Efficiency proceeding (R.25-04-010).\n\nIn Building Decar"
+  "narrative": "There are no recent updates on the Energy Efficiency proceeding (R.25-04-010).\n\nIn Building Decarbonization ("
 }

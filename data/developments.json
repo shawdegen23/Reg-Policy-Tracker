@@ -20,6 +20,22 @@
     "agency": "CPUC",
     "docket": "R.25-06-019",
     "type": "Filing",
+    "headline": "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING.",
+    "filedBy": "County of Humboldt,Redwood Coast Energy Authority",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621049383",
+    "date": "2026-09-30",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-01"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
     "headline": "NOTICE OF EX PARTE COMMUNICATION.",
     "filedBy": "California Grid Holdings LLC",
     "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
@@ -267,7 +283,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "impact": "Credit unions gaining party status allows them to represent financial or consumer interests in the proceeding, potentially influencing program design.",
     "aiEnriched": true,
     "firstSeen": "2026-09-26"
   },
@@ -603,7 +619,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "impact": "Credit unions gaining party status allows them to represent financial or consumer interests in the proceeding, potentially influencing program design.",
     "aiEnriched": true,
     "firstSeen": "2026-09-11"
   },
@@ -635,7 +651,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "impact": "Credit unions seeking party status aim to represent financial or consumer interests in the proceeding, potentially influencing program design.",
     "aiEnriched": true,
     "firstSeen": "2026-09-24"
   },
@@ -651,7 +667,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "impact": "Credit unions seeking party status aim to represent financial or consumer interests in the proceeding, potentially influencing program design.",
     "aiEnriched": true,
     "firstSeen": "2026-09-09"
   },
@@ -826,7 +842,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "impact": "Credit unions gaining party status allows them to represent financial or consumer interests in the proceeding, potentially influencing program design.",
     "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
@@ -842,7 +858,7 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "Low",
-    "impact": "New credit union parties may broaden perspectives in the proceeding, but their direct impact on energy efficiency or decarbonization is likely low.",
+    "impact": "Credit unions seeking party status aim to represent financial or consumer interests in the proceeding, potentially influencing program design.",
     "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
@@ -2057,8 +2073,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Notices of ex parte communications indicate active lobbying, potentially influencing proceeding outcomes relevant to TEC's clients.",
+    "relevance": "Low",
+    "impact": "Ex parte notices indicate active stakeholder engagement and transparency in the proceeding, ensuring all communications are disclosed.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
@@ -2073,8 +2089,8 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Notices of ex parte communications indicate active lobbying, potentially influencing proceeding outcomes relevant to TEC's clients.",
+    "relevance": "Low",
+    "impact": "Ex parte notices indicate active stakeholder engagement and transparency in the proceeding, ensuring all communications are disclosed.",
     "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
