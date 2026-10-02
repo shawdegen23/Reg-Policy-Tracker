@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-01T19:18:40.948Z",
+  "ranAt": "2026-10-02T01:19:42.009Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482385",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482400",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751955",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621647415",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038800",
@@ -527,9 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646112",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646111",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646022",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646084"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755"
           ],
           "sampleRows": [
             {
@@ -539,6 +539,24 @@
                 "EXPARTE",
                 "Redwood Coast Energy Authority",
                 "NOTICE OF EX PARTE MEETING WITH COMMISSIONER BAKERS'S OFFICE BY REDWOOD COAST EN"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 01, 2026",
+                "EXPARTE",
+                "Offshore Wind California",
+                "ADVANCE THREE-DAY NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 01, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/BAKER",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
               ]
             },
             {
@@ -556,24 +574,6 @@
                 "September 30, 2026",
                 "EXPARTE",
                 "Redwood Coast Energy Authority,County of Humboldt",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "September 30, 2026",
-                "EXPARTE",
-                "Environmental Protection Information Center,California Environmental Justice All",
-                "Notice of Written Ex Parte Communication. Environmental Protection Information C"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "September 30, 2026",
-                "NOTICE",
-                "County of Humboldt,Redwood Coast Energy Authority",
                 "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
               ]
             }

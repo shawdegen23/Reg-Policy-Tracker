@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-01T19:21:04.174Z",
+  "generatedAt": "2026-10-02T01:29:01.859Z",
   "totals": {
-    "developments": 229,
+    "developments": 231,
     "high": 71,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 114,
+    "Resource Adequacy / Planning": 116,
     "Energy Efficiency": 26,
     "Building Decarbonization": 35,
     "DER / Rates": 31,
@@ -15,7 +15,7 @@
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 103,
+    "R.25-06-019": 105,
     "R.25-04-010": 26,
     "R.19-01-011": 34,
     "R.20-05-012": 18,
@@ -451,6 +451,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), the CPUC recently granted party status to USC Credit Union, Travis Credit"
+  ]
 }
