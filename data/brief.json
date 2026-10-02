@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-02T01:29:01.859Z",
+  "generatedAt": "2026-10-02T19:04:03.858Z",
   "totals": {
-    "developments": 231,
-    "high": 71,
+    "developments": 233,
+    "high": 72,
     "quantitative": 18,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 116,
-    "Energy Efficiency": 26,
+    "Resource Adequacy / Planning": 117,
+    "Energy Efficiency": 27,
     "Building Decarbonization": 35,
     "DER / Rates": 31,
     "General / Cross-cutting": 11,
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 105,
-    "R.25-04-010": 26,
+    "R.25-06-019": 106,
+    "R.25-04-010": 27,
     "R.19-01-011": 34,
     "R.20-05-012": 18,
     "R.23-10-011": 11,
@@ -24,6 +24,23 @@
     "R.22-07-005": 12
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing",
+      "headline": "COMPLIANCE FILING OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) PURSUANT TO ORDERING PARAGRAPH 19 OF D.23-02-002.",
+      "filedBy": "Southern California Edison Company",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929429",
+      "date": "2026-10-01",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-10-02",
+      "similar": 0
+    },
     {
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
@@ -261,23 +278,6 @@
       "aiEnriched": false,
       "firstSeen": "2026-08-21",
       "similar": 2
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "REPLY COMMENTS ON ASSIGNED COMMISSIONER'S AMENDED PHASE 3B SCOPING MEMO AND RULING.",
-      "filedBy": "Southern California Edison Company",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
-      "date": "2026-08-21",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-21",
-      "similar": 1
     }
   ],
   "quantitative": [
@@ -451,5 +451,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Southern California Edison has a compliance filing due October 1"
 }

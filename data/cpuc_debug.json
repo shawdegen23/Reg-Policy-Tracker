@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-02T01:19:42.009Z",
+  "ranAt": "2026-10-02T19:01:29.674Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929429",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549635",
@@ -30,10 +31,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610794807"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506"
           ],
           "sampleRows": [
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "October 01, 2026",
+                "COMPLIANCE  FILING",
+                "Southern California Edison Company",
+                "COMPLIANCE FILING OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) PURSUANT TO OR"
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -68,15 +77,6 @@
                 "MOTION",
                 "Teresa Centeno Kim",
                 "MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "August 27, 2026",
-                "RULING",
-                "ALJ/KAO/CPUC",
-                "This email ruling grants the August 26, 2026 motion for party status of Californ"
               ]
             }
           ],
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929425",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482385",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482400",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751955",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621049383",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646112",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621013125",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646111",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565755"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621646111"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 02, 2026",
+                "EXPARTE",
+                "California Grid Holdings LLC",
+                "CALIFORNIA GRID HOLDINGS LLC THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "Redwood Coast Energy Authority",
                 "Notice of Ex Parte Meeting. Redwood Coast Energy Authority reports an ex parte m"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "September 30, 2026",
-                "EXPARTE",
-                "Redwood Coast Energy Authority,County of Humboldt",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE MEETING."
               ]
             }
           ],
