@@ -96,6 +96,21 @@
     "firstSeen": "2026-10-02"
   },
   {
+    "source": "CEC",
+    "agency": "CEC",
+    "docket": "",
+    "type": "Notice",
+    "headline": "California Energy Commission Celebrates American Lithium Energy Factory Opening as Part of California’s Investments in Clean Energy Innovation",
+    "url": "https://www.energy.ca.gov/news/2026-10/california-energy-commission-celebrates-american-lithium-energy-factory-opening",
+    "date": "2026-10-01",
+    "topic": "General / Cross-cutting",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "General / Cross-cutting notice from CEC. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-03"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
