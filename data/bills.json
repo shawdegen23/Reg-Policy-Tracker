@@ -65,6 +65,19 @@
     "isUpdated": false
   },
   {
+    "number": "AB1486",
+    "title": "Climate resiliency: research farms: grant program.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 879, Statutes of 2026.",
+    "lastActionDate": "2026-09-30",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB1486/2025",
+    "changeHash": "c603ad51c26d2f1fbf577b27f94e7ea7",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
+  },
+  {
     "number": "AB1813",
     "title": "Electricity: customer renewable energy subscription program.",
     "lastAction": "Vetoed by Governor.",
@@ -76,6 +89,19 @@
     "prevStage": -1,
     "isNew": false,
     "isUpdated": false
+  },
+  {
+    "number": "AB1944",
+    "title": "Zero-emission transit buses: axle weight.",
+    "lastAction": "Chaptered by Secretary of State - Chapter 909, Statutes of 2026.",
+    "lastActionDate": "2026-09-30",
+    "status": "4",
+    "url": "https://legiscan.com/CA/bill/AB1944/2025",
+    "changeHash": "35c7d537b6bc9929c388f6d43bb6c78c",
+    "stage": 4,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2346",
@@ -236,15 +262,15 @@
   {
     "number": "SB1098",
     "title": "Public Utilities Commission: memorandum and balancing accounts.",
-    "lastAction": "Approved by the Governor.",
+    "lastAction": "Chaptered by Secretary of State. Chapter 1008, Statutes of 2026.",
     "lastActionDate": "2026-09-30",
-    "status": "3",
+    "status": "4",
     "url": "https://legiscan.com/CA/bill/SB1098/2025",
-    "changeHash": "95ddca1a66ce9d8076e719dfb46507d5",
+    "changeHash": "21641f2b7e74da59efbbab2dcf27ebfa",
     "stage": 4,
     "prevStage": 4,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB1158",
@@ -440,6 +466,19 @@
     "prevStage": 4,
     "isNew": false,
     "isUpdated": false
+  },
+  {
+    "number": "AB2369",
+    "title": "Electricity: energy storage: energy-only resources.",
+    "lastAction": "Vetoed by Governor.",
+    "lastActionDate": "2026-09-27",
+    "status": "5",
+    "url": "https://legiscan.com/CA/bill/AB2369/2025",
+    "changeHash": "b200d5e26c2d8cc7000f7a837846d868",
+    "stage": -1,
+    "prevStage": 3,
+    "isNew": false,
+    "isUpdated": true
   },
   {
     "number": "AB2518",
@@ -806,19 +845,6 @@
     "isUpdated": false
   },
   {
-    "number": "AB2369",
-    "title": "Electricity: energy storage: energy-only resources.",
-    "lastAction": "Enrolled and presented to the Governor at 3:30 p.m.",
-    "lastActionDate": "2026-09-08",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB2369/2025",
-    "changeHash": "47073ecc5432b29f5d063f1dfab35738",
-    "stage": 3,
-    "prevStage": 3,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
     "number": "SCR180",
     "title": "Hydrogen: decarbonization tool.",
     "lastAction": "Chaptered by Secretary of State. Res. Chapter 220, Statutes of 2026.",
@@ -899,28 +925,28 @@
   {
     "number": "SB192",
     "title": "Energy: transmission infrastructure accelerator: financing.",
-    "lastAction": "(Ayes 56. Noes 19. Page 6855.)",
+    "lastAction": "Ordered to third reading.",
     "lastActionDate": "2026-08-30",
     "status": "2",
     "url": "https://legiscan.com/CA/bill/SB192/2025",
-    "changeHash": "80c72ee74b4a0ba23068770c5687490c",
+    "changeHash": "f2a6ec6fd4075dfdc0808ff96bc992db",
     "stage": 2,
     "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
-    "number": "AB1486",
-    "title": "Climate resiliency: research farms: grant program.",
-    "lastAction": "Enrolled and presented to the Governor at 3:30 p.m.",
-    "lastActionDate": "2026-08-28",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1486/2025",
-    "changeHash": "fa3c8f99708480368916c96da157659f",
-    "stage": 3,
-    "prevStage": 3,
+    "number": "SB492",
+    "title": "Wildfire.",
+    "lastAction": "Ordered to third reading.",
+    "lastActionDate": "2026-08-30",
+    "status": "2",
+    "url": "https://legiscan.com/CA/bill/SB492/2025",
+    "changeHash": "c891a4dd8c2ff762f300824173ddcb62",
+    "stage": 2,
+    "prevStage": 2,
     "isNew": false,
-    "isUpdated": false
+    "isUpdated": true
   },
   {
     "number": "SB453",
@@ -945,19 +971,6 @@
     "changeHash": "7be4d7545fcbdc60e2f7733747c5e04d",
     "stage": 4,
     "prevStage": 4,
-    "isNew": false,
-    "isUpdated": false
-  },
-  {
-    "number": "AB1944",
-    "title": "Zero-emission transit buses: axle weight.",
-    "lastAction": "Enrolled and presented to the Governor at 4:30 p.m.",
-    "lastActionDate": "2026-08-24",
-    "status": "3",
-    "url": "https://legiscan.com/CA/bill/AB1944/2025",
-    "changeHash": "b643ad9627f458113d4e8b68d99fb377",
-    "stage": 3,
-    "prevStage": 3,
     "isNew": false,
     "isUpdated": false
   },
