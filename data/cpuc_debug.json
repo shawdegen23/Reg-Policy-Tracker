@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-06T19:19:38.687Z",
+  "ranAt": "2026-10-07T01:14:09.822Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565761",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "October 06, 2026",
+                "RULING",
+                "ALJ/SISTO/CPUC",
+                "Email Ruling entering comments from the Jamul Indian Village to the Record and P"
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -151,15 +160,6 @@
                 "RULING",
                 "ALJ/SISTO/CPUC",
                 "EMAIL RULING GRANTING PARTY STATUS TO THE SYCUAN BAND OF THE KUMEYAAY NATION."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "September 15, 2026",
-                "RULING",
-                "CMMR/HOUCK/CPUC",
-                "Assigned Commissioner's Ruling Regarding Modifications to The Prohibition on Hig"
               ]
             }
           ],
@@ -520,6 +520,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776659",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778625",
             "http://www.cpuc.ca.gov/orderadocument/",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929425",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482400",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751955",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621647415",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621038800"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923"
           ],
           "sampleRows": [
             {
@@ -539,6 +539,15 @@
                 "EXPARTE",
                 "Redwood Coast Energy Authority,County of Humboldt",
                 "NOTICE OF EX PARTE MEETING WITH COMMISSIONER DOUGLAS' OFFICE BY THE COUNTY OF HU"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 06, 2026",
+                "EXPARTE",
+                "Offshore Wind California",
+                "ADVANCE THREE-DAY NOTICE OF EX PARTE COMMUNICATION."
               ]
             },
             {
@@ -566,15 +575,6 @@
                 "REPORT",
                 "Small Business Utility Advcocates",
                 "(NOTICE OF ) REPORT ON EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 01, 2026",
-                "EXPARTE",
-                "Redwood Coast Energy Authority",
-                "NOTICE OF EX PARTE MEETING WITH COMMISSIONER BAKERS'S OFFICE BY REDWOOD COAST EN"
               ]
             }
           ],

@@ -1,29 +1,46 @@
 {
-  "generatedAt": "2026-10-06T19:21:50.835Z",
+  "generatedAt": "2026-10-07T01:18:09.678Z",
   "totals": {
-    "developments": 237,
-    "high": 72,
-    "quantitative": 18,
+    "developments": 239,
+    "high": 73,
+    "quantitative": 19,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 120,
+    "Resource Adequacy / Planning": 121,
+    "Building Decarbonization": 36,
     "Energy Efficiency": 27,
     "General / Cross-cutting": 12,
-    "Building Decarbonization": 35,
     "DER / Rates": 31,
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 109,
+    "R.25-06-019": 110,
+    "R.19-01-011": 35,
     "R.25-04-010": 27,
-    "R.19-01-011": 34,
     "R.20-05-012": 18,
     "R.23-10-011": 11,
     "R.20-08-020": 12,
     "R.22-07-005": 12
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Ruling",
+      "headline": "Email Ruling entering comments from the Jamul Indian Village to the Record and Providing a 3-Day Comment Period",
+      "filedBy": "ALJ/SISTO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
+      "date": "2026-10-06",
+      "topic": "Building Decarbonization",
+      "dataType": "Quantitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-10-07",
+      "similar": 0
+    },
     {
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
@@ -261,26 +278,26 @@
       "aiEnriched": false,
       "firstSeen": "2026-08-24",
       "similar": 0
-    },
+    }
+  ],
+  "quantitative": [
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
       "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling",
-      "filedBy": "PACIFIC GAS AND ELECTRIC COMPANY",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
-      "date": "2026-08-21",
+      "type": "Ruling",
+      "headline": "Email Ruling entering comments from the Jamul Indian Village to the Record and Providing a 3-Day Comment Period",
+      "filedBy": "ALJ/SISTO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
+      "date": "2026-10-06",
       "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
+      "dataType": "Quantitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
-      "firstSeen": "2026-08-21",
-      "similar": 2
-    }
-  ],
-  "quantitative": [
+      "firstSeen": "2026-10-07",
+      "similar": 0
+    },
     {
       "source": "CPUC R.20-05-012",
       "agency": "CPUC",
@@ -451,6 +468,5 @@
       "filedBy": "-",
       "similar": 0
     }
-  ],
-  "narrative": "The Energy Efficiency proceeding (R.25-04-010) saw Southern California Edison file a compliance document on October 1"
+  ]
 }

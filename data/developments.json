@@ -16,6 +16,38 @@
     "firstSeen": "2026-10-06"
   },
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Ruling",
+    "headline": "Email Ruling entering comments from the Jamul Indian Village to the Record and Providing a 3-Day Comment Period",
+    "filedBy": "ALJ/SISTO/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
+    "date": "2026-10-06",
+    "topic": "Building Decarbonization",
+    "dataType": "Quantitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization ruling from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-07"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "ADVANCE THREE-DAY NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "Offshore Wind California",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776659",
+    "date": "2026-10-06",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-07"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
