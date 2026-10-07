@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-07T01:14:09.822Z",
+  "ranAt": "2026-10-07T19:46:05.271Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,9 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778653",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777010",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776788",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776659",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778625",
@@ -526,12 +529,36 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929425",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778628",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482385",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482400",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751955",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621647415",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621751923"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482400"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 07, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/BAKER",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 07, 2026",
+                "EXPARTE",
+                "County of Humboldt,Redwood Coast Energy Authority",
+                "NOTICE OF EX PARTE MEETING WITH PRESIDENT REYNOLDS' OFFICE BY THE COUNTY OF HUMB"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 07, 2026",
+                "EXPARTE",
+                "Redwood Coast Energy Authority,County of Humboldt",
+                "NOTICE OF EX PARTE MEETING WITH COMMISSIONER HOUCK'S OFFICE BY THE COUNTY OF HUM"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -548,33 +575,6 @@
                 "EXPARTE",
                 "Offshore Wind California",
                 "ADVANCE THREE-DAY NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 05, 2026",
-                "EXPARTE",
-                "California Grid Holdings LLC",
-                "NOTICE OF ORAL EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 02, 2026",
-                "EXPARTE",
-                "California Grid Holdings LLC",
-                "CALIFORNIA GRID HOLDINGS LLC THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION"
-              ]
-            },
-            {
-              "type": "REPORT",
-              "cells": [
-                "October 02, 2026",
-                "REPORT",
-                "Small Business Utility Advcocates",
-                "(NOTICE OF ) REPORT ON EX PARTE COMMUNICATION."
               ]
             }
           ],
