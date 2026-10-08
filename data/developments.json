@@ -4,6 +4,38 @@
     "agency": "CPUC",
     "docket": "R.25-06-019",
     "type": "Filing",
+    "headline": "THREE DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "California Grid Holdings LLC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777237",
+    "date": "2026-10-08",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-08"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "CALIFORNIA GRID HOLDINGS LLC LATE-FILED THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "California Grid Holdings LLC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776810",
+    "date": "2026-10-08",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-08"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
     "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
     "filedBy": "CPUC/COMMR/BAKER",
     "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778653",
@@ -46,6 +78,22 @@
     "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
     "aiEnriched": false,
     "firstSeen": "2026-10-07"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "ADVANCED THREE-DAY NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "Offshore Wind California",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778679",
+    "date": "2026-10-07",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-08"
   },
   {
     "source": "CPUC R.25-06-019",
@@ -235,8 +283,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "SCE's compliance filing implements a CPUC decision, potentially impacting energy efficiency, demand flexibility, or grid modernization programs relevant to clients.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-10-02"
   },
   {
@@ -553,9 +601,9 @@
     "date": "2026-09-25",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "New parties joining the proceeding may introduce new perspectives, potentially influencing future energy program design or client opportunities.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-26"
   },
   {
@@ -889,9 +937,9 @@
     "date": "2026-09-11",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "New parties joining the proceeding may introduce new perspectives, potentially influencing future energy program design or client opportunities.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-11"
   },
   {
@@ -921,9 +969,9 @@
     "date": "2026-09-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "New parties joining the proceeding may introduce new perspectives, potentially influencing future energy program design or client opportunities.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-24"
   },
   {
@@ -937,9 +985,9 @@
     "date": "2026-09-09",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "New parties joining the proceeding may introduce new perspectives, potentially influencing future energy program design or client opportunities.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-09"
   },
   {
@@ -1112,9 +1160,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "New parties joining the proceeding may introduce new perspectives, potentially influencing future energy program design or client opportunities.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-27"
   },
   {
@@ -1128,9 +1176,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "New parties joining the proceeding may introduce new perspectives, potentially influencing future energy program design or client opportunities.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-27"
   },
   {
@@ -2344,9 +2392,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "An ex parte communication notice indicates active advocacy to decision-makers, potentially influencing future regulatory outcomes relevant to clients.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {
