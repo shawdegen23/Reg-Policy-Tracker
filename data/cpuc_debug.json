@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-07T19:46:05.271Z",
+  "ranAt": "2026-10-08T01:35:47.780Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -525,11 +525,11 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776659",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778625",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776902",
             "http://www.cpuc.ca.gov/orderadocument/",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929425",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778628",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482385",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482400"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621482385"
           ],
           "sampleRows": [
             {
