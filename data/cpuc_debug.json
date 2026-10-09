@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-08T19:46:18.840Z",
+  "ranAt": "2026-10-09T01:46:17.554Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777237",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777257",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776810",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778653",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778679",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776659",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778625",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776902",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777242"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776902"
           ],
           "sampleRows": [
             {
@@ -539,6 +539,15 @@
                 "EXPARTE",
                 "California Grid Holdings LLC",
                 "THREE DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "MOTION",
+              "cells": [
+                "October 08, 2026",
+                "MOTION",
+                "Imperial Irrigation District",
+                "Motion For Party Status of The Imperial Irrigation District"
               ]
             },
             {
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "Offshore Wind California",
                 "ADVANCED THREE-DAY NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 07, 2026",
-                "EXPARTE",
-                "County of Humboldt,Redwood Coast Energy Authority",
-                "NOTICE OF EX PARTE MEETING WITH PRESIDENT REYNOLDS' OFFICE BY THE COUNTY OF HUMB"
               ]
             }
           ],

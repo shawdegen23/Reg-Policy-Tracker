@@ -36,6 +36,22 @@
     "agency": "CPUC",
     "docket": "R.25-06-019",
     "type": "Filing",
+    "headline": "Motion For Party Status of The Imperial Irrigation District",
+    "filedBy": "Imperial Irrigation District",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777257",
+    "date": "2026-10-08",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-09"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
     "headline": "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION.",
     "filedBy": "CPUC/COMMR/BAKER",
     "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778653",
@@ -283,8 +299,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "SCE's compliance filing implements a CPUC decision, potentially affecting energy programs, rates, or requirements for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-10-02"
   },
   {
@@ -601,9 +617,9 @@
     "date": "2026-09-25",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "New parties joining a CPUC proceeding can introduce new perspectives, potentially influencing outcomes relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-26"
   },
   {
@@ -937,9 +953,9 @@
     "date": "2026-09-11",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "New parties joining a CPUC proceeding can introduce new perspectives, potentially influencing outcomes relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-11"
   },
   {
@@ -969,9 +985,9 @@
     "date": "2026-09-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "New parties seeking to join a CPUC proceeding can introduce new perspectives, potentially influencing outcomes relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-24"
   },
   {
@@ -985,9 +1001,9 @@
     "date": "2026-09-09",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "New parties seeking to join a CPUC proceeding can introduce new perspectives, potentially influencing outcomes relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-09"
   },
   {
@@ -1160,9 +1176,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "New parties joining a CPUC proceeding can introduce new perspectives, potentially influencing outcomes relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -1176,9 +1192,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "New parties seeking to join a CPUC proceeding can introduce new perspectives, potentially influencing outcomes relevant to clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -2392,9 +2408,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "Notifies decisionmakers of direct communication, signaling advocacy efforts that could influence policy outcomes for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-07-21"
   },
   {
