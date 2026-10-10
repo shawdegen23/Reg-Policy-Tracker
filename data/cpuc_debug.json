@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-09T19:17:55.896Z",
+  "ranAt": "2026-10-10T01:32:41.544Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,9 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778704",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777278",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776736",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777237",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777257",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776810",
@@ -526,12 +529,36 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778679",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777010",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776788",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776659",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778625",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776902"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 09, 2026",
+                "EXPARTE",
+                "California Grid Holdings LLC",
+                "NOTICE OF ORAL EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 09, 2026",
+                "EXPARTE",
+                "California Grid Holdings LLC",
+                "THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION"
+              ]
+            },
+            {
+              "type": "RULING",
+              "cells": [
+                "October 09, 2026",
+                "RULING",
+                "ALJ/RIZZO/CPUC",
+                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE IMPERIAL IRRIGATION DISTRIC"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -548,33 +575,6 @@
                 "MOTION",
                 "Imperial Irrigation District",
                 "Motion For Party Status of The Imperial Irrigation District"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 08, 2026",
-                "EXPARTE",
-                "California Grid Holdings LLC",
-                "CALIFORNIA GRID HOLDINGS LLC LATE-FILED THREE-DAY ADVANCED NOTICE OF EX PARTE CO"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 07, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/BAKER",
-                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 07, 2026",
-                "EXPARTE",
-                "Offshore Wind California",
-                "ADVANCED THREE-DAY NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-09T19:20:09.119Z",
+  "generatedAt": "2026-10-10T01:34:39.787Z",
   "totals": {
-    "developments": 247,
+    "developments": 250,
     "high": 73,
     "quantitative": 19,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 129,
+    "Resource Adequacy / Planning": 132,
     "Building Decarbonization": 36,
     "Energy Efficiency": 27,
     "General / Cross-cutting": 12,
@@ -15,7 +15,7 @@
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 118,
+    "R.25-06-019": 121,
     "R.19-01-011": 35,
     "R.25-04-010": 27,
     "R.20-05-012": 18,
@@ -469,5 +469,5 @@
       "similar": 0
     }
   ],
-  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Southern California Edison filed a compliance document on October 1st"
+  "narrative": "Director Briefing: Recent CPUC Regulatory Developments**\n\nIn the Energy Efficiency proceeding (R.25-04-010), SCE filed a"
 }

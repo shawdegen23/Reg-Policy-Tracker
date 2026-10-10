@@ -1,20 +1,20 @@
 [
   {
-    "date": "2026-10-09",
-    "type": "Comments",
-    "description": "Comments (auto-detected)",
-    "docket": "R.19-01-011",
-    "headline": "Email Ruling entering comments from the Jamul Indian Village to the Record and Providing a 3-Day Comment Period",
-    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
-    "agency": "CPUC"
-  },
-  {
     "date": "2026-10-12",
     "type": "Other",
     "description": "Ex parte meeting with Advisors to Commissioner Douglas",
     "docket": "R.25-06-019",
     "headline": "THREE DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION.",
     "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777237",
+    "agency": "CPUC"
+  },
+  {
+    "date": "2026-10-15",
+    "type": "Other",
+    "description": "ex parte meeting with Nick Dahlberg and Seina Soufiani, Advisors to President Reynolds",
+    "docket": "R.25-06-019",
+    "headline": "THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777278",
     "agency": "CPUC"
   },
   {
