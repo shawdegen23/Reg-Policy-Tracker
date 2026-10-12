@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-10T01:32:41.544Z",
+  "ranAt": "2026-10-12T21:59:18.203Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,62 +519,62 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778704",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777278",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776736",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777237",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777257",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776810",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778653",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778679",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777010",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776788",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776655"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778720",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778726",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777292",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623836172",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812531",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812541",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777407",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777182",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623854962",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777191",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812534"
           ],
           "sampleRows": [
             {
-              "type": "EXPARTE",
+              "type": "COMMENTS",
               "cells": [
-                "October 09, 2026",
-                "EXPARTE",
-                "California Grid Holdings LLC",
-                "NOTICE OF ORAL EX PARTE COMMUNICATION."
+                "October 12, 2026",
+                "COMMENTS",
+                "Bay Area Municipal Transmission Group",
+                "Reply Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for the "
               ]
             },
             {
-              "type": "EXPARTE",
+              "type": "COMMENTS",
               "cells": [
-                "October 09, 2026",
-                "EXPARTE",
-                "California Grid Holdings LLC",
-                "THREE-DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION"
+                "October 12, 2026",
+                "COMMENTS",
+                "Vote Solar",
+                "REPLY COMMENTS OF VOTE SOLAR ON ADMINISTRATIVE LAW JDUGE'S RULING SEEKING COMMEN"
               ]
             },
             {
-              "type": "RULING",
+              "type": "COMMENTS",
               "cells": [
-                "October 09, 2026",
-                "RULING",
-                "ALJ/RIZZO/CPUC",
-                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF THE IMPERIAL IRRIGATION DISTRIC"
+                "October 12, 2026",
+                "COMMENTS",
+                "Hexagon Energy, LLC",
+                "Reply Comments on the Administrative Law Judge's Ruling Seeking Comments on Elec"
               ]
             },
             {
-              "type": "EXPARTE",
+              "type": "COMMENTS",
               "cells": [
-                "October 08, 2026",
-                "EXPARTE",
-                "California Grid Holdings LLC",
-                "THREE DAY ADVANCED NOTICE OF EX PARTE COMMUNICATION."
+                "October 12, 2026",
+                "COMMENTS",
+                "Solar Energy Industries Association,Large-scale Solar Association",
+                "Reply Comments on Ruling Seeking Comments on Electricity Portfolios for the 2027"
               ]
             },
             {
-              "type": "MOTION",
+              "type": "COMMENTS",
               "cells": [
-                "October 08, 2026",
-                "MOTION",
+                "October 12, 2026",
+                "COMMENTS",
                 "Imperial Irrigation District",
-                "Motion For Party Status of The Imperial Irrigation District"
+                "REPLY COMMENTS OF THE IMPERIAL IRRIGATION DISTRICT ON ALJ'S RULING SEEKING COMME"
               ]
             }
           ],
