@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-12T21:59:18.203Z",
+  "ranAt": "2026-10-13T02:58:13.416Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,16 +520,16 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778720",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777074",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777413",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623836177",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812549",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778726",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623865767",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777292",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623836172",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812531",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812541",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777407",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777182",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623854962",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777191",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812534"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812541"
           ],
           "sampleRows": [
             {
@@ -546,8 +546,8 @@
               "cells": [
                 "October 12, 2026",
                 "COMMENTS",
-                "Vote Solar",
-                "REPLY COMMENTS OF VOTE SOLAR ON ADMINISTRATIVE LAW JDUGE'S RULING SEEKING COMMEN"
+                "California Independent System Operator Corp. (Folsom, CA)",
+                "Reply Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for 2027"
               ]
             },
             {
@@ -555,8 +555,8 @@
               "cells": [
                 "October 12, 2026",
                 "COMMENTS",
-                "Hexagon Energy, LLC",
-                "Reply Comments on the Administrative Law Judge's Ruling Seeking Comments on Elec"
+                "Santa Clarita Valley Water Agency",
+                "Reply Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for 2027"
               ]
             },
             {
@@ -564,8 +564,8 @@
               "cells": [
                 "October 12, 2026",
                 "COMMENTS",
-                "Solar Energy Industries Association,Large-scale Solar Association",
-                "Reply Comments on Ruling Seeking Comments on Electricity Portfolios for the 2027"
+                "ALLIANCE FOR RETAIL ENERGY MARKETS",
+                "Reply Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for 2027"
               ]
             },
             {
@@ -573,8 +573,8 @@
               "cells": [
                 "October 12, 2026",
                 "COMMENTS",
-                "Imperial Irrigation District",
-                "REPLY COMMENTS OF THE IMPERIAL IRRIGATION DISTRICT ON ALJ'S RULING SEEKING COMME"
+                "GridLiance West LLC",
+                "Reply Comments on the 2027-2028 Transmission Planning Process Portfolio Ruling"
               ]
             }
           ],
