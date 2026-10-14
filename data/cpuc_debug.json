@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-13T20:06:28.144Z",
+  "ranAt": "2026-10-14T00:54:55.449Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623970322",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623854986",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778720",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777302",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623836184",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623836177",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623963751",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623854970",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623855070",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623963747",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623865772"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623855070"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 13, 2026",
+                "EXPARTE",
+                "CPUC / Julian Buchwalter / Advisor",
+                "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "MOTION",
+              "cells": [
+                "October 13, 2026",
+                "MOTION",
+                "Utah Associated Municipal Power Systems",
+                "Motion Of Utah Associated Municipal Power Systems  to Become a Party"
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -557,24 +575,6 @@
                 "COMMENTS",
                 "Maravillosa Solar Energy LLC,Invenergy Geothermal LLC",
                 "Reply Comments on Administrative Law Judge's Ruling Seeking Comments on Electric"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "October 12, 2026",
-                "COMMENTS",
-                "California Independent System Operator Corp. (Folsom, CA)",
-                "Reply Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for 2027"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "October 12, 2026",
-                "COMMENTS",
-                "Santa Clarita Valley Water Agency",
-                "Reply Comments on ALJ Ruling Seeking Comments on Electricity Portfolios for 2027"
               ]
             }
           ],
