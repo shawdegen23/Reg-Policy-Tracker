@@ -1,23 +1,23 @@
 {
-  "lastRun": "2026-10-16T17:49:38.773Z",
+  "lastRun": "2026-10-17T00:10:33.546Z",
   "sources": {
     "cpuc": {
-      "lastRun": "2026-10-16T17:49:38.773Z",
+      "lastRun": "2026-10-17T00:10:33.546Z",
       "status": "ok",
       "count": 56
     },
     "cec": {
-      "lastRun": "2026-10-16T17:49:38.773Z",
+      "lastRun": "2026-10-17T00:10:33.546Z",
       "status": "ok",
       "count": 2
     },
     "carb": {
-      "lastRun": "2026-10-16T17:49:38.773Z",
+      "lastRun": "2026-10-17T00:10:33.546Z",
       "status": "ok",
       "count": 0
     },
     "legiscan": {
-      "lastRun": "2026-10-16T17:49:38.773Z",
+      "lastRun": "2026-10-17T00:10:33.546Z",
       "status": "ok",
       "count": 308
     }
