@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-19T19:42:27.606Z",
+  "generatedAt": "2026-10-20T00:57:31.853Z",
   "totals": {
-    "developments": 274,
+    "developments": 275,
     "high": 73,
     "quantitative": 19,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 156,
+    "Resource Adequacy / Planning": 157,
     "Building Decarbonization": 36,
     "Energy Efficiency": 27,
     "General / Cross-cutting": 12,
@@ -15,7 +15,7 @@
     "Demand Flexibility": 12
   },
   "proceedingCounts": {
-    "R.25-06-019": 145,
+    "R.25-06-019": 146,
     "R.19-01-011": 35,
     "R.25-04-010": 27,
     "R.20-05-012": 18,
@@ -469,5 +469,5 @@
       "similar": 0
     }
   ],
-  "narrative": "Here is a concise briefing on recent California regulatory developments:\n\nIn the Energy Efficiency proceeding (R.25-04-010), Southern"
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Southern California Edison filed a compliance document on October 1"
 }
