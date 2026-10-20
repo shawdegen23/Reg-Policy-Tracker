@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-20T00:55:30.776Z",
+  "ranAt": "2026-10-20T18:22:28.427Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625126260",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=624559244",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623963794",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623963774",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623970322",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623854986",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778720",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777302",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623836184"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777302"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 19, 2026",
+                "EXPARTE",
+                "California Grid Holdings LLC",
+                "NOTICE OF ORAL EX PARTE COMMUNICATION."
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "Offshore Wind California",
                 "Notice of Ex Parte Communication. Offshore Wind California report ex parte meeti"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 14, 2026",
-                "EXPARTE",
-                "GridLiance West, LLC",
-                "THREE-DAY ADVANCE NOTICE OF EX PARTE COMMUNICATION."
               ]
             }
           ],
