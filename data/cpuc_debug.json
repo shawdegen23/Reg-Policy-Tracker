@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-20T18:22:28.427Z",
+  "ranAt": "2026-10-21T00:24:07.436Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625126260",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=624559270",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=624559244",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623963794",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623963774",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623812589",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623970322",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=623854986",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778720",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622777302"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622778720"
           ],
           "sampleRows": [
             {
@@ -539,6 +539,15 @@
                 "EXPARTE",
                 "California Grid Holdings LLC",
                 "NOTICE OF ORAL EX PARTE COMMUNICATION."
+              ]
+            },
+            {
+              "type": "NOTICE",
+              "cells": [
+                "October 19, 2026",
+                "NOTICE",
+                "GridLiance West, LLC",
+                "Three-Day Advance Notice of Ex Parte Communication. Gridliance West LLC is grant"
               ]
             },
             {
@@ -566,15 +575,6 @@
                 "EXPARTE",
                 "CPUC/COMMR/BAKER",
                 "DECISIONMAKER NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 14, 2026",
-                "EXPARTE",
-                "Offshore Wind California",
-                "Notice of Ex Parte Communication. Offshore Wind California report ex parte meeti"
               ]
             }
           ],
