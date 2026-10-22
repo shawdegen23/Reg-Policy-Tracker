@@ -4089,6 +4089,21 @@
     "aiEnriched": false
   },
   {
+    "source": "CARB",
+    "agency": "CARB",
+    "docket": "",
+    "type": "Rulemaking",
+    "headline": "California Reformulated Gasoline Regulations",
+    "url": "https://ww2.arb.ca.gov/rulemaking/2026/california-reformulated-gasoline-regulations",
+    "date": "2026-01-01",
+    "topic": "General / Cross-cutting",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-22"
+  },
+  {
     "source": "CPUC R.20-08-020",
     "agency": "CPUC",
     "docket": "R.20-08-020",
