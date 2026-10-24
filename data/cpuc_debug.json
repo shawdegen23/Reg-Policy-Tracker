@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-23T18:07:35.243Z",
+  "ranAt": "2026-10-24T00:19:03.235Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625140159",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267630",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267636",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267633",
@@ -528,17 +529,16 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625672429",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267521",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267518",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625672433",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=624528405"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625672433"
           ],
           "sampleRows": [
             {
               "type": "EXPARTE",
               "cells": [
-                "October 22, 2026",
+                "October 23, 2026",
                 "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
+                "GridLiance West, LLC",
+                "NOTICE OF EX PARTE COMMUNICATION."
               ]
             },
             {

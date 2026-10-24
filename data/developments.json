@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "NOTICE OF EX PARTE COMMUNICATION.",
+    "filedBy": "GridLiance West, LLC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625140159",
+    "date": "2026-10-23",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-24"
+  },
+  {
     "source": "CPUC R.22-07-005",
     "agency": "CPUC",
     "docket": "R.22-07-005",
