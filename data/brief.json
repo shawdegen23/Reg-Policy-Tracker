@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-28T01:13:15.218Z",
+  "generatedAt": "2026-10-28T19:23:32.506Z",
   "totals": {
-    "developments": 291,
+    "developments": 294,
     "high": 77,
     "quantitative": 19,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 168,
+    "DER / Rates": 32,
+    "Resource Adequacy / Planning": 170,
     "Demand Flexibility": 16,
     "Building Decarbonization": 36,
     "Energy Efficiency": 27,
-    "General / Cross-cutting": 13,
-    "DER / Rates": 31
+    "General / Cross-cutting": 13
   },
   "proceedingCounts": {
-    "R.25-06-019": 157,
+    "R.20-08-020": 13,
+    "R.25-06-019": 159,
     "R.22-07-005": 16,
     "R.19-01-011": 35,
     "R.25-04-010": 27,
     "R.20-05-012": 18,
-    "R.23-10-011": 11,
-    "R.20-08-020": 12
+    "R.23-10-011": 11
   },
   "highRelevance": [
     {
@@ -468,5 +468,6 @@
       "filedBy": "-",
       "similar": 0
     }
-  ]
+  ],
+  "narrative": "Recent CPUC developments include significant activity in the Energy Efficiency (R.25-04-010) proceeding, with Southern California Edison filing"
 }

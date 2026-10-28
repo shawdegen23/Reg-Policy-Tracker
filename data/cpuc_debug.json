@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-28T01:00:16.373Z",
+  "ranAt": "2026-10-28T19:21:10.357Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -270,6 +270,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716624",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474066",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854807",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777808",
@@ -279,10 +280,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=590904821",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=590427358",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=585487469",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=581690297",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066904"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=581690297"
           ],
           "sampleRows": [
+            {
+              "type": "COMPLIANCE  FILING",
+              "cells": [
+                "October 28, 2026",
+                "COMPLIANCE  FILING",
+                "San Jose Clean Energy",
+                "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR THIRD QUARTER 2026."
+              ]
+            },
             {
               "type": "REQUEST",
               "cells": [
@@ -317,15 +326,6 @@
                 "DECISION",
                 "-",
                 "Decision D2606036 - Order Correcting Error. Rulemaking 20-08-020 remains closed."
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "April 29, 2026",
-                "COMPLIANCE  FILING",
-                "San Jose Clean Energy",
-                "Disadvantaged Communities Green Tariff quarterly report in accordance with Resol"
               ]
             }
           ],
@@ -519,6 +519,8 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625852157",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625852155",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625140159",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267630",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267636",
@@ -527,11 +529,27 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267528",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625083096",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625672429",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267521",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267518",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625672433"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267521"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 27, 2026",
+                "EXPARTE",
+                "GridLiance West, LLC",
+                "Notice of Ex Parte Communication. Gridliance West LLC reports an ex parte meetin"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "October 27, 2026",
+                "EXPARTE",
+                "CPUC/COMMR/Baker",
+                "Decisionmaker Notice of Ex Parte Communication. Kyle Navis, Advisor to Commissio"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -539,24 +557,6 @@
                 "EXPARTE",
                 "GridLiance West, LLC",
                 "NOTICE OF EX PARTE COMMUNICATION."
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
               ]
             },
             {
