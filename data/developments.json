@@ -4360,6 +4360,21 @@
     "firstSeen": "2026-10-22"
   },
   {
+    "source": "CARB",
+    "agency": "CARB",
+    "docket": "",
+    "type": "Rulemaking",
+    "headline": "California Carbon Capture, Removal, Utilization, and Storage Program Regulation (SB 905)",
+    "url": "https://ww2.arb.ca.gov/rulemaking/2026/california-carbon-capture-removal-utilization-and-storage-program-regulation-sb-905",
+    "date": "2026-01-01",
+    "topic": "General / Cross-cutting",
+    "dataType": "Qualitative",
+    "relevance": "Low",
+    "impact": "General / Cross-cutting rulemaking from CARB. Flagged low client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-29"
+  },
+  {
     "source": "CPUC R.20-08-020",
     "agency": "CPUC",
     "docket": "R.20-08-020",

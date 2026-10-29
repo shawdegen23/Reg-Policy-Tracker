@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T19:23:32.506Z",
+  "generatedAt": "2026-10-29T01:37:30.605Z",
   "totals": {
-    "developments": 294,
+    "developments": 295,
     "high": 77,
     "quantitative": 19,
     "topics": 6
@@ -12,7 +12,7 @@
     "Demand Flexibility": 16,
     "Building Decarbonization": 36,
     "Energy Efficiency": 27,
-    "General / Cross-cutting": 13
+    "General / Cross-cutting": 14
   },
   "proceedingCounts": {
     "R.20-08-020": 13,
@@ -469,5 +469,5 @@
       "similar": 0
     }
   ],
-  "narrative": "Recent CPUC developments include significant activity in the Energy Efficiency (R.25-04-010) proceeding, with Southern California Edison filing"
+  "narrative": "The Energy Efficiency proceeding (R.25-04-010) saw Southern California Edison file a compliance document per D.23-0"
 }
