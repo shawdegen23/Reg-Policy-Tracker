@@ -1,5 +1,21 @@
 [
   {
+    "source": "CPUC R.19-01-011",
+    "agency": "CPUC",
+    "docket": "R.19-01-011",
+    "type": "Decision",
+    "headline": "Proposed Decision Addressing Electric Line Extension Subsidies on Tribal Lands. Opening Comments, which shall not exceed 15 pages, are due on November 19, 2026. Reply Comments, which shall not exceed 5 pages, are due 5 days after the last day for filing Opening Comments.",
+    "filedBy": "CMMR/HOUCK/CPUC",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627128253",
+    "date": "2026-10-30",
+    "topic": "Building Decarbonization",
+    "dataType": "Quantitative",
+    "relevance": "High",
+    "impact": "Building Decarbonization decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-10-30"
+  },
+  {
     "source": "CPUC R.20-08-020",
     "agency": "CPUC",
     "docket": "R.20-08-020",

@@ -1,29 +1,46 @@
 {
-  "generatedAt": "2026-10-30T01:38:58.447Z",
+  "generatedAt": "2026-10-30T19:03:02.068Z",
   "totals": {
-    "developments": 295,
-    "high": 77,
-    "quantitative": 19,
+    "developments": 296,
+    "high": 78,
+    "quantitative": 20,
     "topics": 6
   },
   "topicCounts": {
+    "Building Decarbonization": 37,
     "DER / Rates": 32,
     "Resource Adequacy / Planning": 170,
     "Demand Flexibility": 16,
-    "Building Decarbonization": 36,
     "Energy Efficiency": 27,
     "General / Cross-cutting": 14
   },
   "proceedingCounts": {
+    "R.19-01-011": 36,
     "R.20-08-020": 13,
     "R.25-06-019": 159,
     "R.22-07-005": 16,
-    "R.19-01-011": 35,
     "R.25-04-010": 27,
     "R.20-05-012": 18,
     "R.23-10-011": 11
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Decision",
+      "headline": "Proposed Decision Addressing Electric Line Extension Subsidies on Tribal Lands. Opening Comments, which shall not exceed 15 pages, are due on November 19, 2026. Reply Comments, which shall not exceed 5 pages, are due 5 days after the last day for filing Opening Comments.",
+      "filedBy": "CMMR/HOUCK/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627128253",
+      "date": "2026-10-30",
+      "topic": "Building Decarbonization",
+      "dataType": "Quantitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-10-30",
+      "similar": 0
+    },
     {
       "source": "CPUC R.22-07-005",
       "agency": "CPUC",
@@ -261,26 +278,26 @@
       "aiEnriched": false,
       "firstSeen": "2026-09-11",
       "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Filing",
-      "headline": "Motion for Party Status of USC Credit Union",
-      "filedBy": "USC Credit Union",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549635",
-      "date": "2026-09-10",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-09-24",
-      "similar": 0
     }
   ],
   "quantitative": [
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Decision",
+      "headline": "Proposed Decision Addressing Electric Line Extension Subsidies on Tribal Lands. Opening Comments, which shall not exceed 15 pages, are due on November 19, 2026. Reply Comments, which shall not exceed 5 pages, are due 5 days after the last day for filing Opening Comments.",
+      "filedBy": "CMMR/HOUCK/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627128253",
+      "date": "2026-10-30",
+      "topic": "Building Decarbonization",
+      "dataType": "Quantitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization decision from CPUC. Contains figures/deadlines — capture the numbers. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-10-30",
+      "similar": 0
+    },
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
@@ -469,5 +486,5 @@
       "similar": 0
     }
   ],
-  "narrative": "The Energy Efficiency proceeding (R.25-04-010) saw several credit unions, including USC, Travis, and California Coast, granted"
+  "narrative": "In the Energy Efficiency proceeding (R.25-04-010), Southern California Edison filed a compliance document, and several credit unions,"
 }

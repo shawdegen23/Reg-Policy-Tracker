@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-30T01:37:03.225Z",
+  "ranAt": "2026-10-30T19:00:17.700Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627128253",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565761",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615648982"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489"
           ],
           "sampleRows": [
+            {
+              "type": "PROPOSED DECISION",
+              "cells": [
+                "October 30, 2026",
+                "PROPOSED DECISION",
+                "CMMR/HOUCK/CPUC",
+                "Proposed Decision Addressing Electric Line Extension Subsidies on Tribal Lands. "
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -151,15 +160,6 @@
                 "COMPLIANCE  FILING",
                 "LIBERTY UTILITIES (CALPECO ELECTRIC) LLC",
                 "RESPONSE OF LIBERTY UTILITIES (CALPECO ELECTRIC) LLC (U 933-E) TO THE QUESTIONS "
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "September 16, 2026",
-                "RULING",
-                "ALJ/SISTO/CPUC",
-                "EMAIL RULING GRANTING PARTY STATUS TO THE SYCUAN BAND OF THE KUMEYAAY NATION."
               ]
             }
           ],
