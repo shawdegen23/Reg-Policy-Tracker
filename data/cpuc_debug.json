@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-31T01:26:26.749Z",
+  "ranAt": "2026-11-02T22:37:15.983Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,62 +519,62 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625852157",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625852155",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625140159",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267630",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267636",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267633",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267522",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267528",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625083096",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625672429",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267521"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716683",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716692",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626495287",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627494523",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627494539",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626522151",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627282223",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941189"
           ],
           "sampleRows": [
             {
-              "type": "EXPARTE",
+              "type": "COMMENTS",
               "cells": [
-                "October 27, 2026",
-                "EXPARTE",
-                "GridLiance West, LLC",
-                "Notice of Ex Parte Communication. Gridliance West LLC reports an ex parte meetin"
+                "November 02, 2026",
+                "COMMENTS",
+                "Santa Clarita Valley Water Agency",
+                "Comments on Administrative Law Judge's Ruling Seeking Comments on Busbar Mapping"
               ]
             },
             {
-              "type": "EXPARTE",
+              "type": "MOTION",
               "cells": [
-                "October 27, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/Baker",
-                "Decisionmaker Notice of Ex Parte Communication. Kyle Navis, Advisor to Commissio"
+                "November 02, 2026",
+                "MOTION",
+                "Central Valley Community Foundation",
+                "Motion for Party Status of Central Valley Community Foundation"
               ]
             },
             {
-              "type": "EXPARTE",
+              "type": "RULING",
               "cells": [
-                "October 23, 2026",
-                "EXPARTE",
-                "GridLiance West, LLC",
-                "NOTICE OF EX PARTE COMMUNICATION."
+                "November 02, 2026",
+                "RULING",
+                "ALJ/ RIZZO/ CPUC",
+                "ADMINISTRATIVE LAW JUDGE'S RULING ENTERING THE SEPTEMBER 21, 2026 ENERGY DIVISIO"
               ]
             },
             {
-              "type": "EXPARTE",
+              "type": "COMMENTS",
               "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
+                "November 02, 2026",
+                "COMMENTS",
+                "EGX Energy Inc.",
+                "Comments on Preliminary Busbar Mapping for the 2027-2028 Transmission Planning P"
               ]
             },
             {
-              "type": "EXPARTE",
+              "type": "COMMENTS",
               "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Sarah Goldmuntz, Advisor to Pres"
+                "November 02, 2026",
+                "COMMENTS",
+                "Bay Area Municipal Transmission Group",
+                "Comments on ALJ Ruling Seeking comments on Busbar Mapping of Electricity Resourc"
               ]
             }
           ],
