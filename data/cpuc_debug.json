@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-02T22:37:15.983Z",
+  "ranAt": "2026-11-03T20:26:17.340Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,19 +519,28 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962702",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716683",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716692",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626495287",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627494523",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627494539",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626522151",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627282223",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941189"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940058",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940052",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716692"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "November 03, 2026",
+                "RULING",
+                "ALJ/RIZZO/CPUC,ALJ/FITCH/CPUC",
+                "Email Ruling Granting Motions for Party Status of Central Valley Community Found"
+              ]
+            },
             {
               "type": "COMMENTS",
               "cells": [
@@ -542,21 +551,12 @@
               ]
             },
             {
-              "type": "MOTION",
+              "type": "COMMENTS",
               "cells": [
                 "November 02, 2026",
-                "MOTION",
-                "Central Valley Community Foundation",
-                "Motion for Party Status of Central Valley Community Foundation"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "November 02, 2026",
-                "RULING",
-                "ALJ/ RIZZO/ CPUC",
-                "ADMINISTRATIVE LAW JUDGE'S RULING ENTERING THE SEPTEMBER 21, 2026 ENERGY DIVISIO"
+                "COMMENTS",
+                "XGS Energy, Inc",
+                "Comments on the ALJ Ruling Seeking Comments on Busbar Mapping of Electricity Res"
               ]
             },
             {
@@ -564,8 +564,8 @@
               "cells": [
                 "November 02, 2026",
                 "COMMENTS",
-                "EGX Energy Inc.",
-                "Comments on Preliminary Busbar Mapping for the 2027-2028 Transmission Planning P"
+                "LS Power Development, LLC",
+                "Comments on the Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
               ]
             },
             {
@@ -573,8 +573,8 @@
               "cells": [
                 "November 02, 2026",
                 "COMMENTS",
-                "Bay Area Municipal Transmission Group",
-                "Comments on ALJ Ruling Seeking comments on Busbar Mapping of Electricity Resourc"
+                "California Resources Corporation",
+                "Comments on ALJ Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
               ]
             }
           ],

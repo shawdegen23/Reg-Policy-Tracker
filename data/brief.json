@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-02T22:40:06.275Z",
+  "generatedAt": "2026-11-03T20:28:36.640Z",
   "totals": {
-    "developments": 304,
+    "developments": 308,
     "high": 78,
     "quantitative": 20,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 178,
+    "Resource Adequacy / Planning": 182,
     "Building Decarbonization": 37,
     "DER / Rates": 32,
     "Demand Flexibility": 16,
@@ -15,7 +15,7 @@
     "General / Cross-cutting": 14
   },
   "proceedingCounts": {
-    "R.25-06-019": 167,
+    "R.25-06-019": 171,
     "R.19-01-011": 36,
     "R.20-08-020": 13,
     "R.22-07-005": 16,
@@ -486,5 +486,5 @@
       "similar": 0
     }
   ],
-  "narrative": "Recent CPUC developments include activity in the Energy Efficiency, Building Decarbonization, and Demand Flexibility proceedings.\n\nIn the Energy Efficiency proceeding ("
+  "narrative": "Recent CPUC activity includes significant stakeholder engagement in the Energy Efficiency proceeding (R.25-04-010), with USC, Travis,"
 }
