@@ -1,584 +1,173 @@
 {
-  "ranAt": "2026-11-05T20:57:02.506Z",
+  "ranAt": "2026-11-06T02:08:17.216Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929429",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620549635",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617559078",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587986",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506"
-          ],
-          "sampleRows": [
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "October 01, 2026",
-                "COMPLIANCE  FILING",
-                "Southern California Edison Company",
-                "COMPLIANCE FILING OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) PURSUANT TO OR"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "September 25, 2026",
-                "RULING",
-                "ALJ/KAO/CPUC",
-                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF USC CREDIT UNION."
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "September 11, 2026",
-                "RULING",
-                "ALJ/KAO/CPUC",
-                "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
-              ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "September 10, 2026",
-                "MOTION",
-                "USC Credit Union",
-                "Motion for Party Status of USC Credit Union"
-              ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "September 09, 2026",
-                "MOTION",
-                "Teresa Centeno Kim",
-                "MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
+          "frames": 0,
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     },
     {
       "docket": "R.19-01-011",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627128253",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620565761",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720758",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618860520",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489"
-          ],
-          "sampleRows": [
-            {
-              "type": "PROPOSED DECISION",
-              "cells": [
-                "October 30, 2026",
-                "PROPOSED DECISION",
-                "CMMR/HOUCK/CPUC",
-                "Proposed Decision Addressing Electric Line Extension Subsidies on Tribal Lands. "
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "October 06, 2026",
-                "RULING",
-                "ALJ/SISTO/CPUC",
-                "Email Ruling entering comments from the Jamul Indian Village to the Record and P"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "September 25, 2026",
-                "RULING",
-                "CMMR/HOUCK/CPUC",
-                "Assigned Commissioner's Ruling Providing Notice and Opportunity Regarding Tribal"
-              ]
-            },
-            {
-              "type": "REQUEST",
-              "cells": [
-                "September 25, 2026",
-                "REQUEST",
-                "California Environmental Justice Alliance",
-                "Second Supplement to Request for Intervenor Compensation"
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "September 24, 2026",
-                "COMPLIANCE  FILING",
-                "LIBERTY UTILITIES (CALPECO ELECTRIC) LLC",
-                "RESPONSE OF LIBERTY UTILITIES (CALPECO ELECTRIC) LLC (U 933-E) TO THE QUESTIONS "
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
+          "frames": 0,
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     },
     {
       "docket": "R.22-07-005",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2207005#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625126324",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625852090",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625267525",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=625126325",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612446035",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610155197",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606860960",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606827971",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=604864451",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=604725341",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=604536632"
-          ],
-          "sampleRows": [
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Khalil Johnson, Advisor to Presi"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Khalil Johnson, Advisor to Presi"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Khalil Johnson, Advisor to Presi"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "October 22, 2026",
-                "EXPARTE",
-                "CPUC/COMMR/PresidentReynolds",
-                "Decisionmaker Notice of Ex Parte Communication. Khalil Johnson, Advisor to Presi"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "July 30, 2026",
-                "EXPARTE",
-                "CMMR/JOHN_REYNOLDS/CPUC",
-                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
+          "frames": 0,
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     },
     {
       "docket": "R.20-08-020",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2008020#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716624",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614474066",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613854807",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777808",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=609048635",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=605874961",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=596902630",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=590904821",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=590427358",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=585487469",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=581690297"
-          ],
-          "sampleRows": [
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "October 28, 2026",
-                "COMPLIANCE  FILING",
-                "San Jose Clean Energy",
-                "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR THIRD QUARTER 2026."
-              ]
-            },
-            {
-              "type": "REQUEST",
-              "cells": [
-                "August 14, 2026",
-                "REQUEST",
-                "The Protect Our Communities Foundation",
-                "for intervenor compensation for contribution to judicial review of D22-12-056"
-              ]
-            },
-            {
-              "type": "NOTICE",
-              "cells": [
-                "August 06, 2026",
-                "NOTICE",
-                "WestLight Energy",
-                "NOTICE OF PARTY NAME CHANGE FROM PENINSULA CLEAN ENERGY AUTHORITY TO WESTLIGHT E"
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "July 30, 2026",
-                "COMPLIANCE  FILING",
-                "San Jose Clean Energy",
-                "QUARTERLY DISADVANTAGED COMMUNITIES GREEN TARIFF REPORT FOR SECOND QUARTER 2026."
-              ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "June 15, 2026",
-                "DECISION",
-                "-",
-                "Decision D2606036 - Order Correcting Error. Rulemaking 20-08-020 remains closed."
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     },
     {
       "docket": "R.23-10-011",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2310011#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927638",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615738224",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611984548",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610023123",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=608276968",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=604598870",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=589845957",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=585486378",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=584711318",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066449",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=579066226"
-          ],
-          "sampleRows": [
-            {
-              "type": "REHEARING REQUEST",
-              "cells": [
-                "August 21, 2026",
-                "REHEARING REQUEST",
-                "The Protect Our Communities Foundation",
-                "Application for Rehearing of Decision 26-07-050."
-              ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "August 13, 2026",
-                "DECISION",
-                "-",
-                "Decision D2608030 - Decision Granting Compensation To California Environmental J"
-              ]
-            },
-            {
-              "type": "DECISION",
-              "cells": [
-                "July 16, 2026",
-                "DECISION",
-                "-",
-                "Decision D2607050 - Decision Granting Compensation To The Protect Our Communitie"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "June 29, 2026",
-                "COMMENTS",
-                "The Protect Our Communities Foundation",
-                "Opening Comments on Proposed Decision"
-              ]
-            },
-            {
-              "type": "PROPOSED DECISION",
-              "cells": [
-                "June 08, 2026",
-                "PROPOSED DECISION",
-                "ALJ/CHIV/CPUC",
-                "Proposed Decision Granting Compensation to The Protect Our Communities Foundatio"
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
+          "frames": 0,
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     },
     {
       "docket": "R.20-05-012",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2005012#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620598659",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666029",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617423890",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=614481350",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=613031046",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=612777782",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611970655",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610354199",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610353765",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=607089153",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=606259890"
-          ],
-          "sampleRows": [
-            {
-              "type": "DECISION",
-              "cells": [
-                "September 17, 2026",
-                "DECISION",
-                "-",
-                "Decision D2609048 - Decision Closing Rulemaking 20-05-12. Rulemaking 20-05-12 is"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 08, 2026",
-                "COMMENTS",
-                "Southern California Edison Company",
-                "REPLY COMMENTS ON THE PROPOSED DECISION CLOSING RULEMAKING 20-05-012."
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "September 03, 2026",
-                "COMMENTS",
-                "California Solar & Storage Association",
-                "Comments of the California Solar & Storage Association on the Proposed Decision "
-              ]
-            },
-            {
-              "type": "PROPOSED DECISION",
-              "cells": [
-                "August 14, 2026",
-                "PROPOSED DECISION",
-                "COM/DOUGLAS/CPUC",
-                "Proposed Decision Closing Rulemaking 20-05-012.Opening comments, which shall not"
-              ]
-            },
-            {
-              "type": "EXPARTE",
-              "cells": [
-                "August 03, 2026",
-                "EXPARTE",
-                "CMMR/JOHN_REYNOLDS/CPUC",
-                "DECISIONMAKER NOTICE OF EXPARTE COMMUNICATION."
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     },
     {
       "docket": "R.25-06-019",
-      "docLinks": 100,
+      "docLinks": 0,
       "attempts": [
         {
           "tab": "docs",
-          "title": "Proceeding - Documents",
-          "anchors": 110,
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
           "frames": 0,
-          "tables": 4,
-          "sampleHrefs": [
-            "https://apps.cpuc.ca.gov/apex/f?p=401:56::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:58::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:59::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:65::::::",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962702",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716683",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940058",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940052",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716692"
-          ],
-          "sampleRows": [
-            {
-              "type": "RULING",
-              "cells": [
-                "November 03, 2026",
-                "RULING",
-                "ALJ/RIZZO/CPUC,ALJ/FITCH/CPUC",
-                "Email Ruling Granting Motions for Party Status of Central Valley Community Found"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "Santa Clarita Valley Water Agency",
-                "Comments on Administrative Law Judge's Ruling Seeking Comments on Busbar Mapping"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "XGS Energy, Inc",
-                "Comments on the ALJ Ruling Seeking Comments on Busbar Mapping of Electricity Res"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "LS Power Development, LLC",
-                "Comments on the Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "California Resources Corporation",
-                "Comments on ALJ Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
-              ]
-            }
-          ],
-          "docLinks": 100
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
+        },
+        {
+          "tab": "card",
+          "title": "Weblogic Bridge Message",
+          "anchors": 0,
+          "frames": 0,
+          "tables": 0,
+          "sampleHrefs": [],
+          "sampleRows": [],
+          "docLinks": 0
         }
       ]
     }
