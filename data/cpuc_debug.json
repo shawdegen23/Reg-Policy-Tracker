@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-07T01:40:13.936Z",
+  "ranAt": "2026-11-09T23:17:27.747Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629323156",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962702",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716683",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940058",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940052",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716692"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940052"
           ],
           "sampleRows": [
+            {
+              "type": "RULING",
+              "cells": [
+                "November 06, 2026",
+                "RULING",
+                "ALJ/ RIZZO/ CPUC",
+                "E-mail Ruling Modifying Comment Schedule for the Bundled Procurement Plans"
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -566,15 +575,6 @@
                 "COMMENTS",
                 "LS Power Development, LLC",
                 "Comments on the Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "California Resources Corporation",
-                "Comments on ALJ Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
               ]
             }
           ],
