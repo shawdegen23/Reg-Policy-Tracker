@@ -19,6 +19,54 @@
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "Environmental Defense Fund Three-Day Advanced Notice of Ex Parte Meeting",
+    "filedBy": "Environmental Defense Fund",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330956",
+    "date": "2026-11-06",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-11-10"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "Supplement; to Request for Intervenor Compensation [confidential version of Attachment A, accompanied by the Motion to File Under Seal is attached and filed under seal.]",
+    "filedBy": "Environmental Defense Fund",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330839",
+    "date": "2026-11-06",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-11-10"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
+    "type": "Filing",
+    "headline": "Supplement; to Request for Intervenor Compensation [confidential version of Attachment A, accompanied by the Motion to File Under Seal is attached and filed under seal.]",
+    "filedBy": "Environmental Defense Fund",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629331607",
+    "date": "2026-11-06",
+    "topic": "Resource Adequacy / Planning",
+    "dataType": "Qualitative",
+    "relevance": "Medium",
+    "impact": "Resource Adequacy / Planning filing from CPUC. Flagged medium client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-11-10"
+  },
+  {
+    "source": "CPUC R.25-06-019",
+    "agency": "CPUC",
+    "docket": "R.25-06-019",
     "type": "Ruling",
     "headline": "Email Ruling Granting Motions for Party Status of Central Valley Community Foundation and Clearway Energy Group Limited Liability Company",
     "filedBy": "ALJ/RIZZO/CPUC,ALJ/FITCH/CPUC",
@@ -1259,8 +1307,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "SCE's compliance filing implements a CPUC decision, potentially shaping future energy programs and rules affecting TEC clients' energy efficiency and demand flexibility efforts.",
-    "aiEnriched": true,
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-10-02"
   },
   {
@@ -1577,9 +1625,9 @@
     "date": "2026-09-25",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Credit unions gaining party status allows them to influence CPUC proceedings, potentially impacting financing or consumer engagement for energy programs.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-26"
   },
   {
@@ -1913,9 +1961,9 @@
     "date": "2026-09-11",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Credit unions gaining party status allows them to influence CPUC proceedings, potentially impacting financing or consumer engagement for energy programs.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-11"
   },
   {
@@ -1945,9 +1993,9 @@
     "date": "2026-09-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Credit unions gaining party status allows them to influence CPUC proceedings, potentially impacting financing or consumer engagement for energy programs.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-24"
   },
   {
@@ -1961,9 +2009,9 @@
     "date": "2026-09-09",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Credit unions gaining party status allows them to influence CPUC proceedings, potentially impacting financing or consumer engagement for energy programs.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-09-09"
   },
   {
@@ -2136,9 +2184,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Credit unions gaining party status allows them to influence CPUC proceedings, potentially impacting financing or consumer engagement for energy programs.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-27"
   },
   {
@@ -2152,9 +2200,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Medium",
-    "impact": "Credit unions gaining party status allows them to influence CPUC proceedings, potentially impacting financing or consumer engagement for energy programs.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-08-27"
   },
   {
@@ -3368,9 +3416,9 @@
     "date": "2026-07-21",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "Low",
-    "impact": "This notice indicates an off-record communication with a decision-maker occurred. Its impact on TEC clients depends on the communication's unknown content.",
-    "aiEnriched": true,
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
     "firstSeen": "2026-07-21"
   },
   {

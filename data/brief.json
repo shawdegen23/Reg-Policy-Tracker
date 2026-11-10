@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T23:19:30.241Z",
+  "generatedAt": "2026-11-10T20:45:23.102Z",
   "totals": {
-    "developments": 309,
-    "high": 71,
+    "developments": 312,
+    "high": 78,
     "quantitative": 20,
     "topics": 6
   },
   "topicCounts": {
-    "Resource Adequacy / Planning": 183,
+    "Resource Adequacy / Planning": 186,
     "Building Decarbonization": 37,
     "DER / Rates": 32,
     "Demand Flexibility": 16,
@@ -15,7 +15,7 @@
     "General / Cross-cutting": 14
   },
   "proceedingCounts": {
-    "R.25-06-019": 172,
+    "R.25-06-019": 175,
     "R.19-01-011": 36,
     "R.20-08-020": 13,
     "R.22-07-005": 16,
@@ -138,9 +138,26 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "SCE's compliance filing implements a CPUC decision, potentially shaping future energy programs and rules affecting TEC clients' energy efficiency and demand flexibility efforts.",
-      "aiEnriched": true,
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-10-02",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF USC CREDIT UNION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
+      "date": "2026-09-25",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-26",
       "similar": 0
     },
     {
@@ -246,38 +263,21 @@
       "similar": 0
     },
     {
-      "source": "CPUC R.19-01-011",
+      "source": "CPUC R.25-04-010",
       "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling. Please Note: ALJ Carolyn Sisto authorized the acceptance of this late filing via email sent on August  24, 2026.",
-      "filedBy": "Small Business Utility Advocates",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
-      "date": "2026-08-24",
-      "topic": "Building Decarbonization",
+      "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
+      "date": "2026-09-11",
+      "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
-      "firstSeen": "2026-08-24",
+      "firstSeen": "2026-09-11",
       "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling",
-      "filedBy": "PACIFIC GAS AND ELECTRIC COMPANY",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
-      "date": "2026-08-21",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-21",
-      "similar": 2
     }
   ],
   "quantitative": [
@@ -486,5 +486,5 @@
       "similar": 0
     }
   ],
-  "narrative": "In Energy Efficiency (R.25-04-010), Southern California Edison filed a compliance report per D.23-0"
+  "narrative": "Recent CPUC developments include activity across key proceedings.\n\nIn the Energy Efficiency proceeding (R.25-04-010), Southern"
 }

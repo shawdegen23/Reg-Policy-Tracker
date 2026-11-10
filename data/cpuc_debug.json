@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-09T23:17:27.747Z",
+  "ranAt": "2026-11-10T20:43:17.445Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,19 +519,28 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629323156",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330839",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629331607",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962702",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716683",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940058",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627940052"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "November 06, 2026",
+                "EXPARTE",
+                "Environmental Defense Fund",
+                "Environmental Defense Fund Three-Day Advanced Notice of Ex Parte Meeting"
+              ]
+            },
             {
               "type": "RULING",
               "cells": [
@@ -542,39 +551,30 @@
               ]
             },
             {
+              "type": "LAW & MOTION",
+              "cells": [
+                "November 06, 2026",
+                "LAW & MOTION",
+                "Environmental Defense Fund",
+                "Supplement; to Request for Intervenor Compensation [confidential version of Atta"
+              ]
+            },
+            {
+              "type": "REQUEST",
+              "cells": [
+                "November 06, 2026",
+                "REQUEST",
+                "Environmental Defense Fund",
+                "Supplement; to Request for Intervenor Compensation [confidential version of Atta"
+              ]
+            },
+            {
               "type": "RULING",
               "cells": [
                 "November 03, 2026",
                 "RULING",
                 "ALJ/RIZZO/CPUC,ALJ/FITCH/CPUC",
                 "Email Ruling Granting Motions for Party Status of Central Valley Community Found"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "Santa Clarita Valley Water Agency",
-                "Comments on Administrative Law Judge's Ruling Seeking Comments on Busbar Mapping"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "XGS Energy, Inc",
-                "Comments on the ALJ Ruling Seeking Comments on Busbar Mapping of Electricity Res"
-              ]
-            },
-            {
-              "type": "COMMENTS",
-              "cells": [
-                "November 02, 2026",
-                "COMMENTS",
-                "LS Power Development, LLC",
-                "Comments on the Ruling Seeking Comments on Busbar Mapping of Electricity Resourc"
               ]
             }
           ],
