@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-10T20:43:17.445Z",
+  "ranAt": "2026-11-11T01:43:44.859Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -21,6 +21,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2504010#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330973",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929429",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=617666056",
@@ -30,10 +31,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=616587427",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611617982",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611619415",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=610355506"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=611114681"
           ],
           "sampleRows": [
+            {
+              "type": "AMENDMENT",
+              "cells": [
+                "November 04, 2026",
+                "AMENDMENT",
+                "Southern California Edison Company",
+                "Southern California Edison Company's (U 338-E) Amendments To Its 2025 Annual Rep"
+              ]
+            },
             {
               "type": "COMPLIANCE  FILING",
               "cells": [
@@ -68,15 +77,6 @@
                 "MOTION",
                 "USC Credit Union",
                 "Motion for Party Status of USC Credit Union"
-              ]
-            },
-            {
-              "type": "MOTION",
-              "cells": [
-                "September 09, 2026",
-                "MOTION",
-                "Teresa Centeno Kim",
-                "MOTION FOR PARTY STATUS OF TRAVIS CREDIT UNION."
               ]
             }
           ],

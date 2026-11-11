@@ -64,6 +64,22 @@
     "firstSeen": "2026-11-10"
   },
   {
+    "source": "CPUC R.25-04-010",
+    "agency": "CPUC",
+    "docket": "R.25-04-010",
+    "type": "Filing",
+    "headline": "Southern California Edison Company's (U 338-E) Amendments To Its 2025 Annual Report for Energy Efficiency Programs",
+    "filedBy": "Southern California Edison Company",
+    "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330973",
+    "date": "2026-11-04",
+    "topic": "Energy Efficiency",
+    "dataType": "Qualitative",
+    "relevance": "High",
+    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+    "aiEnriched": false,
+    "firstSeen": "2026-11-11"
+  },
+  {
     "source": "CPUC R.25-06-019",
     "agency": "CPUC",
     "docket": "R.25-06-019",
