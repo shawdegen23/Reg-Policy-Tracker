@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T20:48:21.141Z",
+  "generatedAt": "2026-11-14T02:01:18.517Z",
   "totals": {
     "developments": 313,
-    "high": 79,
+    "high": 72,
     "quantitative": 20,
     "topics": 6
   },
@@ -36,8 +36,8 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
+      "impact": "Affects SCE's 2025 energy efficiency programs, potentially altering funding, design, or implementation for clients.",
+      "aiEnriched": true,
       "firstSeen": "2026-11-11",
       "similar": 0
     },
@@ -144,40 +144,6 @@
       "similar": 0
     },
     {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Filing",
-      "headline": "COMPLIANCE FILING OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) PURSUANT TO ORDERING PARAGRAPH 19 OF D.23-02-002.",
-      "filedBy": "Southern California Edison Company",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929429",
-      "date": "2026-10-01",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-10-02",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.25-04-010",
-      "agency": "CPUC",
-      "docket": "R.25-04-010",
-      "type": "Ruling",
-      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF USC CREDIT UNION.",
-      "filedBy": "ALJ/KAO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
-      "date": "2026-09-25",
-      "topic": "Energy Efficiency",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-09-26",
-      "similar": 0
-    },
-    {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
       "docket": "R.19-01-011",
@@ -278,6 +244,40 @@
       "aiEnriched": false,
       "firstSeen": "2026-09-16",
       "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling. Please Note: ALJ Carolyn Sisto authorized the acceptance of this late filing via email sent on August  24, 2026.",
+      "filedBy": "Small Business Utility Advocates",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
+      "date": "2026-08-24",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-24",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling",
+      "filedBy": "PACIFIC GAS AND ELECTRIC COMPANY",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874492",
+      "date": "2026-08-21",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-08-21",
+      "similar": 2
     }
   ],
   "quantitative": [
@@ -486,5 +486,5 @@
       "similar": 0
     }
   ],
-  "narrative": "Recent CPUC developments include significant activity in the Energy Efficiency and Building Decarbonization proceedings.\n\nIn the Energy Efficiency proceeding (R.25"
+  "narrative": "A recent CPUC filing in the Energy Efficiency proceeding (R.25-04-010) notes Southern California Edison's amendments to"
 }

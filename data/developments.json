@@ -75,8 +75,8 @@
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
     "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "impact": "Affects SCE's 2025 energy efficiency programs, potentially altering funding, design, or implementation for clients.",
+    "aiEnriched": true,
     "firstSeen": "2026-11-11"
   },
   {
@@ -1322,9 +1322,9 @@
     "date": "2026-10-01",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Medium",
+    "impact": "SCE's compliance filing implements CPUC directives, potentially impacting program operations, tariffs, or other client-relevant energy matters.",
+    "aiEnriched": true,
     "firstSeen": "2026-10-02"
   },
   {
@@ -1641,9 +1641,9 @@
     "date": "2026-09-25",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New parties (credit unions) can now formally participate in the proceeding, potentially influencing discussions on energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-26"
   },
   {
@@ -1977,9 +1977,9 @@
     "date": "2026-09-11",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New parties (credit unions) can now formally participate in the proceeding, potentially influencing discussions on energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-11"
   },
   {
@@ -2009,9 +2009,9 @@
     "date": "2026-09-10",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New parties (credit unions) can now formally participate in the proceeding, potentially influencing discussions on energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-24"
   },
   {
@@ -2025,9 +2025,9 @@
     "date": "2026-09-09",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New parties (credit unions) can now formally participate in the proceeding, potentially influencing discussions on energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-09-09"
   },
   {
@@ -2200,9 +2200,9 @@
     "date": "2026-08-27",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New parties (credit unions) can now formally participate in the proceeding, potentially influencing discussions on energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
@@ -2216,9 +2216,9 @@
     "date": "2026-08-26",
     "topic": "Energy Efficiency",
     "dataType": "Qualitative",
-    "relevance": "High",
-    "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-    "aiEnriched": false,
+    "relevance": "Low",
+    "impact": "New parties (credit unions) can now formally participate in the proceeding, potentially influencing discussions on energy programs.",
+    "aiEnriched": true,
     "firstSeen": "2026-08-27"
   },
   {
