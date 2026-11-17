@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-16T23:14:19.403Z",
+  "ranAt": "2026-11-17T22:03:36.020Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630922882",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629323156",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330839",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626941209"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695"
           ],
           "sampleRows": [
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "November 16, 2026",
+                "EXPARTE",
+                "CMMR/HARADA/CPUC",
+                "Decisionmaker Notice of Ex Parte Communication"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -566,15 +575,6 @@
                 "REQUEST",
                 "Environmental Defense Fund",
                 "Supplement; to Request for Intervenor Compensation [confidential version of Atta"
-              ]
-            },
-            {
-              "type": "RULING",
-              "cells": [
-                "November 03, 2026",
-                "RULING",
-                "ALJ/RIZZO/CPUC,ALJ/FITCH/CPUC",
-                "Email Ruling Granting Motions for Party Status of Central Valley Community Found"
               ]
             }
           ],
