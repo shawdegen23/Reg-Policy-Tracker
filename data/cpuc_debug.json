@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-18T21:43:22.908Z",
+  "ranAt": "2026-11-19T02:57:10.695Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -519,6 +519,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630733286",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630922882",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629323156",
@@ -528,10 +529,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716695"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947"
           ],
           "sampleRows": [
+            {
+              "type": "REQUEST",
+              "cells": [
+                "November 18, 2026",
+                "REQUEST",
+                "Environmental Defense Fund",
+                "2nd Supplement; to Request for Intervenor Compensation for Contribution to D.26-"
+              ]
+            },
             {
               "type": "EXPARTE",
               "cells": [
@@ -564,15 +573,6 @@
               "cells": [
                 "November 06, 2026",
                 "LAW & MOTION",
-                "Environmental Defense Fund",
-                "Supplement; to Request for Intervenor Compensation [confidential version of Atta"
-              ]
-            },
-            {
-              "type": "REQUEST",
-              "cells": [
-                "November 06, 2026",
-                "REQUEST",
                 "Environmental Defense Fund",
                 "Supplement; to Request for Intervenor Compensation [confidential version of Atta"
               ]
