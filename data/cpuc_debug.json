@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-19T02:57:10.695Z",
+  "ranAt": "2026-11-19T21:58:59.939Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -104,6 +104,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R1901011#",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630795082",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627128253",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=622776882",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=619818417",
@@ -113,10 +114,18 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615874489"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615621918"
           ],
           "sampleRows": [
+            {
+              "type": "COMMENTS",
+              "cells": [
+                "November 19, 2026",
+                "COMMENTS",
+                "Southern California Edison Company",
+                "Comments Of Southern California Edison Company (U 338-E) on Assigned Commissione"
+              ]
+            },
             {
               "type": "PROPOSED DECISION",
               "cells": [
@@ -151,15 +160,6 @@
                 "REQUEST",
                 "California Environmental Justice Alliance",
                 "Second Supplement to Request for Intervenor Compensation"
-              ]
-            },
-            {
-              "type": "COMPLIANCE  FILING",
-              "cells": [
-                "September 24, 2026",
-                "COMPLIANCE  FILING",
-                "LIBERTY UTILITIES (CALPECO ELECTRIC) LLC",
-                "RESPONSE OF LIBERTY UTILITIES (CALPECO ELECTRIC) LLC (U 933-E) TO THE QUESTIONS "
               ]
             }
           ],
