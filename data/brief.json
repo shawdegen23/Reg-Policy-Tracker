@@ -1,29 +1,46 @@
 {
-  "generatedAt": "2026-11-20T03:01:34.294Z",
+  "generatedAt": "2026-11-20T21:44:03.558Z",
   "totals": {
-    "developments": 317,
-    "high": 73,
+    "developments": 323,
+    "high": 85,
     "quantitative": 20,
     "topics": 6
   },
   "topicCounts": {
-    "Building Decarbonization": 38,
+    "Energy Efficiency": 29,
+    "Building Decarbonization": 43,
     "Resource Adequacy / Planning": 189,
-    "Energy Efficiency": 28,
     "DER / Rates": 32,
     "Demand Flexibility": 16,
     "General / Cross-cutting": 14
   },
   "proceedingCounts": {
-    "R.19-01-011": 37,
+    "R.25-04-010": 29,
+    "R.19-01-011": 42,
     "R.25-06-019": 178,
-    "R.25-04-010": 28,
     "R.20-08-020": 13,
     "R.22-07-005": 16,
     "R.20-05-012": 18,
     "R.23-10-011": 11
   },
   "highRelevance": [
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "Administrative Law Judge's Ruling Seeking Comments on GoGreen Financing Issues",
+      "filedBy": "ALJ/ FITCH/ CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=631559327",
+      "date": "2026-11-20",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-11-20",
+      "similar": 0
+    },
     {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
@@ -42,6 +59,23 @@
       "similar": 0
     },
     {
+      "source": "CPUC R.19-01-011",
+      "agency": "CPUC",
+      "docket": "R.19-01-011",
+      "type": "Filing/Comments",
+      "headline": "Opening Comments on Proposed Decision",
+      "filedBy": "Sycuan Band of the Kumeyaay Nation",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=631547491",
+      "date": "2026-11-19",
+      "topic": "Building Decarbonization",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-11-20",
+      "similar": 4
+    },
+    {
       "source": "CPUC R.25-04-010",
       "agency": "CPUC",
       "docket": "R.25-04-010",
@@ -53,8 +87,8 @@
       "topic": "Energy Efficiency",
       "dataType": "Qualitative",
       "relevance": "High",
-      "impact": "Affects SCE's 2025 energy efficiency programs, potentially impacting client participation, funding, or program design.",
-      "aiEnriched": true,
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
       "firstSeen": "2026-11-11",
       "similar": 0
     },
@@ -161,6 +195,40 @@
       "similar": 0
     },
     {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Filing",
+      "headline": "COMPLIANCE FILING OF SOUTHERN CALIFORNIA EDISON COMPANY (U 338-E) PURSUANT TO ORDERING PARAGRAPH 19 OF D.23-02-002.",
+      "filedBy": "Southern California Edison Company",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=621929429",
+      "date": "2026-10-01",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-10-02",
+      "similar": 0
+    },
+    {
+      "source": "CPUC R.25-04-010",
+      "agency": "CPUC",
+      "docket": "R.25-04-010",
+      "type": "Ruling",
+      "headline": "EMAIL RULING GRANTING MOTION FOR PARTY STATUS OF USC CREDIT UNION.",
+      "filedBy": "ALJ/KAO/CPUC",
+      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=620720776",
+      "date": "2026-09-25",
+      "topic": "Energy Efficiency",
+      "dataType": "Qualitative",
+      "relevance": "High",
+      "impact": "Energy Efficiency ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
+      "aiEnriched": false,
+      "firstSeen": "2026-09-26",
+      "similar": 0
+    },
+    {
       "source": "CPUC R.19-01-011",
       "agency": "CPUC",
       "docket": "R.19-01-011",
@@ -209,74 +277,6 @@
       "impact": "Building Decarbonization filing from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
       "aiEnriched": false,
       "firstSeen": "2026-09-25",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "EMAIL RULING GRANTING PARTY STATUS TO THE SYCUAN BAND OF THE KUMEYAAY NATION.",
-      "filedBy": "ALJ/SISTO/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618860520",
-      "date": "2026-09-16",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-09-17",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Ruling",
-      "headline": "Assigned Commissioner's Ruling Regarding Modifications to The Prohibition on High Global Warming Potential Refrigerants Used in Appliances Incentivized by Building Decarbonization Programs",
-      "filedBy": "CMMR/HOUCK/CPUC",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618565377",
-      "date": "2026-09-15",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization ruling from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-09-16",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "COMMENTS OF SAN DIEGO GAS & ELECTRIC COMPANY (U 902-M)  ON DRAFT RESOLUTION E-5472.",
-      "filedBy": "San Diego Gas & Electric Company",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=618439673",
-      "date": "2026-09-14",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-09-16",
-      "similar": 0
-    },
-    {
-      "source": "CPUC R.19-01-011",
-      "agency": "CPUC",
-      "docket": "R.19-01-011",
-      "type": "Filing/Comments",
-      "headline": "Reply Comments on Assigned Commissioner's Amended Phase 3B Scoping Memo and Ruling. Please Note: ALJ Carolyn Sisto authorized the acceptance of this late filing via email sent on August  24, 2026.",
-      "filedBy": "Small Business Utility Advocates",
-      "url": "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=615927634",
-      "date": "2026-08-24",
-      "topic": "Building Decarbonization",
-      "dataType": "Qualitative",
-      "relevance": "High",
-      "impact": "Building Decarbonization filing/comments from CPUC. Flagged high client relevance; confirm against the docket and add Director-facing framing.",
-      "aiEnriched": false,
-      "firstSeen": "2026-08-24",
       "similar": 0
     }
   ],
@@ -486,5 +486,5 @@
       "similar": 0
     }
   ],
-  "narrative": "Here is a concise briefing on recent California regulatory developments:\n\nIn Energy Efficiency, SCE filed amendments to its 2025 Annual Report for Energy Efficiency Programs"
+  "narrative": "The CPUC's Energy Efficiency proceeding (R.25-04-010) saw an Administrative Law Judge's Ruling on November"
 }
