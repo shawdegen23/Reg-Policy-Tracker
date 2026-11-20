@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-19T21:58:59.939Z",
+  "ranAt": "2026-11-20T02:59:04.514Z",
   "dockets": [
     {
       "docket": "R.25-04-010",
@@ -520,6 +520,7 @@
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:R2506019#",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630733286",
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630798116",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=630922882",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629330956",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=629323156",
@@ -528,8 +529,7 @@
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962702",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=626716698",
             "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627962682",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146",
-            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627969947"
+            "https://docs.cpuc.ca.gov/SearchRes.aspx?DocFormat=ALL&DocID=627949146"
           ],
           "sampleRows": [
             {
@@ -539,6 +539,15 @@
                 "REQUEST",
                 "Environmental Defense Fund",
                 "2nd Supplement; to Request for Intervenor Compensation for Contribution to D.26-"
+              ]
+            },
+            {
+              "type": "EXPARTE",
+              "cells": [
+                "November 18, 2026",
+                "EXPARTE",
+                "Environmental Defense Fund",
+                "Notice of Ex Parte Communication"
               ]
             },
             {
@@ -566,15 +575,6 @@
                 "RULING",
                 "ALJ/ RIZZO/ CPUC",
                 "E-mail Ruling Modifying Comment Schedule for the Bundled Procurement Plans"
-              ]
-            },
-            {
-              "type": "LAW & MOTION",
-              "cells": [
-                "November 06, 2026",
-                "LAW & MOTION",
-                "Environmental Defense Fund",
-                "Supplement; to Request for Intervenor Compensation [confidential version of Atta"
               ]
             }
           ],
